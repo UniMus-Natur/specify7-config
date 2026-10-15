@@ -1,7 +1,6 @@
 apiVersion: specli/v3
 kind: Workspace
 instance: https://specify-stg.natur.unimus.no
-user: superuser
 loginCollection: NHM-karplanter
 resolverContract: specify7/current
 policies:
