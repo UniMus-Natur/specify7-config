@@ -16,4 +16,4 @@ scope:
   discipline: karplanter-moser
   collection: nhm-karplanter
 data: resources/uiformatters/managed/collection/karplanter-moser/nhm-karplanter/resource.xml
-sha256: sha256:42db14e48295f3bbe856c6b6fcea28775d1d6854709db395de1014d081003c79
+sha256: sha256:d03ab51f5d8ad01110e14122f74014a7e0fd9307e88bfc1dcc5dd2e8a1a3c462

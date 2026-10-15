@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<formats><format system="false" name="GridRefMGRS" class="edu.ku.brc.specify.datamodel.Locality" fieldname="text3" default="false">
+<formats>
+  <format system="false" name="GridRefMGRS" class="edu.ku.brc.specify.datamodel.Locality" fieldname="text3" default="false">
     <field type="regex" value="[A-Za-z]{1,3}\s+\d{1,5}(?:-\d{1,5})?\s*,\s*\d{1,6}(?:-\d{1,6})?" pattern="AA 000,000" />
+  </format>
+
+  <!-- Catalog-number formats (copied from backstop). Collection-level UIFormatters
+       replace backstop entirely, so these must live here or the New Collection
+       "Catalog Num Format Name" pick list is empty. -->
+  <format system="false" name="CatalogNumber" class="edu.ku.brc.specify.datamodel.CollectionObject" fieldname="catalogNumber" default="true">
+    <autonumber>edu.ku.brc.specify.dbsupport.CollectionAutoNumber</autonumber>
+    <field type="year" size="4" value="YEAR"/>
+    <field type="separator" size="1" value="-"/>
+    <field type="numeric" size="6" inc="true"/>
+  </format>
+
+  <format system="false" name="CatalogNumberAlphaNumByYear" class="edu.ku.brc.specify.datamodel.CollectionObject" fieldname="catalogNumber">
+    <autonumber>edu.ku.brc.specify.dbsupport.CollectionAutoNumber</autonumber>
+    <field type="year" size="4" value="YEAR" byyear="true"/>
+    <field type="separator" size="1" value="-"/>
+    <field type="numeric" size="6" inc="true"/>
+  </format>
+
+  <format system="true" name="CatalogNumberNumeric" class="edu.ku.brc.specify.datamodel.CollectionObject" fieldname="catalogNumber" default="false">
+    <autonumber>edu.ku.brc.specify.dbsupport.CollectionAutoNumber</autonumber>
+    <external>edu.ku.brc.specify.ui.CatalogNumberUIFieldFormatter</external>
+  </format>
+
+  <format system="true" name="CatalogNumberString" class="edu.ku.brc.specify.datamodel.CollectionObject" fieldname="catalogNumber" default="false">
+    <external>edu.ku.brc.specify.ui.CatalogNumberStringUIFieldFormatter</external>
   </format>
 </formats>

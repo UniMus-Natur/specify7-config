@@ -854,7 +854,7 @@ resources:
     canonicalSha256: sha256:e0a4f648492157b5c0ee5d3605dc42219be37af9c4d24c3ac56a19188e96dad8
     url: /static/config/backstop/uiformatters.xml
   resource:5107fcba10b608ab:
-    canonicalSha256: sha256:42db14e48295f3bbe856c6b6fcea28775d1d6854709db395de1014d081003c79
+    canonicalSha256: sha256:d03ab51f5d8ad01110e14122f74014a7e0fd9307e88bfc1dcc5dd2e8a1a3c462
     objectId: 23
     dataId: 21
     version: 0
