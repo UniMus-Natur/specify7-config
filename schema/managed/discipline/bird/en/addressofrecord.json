@@ -1,0 +1,222 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "This is the address when the legal action took place.",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "accessions": {
+      "desc": "Accessions",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Accessions",
+      "picklistname": null,
+      "type": "OneToMany",
+      "weblinkname": null
+    },
+    "address": {
+      "desc": "Primary address of record.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Address",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "address2": {
+      "desc": "Secondary address of record.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Address2",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "addressofrecordid": {
+      "desc": "Address Of Record Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Address Of Record Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "agent": {
+      "desc": "Agent",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "city": {
+      "desc": "City of record.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "City",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "country": {
+      "desc": "Country of record.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Country",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "createdbyagent": {
+      "desc": "Created By Agent",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Created By Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "exchangeins": {
+      "desc": "Exchange Ins",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Exchange Ins",
+      "picklistname": null,
+      "type": "OneToMany",
+      "weblinkname": null
+    },
+    "exchangeouts": {
+      "desc": "Exchange Outs",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Exchange Outs",
+      "picklistname": null,
+      "type": "OneToMany",
+      "weblinkname": null
+    },
+    "loans": {
+      "desc": "Loans",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Loans",
+      "picklistname": null,
+      "type": "OneToMany",
+      "weblinkname": null
+    },
+    "modifiedbyagent": {
+      "desc": "Modified By Agent",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Modified By Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "postalcode": {
+      "desc": "Postal code of record (zip code).",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Postal Code",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "remarks": {
+      "desc": "Additional comments.",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Remarks",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "repositoryagreements": {
+      "desc": "Repository Agreements",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Repository Agreements",
+      "picklistname": null,
+      "type": "OneToMany",
+      "weblinkname": null
+    },
+    "state": {
+      "desc": "State of record.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "State",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "timestampcreated": {
+      "desc": "Timestamp Created",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Timestamp Created",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "timestampmodified": {
+      "desc": "Timestamp Modified",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Timestamp Modified",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "version": {
+      "desc": "Version",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Version",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    }
+  },
+  "name": "Address Of Record",
+  "picklistname": null,
+  "type": null
+}

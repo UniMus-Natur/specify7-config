@@ -1,0 +1,18 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:591ca5778ba7c8c3
+  name: karplanteetikett 7
+  source: managed
+  mimetype: jrxml/label
+  remoteDescription: karplanteetikett 7
+  remoteMetadata: tableid=-1;reporttype=Report;
+  level: 0
+  allPermissionLevel: null
+  groupPermissionLevel: null
+  ownerPermissionLevel: null
+scope:
+  level: discipline
+  discipline: karplanter-moser
+data: resources/karplanteetikett-7/managed/discipline/karplanter-moser/resource.xml
+sha256: sha256:84ddaac2fe284c80db31135b764354af15a5cf7022a29b53b8326a5cc5eb98f4

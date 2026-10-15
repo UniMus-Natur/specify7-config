@@ -1,0 +1,112 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "Collecting Trip Authorization",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "collectingtrip": {
+      "desc": "Collecting Trip",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Collecting Trip",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "collectingtripauthorizationid": {
+      "desc": "Collecting Trip Authorization Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Collecting Trip Authorization Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "createdbyagent": {
+      "desc": "Created By Agent",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Created By Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "modifiedbyagent": {
+      "desc": "Modified By Agent",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Modified By Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "permit": {
+      "desc": "Permit",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Permit",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "remarks": {
+      "desc": "Remarks",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Remarks",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "timestampcreated": {
+      "desc": "Timestamp Created",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Timestamp Created",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "timestampmodified": {
+      "desc": "Timestamp Modified",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Timestamp Modified",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "version": {
+      "desc": "Version",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Version",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    }
+  },
+  "name": "Collecting Trip Authorization",
+  "picklistname": null,
+  "type": null
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewset name="Global" i18nresname="global_views">
+  <views>
+    <view name="Identifier" class="java.util.Hashtable">
+      <desc>The  gbif collection identifiers form.</desc>
+      <altviews>
+        <altview name="Identifier View" viewdef="Identifier" mode="view" validated="false" default="true" />
+        <altview name="Identifier Edit" viewdef="Identifier" mode="edit" validated="false" />
+      </altviews>
+    </view>
+  </views>
+  <viewdefs>
+    <viewdef type="form" name="Identifier" class="java.util.Hashtable" gettable="edu.ku.brc.af.ui.forms.DataGetterForHashMap" settable="edu.ku.brc.af.ui.forms.DataSetterForHashMap">
+      <desc>the gbif collection identifier form</desc>
+      <enableRules />
+      <columnDef>p,5dlu,p:g,5dlu,p</columnDef>
+      <rowDef auto="true" cell="p" sep="2px" />
+      <rows>
+        <row>
+          <cell type="label" label="Identifier" />
+          <cell type="field" id="idIdentifier" name="identifier" uitype="text" colspan="3" />
+        </row>
+        <row>
+          <cell type="label" label="Type" />
+          <cell type="field" id="maType" name="type" uitype="text" colspan="3" />
+        </row>
+        <row>
+          <cell type="label" label="Created" />
+          <cell type="field" id="maCreated" name="created" uitype="text" colspan="3" />
+        </row>
+      </rows>
+    </viewdef>
+  </viewdefs>
+</viewset>

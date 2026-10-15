@@ -1,0 +1,61 @@
+apiVersion: specli/v3
+kind: Viewset
+metadata:
+  uid: viewset:5a188f2c2f0234da
+  name: Mammal Views
+  source: vendor
+  registryName: Mammal Views
+  registryOrder: 0
+  filename: mammal.views.xml
+scope:
+  level: discipline-type
+  disciplineType: mammal
+rootAttributes:
+  name: Mammal Views
+  i18nresname: views
+members:
+- path: forms/collectionobject/accessionitems/vendor/discipline-type/mammal/mammal-views.xml
+  sha256: sha256:92d26d1d70de925722e7ae381ed1e4fee3d417f5be765d38726b60263d70bb92
+- path: forms/collectingevent/collectingevent/vendor/discipline-type/mammal/mammal-views.xml
+  sha256: sha256:01f390280d1bf8baa51a9c45f3b4ee420159483ccecd166c47c42759bb4632ac
+- path: forms/collectingevent/collectingeventsub/vendor/discipline-type/mammal/mammal-views.xml
+  sha256: sha256:465509335f6fb25871c6d59cbf185226dbe8c835c9a92ca1e9f7f7d013ab565b
+- path: forms/collectionobject/collection-object/vendor/discipline-type/mammal/mammal-views.xml
+  sha256: sha256:83f0963b962c8ecf2bcae1dff559779a95ba1fb648262af1a72411c77b50db03
+- path: forms/collectionobject/collectionobjectsub/vendor/discipline-type/mammal/mammal-views.xml
+  sha256: sha256:a80c2aa9e1e86a877895c391a9f6420982e430ecacdcb34bb30c83c6eb71176d
+- path: forms/determination/determination/vendor/discipline-type/mammal/mammal-views.xml
+  sha256: sha256:0fe69f391a9e6a54c86d8e556e510235a87c2eac3c9993a32c76d2169bd95a09
+- path: forms/collectionobjectattribute/mammalogyattributes/vendor/discipline-type/mammal/mammal-views.xml
+  sha256: sha256:9b0f5adbe3fa4cef4c8eb60af7d0bae99f93c84a4e469bd05b85cc7641b8f243
+- path: forms/preparation/preparation/vendor/discipline-type/mammal/mammal-views.xml
+  sha256: sha256:6ba8cd24f2a9e6e45f52006f824b36d2d77432babd03a8133cd6bf3eea160a52
+order:
+  views:
+  - AccessionItems
+  - CollectingEvent
+  - CollectingEventSub
+  - CollectionObject
+  - CollectionObjectSub
+  - Determination
+  - DeterminationViewOnly
+  - MammalogyAttributes
+  - Preparation
+  viewdefs:
+  - Collection Object
+  - Determination Table
+  - Determination
+  - CollectingEventSub
+  - CollectingEvent
+  - MammalogyAttributes
+  - Preparation Table
+  - Preparation
+  - AccessionItems Table
+  - AccessionItems
+  - CollectionObjectSub Table
+  - CollectionObjectSub
+support: {}
+knownIssues:
+  unresolvedViewdefs: []
+deletions: []
+canonicalSha256: sha256:8121dda791be8e9098dce4e14bbf88b97a5ef03c9e97ce6a346441e72095c416

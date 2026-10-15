@@ -1,0 +1,77 @@
+apiVersion: specli/v3
+kind: Viewset
+metadata:
+  uid: viewset:394ed6d4420643ce
+  name: Vertpaleo Views
+  source: vendor
+  registryName: Vertpaleo Views
+  registryOrder: 0
+  filename: vertpaleo.views.xml
+scope:
+  level: discipline-type
+  disciplineType: vertpaleo
+rootAttributes:
+  name: Vertpaleo Views
+  i18nresname: views
+members:
+- path: forms/collectionobject/accessionitems/vendor/discipline-type/vertpaleo/vertpaleo-views.xml
+  sha256: sha256:eee32e7a19633dbf95484e4d8ae5e71a6532363a1b89324173ecbda161d3b938
+- path: forms/collectingevent/collectingevent/vendor/discipline-type/vertpaleo/vertpaleo-views.xml
+  sha256: sha256:d329164bb76ab101217f6d8fd2af4730084c1064a469899fd0f5af8c5eb314d6
+- path: forms/collectingevent/collectingeventsub/vendor/discipline-type/vertpaleo/vertpaleo-views.xml
+  sha256: sha256:d457fed0ed5334e19c2d5bfaf670fddda4f5df91d65a8feed383f78ed04aa54a
+- path: forms/collectionobject/collection-object/vendor/discipline-type/vertpaleo/vertpaleo-views.xml
+  sha256: sha256:743f5463aaff94ef383dcbc261e8e7483ff73c08c0e4212b8b9d86e8840a913a
+- path: forms/collectionobjectcitation/collectionobjectcitation/vendor/discipline-type/vertpaleo/vertpaleo-views.xml
+  sha256: sha256:8a70b8aea12c57dd296d65b67ee34f90338bf1e82d4f0643dfa7c600533ae71c
+- path: forms/collectionobject/collectionobjectsub/vendor/discipline-type/vertpaleo/vertpaleo-views.xml
+  sha256: sha256:73a7257d8a086eb855ae536818f16d55c400880ec4e46af745b3bcd965388a1d
+- path: forms/determination/determination/vendor/discipline-type/vertpaleo/vertpaleo-views.xml
+  sha256: sha256:80e6844101900452fd4d5f58ccfc717dbfaca865a35fb139156e17f0e8fed4d7
+- path: forms/localitydetail/localitydetail/vendor/discipline-type/vertpaleo/vertpaleo-views.xml
+  sha256: sha256:53778bddd4698d54ea869124de94514761907913457b0bdb721e414c51c1acdc
+- path: forms/paleocontext/paleocontext/vendor/discipline-type/vertpaleo/vertpaleo-views.xml
+  sha256: sha256:3883e06445069b05c1aed725f5e64d40c3bab6b8e66bd81a0190538969d75797
+- path: forms/preparation/preparation/vendor/discipline-type/vertpaleo/vertpaleo-views.xml
+  sha256: sha256:6f8c072ef45dbef0569acb838db1a3ebe19fb5f8b5f55c1443a54c904d277466
+- path: forms/paleocontext/subpaleocontext/vendor/discipline-type/vertpaleo/vertpaleo-views.xml
+  sha256: sha256:51a5124bd3619228292a16ad789ff4efdcf54a935003adc6f20e96f3255338d2
+- path: forms/collectionobjectattribute/paleoattributes/vendor/discipline-type/vertpaleo/vertpaleo-views.xml
+  sha256: sha256:b4d28094576a3115da13104fa66a3467fba5b73b7031ae229f0d2648ddafebfe
+order:
+  views:
+  - AccessionItems
+  - CollectingEvent
+  - CollectingEventSub
+  - CollectionObject
+  - CollectionObjectCitation
+  - CollectionObjectSub
+  - Determination
+  - DeterminationViewOnly
+  - LocalityDetail
+  - PaleoContext
+  - Preparation
+  - SubPaleoContext
+  - PaleoAttributes
+  viewdefs:
+  - Collection Object
+  - Determination Table
+  - Determination
+  - CollectingEventSub
+  - CollectingEvent
+  - Preparation Table
+  - Preparation
+  - CollectionObjectCitation
+  - PaleoContext
+  - SubPaleoContext
+  - AccessionItems Table
+  - AccessionItems
+  - CollectionObjectSub Table
+  - CollectionObjectSub
+  - LocalityDetail
+  - PaleoAttributes
+support: {}
+knownIssues:
+  unresolvedViewdefs: []
+deletions: []
+canonicalSha256: sha256:3278ffd7fda80c0258c0ed8b907d4c769d246fa52fc1d6eb1778a3436e540077

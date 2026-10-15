@@ -1,0 +1,50 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "AgentVariant",
+    "readonly": true,
+    "sizelimit": 10,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Variant",
+      "value": "0"
+    },
+    {
+      "ordinal": null,
+      "title": "Vernacular",
+      "value": "1"
+    },
+    {
+      "ordinal": null,
+      "title": "Author",
+      "value": "2"
+    },
+    {
+      "ordinal": null,
+      "title": "Author Abbrev.",
+      "value": "3"
+    },
+    {
+      "ordinal": null,
+      "title": "Label Name",
+      "value": "4"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "AgentVariant",
+  "scope": {
+    "collection": "NHM-karplanter",
+    "discipline": "karplanter-moser",
+    "level": "collection"
+  }
+}

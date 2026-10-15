@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewset name="Geology Views" i18nresname="views">
+  <views>
+    <view name="FossilAttributes" class="edu.ku.brc.specify.datamodel.CollectionObjectAttribute" resourcelabels="false" busrules="edu.ku.brc.specify.datamodel.busrules.CollectionObjectAttributeBusRules">
+      <desc>Subform within the Collection Object form.</desc>
+      <altviews>
+        <altview name="FossilAttributes View" viewdef="FossilAttributes" mode="view" />
+        <altview name="FossilAttributes Edit" viewdef="FossilAttributes" mode="edit" default="true" />
+      </altviews>
+    </view>
+  </views>
+  <viewdefs>
+    <viewdef name="FossilAttributes" class="edu.ku.brc.specify.datamodel.CollectionObjectAttribute" type="form" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>Fossil Attributes</desc>
+      <columnDef>100px,2px,115px,5px,75px,2px,115px,5px,109px,2px,115px,5px,60px,2px,115px,0px,p:g</columnDef>
+      <rowDef auto="true" sep="2px" cell="p" />
+      <rows>
+        <row>
+          <cell type="label" labelfor="size" />
+          <cell type="field" id="size" name="text3" uitype="text" />
+          <cell type="label" labelfor="mass" />
+          <cell type="field" id="mass" name="text4" uitype="text" />
+          <cell type="label" labelfor="color" />
+          <cell type="field" id="color" name="text5" uitype="text" />
+          <!--       <cell type="label" labelfor="inclusions"/>
+      <cell type="field" id="inclusions" name="text17" uitype="text"/> -->
+        </row>
+        <row>
+          <cell type="label" labelfor="analyses" />
+          <cell type="field" id="analyses" name="text2" uitype="textareabrief" colspan="14" />
+        </row>
+        <!--     <row><cell type="separator" label="Monetary Value" colspan="16"/></row>
+    <row>
+      <cell type="label" labelfor="appraisedValue"/>
+      <cell type="field" id="appraisedValue" name="number1" uitype="text"/>
+      <cell type="label" labelfor="purchasePrice"/>
+      <cell type="field" id="purchasePrice" name="number2" uitype="text"/>
+      <cell type="label" labelfor="valuationRemarks"/>
+      <cell type="field" id="valuationRemarks" name="text1" uitype="textareabrief" colspan="5"/>
+    </row>
+    <row>
+      <cell type="label" labelfor="valuationDate"/>
+      <cell type="field" id="valuationDate" name="date1" uitype="text"/>
+      <cell type="label" labelfor="insuredValue"/>
+      <cell type="field" id="insuredValue" name="number3" uitype="text"/>
+      <cell type="label" labelfor="valuator"/>
+      <cell type="field" id="valuator" name="agent1" uitype="querycbx" colspan="5"/>
+    </row> -->
+      </rows>
+    </viewdef>
+  </viewdefs>
+</viewset>

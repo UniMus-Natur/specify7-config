@@ -1,0 +1,61 @@
+apiVersion: specli/v3
+kind: Viewset
+metadata:
+  uid: viewset:3600120bd1fc548f
+  name: Bird Views
+  source: vendor
+  registryName: Bird Views
+  registryOrder: 0
+  filename: bird.views.xml
+scope:
+  level: discipline-type
+  disciplineType: bird
+rootAttributes:
+  name: Bird Views
+  i18nresname: views
+members:
+- path: forms/collectionobject/accessionitems/vendor/discipline-type/bird/bird-views.xml
+  sha256: sha256:b09da58f74c2e3e9052504f8b1efa30227e0f886be829bedeabfdada6d931125
+- path: forms/collectionobjectattribute/birdattributes/vendor/discipline-type/bird/bird-views.xml
+  sha256: sha256:d768b857ad6873902f81aaba5d73352ffcdb05d80373b1fa9f0f77ae8b6a1fdb
+- path: forms/collectingevent/collectingevent/vendor/discipline-type/bird/bird-views.xml
+  sha256: sha256:33beea4d4300e0f786f8eb9fbb50a41ac0f3de35d9d486db2666d8a03435eba1
+- path: forms/collectingevent/collectingeventsub/vendor/discipline-type/bird/bird-views.xml
+  sha256: sha256:a46313a322d15975dec9b69a4a4e8645b38ed32330e7b0f82f0685b14d90d5fd
+- path: forms/collectionobject/collection-object/vendor/discipline-type/bird/bird-views.xml
+  sha256: sha256:d815c7de64c7b09d555dceac3ec24c801bcecea116e53554c3388f6691ddac1c
+- path: forms/collectionobject/collectionobjectsub/vendor/discipline-type/bird/bird-views.xml
+  sha256: sha256:2b46c07d7e466b9836a15ec03240bcb8250d5a720b38a2e7410d898410a459e7
+- path: forms/determination/determination/vendor/discipline-type/bird/bird-views.xml
+  sha256: sha256:4fa0f52b5421fd01b0d3ff2a04c0cdd150d269be57ec70b5f64364de128fd589
+- path: forms/preparation/preparation/vendor/discipline-type/bird/bird-views.xml
+  sha256: sha256:be37157948de5aca54c1467f26746de3efce9bb828a1ed7144d40cd5e8977409
+order:
+  views:
+  - AccessionItems
+  - BirdAttributes
+  - CollectingEvent
+  - CollectingEventSub
+  - CollectionObject
+  - CollectionObjectSub
+  - Determination
+  - DeterminationViewOnly
+  - Preparation
+  viewdefs:
+  - Collection Object
+  - Determination Table
+  - Determination
+  - CollectingEventSub
+  - CollectingEvent
+  - BirdAttributes
+  - Preparation Table
+  - Preparation
+  - AccessionItems Table
+  - AccessionItems
+  - CollectionObjectSub Table
+  - CollectionObjectSub
+support: {}
+knownIssues:
+  unresolvedViewdefs: []
+deletions: []
+canonicalSha256: sha256:c279fc33903e265c81a1dd14d896e9f0b659be39789e80b61c6e34e5bbbee449

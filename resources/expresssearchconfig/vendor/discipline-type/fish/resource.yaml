@@ -1,0 +1,14 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:8626f10c51639da5
+  name: ExpressSearchConfig
+  source: vendor
+  mimetype: text/xml
+  filename: es_config.xml
+  registryOrder: 0
+scope:
+  level: discipline-type
+  disciplineType: fish
+data: resources/expresssearchconfig/vendor/discipline-type/fish/resource.xml
+sha256: sha256:38c69660204bb2bd4d80771b2ed673e4ceadaa7c025dc899997ad9ddad558e03

@@ -1,0 +1,123 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "Exsiccata Item",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "collectionobject": {
+      "desc": "Collection Object",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Collection Object",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "createdbyagent": {
+      "desc": "Created By Agent",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Created By Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "exsiccata": {
+      "desc": "The exsiccata to which the collection object belongs",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Exsiccata",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "exsiccataitemid": {
+      "desc": "Exsiccata Item Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Exsiccata Item Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "fascicle": {
+      "desc": "The fascicle number",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Fascicle",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "modifiedbyagent": {
+      "desc": "Modified By Agent",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Modified By Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "number": {
+      "desc": "The list number of the collection object within the exsiccata",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Number",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "timestampcreated": {
+      "desc": "Timestamp Created",
+      "format": null,
+      "ishidden": true,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Timestamp Created",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "timestampmodified": {
+      "desc": "Timestamp Modified",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Timestamp Modified",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "version": {
+      "desc": "Version",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Version",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    }
+  },
+  "name": "Exsiccata Item",
+  "picklistname": null,
+  "type": null
+}

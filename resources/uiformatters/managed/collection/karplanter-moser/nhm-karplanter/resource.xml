@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<formats><format system="false" name="GridRefMGRS" class="edu.ku.brc.specify.datamodel.Locality" fieldname="text3" default="false">
+    <field type="regex" value="[A-Za-z]{1,3}\s+\d{1,5}(?:-\d{1,5})?\s*,\s*\d{1,6}(?:-\d{1,6})?" pattern="AA 000,000" />
+  </format>
+</formats>

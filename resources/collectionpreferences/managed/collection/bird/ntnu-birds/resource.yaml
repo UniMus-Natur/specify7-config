@@ -1,0 +1,19 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:8300c712fa1b3543
+  name: CollectionPreferences
+  source: managed
+  mimetype: application/json
+  remoteDescription: null
+  remoteMetadata: ''
+  level: 0
+  allPermissionLevel: null
+  groupPermissionLevel: null
+  ownerPermissionLevel: null
+scope:
+  level: collection
+  discipline: bird
+  collection: ntnu-birds
+data: resources/collectionpreferences/managed/collection/bird/ntnu-birds/resource.json
+sha256: sha256:23bd05c9a8e3e562d364c4405bbe7f3bc377cfac6b610bd4d726a6e4382e2635

@@ -1,0 +1,57 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "Uniqueness Rule Field",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "fieldpath": {
+      "desc": "Fieldpath",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Fieldpath",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "isscope": {
+      "desc": "Isscope",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Isscope",
+      "picklistname": null,
+      "type": "java.lang.Boolean",
+      "weblinkname": null
+    },
+    "uniquenessrule": {
+      "desc": "Uniquenessrule",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Uniquenessrule",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "uniquenessrulefieldid": {
+      "desc": "Uniqueness Rule Field Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Uniqueness Rule Field Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    }
+  },
+  "name": "Uniqueness Rule Field",
+  "picklistname": null,
+  "type": null
+}

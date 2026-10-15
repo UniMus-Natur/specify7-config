@@ -1,0 +1,134 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "Refers to an Agent and describes their role in the borrowing process.",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "agent": {
+      "desc": "Agent",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "borrow": {
+      "desc": "ID of borrow in which Agent played role.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Borrow",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "borrowagentid": {
+      "desc": "Borrow Agent Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Borrow Agent Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "collectionmemberid": {
+      "desc": "Collection Member Id",
+      "format": null,
+      "ishidden": true,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Collection Member Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "createdbyagent": {
+      "desc": "Created By Agent",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Created By Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "modifiedbyagent": {
+      "desc": "Modified By Agent",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Modified By Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "remarks": {
+      "desc": "Additional comments.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Remarks",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "role": {
+      "desc": "Role played by agent in the borrow.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Role",
+      "picklistname": "BorrowRole",
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "timestampcreated": {
+      "desc": "The timestamp the record was created.",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Timestamp Created",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "timestampmodified": {
+      "desc": "The timestamp the record was last modified.",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Timestamp Modified",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "version": {
+      "desc": "Version",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Version",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    }
+  },
+  "name": "Borrow Agent",
+  "picklistname": null,
+  "type": null
+}

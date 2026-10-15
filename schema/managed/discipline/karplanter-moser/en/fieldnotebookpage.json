@@ -1,0 +1,156 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "Describes a page from a Field Note Book.",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "attachments": {
+      "desc": "Field Notebook Page Attachments",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Field Notebook Page Attachments",
+      "picklistname": null,
+      "type": "OneToMany",
+      "weblinkname": null
+    },
+    "collectionobjects": {
+      "desc": "Collection Objects",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Collection Objects",
+      "picklistname": null,
+      "type": "OneToMany",
+      "weblinkname": null
+    },
+    "createdbyagent": {
+      "desc": "Created By Agent",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Created By Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "description": {
+      "desc": "Description",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Description",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "discipline": {
+      "desc": "Discipline",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Discipline",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "fieldnotebookpageid": {
+      "desc": "Field Notebook Page Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Field Notebook Page Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "modifiedbyagent": {
+      "desc": "Modified By Agent",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Modified By Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "pagenumber": {
+      "desc": "Page Number",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Page Number",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "pageset": {
+      "desc": "Page Set",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Page Set",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "scandate": {
+      "desc": "Scan Date",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Scan Date",
+      "picklistname": null,
+      "type": "java.util.Calendar",
+      "weblinkname": null
+    },
+    "timestampcreated": {
+      "desc": "Timestamp Created",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Timestamp Created",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "timestampmodified": {
+      "desc": "Timestamp Modified",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Timestamp Modified",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "version": {
+      "desc": "Version",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Version",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    }
+  },
+  "name": "Field Notebook Page",
+  "picklistname": null,
+  "type": null
+}

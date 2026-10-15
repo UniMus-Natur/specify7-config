@@ -1,0 +1,30 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": false,
+    "name": "MaterialSample",
+    "readonly": true,
+    "sizelimit": 50,
+    "sorttype": null,
+    "tablename": "none",
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Extract",
+      "value": "Extract"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "MaterialSample",
+  "scope": {
+    "collection": "NHM-karplanter",
+    "discipline": "karplanter-moser",
+    "level": "collection"
+  }
+}

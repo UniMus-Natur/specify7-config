@@ -1,0 +1,35 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "TypeOfAddr",
+    "readonly": true,
+    "sizelimit": 2,
+    "sorttype": null,
+    "tablename": "address",
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Home",
+      "value": "Home"
+    },
+    {
+      "ordinal": null,
+      "title": "Work",
+      "value": "Work"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "TypeOfAddr",
+  "scope": {
+    "collection": "NHM-karplanter",
+    "discipline": "karplanter-moser",
+    "level": "collection"
+  }
+}

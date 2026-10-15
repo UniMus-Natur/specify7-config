@@ -1,0 +1,13 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:e1046da7eef6525c
+  name: InteractionsTaskInit
+  source: vendor
+  mimetype: text/xml
+  filename: interactionstask.xml
+  registryOrder: 1
+scope:
+  level: common
+data: resources/interactionstaskinit/vendor/common/resource.xml
+sha256: sha256:b0303d1079f9da7682ccbcd87b374086a5605222255b47d5288b0d629bc00ce0

@@ -1,0 +1,45 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": false,
+    "name": "InfraspecificRank",
+    "readonly": false,
+    "sizelimit": null,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": 0,
+      "title": "ssp.",
+      "value": "ssp."
+    },
+    {
+      "ordinal": 1,
+      "title": "var.",
+      "value": "var."
+    },
+    {
+      "ordinal": 2,
+      "title": "form.",
+      "value": "form."
+    },
+    {
+      "ordinal": 3,
+      "title": "cv.",
+      "value": "cv."
+    }
+  ],
+  "kind": "Picklist",
+  "name": "InfraspecificRank",
+  "scope": {
+    "collection": "NHM-karplanter",
+    "discipline": "karplanter-moser",
+    "level": "collection"
+  }
+}

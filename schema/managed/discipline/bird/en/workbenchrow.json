@@ -1,0 +1,211 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "A row of data.",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "biogeomancerresults": {
+      "desc": "The XML returned from Bio Geomancer",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Bio Geomancer Results",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "cardimagedata": {
+      "desc": "A single image attached to the row",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Card Image Data",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "cardimagefullpath": {
+      "desc": "The full path of the image",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Card Image Full Path",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "errorestimate": {
+      "desc": "Error Estimate",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Error Estimate",
+      "picklistname": null,
+      "type": "java.math.BigDecimal",
+      "weblinkname": null
+    },
+    "errorpolygon": {
+      "desc": "Error Polygon",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Error Polygon",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "lat1text": {
+      "desc": "Lat1 Text",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Lat1 Text",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "lat2text": {
+      "desc": "Lat2 Text",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Lat2 Text",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "long1text": {
+      "desc": "Long1 Text",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Long1 Text",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "long2text": {
+      "desc": "Long2 Text",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Long2 Text",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "recordid": {
+      "desc": "Record Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Record Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "rownumber": {
+      "desc": "The row number",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Row Number",
+      "picklistname": null,
+      "type": "java.lang.Short",
+      "weblinkname": null
+    },
+    "sgrstatus": {
+      "desc": "Sgr Status",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Sgr Status",
+      "picklistname": null,
+      "type": "java.lang.Byte",
+      "weblinkname": null
+    },
+    "uploadstatus": {
+      "desc": "Upload Status",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Upload Status",
+      "picklistname": null,
+      "type": "java.lang.Byte",
+      "weblinkname": null
+    },
+    "workbench": {
+      "desc": "The workbench this row is associated with",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Workbench",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "workbenchdataitems": {
+      "desc": "The data items associated with this row",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Workbench Data Items",
+      "picklistname": null,
+      "type": "OneToMany",
+      "weblinkname": null
+    },
+    "workbenchrowexportedrelationships": {
+      "desc": "Workbench Row Exported Relationships",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Workbench Row Exported Relationships",
+      "picklistname": null,
+      "type": "OneToMany",
+      "weblinkname": null
+    },
+    "workbenchrowid": {
+      "desc": "Workbench Row Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Workbench Row Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "workbenchrowimages": {
+      "desc": "The list of images associated with this row.",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Workbench Row Images",
+      "picklistname": null,
+      "type": "OneToMany",
+      "weblinkname": null
+    }
+  },
+  "name": "Workbench Row",
+  "picklistname": null,
+  "type": null
+}

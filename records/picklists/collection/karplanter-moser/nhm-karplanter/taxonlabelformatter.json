@@ -1,0 +1,35 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "TaxonLabelFormatter",
+    "readonly": false,
+    "sizelimit": 500,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "%g %s",
+      "value": "%g %s"
+    },
+    {
+      "ordinal": null,
+      "title": "%g %s (%a1 Ex. %a2)",
+      "value": "%g %s (%a1 Ex. %a2)"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "TaxonLabelFormatter",
+  "scope": {
+    "collection": "NHM-karplanter",
+    "discipline": "karplanter-moser",
+    "level": "collection"
+  }
+}

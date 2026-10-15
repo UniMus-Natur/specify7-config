@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewset name="SystemSetup">
+  <views>
+    <view name="AddObjPrefs" class="java.util.Hashtable" resourcelabels="false">
+      <altviews>
+        <altview name="AddObjPrefs Edit" viewdef="AddObjPrefs" mode="edit" validated="true" />
+      </altviews>
+    </view>
+  </views>
+  <viewdefs>
+    <viewdef type="form" name="AddObjPrefs" class="java.util.Hashtable" gettable="edu.ku.brc.af.ui.forms.DataGetterForHashMap" settable="edu.ku.brc.af.ui.forms.DataSetterForHashMap">
+      <desc>AddObjPrefs Data Entry Form</desc>
+      <columnDef>p,f:p:g</columnDef>
+      <rowDef auto="true" cell="p" sep="2dlu" />
+      <rows>
+        <row>
+          <cell type="separator" label="For Collection Objects" colspan="2" />
+        </row>
+        <row>
+          <cell type="field" id="CO_CREATE_COA" name="CO_CREATE_COA" label="Create Collection Object Attribute" uitype="checkbox" />
+        </row>
+        <row>
+          <cell type="field" id="CO_CREATE_PREP" name="CO_CREATE_PREP" label="Create Preparation" uitype="checkbox" />
+        </row>
+        <row>
+          <cell type="field" id="CO_CREATE_DET" name="CO_CREATE_DET" label="Create Determination" uitype="checkbox" />
+        </row>
+      </rows>
+    </viewdef>
+  </viewdefs>
+</viewset>

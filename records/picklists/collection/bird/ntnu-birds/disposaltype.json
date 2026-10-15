@@ -1,0 +1,40 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "DisposalType",
+    "readonly": true,
+    "sizelimit": 3,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Destroyed",
+      "value": "Destroyed"
+    },
+    {
+      "ordinal": null,
+      "title": "Destructive Sampling",
+      "value": "Destructive Sampling"
+    },
+    {
+      "ordinal": null,
+      "title": "Lost",
+      "value": "Lost"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "DisposalType",
+  "scope": {
+    "collection": "NTNU Birds",
+    "discipline": "bird",
+    "level": "collection"
+  }
+}

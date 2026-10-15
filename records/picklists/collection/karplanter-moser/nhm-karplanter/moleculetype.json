@@ -1,0 +1,24 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": false,
+    "name": "MoleculeType",
+    "readonly": false,
+    "sizelimit": 20,
+    "sorttype": null,
+    "tablename": "none",
+    "type": 0
+  },
+  "items": [],
+  "kind": "Picklist",
+  "name": "MoleculeType",
+  "scope": {
+    "collection": "NHM-karplanter",
+    "discipline": "karplanter-moser",
+    "level": "collection"
+  }
+}

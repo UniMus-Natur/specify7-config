@@ -1,0 +1,61 @@
+apiVersion: specli/v3
+kind: Viewset
+metadata:
+  uid: viewset:cbdf2b8543b82e2b
+  name: Herpetology Views
+  source: vendor
+  registryName: Herpetology Views
+  registryOrder: 0
+  filename: herpetology.views.xml
+scope:
+  level: discipline-type
+  disciplineType: herpetology
+rootAttributes:
+  name: Herpetology Views
+  i18nresname: views
+members:
+- path: forms/collectionobject/accessionitems/vendor/discipline-type/herpetology/herpetology-views.xml
+  sha256: sha256:e3d00c25ea539970ee9e356fe67d06f5a680c25227a6c0b75907407a350bd332
+- path: forms/collectingevent/collectingevent/vendor/discipline-type/herpetology/herpetology-views.xml
+  sha256: sha256:fb7d446c06882239567a2fc463e445412a3e1f424dac9109c9369add7edd3f24
+- path: forms/collectingevent/collectingeventsub/vendor/discipline-type/herpetology/herpetology-views.xml
+  sha256: sha256:54b61f8ed26d00e118942358ec4e8b218cc64135124f31e8a3faacbd2cc46a62
+- path: forms/collectionobject/collection-object/vendor/discipline-type/herpetology/herpetology-views.xml
+  sha256: sha256:73f2f3b4eb740d980c3aefc9b5717f0e0b9d2b2a488c5e6f026ca758daf9478d
+- path: forms/collectionobject/collectionobjectsub/vendor/discipline-type/herpetology/herpetology-views.xml
+  sha256: sha256:eec55447189025a1e38b1316c35408084ed5721b02ff1a7d3ebfe3b420e678d1
+- path: forms/determination/determination/vendor/discipline-type/herpetology/herpetology-views.xml
+  sha256: sha256:3060a1c0a0a0d77d9c8f21a5657ca620140f5a85b38aea55884685a206d01288
+- path: forms/collectionobjectattribute/herpetologyattributes/vendor/discipline-type/herpetology/herpetology-views.xml
+  sha256: sha256:85f27140431d0e49fe4e2f2af6c436199753797421ac06d730a23f7e754db4fa
+- path: forms/preparation/preparation/vendor/discipline-type/herpetology/herpetology-views.xml
+  sha256: sha256:6832cbb59d5c6a1c9bf15b6c578e1e7935373978f68961ed0bc26afa4a593c92
+order:
+  views:
+  - AccessionItems
+  - CollectingEvent
+  - CollectingEventSub
+  - CollectionObject
+  - CollectionObjectSub
+  - Determination
+  - DeterminationViewOnly
+  - HerpetologyAttributes
+  - Preparation
+  viewdefs:
+  - Collection Object
+  - Determination Table
+  - Determination
+  - CollectingEvent
+  - CollectingEventSub
+  - HerpetologyAttributes
+  - Preparation Table
+  - Preparation
+  - AccessionItems Table
+  - AccessionItems
+  - CollectionObjectSub Table
+  - CollectionObjectSub
+support: {}
+knownIssues:
+  unresolvedViewdefs: []
+deletions: []
+canonicalSha256: sha256:9330db8bd08b34e31c5b0f480ae8033763fa9c7a4319ba33cc4200883692adfa

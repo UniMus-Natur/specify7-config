@@ -1,0 +1,50 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "AbsoluteAgeDatingMethod",
+    "readonly": true,
+    "sizelimit": 5,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Radiometric",
+      "value": "Radiometric"
+    },
+    {
+      "ordinal": null,
+      "title": "Thermoluminescence",
+      "value": "Thermoluminescence"
+    },
+    {
+      "ordinal": null,
+      "title": "Optically Stimulated Luminescence (OSL)",
+      "value": "Optically Stimulated Luminescence (OSL)"
+    },
+    {
+      "ordinal": null,
+      "title": "Electron Spin Resonance (ESR)",
+      "value": "Electron Spin Resonance (ESR)"
+    },
+    {
+      "ordinal": null,
+      "title": "Observation",
+      "value": "Observation"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "AbsoluteAgeDatingMethod",
+  "scope": {
+    "collection": "NHM-karplanter",
+    "discipline": "karplanter-moser",
+    "level": "collection"
+  }
+}

@@ -1,0 +1,77 @@
+apiVersion: specli/v3
+kind: Viewset
+metadata:
+  uid: viewset:a4c99b12f759689e
+  name: Paleo Views
+  source: vendor
+  registryName: Paleo Views
+  registryOrder: 0
+  filename: paleo.views.xml
+scope:
+  level: discipline-type
+  disciplineType: invertpaleo
+rootAttributes:
+  name: Paleo Views
+  i18nresname: views
+members:
+- path: forms/collectionobject/accessionitems/vendor/discipline-type/invertpaleo/paleo-views.xml
+  sha256: sha256:0afaa2ff859cefbc51e84f9bf30c61140fdb81182860566423ebb469eb5c454a
+- path: forms/collectingevent/collectingevent/vendor/discipline-type/invertpaleo/paleo-views.xml
+  sha256: sha256:b27413fbfb048f79660381dd4c547df8d7439613ffaa61c84b57823f471d0369
+- path: forms/collectingevent/collectingeventsub/vendor/discipline-type/invertpaleo/paleo-views.xml
+  sha256: sha256:8a76ac83e7a6218a4bc76583180fbcc64b656905a02e6145250ce2d82003821f
+- path: forms/collectionobject/collection-object/vendor/discipline-type/invertpaleo/paleo-views.xml
+  sha256: sha256:cb00ded07aefe5d6f42654e58cfe2e3f204d2a41959daa80bd160707bdbf616f
+- path: forms/collectionobjectcitation/collectionobjectcitation/vendor/discipline-type/invertpaleo/paleo-views.xml
+  sha256: sha256:2f214fae38af585d8502ca47f52177fc55feb897a2170d6d711ba30dd663cbaf
+- path: forms/collectionobject/collectionobjectsub/vendor/discipline-type/invertpaleo/paleo-views.xml
+  sha256: sha256:b6c969f593fd680dd4092fb83e2a5aa8a78a0d81f130252cc154bcb0dd81c399
+- path: forms/determination/determination/vendor/discipline-type/invertpaleo/paleo-views.xml
+  sha256: sha256:105420e1a340dedb08ea98e0a7f051adab69c9365d6764627ac615c73ff0831d
+- path: forms/localitydetail/localitydetail/vendor/discipline-type/invertpaleo/paleo-views.xml
+  sha256: sha256:fdcdf43d82fbcb011a1d51c4df295c4420d230594c9d697b6b2ec8edd1c80106
+- path: forms/collectionobjectattribute/paleoattributes/vendor/discipline-type/invertpaleo/paleo-views.xml
+  sha256: sha256:51f71c64404ea1e9d168feea55022abca905416e21b8b46363e01fb643716dbe
+- path: forms/paleocontext/paleocontext/vendor/discipline-type/invertpaleo/paleo-views.xml
+  sha256: sha256:c88f6353e81be7b93670879c066cdd50a3be9db68e30da85dfe293617920e7b6
+- path: forms/preparation/preparation/vendor/discipline-type/invertpaleo/paleo-views.xml
+  sha256: sha256:b7d7b68aa3560119d9c10cd58d8a8bd359f49f6ab6af67cc3d8b67d9afe867e9
+- path: forms/paleocontext/subpaleocontext/vendor/discipline-type/invertpaleo/paleo-views.xml
+  sha256: sha256:984a311b236be5828876cd633dea161b87c21e6e5acf5bb0b7cfe477b98f81b6
+order:
+  views:
+  - AccessionItems
+  - CollectingEvent
+  - CollectingEventSub
+  - CollectionObject
+  - CollectionObjectCitation
+  - CollectionObjectSub
+  - Determination
+  - DeterminationViewOnly
+  - LocalityDetail
+  - PaleoAttributes
+  - PaleoContext
+  - Preparation
+  - SubPaleoContext
+  viewdefs:
+  - Collection Object
+  - Determination Table
+  - Determination
+  - CollectingEventSub
+  - CollectingEvent
+  - Preparation Table
+  - Preparation
+  - CollectionObjectCitation
+  - PaleoContext
+  - SubPaleoContext
+  - PaleoAttributes
+  - AccessionItems Table
+  - AccessionItems
+  - CollectionObjectSub Table
+  - CollectionObjectSub
+  - LocalityDetail
+support: {}
+knownIssues:
+  unresolvedViewdefs: []
+deletions: []
+canonicalSha256: sha256:1df06430261d6b6a44e3cfa9586ebdb958fa5395c71c10ffe689872feccdb4e4

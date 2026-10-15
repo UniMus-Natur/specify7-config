@@ -1,0 +1,40 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "AgentIdentifierType",
+    "readonly": true,
+    "sizelimit": 10,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "ORCID",
+      "value": "ORCID"
+    },
+    {
+      "ordinal": null,
+      "title": "Wikidata",
+      "value": "Wikidata"
+    },
+    {
+      "ordinal": null,
+      "title": "Other",
+      "value": "Other"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "AgentIdentifierType",
+  "scope": {
+    "collection": "NTNU Birds",
+    "discipline": "bird",
+    "level": "collection"
+  }
+}

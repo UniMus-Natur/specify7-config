@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewset name="common" i18nresname="common">
+  <views>
+    <view name="BorrowAgent" objtitle="Borrow Agent" class="edu.ku.brc.specify.datamodel.BorrowAgent">
+      <desc>Agent subform for the Borrow form</desc>
+      <altviews>
+        <altview name="BorrowAgent Table View" viewdef="BorrowAgent Table" mode="view" />
+        <altview name="BorrowAgent Table Edit" viewdef="BorrowAgent Table" mode="edit" />
+        <altview name="BorrowAgent View" viewdef="BorrowAgent" mode="view" />
+        <altview name="BorrowAgent Edit" viewdef="BorrowAgent" mode="edit" default="true" />
+      </altviews>
+    </view>
+  </views>
+  <viewdefs>
+    <viewdef type="formtable" name="BorrowAgent Table" class="edu.ku.brc.specify.datamodel.BorrowAgent" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>Preparation subform table for Collection Object form.</desc>
+      <definition>BorrowAgent</definition>
+    </viewdef>
+    <viewdef name="BorrowAgent" class="edu.ku.brc.specify.datamodel.BorrowAgent" type="form" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>The Agent subform for the Borrow form.</desc>
+      <enableRules />
+      <columnDef>30px,2px,300px,5px,20px,2px,130px,345px,p:g</columnDef>
+      <rowDef auto="true" cell="p" sep="2px" />
+      <rows>
+        <row>
+          <cell type="label" labelfor="1" />
+          <cell type="field" id="1" name="agent" uitype="querycbx" initialize="name=Agent;title=Agent" />
+          <cell type="label" labelfor="2" />
+          <cell type="field" id="2" name="role" uitype="combobox" />
+        </row>
+        <row>
+          <cell type="label" labelfor="3" />
+          <cell type="field" id="3" name="remarks" uitype="textareabrief" colspan="6" />
+        </row>
+        <!--<row>
+                    <cell type="label" labelfor="9"/>
+                    <cell type="field" id="9" name="createdByAgent" uitype="label" readonly="true" uifieldformatter="Agent"/>
+                    <cell type="label" labelfor="10"/>
+                    <cell type="field" id="10" name="modifiedByAgent" uitype="label" readonly="true" uifieldformatter="Agent"/>
+                </row>
+                <row>
+                    <cell type="label" labelfor="11"/>
+                    <cell type="field" id="11" name="timestampModified" uitype="label" readonly="true"/>
+                    <cell type="label" labelfor="12"/>
+                    <cell type="field" id="12" name="timestampCreated" uitype="label" readonly="true"/>
+                </row>-->
+      </rows>
+    </viewdef>
+  </viewdefs>
+</viewset>

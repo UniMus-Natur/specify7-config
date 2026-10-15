@@ -1,0 +1,14 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:26b49fa1eb8491fb
+  name: ExpressSearchConfig
+  source: vendor
+  mimetype: text/xml
+  filename: es_config.xml
+  registryOrder: 0
+scope:
+  level: discipline-type
+  disciplineType: invertpaleo
+data: resources/expresssearchconfig/vendor/discipline-type/invertpaleo/resource.xml
+sha256: sha256:c57d1db73ba06e37a3b5a283d90db5766125cd2486d52e2452fa0fa9162734d8

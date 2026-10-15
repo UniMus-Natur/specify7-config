@@ -1,0 +1,167 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "This is an internal table used to group parts of a collection with the same numbering scheme.",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "autonumberingschemeid": {
+      "desc": "Auto Numbering Scheme Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Auto Numbering Scheme Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "collections": {
+      "desc": "Collections",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Collections",
+      "picklistname": null,
+      "type": "ManyToMany",
+      "weblinkname": null
+    },
+    "createdbyagent": {
+      "desc": "Created By Agent",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Created By Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "disciplines": {
+      "desc": "Disciplines",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Disciplines",
+      "picklistname": null,
+      "type": "ManyToMany",
+      "weblinkname": null
+    },
+    "divisions": {
+      "desc": "Divisions",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Divisions",
+      "picklistname": null,
+      "type": "ManyToMany",
+      "weblinkname": null
+    },
+    "formatname": {
+      "desc": "Format Name",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Format Name",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "isnumericonly": {
+      "desc": "Yes if number scheme is only numeric.",
+      "format": null,
+      "ishidden": true,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Is Numeric Only",
+      "picklistname": null,
+      "type": "java.lang.Boolean",
+      "weblinkname": null
+    },
+    "modifiedbyagent": {
+      "desc": "Modified By Agent",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Modified By Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "schemeclassname": {
+      "desc": "Schema Class Name",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Schema Class Name",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "schemename": {
+      "desc": "Name of the scheme (sequence).",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Schema Name",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "tablenumber": {
+      "desc": "Table Number",
+      "format": null,
+      "ishidden": true,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Table Number",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "timestampcreated": {
+      "desc": "Timestamp Created",
+      "format": null,
+      "ishidden": true,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Timestamp Created",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "timestampmodified": {
+      "desc": "Timestamp Modified",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Timestamp Modified",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "version": {
+      "desc": "Version",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Version",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    }
+  },
+  "name": "Auto Numbering Scheme",
+  "picklistname": null,
+  "type": null
+}

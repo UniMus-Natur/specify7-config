@@ -1,0 +1,115 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": false,
+    "name": "BiogeographicRegion",
+    "readonly": false,
+    "sizelimit": null,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": 0,
+      "title": "Aust-Agder",
+      "value": "Aust-Agder"
+    },
+    {
+      "ordinal": 1,
+      "title": "Buskerud",
+      "value": "Buskerud"
+    },
+    {
+      "ordinal": 2,
+      "title": "Finnmark",
+      "value": "Finnmark"
+    },
+    {
+      "ordinal": 3,
+      "title": "Hedmark",
+      "value": "Hedmark"
+    },
+    {
+      "ordinal": 4,
+      "title": "Hordaland",
+      "value": "Hordaland"
+    },
+    {
+      "ordinal": 5,
+      "title": "Møre og Romsdal",
+      "value": "Møre og Romsdal"
+    },
+    {
+      "ordinal": 6,
+      "title": "Nord-Trøndelag",
+      "value": "Nord-Trøndelag"
+    },
+    {
+      "ordinal": 7,
+      "title": "Nordland",
+      "value": "Nordland"
+    },
+    {
+      "ordinal": 8,
+      "title": "Oppland",
+      "value": "Oppland"
+    },
+    {
+      "ordinal": 9,
+      "title": "Oslo og Akershus",
+      "value": "Oslo og Akershus"
+    },
+    {
+      "ordinal": 10,
+      "title": "Rogaland",
+      "value": "Rogaland"
+    },
+    {
+      "ordinal": 11,
+      "title": "Sogn og Fjordane",
+      "value": "Sogn og Fjordane"
+    },
+    {
+      "ordinal": 12,
+      "title": "Sør-Trøndelag",
+      "value": "Sør-Trøndelag"
+    },
+    {
+      "ordinal": 13,
+      "title": "Telemark",
+      "value": "Telemark"
+    },
+    {
+      "ordinal": 14,
+      "title": "Troms",
+      "value": "Troms"
+    },
+    {
+      "ordinal": 15,
+      "title": "Vest-Agder",
+      "value": "Vest-Agder"
+    },
+    {
+      "ordinal": 16,
+      "title": "Vestfold",
+      "value": "Vestfold"
+    },
+    {
+      "ordinal": 17,
+      "title": "Østfold",
+      "value": "Østfold"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "BiogeographicRegion",
+  "scope": {
+    "collection": "NHM-karplanter",
+    "discipline": "karplanter-moser",
+    "level": "collection"
+  }
+}

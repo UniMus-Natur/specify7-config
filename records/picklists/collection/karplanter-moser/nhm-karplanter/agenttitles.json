@@ -1,0 +1,55 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "AgentTitles",
+    "readonly": true,
+    "sizelimit": 6,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Asst. Director",
+      "value": "Asstdir"
+    },
+    {
+      "ordinal": null,
+      "title": "Curator",
+      "value": "Curator"
+    },
+    {
+      "ordinal": null,
+      "title": "Mr.",
+      "value": "Mr"
+    },
+    {
+      "ordinal": null,
+      "title": "Mrs.",
+      "value": "Mrs"
+    },
+    {
+      "ordinal": null,
+      "title": "Ms.",
+      "value": "Ms"
+    },
+    {
+      "ordinal": null,
+      "title": "Dr.",
+      "value": "Dr"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "AgentTitles",
+  "scope": {
+    "collection": "NHM-karplanter",
+    "discipline": "karplanter-moser",
+    "level": "collection"
+  }
+}

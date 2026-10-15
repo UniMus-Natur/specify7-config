@@ -1,0 +1,65 @@
+apiVersion: specli/v3
+kind: Viewset
+metadata:
+  uid: viewset:63ebb5dde552d375
+  name: Fish Views
+  source: vendor
+  registryName: Fish Views
+  registryOrder: 0
+  filename: fish.views.xml
+scope:
+  level: discipline-type
+  disciplineType: fish
+rootAttributes:
+  name: Fish Views
+  i18nresname: views
+members:
+- path: forms/collectionobject/accessionitems/vendor/discipline-type/fish/fish-views.xml
+  sha256: sha256:a092acc8dcc0a6846305ef0ec8b5adfa2e2d5261e65a87614e3aea5ec1c01b19
+- path: forms/collectingevent/collectingevent/vendor/discipline-type/fish/fish-views.xml
+  sha256: sha256:94a89d96019618151ceabb5d12b003073c55d8fccbba8d78b303062897054ce7
+- path: forms/collectingeventattribute/collectingeventattribute/vendor/discipline-type/fish/fish-views.xml
+  sha256: sha256:b22c1e637dcb5cbbe14eef3287704bc9cf4374c353c98a9909cfd52bae3be687
+- path: forms/collectionobject/collection-object/vendor/discipline-type/fish/fish-views.xml
+  sha256: sha256:2131577b6841d16e1b7af0558fd6b12e1b1a3c0f760c1473ad806245359fae50
+- path: forms/collectionobject/collectionobjectsub/vendor/discipline-type/fish/fish-views.xml
+  sha256: sha256:c99e10b14740a2f9aee2af953cc40dd88c12f04de674a4e3b114e05b5814d927
+- path: forms/determination/determination/vendor/discipline-type/fish/fish-views.xml
+  sha256: sha256:530c86050f16f91b6a3d98ac3998a2f271924dd32511b7e0139034761de5476b
+- path: forms/collectionobjectattribute/fishattributes/vendor/discipline-type/fish/fish-views.xml
+  sha256: sha256:59e6b51dc66fb00b87f8a1e75cdcc57fa1049dac127dd4c4b79a007603fae9cc
+- path: forms/locality/locality/vendor/discipline-type/fish/fish-views.xml
+  sha256: sha256:effed5de05aaac6b9cdcb8eb78f5e065a07d4a5d02e18231b6283fd5a0a8a43e
+- path: forms/preparation/preparation/vendor/discipline-type/fish/fish-views.xml
+  sha256: sha256:fa6aa4e9da584554e01d99df502c3d26959967cf117476a3a54d43741230d7a6
+order:
+  views:
+  - AccessionItems
+  - CollectingEvent
+  - CollectingEventAttribute
+  - CollectionObject
+  - CollectionObjectSub
+  - Determination
+  - DeterminationViewOnly
+  - FishAttributes
+  - Locality
+  - Preparation
+  viewdefs:
+  - Collection Object
+  - Determination Table
+  - Determination
+  - FishAttributes
+  - Preparation Table
+  - Preparation
+  - CollectingEvent
+  - CollectingEventAttribute
+  - CollectionObjectSub Table
+  - CollectionObjectSub
+  - AccessionItems Table
+  - AccessionItems
+  - Locality
+support: {}
+knownIssues:
+  unresolvedViewdefs: []
+deletions: []
+canonicalSha256: sha256:0adb980ac3892b07fb379c6b28e0dcfaf1e0944e882ff61623e97c7a2fb20fca

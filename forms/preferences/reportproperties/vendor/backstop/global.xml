@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewset name="Global" i18nresname="global_views">
+  <views>
+    <view name="ReportProperties" class="java.util.prefs.Preferences" useresourcelabels="false">
+      <desc>Report Properties Form.</desc>
+      <altviews>
+        <altview name="Report Properties" viewdef="ReportProperties" label="Properties" mode="edit" validated="true" />
+      </altviews>
+    </view>
+  </views>
+  <viewdefs>
+    <viewdef type="form" name="ReportProperties" class="java.util.prefs.Preferences" gettable="edu.ku.brc.af.prefs.PrefsGettableImpl" settable="edu.ku.brc.af.prefs.PrefsSettableImpl" resourcelabels="true">
+      <desc>Report Properties Form.</desc>
+      <columnDef>p,2px,p</columnDef>
+      <rowDef auto="true" cell="p" sep="4dlu" />
+      <rows>
+        <row>
+          <cell type="label" name="title" labelfor="title" label="Title" />
+          <cell type="field" uitype="text" id="title" name="reportProperties.title" isrequired="true" />
+        </row>
+        <row>
+          <cell type="label" name="subTitle" labelfor="subTitle" label="Subtitle" />
+          <cell type="field" uitype="text" id="subTitle" name="reportProperties.subTitle" isrequired="true" />
+        </row>
+        <row>
+          <cell type="label" name="footer" labelfor="footer" label="Footer" />
+          <cell type="field" uitype="text" id="footer" name="reportProperties.footer" isrequired="true" />
+        </row>
+      </rows>
+    </viewdef>
+  </viewdefs>
+</viewset>

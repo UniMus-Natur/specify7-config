@@ -1,0 +1,178 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "Individual who assigned or made the decision regarding the taxonomic name of specimen. In some instances, determiner may be an organization or institute. In Specify, determiner information is stored in the Agent table.",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "agent": {
+      "desc": "Agent",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "createdbyagent": {
+      "desc": "Created By Agent",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Created By Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "determination": {
+      "desc": "Determination",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Determination",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "determinerid": {
+      "desc": "Determiner Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Determiner Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "isprimary": {
+      "desc": "Is Primary",
+      "format": null,
+      "ishidden": true,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Is Primary",
+      "picklistname": null,
+      "type": "java.lang.Boolean",
+      "weblinkname": null
+    },
+    "modifiedbyagent": {
+      "desc": "Modified By Agent",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Modified By Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "ordernumber": {
+      "desc": "The position in the list of determiners.",
+      "format": null,
+      "ishidden": true,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Order Number",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "remarks": {
+      "desc": "Additional comments.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Remarks",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "text1": {
+      "desc": "Text1",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Text1",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "text2": {
+      "desc": "Text2",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Text2",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "timestampcreated": {
+      "desc": "The timestamp the record was created.",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Timestamp Created",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "timestampmodified": {
+      "desc": "The timestamp the record was last modified.",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Timestamp Modified",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "version": {
+      "desc": "Version",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Version",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "yesno1": {
+      "desc": "Yes No1",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Yes No1",
+      "picklistname": null,
+      "type": "java.lang.Boolean",
+      "weblinkname": null
+    },
+    "yesno2": {
+      "desc": "Yes No2",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Yes No2",
+      "picklistname": null,
+      "type": "java.lang.Boolean",
+      "weblinkname": null
+    }
+  },
+  "name": "Determiner",
+  "picklistname": null,
+  "type": null
+}

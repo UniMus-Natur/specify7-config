@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewset name="Karplaner - standard" i18nresname="views">
+  <views>
+    <view name="CollectingEventSub" class="edu.ku.brc.specify.datamodel.CollectingEvent" busrules="edu.ku.brc.specify.datamodel.busrules.CollectingEventBusRules" resourcelabels="false">
+      <desc>CollectingEvent Form</desc>
+      <altviews>
+        <altview name="CollectingEventSub View" viewdef="CollectingEventSub" mode="view" default="true" />
+        <altview name="CollectingEventSub Edit" viewdef="CollectingEventSub" mode="edit" />
+      </altviews>
+    </view>
+  </views>
+  <viewdefs>
+    <viewdef type="form" name="CollectingEventSub" class="edu.ku.brc.specify.datamodel.CollectingEvent" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>Collecting Event</desc>
+      <columnDef>120px,2px,200px,5px,120px,2px,200px,5px,120px,2px,200px,p:g</columnDef>
+      <columnDef os="lnx">120px,2px,200px,5px,120px,2px,200px,5px,120px,2px,200px,p:g</columnDef>
+      <columnDef os="mac">130px,2px,220px,5px,130px,2px,220px,5px,130px,2px,220px,p:g</columnDef>
+      <columnDef os="exp">p,2px,p:g,5px:g,p,2px,p:g,5px:g,p,2px,p:g,p:g</columnDef>
+      <rowDef auto="true" cell="p" sep="2px" />
+      <rows>
+        <row>
+          <cell type="label" labelfor="3" />
+          <cell type="field" id="3" name="method" uitype="combobox" />
+          <cell type="label" label="" />
+          <cell type="subview" id="1" viewname="ObjectAttachment" name="collectingEventAttachments" initialize="align=right;btn=true;icon=CollectingEventAttachment" />
+        </row>
+        <row>
+          <cell type="label" labelfor="7" />
+          <cell type="field" id="7" uitype="plugin" name="this" initialize="name=PartialDateUI;df=startDate;tp=startDatePrecision" uifieldformatter="Date" />
+          <cell type="label" labelfor="8" />
+          <cell type="field" id="8" uitype="plugin" name="this" initialize="name=PartialDateUI;df=endDate;tp=endDatePrecision" uifieldformatter="Date" />
+          <cell type="label" labelfor="13" />
+          <cell type="field" id="13" name="verbatimDate" uitype="text" colspan="2" />
+        </row>
+        <row>
+          <cell type="label" labelfor="4" />
+          <cell type="field" id="4" name="locality" uitype="querycbx" initialize="name=Locality;title=Locality;clonebtn=true" colspan="10" />
+        </row>
+        <row>
+          <cell type="label" label="Biogeographic zone" labelfor="bgr" />
+          <cell type="field" id="bgr" name="locality.text2" uitype="combobox" picklist="BiogeographicRegion" colspan="10" />
+        </row>
+        <row>
+          <cell type="label" labelfor="lat1" />
+          <cell type="field" id="lat1" name="locality.latitude1" uitype="text" colspan="3" readonly="true" />
+          <cell type="label" labelfor="lon1" />
+          <cell type="field" id="lon1" name="locality.longitude1" uitype="text" colspan="3" readonly="true" />
+        </row>
+        <row>
+          <cell type="label" labelfor="ld" />
+          <cell type="field" id="ld" name="locality.datum" uitype="combobox" picklist="LocalityDatum" colspan="3" readonly="true" />
+          <cell type="label" labelfor="lla" />
+          <cell type="field" id="lla" name="locality.latLongAccuracy" uitype="text" colspan="3" readonly="true" />
+        </row>
+        <row>
+          <cell type="label" label="Grid ref. (MGRS)" labelfor="mgrs" />
+          <cell type="field" id="mgrs" name="locality.text3" uitype="text" colspan="10" readonly="true" />
+        </row>
+        <row>
+          <cell type="label" label="UTM (GeoJSON)" labelfor="utm" />
+          <cell type="field" id="utm" name="locality.text5" uitype="textareabrief" rows="2" colspan="10" readonly="true" />
+        </row>
+        <row>
+          <cell type="field" id="ync" name="locality.yesno1" uitype="checkbox" label="Ca coordinate" colspan="3" />
+          <cell type="field" id="ynl" name="locality.yesno2" uitype="checkbox" label="Coordinate added later" colspan="3" />
+          <cell type="field" id="yna" name="locality.yesno3" uitype="checkbox" label="Ca altitude" colspan="3" />
+        </row>
+        <row>
+          <cell type="label" labelfor="vl" />
+          <cell type="field" id="vl" name="verbatimLocality" uitype="textareabrief" rows="2" colspan="10" />
+        </row>
+        <row>
+          <cell type="label" label="Habitat / Ecology" labelfor="ceh" />
+          <cell type="field" id="ceh" name="text1" uitype="textareabrief" rows="2" colspan="10" />
+        </row>
+        <row>
+          <cell type="label" labelfor="6" />
+          <cell type="field" id="6" name="remarks" uitype="textareabrief" rows="2" colspan="10" />
+        </row>
+        <row>
+          <cell type="subview" viewname="Collectors" id="12" name="collectors" colspan="12" rows="3" />
+        </row>
+        <row>
+          <cell type="label" labelfor="guid" />
+          <cell type="field" id="guid" name="guid" uitype="text" colspan="10" readonly="true" />
+        </row>
+      </rows>
+    </viewdef>
+  </viewdefs>
+</viewset>

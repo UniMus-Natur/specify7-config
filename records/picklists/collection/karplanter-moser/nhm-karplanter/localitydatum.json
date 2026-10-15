@@ -1,0 +1,55 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": false,
+    "name": "LocalityDatum",
+    "readonly": false,
+    "sizelimit": null,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": 0,
+      "title": "WGS84",
+      "value": "WGS84"
+    },
+    {
+      "ordinal": 1,
+      "title": "ED50",
+      "value": "ED50"
+    },
+    {
+      "ordinal": 2,
+      "title": "ETRS89",
+      "value": "ETRS89"
+    },
+    {
+      "ordinal": 3,
+      "title": "OSGB36",
+      "value": "OSGB36"
+    },
+    {
+      "ordinal": 4,
+      "title": "NAD83",
+      "value": "NAD83"
+    },
+    {
+      "ordinal": 5,
+      "title": "NAD27",
+      "value": "NAD27"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "LocalityDatum",
+  "scope": {
+    "collection": "NHM-karplanter",
+    "discipline": "karplanter-moser",
+    "level": "collection"
+  }
+}

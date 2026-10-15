@@ -1,0 +1,92 @@
+apiVersion: specli/v3
+kind: Viewset
+metadata:
+  uid: viewset:00aefd8494b7c5be
+  name: SystemSetup
+  source: vendor
+  registryName: SystemSetup
+  registryOrder: 0
+  filename: system.views.xml
+scope:
+  level: backstop
+rootAttributes:
+  name: SystemSetup
+members:
+- path: forms/picklist/picklist/vendor/backstop/systemsetup.xml
+  sha256: sha256:c32e65a0396f5325d9537b010b56e5c5c24977d78b5da51a0254242389cd76c2
+- path: forms/picklistitem/picklistitem/vendor/backstop/systemsetup.xml
+  sha256: sha256:673b9e06590af2e7bfd367dd988620064fd6ad4dc094a47d0a8d79cd11c0ee62
+- path: forms/hashtable/sendmail/vendor/backstop/systemsetup.xml
+  sha256: sha256:8add56fe5e4951e2d4417a89e90280dbdccde919cff98eba2438df2d1e9d7ba9
+- path: forms/preptype/preptype/vendor/backstop/systemsetup.xml
+  sha256: sha256:303eeaf213f535b4478e46d316eeebc8dd736cc2767ad0b197e42491d6db2220
+- path: forms/typesearchinfo/typesearchinfo/vendor/backstop/systemsetup.xml
+  sha256: sha256:2a6c4ff868dd95dad4eca82fcb0129132c5804f9b5081cdd407c7149b4171259
+- path: forms/datatype/datatype/vendor/backstop/systemsetup.xml
+  sha256: sha256:4a0c190b699b0229e0ba381a9bc26128c7c51905e64822b41ef7604d29251658
+- path: forms/spprincipal/user-group/vendor/backstop/systemsetup.xml
+  sha256: sha256:ed16c28d3b28740eee595abafa5d2c1296fafa441449d859ae5fa5331ec3e746
+- path: forms/specifyuser/user/vendor/backstop/systemsetup.xml
+  sha256: sha256:04fb6eb1e0cc688013ae59f85ffb1121e3260e02c02b06c932c49bac733d18b6
+- path: forms/catalognumberingscheme/catalognumberingscheme/vendor/backstop/systemsetup.xml
+  sha256: sha256:c82d438931c1b4a01c687ce9dd98eb33ba16631b4c3be0c48e1c87f89ecc71d7
+- path: forms/hashtable/excelexportinfo/vendor/backstop/systemsetup.xml
+  sha256: sha256:d4d3b9f323aa2e380d308bb37b2b72134e50102b2474854e5be0ec4e882ea7c0
+- path: forms/hashtable/changepassword/vendor/backstop/systemsetup.xml
+  sha256: sha256:bacd7724d9938d4723de8aa37c08739b6c8ddbf13f80017df9632997c17b9701
+- path: forms/collectionreltype/collectionreltype/vendor/backstop/systemsetup.xml
+  sha256: sha256:d4df44f2e200fd26b5de5726f78d940cb115f2b3fe39d69e65a473dcf083a028
+- path: forms/hashtable/addobjprefs/vendor/backstop/systemsetup.xml
+  sha256: sha256:06286c6015446f4d52a754a06d098e8a6c7a0567a076be45d47e7716b9597a75
+- path: forms/spappresource/spappresource/vendor/backstop/systemsetup.xml
+  sha256: sha256:e8f2171353676d25535ce9c1846b6966fdad494dffec221e4c84ec2b2a1c0248
+- path: forms/spviewsetobj/spviewsetobj/vendor/backstop/systemsetup.xml
+  sha256: sha256:1c8ac2a2b93a091e045f50995239c0e5a5d5940325f717c51e7047a47b5582cf
+- path: forms/recordset/recordset/vendor/backstop/systemsetup.xml
+  sha256: sha256:17e5b17f6aad50ff98011132dcbf3f288cf43fb7b5f950211e1c250d006163c4
+- path: forms/spreport/spreport/vendor/backstop/systemsetup.xml
+  sha256: sha256:bc33f07ba23567ab63abdde4bd061038f79c082bbcaf32b0e8f6de3e575f44f6
+order:
+  views:
+  - PickList
+  - PickListItem
+  - SendMail
+  - PrepType
+  - TypeSearchInfo
+  - DataType
+  - UserGroup
+  - User
+  - CatalogNumberingScheme
+  - ExcelExportInfo
+  - ChangePassword
+  - CollectionRelType
+  - AddObjPrefs
+  - SpAppResource
+  - SpViewSetObj
+  - RecordSet
+  - SpReport
+  viewdefs:
+  - PickList
+  - PickListItem Table
+  - PickListItem
+  - SendMail
+  - PrepType
+  - DataType
+  - User Group
+  - User
+  - CatalogNumberingScheme
+  - TypeSearchInfo
+  - ExcelExportInfo
+  - ChangePassword
+  - CollectionRelType
+  - AddObjPrefs
+  - SpAppResource
+  - SpViewSetObj
+  - RecordSet
+  - SpReport
+support:
+  rootMisc: viewsets/vendor/backstop/systemsetup/viewset-misc.xml
+knownIssues:
+  unresolvedViewdefs: []
+deletions: []
+canonicalSha256: sha256:579acff8487c5d7eb68dccd2e0ba49bf1efb2fca7fbbb722e45d57cb8e8f1ae8

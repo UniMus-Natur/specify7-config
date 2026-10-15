@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewset name="Global" i18nresname="global_views">
+  <views />
+  <viewdefs>
+    <viewdef type="formtable" name="AgentSpecialty Table" class="edu.ku.brc.specify.datamodel.AgentSpecialty" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>AgentSpecialty grid view for Agent form.</desc>
+      <definition>Collectors</definition>
+    </viewdef>
+    <viewdef type="form" name="Organization" class="edu.ku.brc.specify.datamodel.Agent" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>Agent subform for Acessions.</desc>
+      <columnDef>p,3dlu,p,p:g</columnDef>
+      <!--  <rowDef>p,2dlu,p,2dlu,p,2dlu,p,10px,p:g</rowDef> -->
+      <rowDef auto="true" cell="p" sep="2dlu" />
+      <rows>
+        <row>
+          <cell type="label" labelfor="6" />
+          <cell type="field" id="6" name="lastName" uitype="text" />
+        </row>
+        <row>
+          <cell type="label" labelfor="7" />
+          <cell type="field" id="7" name="abbreviation" uitype="text" />
+        </row>
+        <row>
+          <cell type="subview" viewname="Address" id="9" name="addresses" colspan="4" />
+        </row>
+      </rows>
+    </viewdef>
+    <viewdef type="form" name="ObjectAttachment Form" class="edu.ku.brc.specify.datamodel.ObjectAttachmentIFace" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj" useresourcelabels="true">
+      <desc>The ObjectAttachment form.</desc>
+      <columnDef>p,2px,p:g</columnDef>
+      <rowDef auto="true" cell="p" sep="2px" />
+      <rows>
+        <row>
+          <cell type="label" labelfor="origFilename" label="FILENAME" />
+          <cell type="field" id="origFilename" name="attachment.origFilename" initialize="editoncreate=true" uitype="browse" isrequired="true" />
+        </row>
+        <row>
+          <cell type="label" labelfor="title" label="TITLE" />
+          <cell type="field" id="title" name="attachment.title" uitype="text" isrequired="true" />
+        </row>
+        <row>
+          <cell type="label" labelfor="ispub" label="" />
+          <cell type="field" id="ispub" name="attachment.isPublic" uitype="checkbox" label="Make Public" />
+        </row>
+        <!--   <row>
+    		        <cell type="subview" id="metadata" name="attachment.metadata" viewname="AttachmentMetadata" colspan="3"/>
+    		    </row> -->
+      </rows>
+    </viewdef>
+  </viewdefs>
+</viewset>

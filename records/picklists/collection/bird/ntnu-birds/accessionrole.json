@@ -1,0 +1,50 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "AccessionRole",
+    "readonly": true,
+    "sizelimit": 5,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Collector",
+      "value": "Collector"
+    },
+    {
+      "ordinal": null,
+      "title": "Staff",
+      "value": "Staff"
+    },
+    {
+      "ordinal": null,
+      "title": "Donor",
+      "value": "Donor"
+    },
+    {
+      "ordinal": null,
+      "title": "Reviewer",
+      "value": "Reviewer"
+    },
+    {
+      "ordinal": null,
+      "title": "Receiver",
+      "value": "Receiver"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "AccessionRole",
+  "scope": {
+    "collection": "NTNU Birds",
+    "discipline": "bird",
+    "level": "collection"
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewset-misc>
+  <before-views />
+  <between-sections>
+    <!--
+////////////////////////////////////////////////////////
+IMPORTANT NOTE:
+
+Values inside the "name" attribute of any "field" cell must
+have COLUMN names, not Java object field names.
+
+Example:
+Bad:  <cell type="field" name="fieldNum" ...>
+Good: <cell type="field" name="FieldNum" ...>
+
+////////////////////////////////////////////////////////
+-->
+  </between-sections>
+  <after-viewdefs />
+</viewset-misc>

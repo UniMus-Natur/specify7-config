@@ -1,0 +1,65 @@
+apiVersion: specli/v3
+kind: Viewset
+metadata:
+  uid: viewset:88bd3dcf992a5813
+  name: Botany Views
+  source: vendor
+  registryName: Botany Views
+  registryOrder: 0
+  filename: botany.views.xml
+scope:
+  level: discipline-type
+  disciplineType: botany
+rootAttributes:
+  name: Botany Views
+  i18nresname: views
+members:
+- path: forms/collectionobject/accessionitems/vendor/discipline-type/botany/botany-views.xml
+  sha256: sha256:e3358df623253176ed3d90a10fe0c61930c517de2a7ff280d148c2c924c1d2a4
+- path: forms/collectingevent/collectingevent/vendor/discipline-type/botany/botany-views.xml
+  sha256: sha256:ed02984662cb51571b1e2ba2b7b70cfcbd985376e5070328be9381581be4ec43
+- path: forms/collectingevent/collectingeventsub/vendor/discipline-type/botany/botany-views.xml
+  sha256: sha256:75e027f22bbda05c4240e0e2d8cef8ef2881d3e53cec5529c8d17a6dbd9f63cd
+- path: forms/collectionobject/collection-object/vendor/discipline-type/botany/botany-views.xml
+  sha256: sha256:85e3f9aa046136f05d687491f16aa77103788523bfb3b4dafc4d37fed1bcc42f
+- path: forms/collectionobject/collectionobjectsub/vendor/discipline-type/botany/botany-views.xml
+  sha256: sha256:f8b182d56bc9e44687c5ad45a8e6f43082fc35e763e3e78ae66aae7793fca1e9
+- path: forms/determination/determination/vendor/discipline-type/botany/botany-views.xml
+  sha256: sha256:845b31475a71e8eacc2a54ecdcd35ead25d16ca554f8a84d8cbe54c101a5a7d7
+- path: forms/exsiccata/exsiccata/vendor/discipline-type/botany/botany-views.xml
+  sha256: sha256:870fbf2ad8d2debb3b6e285c3842b5fddc5135b111761e203c88bd721b2e0fc1
+- path: forms/exsiccataitem/exsiccataitem/vendor/discipline-type/botany/botany-views.xml
+  sha256: sha256:f4e5ecdee25f1c8cf53503ef9dba44e4675eec0060e02741c43df805442ca064
+- path: forms/preparation/preparation/vendor/discipline-type/botany/botany-views.xml
+  sha256: sha256:d6ce1c32b9e2f185534361aa8ef811873a3ab3f1f1a16ceb972373b885434182
+order:
+  views:
+  - AccessionItems
+  - CollectingEvent
+  - CollectingEventSub
+  - CollectionObject
+  - CollectionObjectSub
+  - Determination
+  - DeterminationViewOnly
+  - Exsiccata
+  - ExsiccataItem
+  - Preparation
+  viewdefs:
+  - Collection Object
+  - Determination Table
+  - Determination
+  - CollectingEventSub
+  - CollectingEvent
+  - Preparation Table
+  - Preparation
+  - AccessionItems Table
+  - AccessionItems
+  - CollectionObjectSub Table
+  - CollectionObjectSub
+  - Exsiccata
+  - ExsiccataItem
+support: {}
+knownIssues:
+  unresolvedViewdefs: []
+deletions: []
+canonicalSha256: sha256:7aec487505624469da580fe7166543115fd10af24a2063e9166c428f4a555885

@@ -1,0 +1,80 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "DisciplineType",
+    "readonly": true,
+    "sizelimit": -1,
+    "sorttype": 1,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": 1,
+      "title": "Ichthyology",
+      "value": "fish"
+    },
+    {
+      "ordinal": 2,
+      "title": "Herpetology",
+      "value": "herpetology"
+    },
+    {
+      "ordinal": 3,
+      "title": "Paleobotany",
+      "value": "paleobotany"
+    },
+    {
+      "ordinal": 4,
+      "title": "Invertebrate Paleontology",
+      "value": "invertpaleo"
+    },
+    {
+      "ordinal": 5,
+      "title": "Vertebrate Paleontology",
+      "value": "vertpaleo"
+    },
+    {
+      "ordinal": 6,
+      "title": "Ornithology",
+      "value": "bird"
+    },
+    {
+      "ordinal": 7,
+      "title": "Mammalogy",
+      "value": "mammal"
+    },
+    {
+      "ordinal": 8,
+      "title": "Entomology",
+      "value": "insect"
+    },
+    {
+      "ordinal": 9,
+      "title": "Botany",
+      "value": "botany"
+    },
+    {
+      "ordinal": 10,
+      "title": "Invertebrate Zoology",
+      "value": "invertebrate"
+    },
+    {
+      "ordinal": 11,
+      "title": "Geology",
+      "value": "geology"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "DisciplineType",
+  "scope": {
+    "collection": "NHM-karplanter",
+    "discipline": "karplanter-moser",
+    "level": "collection"
+  }
+}

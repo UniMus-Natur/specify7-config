@@ -1,0 +1,24 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": "CollectionObjectType",
+    "issystem": true,
+    "name": "CollectionObjectType",
+    "readonly": true,
+    "sizelimit": -1,
+    "sorttype": 1,
+    "tablename": "collectionobjecttype",
+    "type": 1
+  },
+  "items": [],
+  "kind": "Picklist",
+  "name": "CollectionObjectType",
+  "scope": {
+    "collection": "NTNU Birds",
+    "discipline": "bird",
+    "level": "collection"
+  }
+}

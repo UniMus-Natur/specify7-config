@@ -1,0 +1,71 @@
+apiVersion: specli/v3
+kind: Viewset
+metadata:
+  uid: viewset:b730df34ec872739
+  name: Invertebrate Views
+  source: vendor
+  registryName: Invertebrate Views
+  registryOrder: 0
+  filename: invertebrate.views.xml
+scope:
+  level: discipline-type
+  disciplineType: invertebrate
+rootAttributes:
+  name: Invertebrate Views
+  i18nresname: views
+members:
+- path: forms/collectionobject/accessionitems/vendor/discipline-type/invertebrate/invertebrate-views.xml
+  sha256: sha256:1eee6694eaa3fb66249b93b7246a057efa9872d2fb7aba7070ec124a0f7753b8
+- path: forms/collectingevent/collectingevent/vendor/discipline-type/invertebrate/invertebrate-views.xml
+  sha256: sha256:ed541c75d6b076bb92232653f50d0e9984ce10a60b7ac7920c4e0de4f68d1b63
+- path: forms/collectingevent/collectingeventsub/vendor/discipline-type/invertebrate/invertebrate-views.xml
+  sha256: sha256:ebb8fd8b2ac32f222a96e01e980dcbe07000b42e20f5e33903b61c76ea69861e
+- path: forms/collectionobject/collection-object/vendor/discipline-type/invertebrate/invertebrate-views.xml
+  sha256: sha256:64247da8e82423c3119a6dab163e9f744829f109717294c70628dba28e263644
+- path: forms/collectionobject/collectionobjectsub/vendor/discipline-type/invertebrate/invertebrate-views.xml
+  sha256: sha256:b6f5382463f84e4135c753823fa80a67bbe03081a464e84fe69eaf8cffba5f3f
+- path: forms/determination/determination/vendor/discipline-type/invertebrate/invertebrate-views.xml
+  sha256: sha256:70f8edfb6063b767bac6593c278203b73594b3c73fb6add0fee04793499867ac
+- path: forms/collectionobjectattribute/invertzooattributes/vendor/discipline-type/invertebrate/invertebrate-views.xml
+  sha256: sha256:231fc6965f1f4a2273f7561d0fed80fcb21033137f0f3210a639aafe37ba489d
+- path: forms/preparation/preparation/vendor/discipline-type/invertebrate/invertebrate-views.xml
+  sha256: sha256:d44518f3e59e871b619d0cfc4633e89ade2b88c335bee51d0e87ead34522e4e1
+- path: forms/collectionrelationship/collectionrelationship/vendor/discipline-type/invertebrate/invertebrate-views.xml
+  sha256: sha256:d48acb1dc6bde05a630acacf7c910442bc38f4b3c745e27706faad5c9f6e6fc6
+- path: forms/collectionrelationship/collectionrelright/vendor/discipline-type/invertebrate/invertebrate-views.xml
+  sha256: sha256:e900964b50fec5dfaed96c18cc4d91c5b4604ec8246bde4ef7bac7e547aac331
+order:
+  views:
+  - AccessionItems
+  - CollectingEvent
+  - CollectingEventSub
+  - CollectionObject
+  - CollectionObjectSub
+  - Determination
+  - DeterminationViewOnly
+  - InvertZooAttributes
+  - Preparation
+  - CollectionRelationship
+  - CollectionRelRight
+  viewdefs:
+  - Collection Object
+  - Determination Table
+  - Determination
+  - CollectingEventSub
+  - CollectingEvent
+  - InvertZooAttributes
+  - Preparation Table
+  - Preparation
+  - CollectionRelationship
+  - CollectionRelRight Table
+  - CollectionRelRight
+  - AccessionItems Table
+  - AccessionItems
+  - CollectionObjectSub Table
+  - CollectionObjectSub
+support: {}
+knownIssues:
+  unresolvedViewdefs:
+  - CollectionRelationship Table
+deletions: []
+canonicalSha256: sha256:87e5e18070d280df02ff44bc4bdae86165d6cab8b46a223b86aac21b28adbe3b

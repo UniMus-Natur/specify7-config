@@ -1,0 +1,60 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "DisposalAgentRole",
+    "readonly": true,
+    "sizelimit": 12,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Approver",
+      "value": "Approver"
+    },
+    {
+      "ordinal": null,
+      "title": "Other",
+      "value": "Other"
+    },
+    {
+      "ordinal": null,
+      "title": "Preparer",
+      "value": "Preparer"
+    },
+    {
+      "ordinal": null,
+      "title": "Receiver",
+      "value": "Receiver"
+    },
+    {
+      "ordinal": null,
+      "title": "Sponsor",
+      "value": "Sponsor"
+    },
+    {
+      "ordinal": null,
+      "title": "Staff",
+      "value": "Staff"
+    },
+    {
+      "ordinal": null,
+      "title": "Student",
+      "value": "Student"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "DisposalAgentRole",
+  "scope": {
+    "collection": "NTNU Birds",
+    "discipline": "bird",
+    "level": "collection"
+  }
+}

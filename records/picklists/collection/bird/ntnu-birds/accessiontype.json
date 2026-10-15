@@ -1,0 +1,40 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "AccessionType",
+    "readonly": true,
+    "sizelimit": 5,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Gift",
+      "value": "Gift"
+    },
+    {
+      "ordinal": null,
+      "title": "Collection",
+      "value": "Cln"
+    },
+    {
+      "ordinal": null,
+      "title": "Field Work",
+      "value": "Field_work"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "AccessionType",
+  "scope": {
+    "collection": "NTNU Birds",
+    "discipline": "bird",
+    "level": "collection"
+  }
+}

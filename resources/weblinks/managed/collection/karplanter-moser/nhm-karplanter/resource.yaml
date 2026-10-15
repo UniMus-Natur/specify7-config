@@ -1,0 +1,19 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:901698fcf2f72148
+  name: WebLinks
+  source: managed
+  mimetype: text/xml
+  remoteDescription: Web Link Formats
+  remoteMetadata: Web Link Formats
+  level: 3
+  allPermissionLevel: null
+  groupPermissionLevel: null
+  ownerPermissionLevel: null
+scope:
+  level: collection
+  discipline: karplanter-moser
+  collection: nhm-karplanter
+data: resources/weblinks/managed/collection/karplanter-moser/nhm-karplanter/resource.xml
+sha256: sha256:3a8f25866a828061df28fdcae690ed53d572913350fbdc7a4ed0cb6ba65d3796

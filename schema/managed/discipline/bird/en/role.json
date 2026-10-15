@@ -1,0 +1,57 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "Role",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "collection": {
+      "desc": "Collection",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Collection",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "description": {
+      "desc": "Description",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Description",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "name": {
+      "desc": "Name",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Name",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "roleid": {
+      "desc": "Role Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Role Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    }
+  },
+  "name": "Role",
+  "picklistname": null,
+  "type": null
+}

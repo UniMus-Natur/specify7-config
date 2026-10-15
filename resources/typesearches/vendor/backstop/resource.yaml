@@ -1,0 +1,13 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:5231bf17635036f1
+  name: TypeSearches
+  source: vendor
+  mimetype: text/xml
+  filename: typesearch_def.xml
+  registryOrder: 2
+scope:
+  level: backstop
+data: resources/typesearches/vendor/backstop/resource.xml
+sha256: sha256:f105d1b3d2cc89bfcb3fafd50297ecd7d84c104b4624f71bea388a81ec8483fa

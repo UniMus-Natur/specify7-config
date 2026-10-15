@@ -1,0 +1,19 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:5107fcba10b608ab
+  name: UIFormatters
+  source: managed
+  mimetype: text/xml
+  remoteDescription: UIFormatters
+  remoteMetadata: UIFormatters
+  level: 0
+  allPermissionLevel: null
+  groupPermissionLevel: null
+  ownerPermissionLevel: null
+scope:
+  level: collection
+  discipline: karplanter-moser
+  collection: nhm-karplanter
+data: resources/uiformatters/managed/collection/karplanter-moser/nhm-karplanter/resource.xml
+sha256: sha256:42db14e48295f3bbe856c6b6fcea28775d1d6854709db395de1014d081003c79

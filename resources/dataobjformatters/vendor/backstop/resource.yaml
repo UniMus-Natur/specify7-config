@@ -1,0 +1,13 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:aa97d0cd915d1cc2
+  name: DataObjFormatters
+  source: vendor
+  mimetype: text/xml
+  filename: dataobj_formatters.xml
+  registryOrder: 1
+scope:
+  level: backstop
+data: resources/dataobjformatters/vendor/backstop/resource.xml
+sha256: sha256:ed9526621e5c16171ecc5ef3cb5d41e0a3bd29010768e83fb5355f1f311af6a9

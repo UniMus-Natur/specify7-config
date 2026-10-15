@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewset name="Karplaner - standard" i18nresname="views">
+  <views>
+    <view name="Collectors" class="edu.ku.brc.specify.datamodel.Collector" busrules="edu.ku.brc.specify.datamodel.busrules.CollectorBusRules">
+      <desc>The Collectors Subform.</desc>
+      <altviews>
+        <altview name="Collectors Table View" viewdef="Collectors Table" mode="view" />
+        <altview name="Collectors Table Edit" viewdef="Collectors Table" mode="edit" default="true" />
+      </altviews>
+    </view>
+  </views>
+  <viewdefs>
+    <viewdef type="form" name="Collectors" class="edu.ku.brc.specify.datamodel.Collector" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>Collectors for a collecting event (MUSIT Leg).</desc>
+      <enableRules />
+      <columnDef>p,5dlu,p:g,5dlu,p:g,5dlu,p</columnDef>
+      <rowDef auto="true" cell="p" sep="2px" />
+      <rows>
+        <row>
+          <cell type="label" labelfor="3" />
+          <cell type="field" id="3" name="agent" uitype="querycbx" initialize="name=Agent" colspan="5" />
+        </row>
+        <row>
+          <cell type="label" label="Verbatim name" labelfor="vn" />
+          <cell type="field" id="vn" name="text2" uitype="text" colspan="5" />
+        </row>
+        <row>
+          <cell type="label" label="Leg no" labelfor="ln" />
+          <cell type="field" id="ln" name="text1" uitype="text" />
+          <cell type="label" label="Scr" labelfor="scr" />
+          <cell type="field" id="scr" name="yesNo1" uitype="checkbox" />
+          <cell type="label" label="No #" labelfor="on" />
+          <cell type="field" id="on" name="orderNumber" uitype="text" />
+        </row>
+        <row>
+          <cell type="label" labelfor="7" />
+          <cell type="field" id="7" name="remarks" uitype="text" colspan="5" />
+        </row>
+      </rows>
+    </viewdef>
+    <viewdef type="formtable" name="Collectors Table" class="edu.ku.brc.specify.datamodel.Collector" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>Collectors grid view for CollectingEvent form.</desc>
+      <definition>Collectors</definition>
+    </viewdef>
+  </viewdefs>
+</viewset>

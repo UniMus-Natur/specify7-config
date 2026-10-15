@@ -1,0 +1,35 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "TreatmentType",
+    "readonly": true,
+    "sizelimit": 10,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Bug Room",
+      "value": "Bugroom"
+    },
+    {
+      "ordinal": null,
+      "title": "CO2",
+      "value": "CO2"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "TreatmentType",
+  "scope": {
+    "collection": "NHM-karplanter",
+    "discipline": "karplanter-moser",
+    "level": "collection"
+  }
+}

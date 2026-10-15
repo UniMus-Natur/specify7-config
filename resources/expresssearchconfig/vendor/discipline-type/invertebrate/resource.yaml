@@ -1,0 +1,14 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:91b712418fa47ed5
+  name: ExpressSearchConfig
+  source: vendor
+  mimetype: text/xml
+  filename: es_config.xml
+  registryOrder: 0
+scope:
+  level: discipline-type
+  disciplineType: invertebrate
+data: resources/expresssearchconfig/vendor/discipline-type/invertebrate/resource.xml
+sha256: sha256:5a630248b9cdb1fb0d8535c45f6230d9b7a59fac53852e6b4ff7afb50485bec7

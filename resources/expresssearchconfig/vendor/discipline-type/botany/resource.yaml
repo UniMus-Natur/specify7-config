@@ -1,0 +1,14 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:1e79c3e1ca9a35f3
+  name: ExpressSearchConfig
+  source: vendor
+  mimetype: text/xml
+  filename: es_config.xml
+  registryOrder: 1
+scope:
+  level: discipline-type
+  disciplineType: botany
+data: resources/expresssearchconfig/vendor/discipline-type/botany/resource.xml
+sha256: sha256:5a630248b9cdb1fb0d8535c45f6230d9b7a59fac53852e6b4ff7afb50485bec7

@@ -1,0 +1,35 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": false,
+    "name": "DeterminationAddendum",
+    "readonly": false,
+    "sizelimit": null,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": 0,
+      "title": "s.lat.",
+      "value": "s.lat."
+    },
+    {
+      "ordinal": 1,
+      "title": "s.str.",
+      "value": "s.str."
+    }
+  ],
+  "kind": "Picklist",
+  "name": "DeterminationAddendum",
+  "scope": {
+    "collection": "NHM-karplanter",
+    "discipline": "karplanter-moser",
+    "level": "collection"
+  }
+}

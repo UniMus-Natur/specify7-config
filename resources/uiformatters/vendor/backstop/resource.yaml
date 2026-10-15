@@ -1,0 +1,13 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:50df5dd67fed7212
+  name: UIFormatters
+  source: vendor
+  mimetype: text/xml
+  filename: uiformatters.xml
+  registryOrder: 0
+scope:
+  level: backstop
+data: resources/uiformatters/vendor/backstop/resource.xml
+sha256: sha256:e0a4f648492157b5c0ee5d3605dc42219be37af9c4d24c3ac56a19188e96dad8

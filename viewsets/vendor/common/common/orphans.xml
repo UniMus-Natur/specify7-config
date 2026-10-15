@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewset name="common" i18nresname="common">
+  <views />
+  <viewdefs>
+    <viewdef type="iconview" name="CollectorsIconView" class="edu.ku.brc.specify.datamodel.Collector" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>The Collectors Icon Viewer</desc>
+    </viewdef>
+    <viewdef type="formtable" name="Component Table" class="edu.ku.brc.specify.datamodel.Component" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>Component subform table for COs.</desc>
+      <definition>Component Grid</definition>
+    </viewdef>
+    <viewdef type="iconview" name="DeterminersIconView" class="edu.ku.brc.specify.datamodel.Determiner" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>The Determiners Icon Viewer</desc>
+    </viewdef>
+    <viewdef type="iconview" name="ExtractorsIconView" class="edu.ku.brc.specify.datamodel.Extractor" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>The Extractors Icon Viewer</desc>
+    </viewdef>
+    <viewdef type="form" name="Extractors" class="edu.ku.brc.specify.datamodel.Extractor" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>The Extractors form</desc>
+      <enableRules />
+      <columnDef>p,5dlu,p:g,5dlu,p</columnDef>
+      <rowDef auto="true" cell="p" sep="2px" />
+      <rows>
+        <row>
+          <cell type="label" labelfor="3" />
+          <cell type="field" id="3" name="agent.lastName" uitype="text" colspan="3" />
+        </row>
+        <row>
+          <cell type="label" labelfor="5" />
+          <cell type="field" id="5" name="agent.firstName" uitype="text" colspan="3" />
+        </row>
+        <row>
+          <cell type="label" labelfor="7" />
+          <cell type="field" id="7" name="remarks" uitype="text" colspan="3" />
+        </row>
+      </rows>
+    </viewdef>
+    <viewdef type="iconview" name="PcrPersonsIconView" class="edu.ku.brc.specify.datamodel.PcrPerson" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>The PcrPersons Icon Viewer</desc>
+    </viewdef>
+    <viewdef name="TaxonLabelFormattingPlugin" type="form" class="edu.ku.brc.specify.datamodel.Taxon" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>Taxon Label Formatting Plugin Form</desc>
+      <enableRules />
+      <columnDef>200px,2px,p:g</columnDef>
+      <rowDef auto="true" cell="p" sep="2dlu" />
+      <rows>
+        <row>
+          <cell type="field" id="1" name="this" uitype="plugin" initialize="name=TaxonLabelFormatting;title=Taxon" colspan="3" />
+        </row>
+      </rows>
+    </viewdef>
+    <viewdef type="iconview" name="FundingAgentsIconView" class="edu.ku.brc.specify.datamodel.FundingAgent" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>The FundingAgents Icon Viewer</desc>
+    </viewdef>
+  </viewdefs>
+</viewset>

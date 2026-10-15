@@ -1,0 +1,65 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "LifeStage",
+    "readonly": true,
+    "sizelimit": 8,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Unknown",
+      "value": "Unknown"
+    },
+    {
+      "ordinal": null,
+      "title": "Seedling",
+      "value": "Seedling"
+    },
+    {
+      "ordinal": null,
+      "title": "Flowering",
+      "value": "Flowering"
+    },
+    {
+      "ordinal": null,
+      "title": "Fruiting",
+      "value": "Fruiting"
+    },
+    {
+      "ordinal": null,
+      "title": "Mature",
+      "value": "Mature"
+    },
+    {
+      "ordinal": null,
+      "title": "Embryo",
+      "value": "Embryo"
+    },
+    {
+      "ordinal": null,
+      "title": "Seed",
+      "value": "Seed"
+    },
+    {
+      "ordinal": null,
+      "title": "Senescent",
+      "value": "Senescent"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "LifeStage",
+  "scope": {
+    "collection": "NHM-karplanter",
+    "discipline": "karplanter-moser",
+    "level": "collection"
+  }
+}

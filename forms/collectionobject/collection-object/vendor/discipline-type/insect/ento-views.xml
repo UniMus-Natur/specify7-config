@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewset name="Ento Views" i18nresname="views">
+  <views>
+    <view name="CollectionObject" class="edu.ku.brc.specify.datamodel.CollectionObject" busrules="edu.ku.brc.specify.datamodel.busrules.CollectionObjectBusRules" isinternal="false" resourcelabels="false">
+      <desc>The Collection Object form.</desc>
+      <altviews>
+        <altview name="Collection Object View" viewdef="Collection Object" mode="view" />
+        <altview name="Collection Object Edit" viewdef="Collection Object" mode="edit" default="true" />
+      </altviews>
+    </view>
+  </views>
+  <viewdefs>
+    <viewdef type="form" name="Collection Object" class="edu.ku.brc.specify.datamodel.CollectionObject" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>The Collection Object form.</desc>
+      <enableRules />
+      <columnDef>100px,2px,195px,5px,96px,2px,50px,10px,150px,5px,94px,2px,176px,15px,p:g</columnDef>
+      <columnDef os="lnx">115px,2px,195px,5px,125px,2px,60px,10px,140px,5px,125px,2px,181px,15px,p:g</columnDef>
+      <columnDef os="mac">130px,2px,215px,5px,128px,2px,105px,10px,145px,5px,138px,2px,195px,15px,p:g</columnDef>
+      <columnDef os="exp">p,2px,min(p;250px),5px:g,p,2px,p:g(2),10px,p:g(2),5px:g,p,2px,p:g,p,p:g</columnDef>
+      <rowDef auto="true" cell="p" sep="2px" />
+      <rows>
+        <row>
+          <cell type="label" labelfor="1" />
+          <cell type="field" id="1" name="catalogNumber" uitype="formattedtext" initialize="series=true" />
+          <cell type="label" labelfor="3" />
+          <cell type="field" id="3" name="accession" uitype="querycbx" initialize="name=AccessionCO;title=AccessionCO" isrequired="false" colspan="3" />
+          <cell type="label" labelfor="14" />
+          <cell type="field" id="14" name="altCatalogNumber" uitype="text" />
+        </row>
+        <row>
+          <cell type="label" labelfor="4" />
+          <cell type="field" id="4" name="cataloger" uitype="querycbx" initialize="name=Agent;title=Catalog Agent" isrequired="true" />
+          <cell type="label" labelfor="5" />
+          <cell type="field" id="5" uitype="plugin" name="this" initialize="name=PartialDateUI;df=catalogedDate;tp=catalogedDatePrecision" uifieldformatter="Date" colspan="3" />
+          <cell type="label" labelfor="2" />
+          <cell type="field" id="2" name="projectNumber" uitype="text" />
+        </row>
+        <row>
+          <cell type="subview" viewname="Determination" id="6" name="determinations" colspan="14" rows="5" />
+        </row>
+        <row>
+          <cell type="subview" viewname="CollectingEventSub" id="21" name="collectingEvent" colspan="14" rows="5" />
+        </row>
+        <row>
+          <cell type="subview" viewname="Preparation" id="8" name="preparations" defaulttype="table" rows="3" colspan="14" />
+        </row>
+        <row>
+          <cell type="subview" id="15" viewname="EntoAttributes" name="collectionObjectAttribute" colspan="14" />
+        </row>
+        <row>
+          <cell type="separator" label="Attachments" colspan="14" />
+        </row>
+        <row>
+          <cell type="subview" id="attachments" viewname="ObjectAttachment" name="collectionObjectAttachments" colspan="7" initialize="icon=CollectionObjectAttachment" defaulttype="icon" />
+          <cell type="panel" id="116" name="outerPanel" coldef="p,2px,p:g,5px,p:g" rowdef="p,4px,p,4px,p,4px,p,4px,p,4px,p" colspan="5">
+            <rows>
+              <row>
+                <cell type="label" label="Total Items:" initialize="align=right" />
+                <cell type="field" id="tq" name="totalCountAmt" uitype="text" readonly="true" />
+              </row>
+              <row>
+                <cell type="label" label="Total Current Items:" initialize="align=right" />
+                <cell type="field" id="ti" name="actualTotalCountAmt" uitype="text" readonly="true" />
+              </row>
+              <row>
+                <cell type="label" labelfor="11" />
+                <cell type="field" id="11" name="timestampModified" uitype="label" readonly="true" />
+              </row>
+              <row>
+                <cell type="label" labelfor="10" />
+                <cell type="field" id="10" name="modifiedByAgent" uitype="label" readonly="true" uifieldformatter="Agent" />
+              </row>
+              <row>
+                <cell type="label" labelfor="guid" />
+                <cell type="field" id="guid" name="guid" uitype="text" colspan="3" readonly="true" />
+              </row>
+              <row>
+                <cell type="field" id="113" uitype="checkbox" name="generateLabelChk" label="Generate Label on Save" ignore="true" default="true" initialize="visible=false" colspan="3" />
+                <cell type="command" id="114" name="generateLabelBtn" label="Generate Label" ignore="true" default="true" initialize="visible=false;align=right" />
+              </row>
+            </rows>
+          </cell>
+        </row>
+        <!--<row>
+                    <cell type="label" label="RELNAMEHERE:" initialize="align=right;"/>
+                    <cell type="field" id="colrel" uitype="plugin" name="this" initialize="name=CollectionRelOneToManyPlugin;relname=xxxx;" colspan="9"/>
+                </row>
+                <row>
+                    <cell type="label" label="RELNAMEHERE:" initialize="align=right;"/>
+                    <cell type="field" id="colrel" uitype="plugin" name="this" initialize="name=ColRelTypePlugin;relname=xxxx;"/>
+                </row>
+                <row>
+                    <cell type="panel" id="ContainerPanel" name="ContainerPanel" coldef="p" rowdef="p" colspan="11">
+                        <rows>
+                            <row>
+                                <cell type="panel" id="CPInner" name="CPInner" coldef="p" rowdef="p" initialize="border=line;bordercolor=200,200,200;bgcolor=240,240,240">
+                                <rows>
+                                    <row>
+                                        <cell type="field" id="ContainerPlugin" uitype="plugin" name="this" initialize="name=ContainerPlugin"/>
+                                    </row>
+                                </rows>
+                            </cell>
+                            </row>
+                        </rows> 
+                    </cell>
+                </row>
+                <row>
+                    <cell type="label" labelfor="appr"/>
+                    <cell type="field" id="appr" name="appraisal" uitype="querycbx" initialize="name=Appraisal;title=Appraisal" isrequired="false"/>
+                </row>
+                <row>
+                    <cell type="label" labelfor="avail"/>
+                    <cell type="field" id="avail" name="availability" uitype="text"/>
+                    <cell type="label" labelfor="cdv"/>
+                    <cell type="field" id="cdv" name="catalogedDateVerbatim" uitype="text"/>
+                    <cell type="label" labelfor="ca"/>
+                    <cell type="field" id="ca" name="countAmt" uitype="text"/>
+                </row>
+                <row>
+                    <cell type="subview" id="7" name="collectionObjectCitations" viewname="CollectionObjectCitation" colspan="15"/>                    
+                </row>
+                <row>
+                    <cell type="subview" viewname="ConservDescription" id="cd" name="conservDescriptions" initialize="btn=true"/>
+                </row>
+                <row>
+                    <cell type="subview" viewname="DNASequence" id="6" name="dnaSequences" initialize="btn=true"/>
+                </row>
+                <row>
+                    <cell type="label" labelfor="fnp"/>
+                    <cell type="field" id="fnp" name="fieldNotebookPage" uitype="querycbx" initialize="name=FieldNotebookPage;title=FieldNotebookPage" isrequired="false"/>
+                </row>
+                <row>
+                    <cell type="label" labelfor="desc"/>
+                    <cell type="field" id="desc" name="description" uitype="text"/>
+                    <cell type="label" labelfor="fn"/>
+                    <cell type="field" id="fn" name="fieldNumber" uitype="text"/>
+                    <cell type="label" labelfor="guid"/>
+                    <cell type="field" id="guid" name="guid" uitype="text"/>
+                </row>
+                <row>
+                    <cell type="label" labelfor="id"/>
+                    <cell type="field" id="id" name="inventoryDate" uitype="formattedtext" uifieldformatter="Date"/>
+                    <cell type="label" labelfor="mod"/>
+                    <cell type="field" id="mod" name="modifier" uitype="text"/>
+                    <cell type="label" labelfor="name"/>
+                    <cell type="field" id="name" name="name" uitype="text"/>
+                </row>
+                <row>
+                    <cell type="label" labelfor="not"/>
+                    <cell type="field" id="not" name="notifications" uitype="text"/>
+                    <cell type="label" labelfor="n1"/>
+                    <cell type="field" id="n1" name="number1" uitype="text"/>
+                    <cell type="label" labelfor="n2"/>
+                    <cell type="field" id="n2" name="number2" uitype="text"/>
+                </row>
+                <row>
+                    <cell type="subview" viewname="OtherIdentifiers" id="44" name="otherIdentifiers" defaulttype="table" colspan="15" rows="3"/>
+                </row>
+                <row>
+                    <cell type="subview" viewname="Project" id="proj" name="projects" initialize="btn=true"/>
+                </row>
+                <row>
+                    <cell type="label" labelfor="oj"/>
+                    <cell type="field" id="oj" name="objectCondition" uitype="text"/>
+                    <cell type="label" labelfor="rest"/>
+                    <cell type="field" id="rest" name="restrictions" uitype="text"/>
+                </row>
+                <row>
+                    <cell type="label" labelfor="rem"/>
+                    <cell type="field" id="rem" name="remarks" uitype="textareabrief" rows="2" colspan="10"/>
+                </row>
+                <row>
+                    <cell type="subview" viewname="SubPaleoContext" id="9" name="paleoContext" defaulttype="table" colspan="12"/>
+                </row> 
+                <row>
+                    <cell type="label" labelfor="t1"/>
+                    <cell type="field" id="t1" name="text1" uitype="text"/>
+                    <cell type="label" labelfor="t2"/>
+                    <cell type="field" id="t2" name="text2" uitype="text"/>
+                    <cell type="label" labelfor="n2"/>
+                    <cell type="field" id="n2" name="totalValue" uitype="text"/>
+                </row>
+                <row>
+                    <cell type="subview" viewname="TreatmentEvent" id="te" name="treatmentEvents" initialize="btn=true"/>
+                </row>
+                <row>
+                    <cell type="field" id="yn1" name="yesNo1" uitype="checkbox" initialize="editable=true"/>
+                    <cell type="field" id="yn2" name="yesNo2" uitype="checkbox" initialize="editable=true"/>
+                    <cell type="field" id="yn3" name="yesNo3" uitype="checkbox" initialize="editable=true"/>
+                    <cell type="field" id="yn4" name="yesNo4" uitype="checkbox" initialize="editable=true"/>
+                    <cell type="field" id="yn5" name="yesNo5" uitype="checkbox" initialize="editable=true"/>
+                    <cell type="field" id="yn6" name="yesNo6" uitype="checkbox" initialize="editable=true"/>
+                </row>
+                <row>
+                    <cell type="label" labelfor="9"/>
+                    <cell type="field" id="9" name="createdByAgent" uitype="label" readonly="true" uifieldformatter="Agent"/>
+                    <cell type="label" labelfor="12"/>
+                    <cell type="field" id="12" name="timestampCreated" uitype="label" readonly="true"/>
+                </row>-->
+      </rows>
+    </viewdef>
+  </viewdefs>
+</viewset>

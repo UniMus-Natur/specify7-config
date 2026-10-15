@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewset name="Paleo Views" i18nresname="views">
+  <views>
+    <view name="CollectionObjectCitation" class="edu.ku.brc.specify.datamodel.CollectionObjectCitation" resourcelabels="false">
+      <desc>The Collection Object form.</desc>
+      <altviews>
+        <altview name="CollectionObjectCitation View" viewdef="CollectionObjectCitation" mode="view" />
+        <altview name="CollectionObjectCitation Edit" viewdef="CollectionObjectCitation" mode="edit" default="true" />
+      </altviews>
+    </view>
+  </views>
+  <viewdefs>
+    <viewdef type="form" name="CollectionObjectCitation" class="edu.ku.brc.specify.datamodel.CollectionObjectCitation" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>Form For CollectionObjectCitation</desc>
+      <columnDef>100px,2px,210px,515px,p:g</columnDef>
+      <columnDef os="lnx">115px,2px,215px,585px,p:g</columnDef>
+      <columnDef os="mac">130px,2px,236px,664px,p:g</columnDef>
+      <columnDef os="exp">p,2px,p:g,p:g</columnDef>
+      <rowDef auto="true" sep="2px" cell="p" />
+      <rows>
+        <row>
+          <cell type="label" labelfor="6" />
+          <cell type="field" id="6" name="referenceWork" uitype="querycbx" initialize="name=ReferenceWork;title=ReferenceWork" />
+        </row>
+        <row>
+          <cell type="label" labelfor="2" />
+          <cell type="field" id="2" name="remarks" uitype="textareabrief" rows="2" colspan="2" />
+        </row>
+        <!--<row>
+                    <cell type="label" labelfor="9"/>
+                    <cell type="field" id="9" name="createdByAgent" uitype="label" readonly="true" uifieldformatter="Agent"/>
+                    <cell type="label" labelfor="10"/>
+                    <cell type="field" id="10" name="modifiedByAgent" uitype="label" readonly="true" uifieldformatter="Agent"/>
+                </row>
+                <row>
+                    <cell type="label" labelfor="11"/>
+                    <cell type="field" id="11" name="timestampModified" uitype="label" readonly="true"/>
+                    <cell type="label" labelfor="12"/>
+                    <cell type="field" id="12" name="timestampCreated" uitype="label" readonly="true"/>
+                </row>-->
+      </rows>
+    </viewdef>
+  </viewdefs>
+</viewset>

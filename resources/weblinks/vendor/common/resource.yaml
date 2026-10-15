@@ -1,0 +1,13 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:a0447e9449da4315
+  name: WebLinks
+  source: vendor
+  mimetype: text/xml
+  filename: weblinks.xml
+  registryOrder: 0
+scope:
+  level: common
+data: resources/weblinks/vendor/common/resource.xml
+sha256: sha256:fcced3eb31b18a66a602d39cb7c42e12844bd466c7432b101ab24231c5ef2ab7

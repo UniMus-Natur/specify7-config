@@ -1,0 +1,61 @@
+apiVersion: specli/v3
+kind: Viewset
+metadata:
+  uid: viewset:7dfef225a3929b5a
+  name: Ento Views
+  source: vendor
+  registryName: Ento Views
+  registryOrder: 0
+  filename: ento.views.xml
+scope:
+  level: discipline-type
+  disciplineType: insect
+rootAttributes:
+  name: Ento Views
+  i18nresname: views
+members:
+- path: forms/collectionobject/accessionitems/vendor/discipline-type/insect/ento-views.xml
+  sha256: sha256:9346c9559be722528e45ce666b0fdbaa478ac7e5220460d087f0077b5559cd7c
+- path: forms/collectingevent/collectingevent/vendor/discipline-type/insect/ento-views.xml
+  sha256: sha256:69d540594b3881248bc6e23aeb70afb2d27cc142911fdfb4d5b546da9afe534a
+- path: forms/collectingevent/collectingeventsub/vendor/discipline-type/insect/ento-views.xml
+  sha256: sha256:ee93e893a1953f46ab89a47db52b68afa3e2d1bb6fd2dabf64d1d556756aebd1
+- path: forms/collectionobject/collection-object/vendor/discipline-type/insect/ento-views.xml
+  sha256: sha256:4419f731a320dbbebb50a33a7d3783aba9754c05bc78ddbcc12a1b51ad7e0072
+- path: forms/collectionobject/collectionobjectsub/vendor/discipline-type/insect/ento-views.xml
+  sha256: sha256:9b6a260032cf28b239213c3d67462cb2915e5d78a565c2deb5a2fdff1477ffa8
+- path: forms/determination/determination/vendor/discipline-type/insect/ento-views.xml
+  sha256: sha256:7ed9e6330b8298cfa29f9c29c268fe0ab2b9812b3e5972846b96545e70bc23bc
+- path: forms/collectionobjectattribute/entoattributes/vendor/discipline-type/insect/ento-views.xml
+  sha256: sha256:8b7efaea07f82e944a637fd17bb8bf4ca8d1b94f6c2dbbc927192be7de463716
+- path: forms/preparation/preparation/vendor/discipline-type/insect/ento-views.xml
+  sha256: sha256:582dcb958aa54125fff57a0aa0afe7eda9b74422942e6cd1da63f5b3590be21f
+order:
+  views:
+  - AccessionItems
+  - CollectingEvent
+  - CollectingEventSub
+  - CollectionObject
+  - CollectionObjectSub
+  - Determination
+  - DeterminationViewOnly
+  - EntoAttributes
+  - Preparation
+  viewdefs:
+  - Collection Object
+  - Determination Table
+  - Determination
+  - CollectingEventSub
+  - CollectingEvent
+  - EntoAttributes
+  - Preparation Table
+  - Preparation
+  - AccessionItems Table
+  - AccessionItems
+  - CollectionObjectSub Table
+  - CollectionObjectSub
+support: {}
+knownIssues:
+  unresolvedViewdefs: []
+deletions: []
+canonicalSha256: sha256:3ae2b7521045df5bf1568d2f3220d4a3f838651be508fd9e32ad5ec817ec0c54

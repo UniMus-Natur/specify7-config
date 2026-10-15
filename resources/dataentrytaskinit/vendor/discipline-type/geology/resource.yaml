@@ -1,0 +1,14 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:6581724a105ba899
+  name: DataEntryTaskInit
+  source: vendor
+  mimetype: text/xml
+  filename: dataentry_task.xml
+  registryOrder: 0
+scope:
+  level: discipline-type
+  disciplineType: geology
+data: resources/dataentrytaskinit/vendor/discipline-type/geology/resource.xml
+sha256: sha256:167ee2f85fce8022e732f926ba5fa8f886a7874a25232ded29af2a0975198ff7

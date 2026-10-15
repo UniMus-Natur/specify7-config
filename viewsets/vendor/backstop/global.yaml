@@ -1,0 +1,292 @@
+apiVersion: specli/v3
+kind: Viewset
+metadata:
+  uid: viewset:8a82e6dbf10bd630
+  name: Global
+  source: vendor
+  registryName: Global
+  registryOrder: 2
+  filename: global.views.xml
+scope:
+  level: backstop
+rootAttributes:
+  name: Global
+  i18nresname: global_views
+members:
+- path: forms/hashtable/gbifcollection/vendor/backstop/global.xml
+  sha256: sha256:da06dc891d5980202614d684efa46c1bda7c97af522043d5346efc94f7f65734
+- path: forms/hashtable/mailingaddress/vendor/backstop/global.xml
+  sha256: sha256:8f29ea67b359bb2fd2e29005ec92ef2a7a9632c69ede2655d0ed1228a4955b3e
+- path: forms/hashtable/identifier/vendor/backstop/global.xml
+  sha256: sha256:c55d76950ef1dee0d0610da6239a472539087b8588682ef23bdf45f970a30b8b
+- path: forms/address/address/vendor/backstop/global.xml
+  sha256: sha256:e13cb99e58b0091d35cf5188c2360d1baf7b049e01b48a834d34f29bc97f5f5b
+- path: forms/agentspecialty/agentspecialty/vendor/backstop/global.xml
+  sha256: sha256:d36c3b1d9e0486a76614766f56db15da8a55731d649394a31803d5bac95523dd
+- path: forms/agent/agent/vendor/backstop/global.xml
+  sha256: sha256:e4aa70b35449d9b578a75273752f8463f3d74f899273ffa750a84a6b76165c5a
+- path: forms/agentvariant/agentvariant/vendor/backstop/global.xml
+  sha256: sha256:75897da46dc41690f35f38c8fa6196eb3aac2e6ffa4a2ee553973d312fb07256
+- path: forms/groupperson/grouppersons-table/vendor/backstop/global.xml
+  sha256: sha256:95b57f4b8204cfb768086a4907a5d12b33e69e0c6e7dfe1d94a4a2031e809729
+- path: forms/groupperson/groupperson/vendor/backstop/global.xml
+  sha256: sha256:63ecc8fafc1ca0a39b9f0461a2b0d291b687bcac2049190448b3a1d167926f83
+- path: forms/author/authors-table/vendor/backstop/global.xml
+  sha256: sha256:a4dacc00e63a30fa7e7001b6f5ffad81331c0341804c28b233e14f710b0fabbc
+- path: forms/author/author/vendor/backstop/global.xml
+  sha256: sha256:9da1ea5c76209ea294b2301e8a7fb1f57a9426db5ff928f77fa687e2a7ca00ae
+- path: forms/autonumberingscheme/autonumberingscheme/vendor/backstop/global.xml
+  sha256: sha256:f3e3e8a53b2c049276e471b8430c69e770f589fdac863bb32d7de7ce9ef3c16b
+- path: forms/collectionreltype/collectionreltype/vendor/backstop/global.xml
+  sha256: sha256:1afd941395b4ff1283780327418ba418c2de49c465f28ab35e071176f584bd66
+- path: forms/journal/journalform/vendor/backstop/global.xml
+  sha256: sha256:aa64ff1508f1f4c8c63bf7eec9117b74243dd17d6ca9ac91928f925072c0eb2c
+- path: forms/journal/journal/vendor/backstop/global.xml
+  sha256: sha256:96336a7c6ec3066aef21054d4b4885e7e636f6fd535094fe914b28a2a4ce91ea
+- path: forms/preptype/preptype/vendor/backstop/global.xml
+  sha256: sha256:f03e0784de26d56d99aa17c64683142525cd8eefb0eb8061218f77e2d441439c
+- path: forms/referencework/referencework/vendor/backstop/global.xml
+  sha256: sha256:5a98a582650ff4bbc940f08d66c35766a5b1452d4bdefb1c30dc735a9715be9d
+- path: forms/referencework/referenceworksub/vendor/backstop/global.xml
+  sha256: sha256:1ec4bb3e03d1aab4d2c305098cd8e50a01bd1d83829153221f306aae914a02cb
+- path: forms/workbenchtemplate/workbenchtemplate/vendor/backstop/global.xml
+  sha256: sha256:c09ae6a06bc6c013d91a9873a128f615c4c54479194dc0a6b069ca1238911245
+- path: forms/workbench/workbench/vendor/backstop/global.xml
+  sha256: sha256:1be427ba2922dbb4718d23534abafe18a42292207cc9d42356d0c7aff0a344ea
+- path: forms/preferences/reportproperties/vendor/backstop/global.xml
+  sha256: sha256:6a7410c6bcb46a5018b839a093422da04629fbb1410ba7cd72c032f884e420dc
+- path: forms/spquery/query/vendor/backstop/global.xml
+  sha256: sha256:fc24e61f797446ebe52752a01cdb09bf4ceb103757955fa6be3b6426b88f3367
+- path: forms/taxoncitation/taxoncitation/vendor/backstop/global.xml
+  sha256: sha256:ebfdadefa1e2840564d6e9d6fc2c95d41d5c521b8586876a0391f42984ac7714
+- path: forms/taxon/taxon/vendor/backstop/global.xml
+  sha256: sha256:f960435e1a5427650a6fafa0d8ed8b530377b450963cb4909de86c09f8dcad60
+- path: forms/taxonattribute/taxonattribute/vendor/backstop/global.xml
+  sha256: sha256:e3be498f66bae535c3f4afe1c371eaf543299f64647f22d4fcaaad9fcb1e31ef
+- path: forms/taxon/taxonsubform/vendor/backstop/global.xml
+  sha256: sha256:d0668929ac327f2eda619b22af35b0a3bd7eabdaef58cacfa266a3e9d3e6f9f0
+- path: forms/geography/geography/vendor/backstop/global.xml
+  sha256: sha256:345110d9175160f7e30786b8140afaaf12a462eba94fed70ae4ba8e95f2bd5dd
+- path: forms/geography/geographysubform/vendor/backstop/global.xml
+  sha256: sha256:2aa6425375d6314bebc1d1d7ab4b13cdbe93f8d29aa2e23d08e7f26bc1359e75
+- path: forms/storage/storage/vendor/backstop/global.xml
+  sha256: sha256:e6d1c9388d4f7b5ecd5ee03287f62219df49d477cee3a3e2cc019fc755bdf380
+- path: forms/storage/storagesubform/vendor/backstop/global.xml
+  sha256: sha256:ebb232bb528e91562bc14fa0d881faddf4b3450aacaf2ac2fa3618c775025ec5
+- path: forms/geologictimeperiod/geologictimeperiod/vendor/backstop/global.xml
+  sha256: sha256:cc6a281a29b29a2a7fbf57f6cc003f64a23cd6b4c12eb25b1f9dff792ccc858b
+- path: forms/geologictimeperiod/geologictimeperiodspecial/vendor/backstop/global.xml
+  sha256: sha256:a483eedcd8dc30410cd17ebe888d9bae865e1838fc432aea479a232742a21a85
+- path: forms/geologictimeperiod/geologictimeperiodsubform/vendor/backstop/global.xml
+  sha256: sha256:b4947c8bd95cd026061e4536200c2c1bf5126fbfa7c9fe65766b50d61101a339
+- path: forms/lithostrat/lithostrat/vendor/backstop/global.xml
+  sha256: sha256:0c993152263f211768d20fd54bea6c011d5dc97027171b25f0ab6cad15b65891
+- path: forms/lithostrat/lithostratsubform/vendor/backstop/global.xml
+  sha256: sha256:c9f0077af9d26483910e12e6c5d8d97e0ae79f2c61fadadd7ffb0ca2d4f90496
+- path: forms/storagetreedefitem/storagetreedefitem/vendor/backstop/global.xml
+  sha256: sha256:bb547c9941369a1e486710e08d83881919ef25f520ad4385da87f9c6c378398f
+- path: forms/storagetreedefitem/rootstoragetreedefitem/vendor/backstop/global.xml
+  sha256: sha256:b1c38163ef2dee7af6165608bd8a989475503d9ccc41a35f404f2c5c1f3052f3
+- path: forms/geographytreedefitem/geographytreedefitem/vendor/backstop/global.xml
+  sha256: sha256:c08c950d3dc6d690a46d49250c17f3dc67efabf8c57c5698f6ad5f3f23dca48f
+- path: forms/geographytreedefitem/rootgeographytreedefitem/vendor/backstop/global.xml
+  sha256: sha256:166eda3d86cef47832b25a0467b18435d56806ca092797c86f6e5170948058f7
+- path: forms/geologictimeperiodtreedefitem/geologictimeperiodtreedefitem/vendor/backstop/global.xml
+  sha256: sha256:005717039555c9d6b26ec88280b8242aa4154ba4aa052b52c5ab021410058a03
+- path: forms/geologictimeperiodtreedefitem/rootgeologictimeperiodtreedefitem/vendor/backstop/global.xml
+  sha256: sha256:9e17f0a7d6250bc90b248f8965b1932b6c9a845e6a190517d5a2c59b4853d993
+- path: forms/lithostrattreedefitem/lithostrattreedefitem/vendor/backstop/global.xml
+  sha256: sha256:c4073674f543fd6c99296f51c010658d1779f4894566bf23cac4e72948681889
+- path: forms/lithostrattreedefitem/rootlithostrattreedefitem/vendor/backstop/global.xml
+  sha256: sha256:6fee81ea3d1f5ebc349f446a7142873d97075d090d7083ab60ddeae23b5b9bad
+- path: forms/taxontreedefitem/taxontreedefitem/vendor/backstop/global.xml
+  sha256: sha256:76d7c301c97f655f53386680d1afea0ab3af8d712b3681c4cfe7080c0da085ad
+- path: forms/taxontreedefitem/roottaxontreedefitem/vendor/backstop/global.xml
+  sha256: sha256:d7025ddd68a8fc713bd8be14f3231e5741c4d76033a32e2eb14401f565acf6c2
+- path: forms/treedefiface/newtreedefdataentry/vendor/backstop/global.xml
+  sha256: sha256:669a5181e8dc02152a0a78b29bd8a4c8cca02ed7e15fb000f82339f2e100c6ce
+- path: forms/spsymbiotainstance/symbiotainstancedataentry/vendor/backstop/global.xml
+  sha256: sha256:07a885c728f66b405f07c605058375b9214a0bffd8eff26b8db3e97ef18bb0a8
+- path: forms/attachment/objectattachment/vendor/backstop/global.xml
+  sha256: sha256:ac4e9bb5e4234c0bbfc7d19f6cc68f69dda39ff066b1823707e724f89b7569ab
+- path: forms/collectionobjectattachment/collectionobjectattachment-form/vendor/backstop/global.xml
+  sha256: sha256:0dee4cc7203e3d83c5b5531abd5e1729a00bd26bca23dd4bd289e71acaeddcd6
+- path: forms/attachmentimageattribute/attachmentimageattribute-form/vendor/backstop/global.xml
+  sha256: sha256:dae7a169e6ea46283e787ff73b40259c7c5034a18912f6ee82429f91fb54d208
+- path: forms/attachmentmetadata/attachmentmetadata/vendor/backstop/global.xml
+  sha256: sha256:c1acccde6916fefc86d2b45f188d55a1f5ec74714e80558b73c17f69081b3a97
+- path: forms/paleocontext/subpaleocontext/vendor/backstop/global.xml
+  sha256: sha256:bf5c14bea777920a93775d3dedeeef92fe9a3943140f04d78ae3c75ca91215d3
+- path: forms/morphbankview/morphbankview/vendor/backstop/global.xml
+  sha256: sha256:9f1589e84e55b240093739a654afde583829c87e0439d97bfc6af7f2dec042f1
+- path: forms/taxontreedef/taxontreedef/vendor/backstop/global.xml
+  sha256: sha256:4a6fb735f7727c700b1d6d9b287fe342ed69a7bf16f0129dd50ada695889aad7
+- path: forms/geographytreedef/geographytreedef/vendor/backstop/global.xml
+  sha256: sha256:b4c089054950f8426757c38ff8c4fefaf2d384b13f108347b564e9a7e09e6f2b
+- path: forms/storagetreedef/storagetreedef/vendor/backstop/global.xml
+  sha256: sha256:87285d155dd298c581c15bee93165f05604c1aa2d742427b38e5ffca72a02cc6
+- path: forms/tectonicunittreedef/tectonicunittreedef/vendor/backstop/global.xml
+  sha256: sha256:b932a2d55730cfe92398e705c0f1e5ac7927ee5a2ee4aae81f3c3e4d6de91512
+- path: forms/geologictimeperiodtreedef/geologictimeperiodtreedef/vendor/backstop/global.xml
+  sha256: sha256:bee6956ef012c9bb81356b5361e5e3e1d9b41471e9a79c01d2ef8ada4a7dcd13
+- path: forms/lithostrattreedef/lithostrattreedef/vendor/backstop/global.xml
+  sha256: sha256:0252388ef9701775c57d865556ffe8f4222dba46b3ffc071ce4623b2a376c8e2
+- path: forms/tectonicunit/tectonicunit/vendor/backstop/global.xml
+  sha256: sha256:66e4b3346d0fa52556586e632697c7c84fb849280d3d4ea5721f118f27453e1d
+- path: forms/tectonicunittreedefitem/tectonicunittreedefitem/vendor/backstop/global.xml
+  sha256: sha256:cb85f12a9ff61b42bc03344c9ef43e31f93f39ef9924ee7a80eaa42c1c2f7b50
+order:
+  views:
+  - GBIFCollection
+  - MailingAddress
+  - Identifier
+  - Address
+  - AddressSingle
+  - AgentSpecialty
+  - Agent
+  - AgentVariant
+  - GroupPersons
+  - GroupPerson
+  - Authors
+  - Author
+  - CatAutoNumberingScheme
+  - CollectionRelType
+  - JournalForm
+  - Journal
+  - PrepType
+  - ReferenceWork
+  - ReferenceWorkSub
+  - WorkbenchTemplate
+  - Workbench
+  - ReportProperties
+  - Query
+  - TaxonCitation
+  - Taxon
+  - TaxonAttribute
+  - TaxonSubform
+  - Geography
+  - GeographySubform
+  - Storage
+  - StorageSubform
+  - GeologicTimePeriod
+  - BioStrat
+  - ChronosStrat
+  - GeologicTimePeriodSubform
+  - LithoStrat
+  - LithoStratSubform
+  - StorageTreeDefItem
+  - RootStorageTreeDefItem
+  - GeographyTreeDefItem
+  - RootGeographyTreeDefItem
+  - GeologicTimePeriodTreeDefItem
+  - RootGeologicTimePeriodTreeDefItem
+  - LithoStratTreeDefItem
+  - RootLithoStratTreeDefItem
+  - TaxonTreeDefItem
+  - RootTaxonTreeDefItem
+  - TreeDefEditor
+  - SpSymbiotaInstance
+  - ObjectAttachment
+  - CollectionObjectAttachment
+  - AttachmentImageAttribute
+  - AttachmentMetadata
+  - SubPaleoContext
+  - MorphBankView
+  - TaxonTreeDef
+  - GeographyTreeDef
+  - StorageTreeDef
+  - TectonicUnitTreeDef
+  - GeologicTimePeriodTreeDef
+  - LithoStratTreeDef
+  - TectonicUnit
+  - TectonicUnitTreeDefItem
+  viewdefs:
+  - GBIFCollection
+  - MailingAddress
+  - Identifier
+  - Address Table
+  - Address
+  - Agent
+  - AgentSpecialty Table
+  - AgentSpecialty
+  - AgentVariant Table
+  - AgentVariant
+  - Organization
+  - GroupPersons Table
+  - GroupPersons
+  - GroupPerson
+  - AutoNumberingScheme
+  - Authors Table
+  - Authors
+  - Author
+  - CollectionRelType
+  - JournalForm
+  - Journal
+  - PrepType
+  - ReferenceWork
+  - ReferenceWorkSub
+  - WorkbenchTemplate
+  - Workbench
+  - ReportProperties
+  - Query
+  - TaxonCitation
+  - Taxon
+  - TaxonAttribute
+  - TaxonSubform
+  - Geography
+  - GeographySubform
+  - Storage
+  - StorageSubform
+  - GeologicTimePeriod
+  - GeologicTimePeriodSpecial
+  - GeologicTimePeriodSubform
+  - LithoStrat
+  - LithoStratSubform
+  - StorageTreeDefItem
+  - RootStorageTreeDefItem
+  - LithoStratTreeDefItem
+  - RootLithoStratTreeDefItem
+  - GeographyTreeDefItem
+  - RootGeographyTreeDefItem
+  - GeologicTimePeriodTreeDefItem
+  - RootGeologicTimePeriodTreeDefItem
+  - TaxonTreeDefItem
+  - RootTaxonTreeDefItem
+  - NewTreeDefDataEntry
+  - SymbiotaInstanceDataEntry
+  - ObjectAttachment
+  - ObjectAttachment Icon
+  - ObjectAttachment Table
+  - CollectionObjectAttachment Form
+  - AttachmentImageAttribute Form
+  - ObjectAttachment Form
+  - AttachmentMetadata
+  - AttachmentMetadata Table
+  - SubPaleoContext
+  - MorphBankView
+  - TaxonTreeDef
+  - TaxonTreeDef Table
+  - GeographyTreeDef
+  - GeographyTreeDef Table
+  - StorageTreeDef
+  - StorageTreeDef Table
+  - TectonicUnitTreeDef
+  - TectonicUnitTreeDef Table
+  - GeologicTimePeriodTreeDef
+  - GeologicTimePeriodTreeDef Table
+  - LithoStratTreeDef
+  - LithoStratTreeDef Table
+  - TectonicUnit
+  - TectonicUnit Table
+  - TectonicUnitTreeDefItem
+  - TectonicUnitTreeDefItem Table
+support:
+  orphans: viewsets/vendor/backstop/global/orphans.xml
+  rootMisc: viewsets/vendor/backstop/global/viewset-misc.xml
+knownIssues:
+  unresolvedViewdefs:
+  - CollectionObjectAttachment IconView
+  - CollectionObjectAttachment Table
+  - Collectors
+deletions: []
+canonicalSha256: sha256:6fd8d7697da5b3d2e1189e2643f08a0e6e50b300578f1536e43f7b5c24094cc4

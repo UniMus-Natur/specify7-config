@@ -1,0 +1,18 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:3cfb2e3bf9ee8ba9
+  name: VPL 3 260707
+  source: managed
+  mimetype: jrxml/label
+  remoteDescription: VPL 3 260707
+  remoteMetadata: tableid=-1;reporttype=Report;
+  level: 0
+  allPermissionLevel: null
+  groupPermissionLevel: null
+  ownerPermissionLevel: null
+scope:
+  level: discipline
+  discipline: karplanter-moser
+data: resources/vpl-3-260707/managed/discipline/karplanter-moser/resource.xml
+sha256: sha256:8b2155ac00fd97d0a60af07003117866d93fbd13c31f453b6734c0def1f3047b

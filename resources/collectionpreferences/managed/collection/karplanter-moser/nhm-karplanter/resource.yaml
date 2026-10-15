@@ -1,0 +1,19 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:dfe97a3d1599d2e5
+  name: CollectionPreferences
+  source: managed
+  mimetype: application/json
+  remoteDescription: null
+  remoteMetadata: ''
+  level: 0
+  allPermissionLevel: null
+  groupPermissionLevel: null
+  ownerPermissionLevel: null
+scope:
+  level: collection
+  discipline: karplanter-moser
+  collection: nhm-karplanter
+data: resources/collectionpreferences/managed/collection/karplanter-moser/nhm-karplanter/resource.json
+sha256: sha256:28d0411d643b955bb4bc1042805efaa4c53e47d6f6d9c5ce162072859128649f

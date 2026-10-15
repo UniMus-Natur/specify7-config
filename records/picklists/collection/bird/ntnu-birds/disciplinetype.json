@@ -1,0 +1,80 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "DisciplineType",
+    "readonly": true,
+    "sizelimit": -1,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Ichthyology",
+      "value": "fish"
+    },
+    {
+      "ordinal": null,
+      "title": "Herpetology",
+      "value": "herpetology"
+    },
+    {
+      "ordinal": null,
+      "title": "Paleobotany",
+      "value": "paleobotany"
+    },
+    {
+      "ordinal": null,
+      "title": "Invertebrate Paleontology",
+      "value": "invertpaleo"
+    },
+    {
+      "ordinal": null,
+      "title": "Vertebrate Paleontology",
+      "value": "vertpaleo"
+    },
+    {
+      "ordinal": null,
+      "title": "Ornithology",
+      "value": "bird"
+    },
+    {
+      "ordinal": null,
+      "title": "Mammalogy",
+      "value": "mammal"
+    },
+    {
+      "ordinal": null,
+      "title": "Entomology",
+      "value": "insect"
+    },
+    {
+      "ordinal": null,
+      "title": "Botany",
+      "value": "botany"
+    },
+    {
+      "ordinal": null,
+      "title": "Invertebrate Zoology",
+      "value": "invertebrate"
+    },
+    {
+      "ordinal": null,
+      "title": "Geology",
+      "value": "geology"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "DisciplineType",
+  "scope": {
+    "collection": "NTNU Birds",
+    "discipline": "bird",
+    "level": "collection"
+  }
+}

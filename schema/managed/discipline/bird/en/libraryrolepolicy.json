@@ -1,0 +1,57 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "Library Role Policy",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "action": {
+      "desc": "Action",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Action",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "libraryrolepolicyid": {
+      "desc": "Library Role Policy Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Library Role Policy Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "resource": {
+      "desc": "Resource",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Resource",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "role": {
+      "desc": "Role",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Role",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    }
+  },
+  "name": "Library Role Policy",
+  "picklistname": null,
+  "type": null
+}

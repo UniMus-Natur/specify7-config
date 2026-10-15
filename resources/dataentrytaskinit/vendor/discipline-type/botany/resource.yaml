@@ -1,0 +1,14 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:9b774c202b2144ae
+  name: DataEntryTaskInit
+  source: vendor
+  mimetype: text/xml
+  filename: dataentry_task.xml
+  registryOrder: 0
+scope:
+  level: discipline-type
+  disciplineType: botany
+data: resources/dataentrytaskinit/vendor/discipline-type/botany/resource.xml
+sha256: sha256:21e1606f8eee9328861a6de13208bef238952b0c1db2ce13884a8a5c61ea552a

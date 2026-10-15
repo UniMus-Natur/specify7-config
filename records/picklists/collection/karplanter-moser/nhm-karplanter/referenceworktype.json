@@ -1,0 +1,55 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": "referenceWorkType",
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "ReferenceWorkType",
+    "readonly": true,
+    "sizelimit": 6,
+    "sorttype": null,
+    "tablename": "referencework",
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Book",
+      "value": "0"
+    },
+    {
+      "ordinal": null,
+      "title": "Electronic Media",
+      "value": "1"
+    },
+    {
+      "ordinal": null,
+      "title": "Paper",
+      "value": "2"
+    },
+    {
+      "ordinal": null,
+      "title": "Technical Report",
+      "value": "3"
+    },
+    {
+      "ordinal": null,
+      "title": "Thesis",
+      "value": "4"
+    },
+    {
+      "ordinal": null,
+      "title": "Section In Book",
+      "value": "5"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "ReferenceWorkType",
+  "scope": {
+    "collection": "NHM-karplanter",
+    "discipline": "karplanter-moser",
+    "level": "collection"
+  }
+}

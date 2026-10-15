@@ -1,0 +1,45 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "AgeType",
+    "readonly": true,
+    "sizelimit": 4,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Sedimentation",
+      "value": "Sedimentation"
+    },
+    {
+      "ordinal": null,
+      "title": "Metamorphism",
+      "value": "Metamorphism"
+    },
+    {
+      "ordinal": null,
+      "title": "Erosion",
+      "value": "Erosion"
+    },
+    {
+      "ordinal": null,
+      "title": "Diagenetic",
+      "value": "Diagenetic"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "AgeType",
+  "scope": {
+    "collection": "NTNU Birds",
+    "discipline": "bird",
+    "level": "collection"
+  }
+}

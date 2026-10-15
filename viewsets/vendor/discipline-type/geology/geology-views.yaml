@@ -1,0 +1,92 @@
+apiVersion: specli/v3
+kind: Viewset
+metadata:
+  uid: viewset:bb123bdd28d5734f
+  name: Geology Views
+  source: vendor
+  registryName: Geology Views
+  registryOrder: 0
+  filename: geology.views.xml
+scope:
+  level: discipline-type
+  disciplineType: geology
+rootAttributes:
+  name: Geology Views
+  i18nresname: views
+members:
+- path: forms/collectionobject/accessionitems/vendor/discipline-type/geology/geology-views.xml
+  sha256: sha256:ef7b9ab26977b095865026e9ce9178c0c046412b958d986b073edf5fbc3cdf18
+- path: forms/collectionobject/collection-object/vendor/discipline-type/geology/geology-views.xml
+  sha256: sha256:a2726a288dbca627e7c4147843b638e736b2b4953c770f6d521e7ccb5a487e7a
+- path: forms/determination/determination/vendor/discipline-type/geology/geology-views.xml
+  sha256: sha256:a253ec3fc4e85440eaa6c00b25ad23481fc9c7d15cdda61aa54148243833d8ff
+- path: forms/collectionobjectattribute/rockattributes/vendor/discipline-type/geology/geology-views.xml
+  sha256: sha256:116efb4963d1d11d52ca795004ace9e63cc664ee56ed8bd450695684329d414f
+- path: forms/paleocontext/paleocontext/vendor/discipline-type/geology/geology-views.xml
+  sha256: sha256:29deb03d0b83e739835c36099c22e7771a23fad36970a7399ee82fe5e1da7249
+- path: forms/preparation/preparation/vendor/discipline-type/geology/geology-views.xml
+  sha256: sha256:6e6a9309e3cfcb9565b741ac276a586acf3199f5112d6767486c32da8be6e6eb
+- path: forms/paleocontext/subpaleocontext/vendor/discipline-type/geology/geology-views.xml
+  sha256: sha256:e861dbc7d2a31040dc86e605c74de0cdf1a9f0a0f7b63616916d15c65876ea54
+- path: forms/collectionobjectattribute/mineralattributes/vendor/discipline-type/geology/geology-views.xml
+  sha256: sha256:3429505c954f5d2f72b02bcff51059b75cab70cff4b5e50092cd1484e03fff7d
+- path: forms/collectionobjectattribute/meteoriteattributes/vendor/discipline-type/geology/geology-views.xml
+  sha256: sha256:ef8384ea0b40c974986e939d6e14324470a0e52bf12b1f4a9b6ba7d571a286e4
+- path: forms/collectionobjectattribute/fossilattributes/vendor/discipline-type/geology/geology-views.xml
+  sha256: sha256:943061b3570beb37a5b044166c28cf7edcac6d2d45651474cebdaf214291adf3
+- path: forms/collectingevent/collectingevent/vendor/discipline-type/geology/geology-views.xml
+  sha256: sha256:1272e216d4353563e9e00a30ec2020b25629453416164cc0ceb765046a8c979c
+- path: forms/collectingevent/collectingeventsub/vendor/discipline-type/geology/geology-views.xml
+  sha256: sha256:7c9ee1fc9d8cd24ab72bcde8af339a91a85255cbb3738dbf1a20f5cb956e179f
+- path: forms/collectionobjectattribute/collectionobjectattribute/vendor/discipline-type/geology/geology-views.xml
+  sha256: sha256:3a23298a3295e78aec9a779d2dd57b84dbfc987730eec20d7d75ca20f0d2f088
+- path: forms/conservdescription/conservdescription/vendor/discipline-type/geology/geology-views.xml
+  sha256: sha256:a41a83dcb17ca0cd8bfbe454caaa1e0956557bc639c6a5f0f11ac932bdcc7352
+- path: forms/conservevent/conservevent/vendor/discipline-type/geology/geology-views.xml
+  sha256: sha256:aa39a83c3083e6043a1bdba1b3fcb637e792aded27c468fcfd2067edcdfe4bcf
+- path: forms/taxon/taxon/vendor/discipline-type/geology/geology-views.xml
+  sha256: sha256:3e0e1c5c410087943d3219acd7e182fe63c1882fc1ee2a64c001057b0f4dbb45
+order:
+  views:
+  - AccessionItems
+  - CollectionObject
+  - Determination
+  - DeterminationViewOnly
+  - RockAttributes
+  - PaleoContext
+  - Preparation
+  - SubPaleoContext
+  - MineralAttributes
+  - MeteoriteAttributes
+  - FossilAttributes
+  - CollectingEvent
+  - CollectingEventSub
+  - CollectionObjectAttribute
+  - ConservDescription
+  - ConservEvent
+  - Taxon
+  viewdefs:
+  - Collection Object
+  - Determination Table
+  - Determination
+  - Preparation Table
+  - Preparation
+  - PaleoContext
+  - SubPaleoContext
+  - RockAttributes
+  - AccessionItems Table
+  - AccessionItems
+  - MineralAttributes
+  - MeteoriteAttributes
+  - FossilAttributes
+  - CollectingEvent
+  - CollectingEventSub
+  - CollectionObjectAttribute
+  - ConservDescription
+  - ConservEvent
+  - Taxon
+support: {}
+knownIssues:
+  unresolvedViewdefs: []
+deletions: []
+canonicalSha256: sha256:c9fa538b26a4af3d535f69e5ad4005c7269c1abade39597af6981fc12ca133aa

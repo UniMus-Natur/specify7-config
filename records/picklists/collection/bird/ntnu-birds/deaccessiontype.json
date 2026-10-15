@@ -1,0 +1,45 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "DeaccessionType",
+    "readonly": true,
+    "sizelimit": 4,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Gift",
+      "value": "Gift"
+    },
+    {
+      "ordinal": null,
+      "title": "Destructive Sampling",
+      "value": "Destructive Sampling"
+    },
+    {
+      "ordinal": null,
+      "title": "Exchange",
+      "value": "Exchange"
+    },
+    {
+      "ordinal": null,
+      "title": "Lost",
+      "value": "Lost"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "DeaccessionType",
+  "scope": {
+    "collection": "NTNU Birds",
+    "discipline": "bird",
+    "level": "collection"
+  }
+}

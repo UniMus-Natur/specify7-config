@@ -1,0 +1,24 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "PrepType",
+    "readonly": true,
+    "sizelimit": 100,
+    "sorttype": null,
+    "tablename": "preptype",
+    "type": 1
+  },
+  "items": [],
+  "kind": "Picklist",
+  "name": "PrepType",
+  "scope": {
+    "collection": "NHM-karplanter",
+    "discipline": "karplanter-moser",
+    "level": "collection"
+  }
+}

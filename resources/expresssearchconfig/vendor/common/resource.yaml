@@ -1,0 +1,13 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:d026f552964c7b86
+  name: ExpressSearchConfig
+  source: vendor
+  mimetype: text/xml
+  filename: expresssearchconfig.xml
+  registryOrder: 2
+scope:
+  level: common
+data: resources/expresssearchconfig/vendor/common/resource.xml
+sha256: sha256:1b9411a1d9d2cc1539a036072cb937071b6cd5668ded131b3ab726b8e6b03cfd

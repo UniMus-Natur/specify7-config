@@ -1,0 +1,1189 @@
+apiVersion: specli/v3
+kind: Inventory
+resources:
+- uid: picklist:019c664c10f841cb
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/collectingmethod.json
+- uid: picklist:08d727035f1992c2
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/permittype.json
+- uid: picklist:09e7f18361bfd48f
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/accessiontype.json
+- uid: picklist:19c85c119ed81a27
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/agentvariant.json
+- uid: picklist:1c305c34603bd60d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/shipmentmethod.json
+- uid: picklist:1c8ac554a1cfb123
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/systemcogtypes.json
+- uid: picklist:26181dedd8438301
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/agenttitles.json
+- uid: picklist:268c43eb997433a8
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/accessionrole.json
+- uid: picklist:28338172ef682cfa
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/deaccessionagentrole.json
+- uid: picklist:3547f4987e039bf7
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/preptype.json
+- uid: picklist:45235bc197b9b317
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/relativeagedatingmethod.json
+- uid: picklist:4a083883c71ed515
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/borrowrole.json
+- uid: picklist:4d8eec5416e1578b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/disposalagentrole.json
+- uid: picklist:4fa2aab1a4d0fc19
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/moleculetype.json
+- uid: picklist:500edea7e0158e43
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/collectionobjecttype.json
+- uid: picklist:501752d1502b26ec
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/typeofaddr.json
+- uid: picklist:5602ca041a4279d4
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/typestatus.json
+- uid: picklist:5a4c3fa42c173a5f
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/borrowrole.json
+- uid: picklist:5a816c7a4e572856
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/division.json
+- uid: picklist:5e14de3cc7d63748
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/cogtypes.json
+- uid: picklist:6722377b13daae4c
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/agentvariant.json
+- uid: picklist:6991c4b83e412fce
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/referenceworktype.json
+- uid: picklist:6a0eed15ba06e095
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/materialsample.json
+- uid: picklist:6a174b4b9260ca72
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/deaccessionstatus.json
+- uid: picklist:6aab8c15514ffc17
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/accessionstatus.json
+- uid: picklist:6c8ecdb3e776b5ba
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/agetype.json
+- uid: picklist:6e235fe4cc0c6ea4
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/loanagentrole.json
+- uid: picklist:6f638183bb98a1b8
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/loanagentrole.json
+- uid: picklist:735e4b6ca722e48e
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/agenttitles.json
+- uid: picklist:73f49ac16a55172d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/numberingscheme.json
+- uid: picklist:75ce2939912eda47
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/systemcogtypes.json
+- uid: picklist:7692780844f4326a
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/lifestage.json
+- uid: picklist:775fc3a094e12f32
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/collectionobjecttype.json
+- uid: picklist:77e9a6494bece91b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/relativeagedatingmethod.json
+- uid: picklist:7ba8a5b10eeb2637
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/typestatus.json
+- uid: picklist:7caa5cc782826554
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/containertype.json
+- uid: picklist:832b1863d2e5bdf2
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/discipline.json
+- uid: picklist:83a7aebfe21efc83
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/accessionrole.json
+- uid: picklist:84d7445669484672
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/agentidentifiertype.json
+- uid: picklist:88ba6e10a190b86a
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/accessiontype.json
+- uid: picklist:8c0e29ff2d6e5f9b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/preptype.json
+- uid: picklist:9220fd58b66ecfc9
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/discipline.json
+- uid: picklist:96e45621a616c2b6
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/moleculetype.json
+- uid: picklist:9b297d5ffd60032e
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/disposalagentrole.json
+- uid: picklist:9ff291f4a84a7fe9
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/deaccessionstatus.json
+- uid: picklist:a00fb6e0c2f38f5d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/disciplinetype.json
+- uid: picklist:a01f50b5e8906cb0
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/determinationaddendum.json
+- uid: picklist:a0c1ced8e8e89c6d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/biogeographicregion.json
+- uid: picklist:a18a6ea3b272d2ed
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/referenceworktype.json
+- uid: picklist:a3aaaca5218f7959
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/taxonlabelformatter.json
+- uid: picklist:a6d6412a9fb781e2
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/absoluteagedatingmethod.json
+- uid: picklist:ab8e95c970567201
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/disposaltype.json
+- uid: picklist:b9e5ffc24b871b2a
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/deaccessiontype.json
+- uid: picklist:c0e4fad62be015cf
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/taxonlabelformatter.json
+- uid: picklist:c203eb3152079697
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/absoluteagedatingmethod.json
+- uid: picklist:c5f5e7ce9b6d7554
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/department.json
+- uid: picklist:c7d8ca8c585d84d9
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/phenology.json
+- uid: picklist:c92b3483d658bd9c
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/division.json
+- uid: picklist:c98c1e306a69b360
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/infraspecificrank.json
+- uid: picklist:cad0be84ce53e4a2
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/materialsample.json
+- uid: picklist:cb3f4f9dc89d56f0
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/deaccessionagentrole.json
+- uid: picklist:cbeb45e13aead67b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/cogtypes.json
+- uid: picklist:d5a658381604efe0
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/accessionstatus.json
+- uid: picklist:d8bb9b742182e602
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/disposaltype.json
+- uid: picklist:dca00b1f230db325
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/treatmenttype.json
+- uid: picklist:dd7b006a8c46540e
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/agentidentifiertype.json
+- uid: picklist:e1f03a16be671fd3
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/containertype.json
+- uid: picklist:e268f95ad912bff8
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/treatmenttype.json
+- uid: picklist:e8bc4de2a90d9ba1
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/department.json
+- uid: picklist:eb2b63428c1335c2
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/typeofaddr.json
+- uid: picklist:f2914b04d54bb6c3
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/localitydatum.json
+- uid: picklist:f7df818916d26295
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/permittype.json
+- uid: picklist:f91be2cd108b2bc8
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/shipmentmethod.json
+- uid: picklist:f962bb90ca1dfab0
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/deaccessiontype.json
+- uid: picklist:fb60cfbe2002fcef
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/numberingscheme.json
+- uid: picklist:fbb395f76f89640e
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: NTNU Birds
+  path: records/picklists/collection/bird/ntnu-birds/agetype.json
+- uid: picklist:fed2d07c703c0f5c
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NHM-karplanter
+  path: records/picklists/collection/karplanter-moser/nhm-karplanter/disciplinetype.json
+- uid: resource-excluded:282507730e3edc65
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: nhm-karplanter
+    username: gunnhild-vasc
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:2c82293d1058b0cd
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: nhm-karplanter
+    username: joshuamj
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:3dcea5a0c825504c
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: bird
+    collection: ntnu-birds
+    username: gunnhilm
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:577b4ae0c7d36ecb
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: nhm-karplanter
+    username: superuser
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:60c2ab7725d61aec
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: nhm-karplanter
+    username: eirikri
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:885a5768a0fff055
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: nhm-karplanter
+    username: michato
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:9c7cefdc53b9047c
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: nhm-karplanter
+    username: gunnhilm
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:c0d35a6738d16a2f
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: bird
+    collection: ntnu-birds
+    username: joshuamj
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:da1bd6f9a4761b8f
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: nhm-karplanter
+    username: gunnhild-trh
+  reason: personal resources disabled by workspace policy
+- uid: resource:0adaaa6dfb161671
+  kind: AppResource
+  source: vendor
+  status: present
+  scope:
+    level: discipline-type
+    disciplineType: mammal
+  path: resources/expresssearchconfig/vendor/discipline-type/mammal/resource.yaml
+- uid: resource:1550250088c9725d
+  kind: AppResource
+  source: managed
+  status: present
+  scope:
+    level: discipline
+    discipline: karplanter-moser
+  path: resources/karplanteetikett-8/managed/discipline/karplanter-moser/resource.yaml
+- uid: resource:1e79c3e1ca9a35f3
+  kind: AppResource
+  source: vendor
+  status: present
+  scope:
+    level: discipline-type
+    disciplineType: botany
+  path: resources/expresssearchconfig/vendor/discipline-type/botany/resource.yaml
+- uid: resource:26b49fa1eb8491fb
+  kind: AppResource
+  source: vendor
+  status: present
+  scope:
+    level: discipline-type
+    disciplineType: invertpaleo
+  path: resources/expresssearchconfig/vendor/discipline-type/invertpaleo/resource.yaml
+- uid: resource:3cfb2e3bf9ee8ba9
+  kind: AppResource
+  source: managed
+  status: present
+  scope:
+    level: discipline
+    discipline: karplanter-moser
+  path: resources/vpl-3-260707/managed/discipline/karplanter-moser/resource.yaml
+- uid: resource:4ea433b42a0a9f10
+  kind: AppResource
+  source: vendor
+  status: present
+  scope:
+    level: discipline-type
+    disciplineType: herpetology
+  path: resources/expresssearchconfig/vendor/discipline-type/herpetology/resource.yaml
+- uid: resource:50df5dd67fed7212
+  kind: AppResource
+  source: vendor
+  status: present
+  scope:
+    level: backstop
+  path: resources/uiformatters/vendor/backstop/resource.yaml
+- uid: resource:5107fcba10b608ab
+  kind: AppResource
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: nhm-karplanter
+  path: resources/uiformatters/managed/collection/karplanter-moser/nhm-karplanter/resource.yaml
+- uid: resource:5231bf17635036f1
+  kind: AppResource
+  source: vendor
+  status: present
+  scope:
+    level: backstop
+  path: resources/typesearches/vendor/backstop/resource.yaml
+- uid: resource:591ca5778ba7c8c3
+  kind: AppResource
+  source: managed
+  status: present
+  scope:
+    level: discipline
+    discipline: karplanter-moser
+  path: resources/karplanteetikett-7/managed/discipline/karplanter-moser/resource.yaml
+- uid: resource:6581724a105ba899
+  kind: AppResource
+  source: vendor
+  status: present
+  scope:
+    level: discipline-type
+    disciplineType: geology
+  path: resources/dataentrytaskinit/vendor/discipline-type/geology/resource.yaml
+- uid: resource:8300c712fa1b3543
+  kind: AppResource
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: ntnu-birds
+  path: resources/collectionpreferences/managed/collection/bird/ntnu-birds/resource.yaml
+- uid: resource:8626f10c51639da5
+  kind: AppResource
+  source: vendor
+  status: present
+  scope:
+    level: discipline-type
+    disciplineType: fish
+  path: resources/expresssearchconfig/vendor/discipline-type/fish/resource.yaml
+- uid: resource:8c1873056570e59b
+  kind: AppResource
+  source: vendor
+  status: present
+  scope:
+    level: discipline-type
+    disciplineType: vertpaleo
+  path: resources/expresssearchconfig/vendor/discipline-type/vertpaleo/resource.yaml
+- uid: resource:901698fcf2f72148
+  kind: AppResource
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: nhm-karplanter
+  path: resources/weblinks/managed/collection/karplanter-moser/nhm-karplanter/resource.yaml
+- uid: resource:91b712418fa47ed5
+  kind: AppResource
+  source: vendor
+  status: present
+  scope:
+    level: discipline-type
+    disciplineType: invertebrate
+  path: resources/expresssearchconfig/vendor/discipline-type/invertebrate/resource.yaml
+- uid: resource:9b774c202b2144ae
+  kind: AppResource
+  source: vendor
+  status: present
+  scope:
+    level: discipline-type
+    disciplineType: botany
+  path: resources/dataentrytaskinit/vendor/discipline-type/botany/resource.yaml
+- uid: resource:a0447e9449da4315
+  kind: AppResource
+  source: vendor
+  status: present
+  scope:
+    level: common
+  path: resources/weblinks/vendor/common/resource.yaml
+- uid: resource:aa97d0cd915d1cc2
+  kind: AppResource
+  source: vendor
+  status: present
+  scope:
+    level: backstop
+  path: resources/dataobjformatters/vendor/backstop/resource.yaml
+- uid: resource:c0291a48d400cb00
+  kind: AppResource
+  source: vendor
+  status: present
+  scope:
+    level: discipline-type
+    disciplineType: bird
+  path: resources/expresssearchconfig/vendor/discipline-type/bird/resource.yaml
+- uid: resource:d026f552964c7b86
+  kind: AppResource
+  source: vendor
+  status: present
+  scope:
+    level: common
+  path: resources/expresssearchconfig/vendor/common/resource.yaml
+- uid: resource:dfe97a3d1599d2e5
+  kind: AppResource
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: nhm-karplanter
+  path: resources/collectionpreferences/managed/collection/karplanter-moser/nhm-karplanter/resource.yaml
+- uid: resource:e1046da7eef6525c
+  kind: AppResource
+  source: vendor
+  status: present
+  scope:
+    level: common
+  path: resources/interactionstaskinit/vendor/common/resource.yaml
+- uid: resource:e43a99a133029a74
+  kind: AppResource
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: nhm-karplanter
+  path: resources/dataobjformatters/managed/collection/karplanter-moser/nhm-karplanter/resource.yaml
+- uid: resource:e826aea08249c6bf
+  kind: AppResource
+  source: vendor
+  status: present
+  scope:
+    level: discipline-type
+    disciplineType: insect
+  path: resources/expresssearchconfig/vendor/discipline-type/insect/resource.yaml
+- uid: resource:f551ec0e035521cf
+  kind: AppResource
+  source: managed
+  status: present
+  scope:
+    level: discipline
+    discipline: karplanter-moser
+  path: resources/wer/managed/discipline/karplanter-moser/resource.yaml
+- uid: schema-excluded:31f16a905fb4f4b8
+  kind: SchemaLocalization
+  source: managed
+  status: excluded
+  scope:
+    level: discipline
+    discipline: fish
+  reason: discipline has no collection session for schema localization
+- uid: schema-excluded:81401baf7c670aed
+  kind: SchemaLocalization
+  source: managed
+  status: excluded
+  scope:
+    level: discipline
+    discipline: lav-sopp
+  reason: discipline has no collection session for schema localization
+- uid: schema-excluded:8b6006e51a539db8
+  kind: SchemaLocalization
+  source: managed
+  status: excluded
+  scope:
+    level: discipline
+    discipline: invertpaleo
+  reason: discipline has no collection session for schema localization
+- uid: schema-excluded:a1f4aa24a93223e6
+  kind: SchemaLocalization
+  source: managed
+  status: excluded
+  scope:
+    level: discipline
+    discipline: insect
+  reason: discipline has no collection session for schema localization
+- uid: schema-excluded:a246b2c4fc9d8fc7
+  kind: SchemaLocalization
+  source: managed
+  status: excluded
+  scope:
+    level: discipline
+    discipline: mammal
+  reason: discipline has no collection session for schema localization
+- uid: schema-excluded:b06470052fe20c74
+  kind: SchemaLocalization
+  source: managed
+  status: excluded
+  scope:
+    level: discipline
+    discipline: geology
+  reason: discipline has no collection session for schema localization
+- uid: schema-excluded:d2f452c817275762
+  kind: SchemaLocalization
+  source: managed
+  status: excluded
+  scope:
+    level: discipline
+    discipline: alger
+  reason: discipline has no collection session for schema localization
+- uid: schema-excluded:d6e0c32941ef5ebc
+  kind: SchemaLocalization
+  source: managed
+  status: excluded
+  scope:
+    level: discipline
+    discipline: invertebrate
+  reason: discipline has no collection session for schema localization
+- uid: schema:scope:discipline:048c690d43b2:en
+  kind: SchemaLocalization
+  source: managed
+  status: present
+  scope:
+    level: discipline
+    discipline: karplanter-moser
+  path: schema/managed/discipline/karplanter-moser/en/schema.yaml
+- uid: schema:scope:discipline:29775d26fcd7:en
+  kind: SchemaLocalization
+  source: managed
+  status: present
+  scope:
+    level: discipline
+    discipline: bird
+  path: schema/managed/discipline/bird/en/schema.yaml
+- uid: viewset:00aefd8494b7c5be
+  kind: Viewset
+  source: vendor
+  status: present
+  scope:
+    level: backstop
+  path: viewsets/vendor/backstop/systemsetup.yaml
+- uid: viewset:1fbdbb1bc46b9c0f
+  kind: Viewset
+  source: managed
+  status: present
+  scope:
+    level: discipline
+    discipline: karplanter-moser
+  path: viewsets/managed/discipline/karplanter-moser/karplaner-standard.yaml
+- uid: viewset:3600120bd1fc548f
+  kind: Viewset
+  source: vendor
+  status: present
+  scope:
+    level: discipline-type
+    disciplineType: bird
+  path: viewsets/vendor/discipline-type/bird/bird-views.yaml
+- uid: viewset:394ed6d4420643ce
+  kind: Viewset
+  source: vendor
+  status: present
+  scope:
+    level: discipline-type
+    disciplineType: vertpaleo
+  path: viewsets/vendor/discipline-type/vertpaleo/vertpaleo-views.yaml
+- uid: viewset:5a188f2c2f0234da
+  kind: Viewset
+  source: vendor
+  status: present
+  scope:
+    level: discipline-type
+    disciplineType: mammal
+  path: viewsets/vendor/discipline-type/mammal/mammal-views.yaml
+- uid: viewset:63ebb5dde552d375
+  kind: Viewset
+  source: vendor
+  status: present
+  scope:
+    level: discipline-type
+    disciplineType: fish
+  path: viewsets/vendor/discipline-type/fish/fish-views.yaml
+- uid: viewset:7dfef225a3929b5a
+  kind: Viewset
+  source: vendor
+  status: present
+  scope:
+    level: discipline-type
+    disciplineType: insect
+  path: viewsets/vendor/discipline-type/insect/ento-views.yaml
+- uid: viewset:88bd3dcf992a5813
+  kind: Viewset
+  source: vendor
+  status: present
+  scope:
+    level: discipline-type
+    disciplineType: botany
+  path: viewsets/vendor/discipline-type/botany/botany-views.yaml
+- uid: viewset:8a82e6dbf10bd630
+  kind: Viewset
+  source: vendor
+  status: present
+  scope:
+    level: backstop
+  path: viewsets/vendor/backstop/global.yaml
+- uid: viewset:a4c99b12f759689e
+  kind: Viewset
+  source: vendor
+  status: present
+  scope:
+    level: discipline-type
+    disciplineType: invertpaleo
+  path: viewsets/vendor/discipline-type/invertpaleo/paleo-views.yaml
+- uid: viewset:b730df34ec872739
+  kind: Viewset
+  source: vendor
+  status: present
+  scope:
+    level: discipline-type
+    disciplineType: invertebrate
+  path: viewsets/vendor/discipline-type/invertebrate/invertebrate-views.yaml
+- uid: viewset:b930a6f756ffcb4f
+  kind: Viewset
+  source: vendor
+  status: present
+  scope:
+    level: common
+  path: viewsets/vendor/common/common.yaml
+- uid: viewset:bb123bdd28d5734f
+  kind: Viewset
+  source: vendor
+  status: present
+  scope:
+    level: discipline-type
+    disciplineType: geology
+  path: viewsets/vendor/discipline-type/geology/geology-views.yaml
+- uid: viewset:cbdf2b8543b82e2b
+  kind: Viewset
+  source: vendor
+  status: present
+  scope:
+    level: discipline-type
+    disciplineType: herpetology
+  path: viewsets/vendor/discipline-type/herpetology/herpetology-views.yaml
+- uid: viewset:e6d6a870d7105799
+  kind: Viewset
+  source: vendor
+  status: present
+  scope:
+    level: backstop
+  path: viewsets/vendor/backstop/search.yaml

@@ -1,0 +1,40 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "DeaccessionStatus",
+    "readonly": true,
+    "sizelimit": 3,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "No Data",
+      "value": "No Data"
+    },
+    {
+      "ordinal": null,
+      "title": "In Process",
+      "value": "In Process"
+    },
+    {
+      "ordinal": null,
+      "title": "Complete",
+      "value": "Complete"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "DeaccessionStatus",
+  "scope": {
+    "collection": "NHM-karplanter",
+    "discipline": "karplanter-moser",
+    "level": "collection"
+  }
+}

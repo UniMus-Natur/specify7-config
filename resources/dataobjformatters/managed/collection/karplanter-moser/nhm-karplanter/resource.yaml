@@ -1,0 +1,19 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:e43a99a133029a74
+  name: DataObjFormatters
+  source: managed
+  mimetype: text/xml
+  remoteDescription: DataObjFormatters
+  remoteMetadata: DataObjFormatters
+  level: 0
+  allPermissionLevel: null
+  groupPermissionLevel: null
+  ownerPermissionLevel: null
+scope:
+  level: collection
+  discipline: karplanter-moser
+  collection: nhm-karplanter
+data: resources/dataobjformatters/managed/collection/karplanter-moser/nhm-karplanter/resource.xml
+sha256: sha256:209207d9c5decca391108c8270735608a83c0b54c393be6f52d0dbe5fedc7e96

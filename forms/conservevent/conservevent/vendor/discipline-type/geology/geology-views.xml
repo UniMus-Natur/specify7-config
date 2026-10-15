@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewset name="Geology Views" i18nresname="views">
+  <views>
+    <view name="ConservEvent" class="edu.ku.brc.specify.datamodel.ConservEvent" busrules="edu.ku.brc.specify.datamodel.busrules.ConservEventBusRules">
+      <desc>Conservation Event</desc>
+      <altviews>
+        <altview name="Conservation Event View" viewdef="ConservEvent" mode="view" />
+        <altview name="Conservation Event Edit" viewdef="ConservEvent" mode="edit" default="true" />
+      </altviews>
+    </view>
+  </views>
+  <viewdefs>
+    <viewdef name="ConservEvent" class="edu.ku.brc.specify.datamodel.ConservEvent" type="form" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>Conservation Event</desc>
+      <enableRules />
+      <columnDef>30px,2px,200px,5px,40px,2px,50px,2px,50px,2px,p:g</columnDef>
+      <rowDef auto="true" cell="p" sep="2px" />
+      <rows>
+        <row>
+          <cell type="label" labelfor="treatment" />
+          <cell type="field" id="treatment" name="treatmentReport" uitype="textareabrief" colspan="7" />
+        </row>
+        <row>
+          <cell type="label" labelfor="13" />
+          <cell type="field" id="13" name="treatedByAgent" uitype="querycbx" initialize="name=Agent;title=Agent" />
+          <cell type="label" labelfor="3" />
+          <cell type="field" id="3" uitype="plugin" name="this" initialize="name=PartialDateUI;df=completedDate;tp=completedDatePrecision" uifieldformatter="Date" colspan="4" />
+        </row>
+        <row>
+          <cell type="label" labelfor="examinedBy" />
+          <cell type="field" id="examinedBy" name="examinedByAgent" uitype="querycbx" initialize="name=Agent;title=Agent" />
+          <cell type="label" labelfor="examDate" />
+          <cell type="field" id="examDate" uitype="plugin" name="this" initialize="name=PartialDateUI;df=examDate;tp=examDatePrecision" uifieldformatter="Date" default="today" colspan="4" />
+        </row>
+        <row>
+          <cell type="label" labelfor="5" />
+          <cell type="field" id="5" name="curator" uitype="querycbx" initialize="name=Agent;title=Agent" />
+          <cell type="label" labelfor="6" />
+          <cell type="field" id="6" uitype="plugin" name="this" initialize="name=PartialDateUI;df=curatorApprovalDate;tp=curatorApprovalDatePrecision" uifieldformatter="Date" colspan="4" />
+        </row>
+        <row>
+          <cell type="label" labelfor="2" />
+          <cell type="field" id="2" name="conditionReport" uitype="textareabrief" rows="2" colspan="5" />
+          <cell type="subview" id="4" name="conservEventAttachments" viewname="ObjectAttachment" initialize="align=center;btn=true" />
+        </row>
+        <!--<row>
+                    <cell type="label" labelfor="ate"/>
+                    <cell type="field" id="ate" name="advTestingExam" uitype="textareabrief" rows="2" colspan="14"/>
+                </row>
+                <row>
+                    <cell type="label" labelfor="tcd"/>
+					<cell type="field" id="tcd" uitype="plugin" name="this" initialize="name=PartialDateUI;df=treatmentCompDate;tp=treatmentCompDatePrecision" uifieldformatter="Date"/>					
+                    <cell type="label" labelfor="13"/>
+                    <cell type="field" id="13" name="examinedByAgent" uitype="querycbx" initialize="name=Agent;title=Agent"/>
+                </row>
+                <row>
+                    <cell type="label" labelfor="ater"/>
+                    <cell type="field" id="ater" name="advTestingExamResults" uitype="textareabrief" rows="2" colspan="14"/>
+                </row>
+                <row>
+                    <cell type="label" labelfor="rem"/>
+                    <cell type="field" id="rem" name="completedComments" uitype="textareabrief" rows="2" colspan="14"/>
+                </row>
+                <row>
+                    <cell type="label" labelfor="pd"/>
+                    <cell type="field" id="pd" name="photoDocs" uitype="textareabrief" rows="2" colspan="14"/>
+                </row>
+                <row>
+                    <cell type="label" labelfor="rem"/>
+                    <cell type="field" id="rem" name="remarks" uitype="textareabrief" rows="2" colspan="14"/>
+                </row>
+                <row>
+                    <cell type="label" labelfor="9"/>
+                    <cell type="field" id="9" name="createdByAgent" uitype="label" readonly="true" uifieldformatter="Agent"/>
+                    <cell type="label" labelfor="10"/>
+                    <cell type="field" id="10" name="modifiedByAgent" uitype="label" readonly="true" uifieldformatter="Agent"/>
+                </row>
+                <row>
+                    <cell type="label" labelfor="11"/>
+                    <cell type="field" id="11" name="timestampModified" uitype="label" readonly="true"/>
+                    <cell type="label" labelfor="12"/>
+                    <cell type="field" id="12" name="timestampCreated" uitype="label" readonly="true"/>
+                </row>-->
+      </rows>
+    </viewdef>
+  </viewdefs>
+</viewset>

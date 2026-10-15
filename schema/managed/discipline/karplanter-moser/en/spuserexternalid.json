@@ -1,0 +1,79 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "Spuserexternalid",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "enabled": {
+      "desc": "Enabled",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Enabled",
+      "picklistname": null,
+      "type": "java.lang.Boolean",
+      "weblinkname": null
+    },
+    "idtoken": {
+      "desc": "Idtoken",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Idtoken",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "provider": {
+      "desc": "Provider",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Provider",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "providerid": {
+      "desc": "Providerid",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Providerid",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "specifyuser": {
+      "desc": "Specifyuser",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Specifyuser",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "spuserexternalidid": {
+      "desc": "Sp User External Id Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Sp User External Id Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    }
+  },
+  "name": "Spuserexternalid",
+  "picklistname": null,
+  "type": null
+}

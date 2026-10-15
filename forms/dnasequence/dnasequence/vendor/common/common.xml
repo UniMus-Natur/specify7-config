@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewset name="common" i18nresname="common">
+  <views>
+    <view name="DNASequence" objtitle="DNA Sequence" class="edu.ku.brc.specify.datamodel.DNASequence" busrules="edu.ku.brc.specify.datamodel.busrules.DNASequenceBusRules" isinternal="false">
+      <desc>DNA Sequencing form.</desc>
+      <altviews>
+        <altview name="DNASequence View" viewdef="DNASequence" mode="view" />
+        <altview name="DNASequence Edit" viewdef="DNASequence" mode="edit" default="true" />
+      </altviews>
+    </view>
+  </views>
+  <viewdefs>
+    <viewdef name="DNASequence" type="form" class="edu.ku.brc.specify.datamodel.DNASequence" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>DNA Sequence Form</desc>
+      <enableRules />
+      <columnDef>100px,2px,86px,2px,115px,5px,103px,2px,190px,5px,110px,2px,130px,0px,15px,p:g</columnDef>
+      <columnDef os="lnx">115px,2px,96px,2px,113px,2px,150px,2px,163px,5px,135px,2px,150px,0px,15px,p:g</columnDef>
+      <columnDef os="mac">130px,2px,96px,2px,133px,2px,160px,2px,173px,5px,155px,2px,170px,0px,15px,p:g</columnDef>
+      <columnDef os="exp">p,2px,max(100px;p),2px,p:g(2),5px,p:g,2px,p:g,5px:g,p,2px,p:g,0px,15px,p:g</columnDef>
+      <rowDef auto="true" cell="p" sep="2px" />
+      <rows>
+        <row>
+          <cell type="label" labelfor="gan" />
+          <cell type="field" id="gan" name="genbankAccessionNumber" uitype="text" colspan="3" />
+          <cell type="label" labelfor="11" />
+          <cell type="field" id="11" name="boldBarcodeId" uitype="text" />
+          <cell type="label" labelfor="bsid" />
+          <cell type="field" id="bsid" name="boldSampleID" uitype="text" />
+        </row>
+        <row>
+          <cell type="label" labelfor="2" />
+          <cell type="field" id="2" name="moleculeType" uitype="combobox" colspan="3" />
+          <cell type="label" labelfor="tm" />
+          <cell type="field" id="tm" name="targetMarker" uitype="text" />
+          <cell type="label" labelfor="3" />
+          <cell type="field" id="3" name="boldLastUpdateDate" uitype="formattedtext" uifieldformatter="Date" default="Today" />
+        </row>
+        <row>
+          <cell type="label" labelfor="sd" />
+          <cell type="field" id="sd" uitype="plugin" name="this" initialize="name=PartialDateUI;df=sequenceDate;tp=sequenceDatePrecision" uifieldformatter="Date" colspan="3" />
+          <cell type="label" labelfor="7" />
+          <cell type="field" id="7" name="collectionObject" uitype="querycbx" initialize="name=CollectionObject;editbtn=false;newbtn=false" />
+          <cell type="subview" viewname="DNASequenceRun" id="21" name="dnaSequencingRuns" initialize="btn=true;align=right" />
+          <cell type="subview" id="attachments" viewname="ObjectAttachment" name="attachments" initialize="btn=true;icon=DNASequenceAttachment;align=right" />
+        </row>
+        <row>
+          <cell type="separator" label="Nucleotide Sequence" colspan="15" />
+        </row>
+        <row>
+          <cell type="panel" id="16" name="outerPanel" coldef="p,2px,p:g" rowdef="p,2px,p,2px,p,2px,p,2px,p,2px,p,2px" colspan="3">
+            <rows>
+              <row>
+                <cell type="label" label="Total Residues:" initialize="align=right" />
+                <cell type="field" id="residues" name="totalResidues" uitype="text" readonly="true" />
+              </row>
+              <row>
+                <cell type="label" label="Comp A:" initialize="align=right;fg=0,190,0" />
+                <cell type="field" id="compA" name="compA" uitype="text" readonly="true" />
+              </row>
+              <row>
+                <cell type="label" label="Comp G:" initialize="align=right;fg=200,70,0" />
+                <cell type="field" id="compG" name="compG" uitype="text" readonly="true" />
+              </row>
+              <row>
+                <cell type="label" label="Comp C:" initialize="align=right;fg=0,0,190" />
+                <cell type="field" id="compC" name="compC" uitype="text" readonly="true" />
+              </row>
+              <row>
+                <cell type="label" label="Comp T:" initialize="align=right;fg=190,0,0" />
+                <cell type="field" id="compT" name="compT" uitype="text" readonly="true" />
+              </row>
+              <row>
+                <cell type="label" label="Ambiguous:" initialize="align=right" />
+                <cell type="field" id="ambiguous" name="ambiguousResidues" uitype="text" readonly="true" />
+              </row>
+            </rows>
+          </cell>
+          <cell type="label" labelfor="4" />
+          <cell type="field" id="4" name="geneSequence" uitype="textareabrief" colspan="7" rows="10" />
+        </row>
+        <!--<row>
+                  <cell type="separator" label="Illustrative Barcode" colspan="8"/>
+              </row>
+              <row>
+                  <cell type="subview" viewname="PcrPersons" id="12" name="pcrPersons" colspan="13" rows="3"/>
+              </row>
+              <row>
+                  <cell type="subview" viewname="Extractors" id="exts" name="extractors" colspan="13" rows="3"/>
+                  <cell type="label" labelfor="ed"/>
+                  <cell type="field" id="ed" uitype="plugin" name="this" initialize="name=PartialDateUI;df=extractionDate;tp=extractionDatePrecision" uifieldformatter="Date"/>
+              </row>
+              <row>
+                  <cell type="label" labelfor="ext"/>
+                  <cell type="field" id="ext" name="extractor" uitype="querycbx" initialize="name=Agent" colspan="3"/>
+              </row>
+              <row>
+                  <cell type="field" id="8" name="this" uitype="plugin" initialize="name=IllustrativeBarCodeUI" readonly="true" colspan="8"/>
+              </row>
+              <row>
+                  <cell type="panel" id="20" name="outerPanel2" coldef="f:p:g,0px,p,10px,p,f:p:g" rowdef="p" colspan="8">
+              <rows>
+              <row>
+                  <cell type="label" label=" "/>
+                  <cell type="command" id="SearchBold" name="SearchBold" label="Search Bold" ignore="true"/>
+                  <cell type="command" id="UploadBold" name="UploadBold" label="Upload to Bold" ignore="true"/>
+              </row>
+              </rows>
+                   </cell>
+              </row>
+              <row>
+                  <cell type="label" labelfor="btm"/>
+                  <cell type="field" id="btm" name="boldTranslationMatrix" uitype="text"/>
+              </row>
+              <row>
+                  <cell type="label" labelfor="n1"/>
+                  <cell type="field" id="n1" name="number1" uitype="text"/>
+                  <cell type="label" labelfor="n2"/>
+                  <cell type="field" id="n2" name="number2" uitype="text"/>
+                  <cell type="label" labelfor="n3"/>
+                  <cell type="field" id="n3" name="number3" uitype="text"/>
+              </row>
+              <row>
+                  <cell type="label" labelfor="t1"/>
+                  <cell type="field" id="t1" name="text1" uitype="text"/>
+                  <cell type="label" labelfor="t2"/>
+                  <cell type="field" id="t2" name="text2" uitype="text"/>
+                  <cell type="label" labelfor="t3"/>
+                  <cell type="field" id="t3" name="text3" uitype="text"/>
+              </row>
+              <row>
+                  <cell type="field" id="20" name="yesNo1" uitype="checkbox" initialize="editable=true"/>
+                  <cell type="field" id="20" name="yesNo2" uitype="checkbox" initialize="editable=true"/>
+                  <cell type="field" id="20" name="yesNo3" uitype="checkbox" initialize="editable=true"/>
+              </row>
+              <row>
+                  <cell type="label" labelfor="9"/>
+                  <cell type="field" id="9" name="createdByAgent" uitype="label" readonly="true" uifieldformatter="Agent"/>
+                  <cell type="label" labelfor="10"/>
+                  <cell type="field" id="10" name="modifiedByAgent" uitype="label" readonly="true" uifieldformatter="Agent"/>
+              </row>
+              <row>
+                  <cell type="label" labelfor="11"/>
+                  <cell type="field" id="11" name="timestampModified" uitype="label" readonly="true"/>
+                  <cell type="label" labelfor="12"/>
+                  <cell type="field" id="12" name="timestampCreated" uitype="label" readonly="true"/>
+              </row>-->
+      </rows>
+    </viewdef>
+  </viewdefs>
+</viewset>

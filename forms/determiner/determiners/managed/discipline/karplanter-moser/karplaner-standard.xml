@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewset name="Karplaner - standard" i18nresname="views">
+  <views>
+    <view name="Determiners" class="edu.ku.brc.specify.datamodel.Determiner" busrules="edu.ku.brc.specify.datamodel.busrules.DeterminerBusRules">
+      <desc>The Determiners Subform.</desc>
+      <altviews>
+        <altview name="Determiners Table View" viewdef="Determiners Table" mode="view" />
+        <altview name="Determiners Table Edit" viewdef="Determiners Table" mode="edit" default="true" />
+      </altviews>
+    </view>
+  </views>
+  <viewdefs>
+    <viewdef type="form" name="Determiners" class="edu.ku.brc.specify.datamodel.Determiner" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>Determiners for a determination (MUSIT Det).</desc>
+      <enableRules />
+      <columnDef>p,5dlu,p:g,5dlu,p:g,5dlu,p</columnDef>
+      <rowDef auto="true" cell="p" sep="2px" />
+      <rows>
+        <row>
+          <cell type="label" labelfor="agent" />
+          <cell type="field" id="agent" name="agent" uitype="querycbx" initialize="name=Agent" colspan="5" />
+        </row>
+        <row>
+          <cell type="label" label="Verbatim name" labelfor="vn" />
+          <cell type="field" id="vn" name="text1" uitype="text" colspan="5" />
+        </row>
+        <row>
+          <cell type="label" label="Scr" labelfor="scr" />
+          <cell type="field" id="scr" name="yesNo1" uitype="checkbox" />
+          <cell type="label" label="No #" labelfor="on" />
+          <cell type="field" id="on" name="orderNumber" uitype="text" colspan="3" />
+        </row>
+        <row>
+          <cell type="label" labelfor="7" />
+          <cell type="field" id="7" name="remarks" uitype="text" colspan="5" />
+        </row>
+      </rows>
+    </viewdef>
+    <viewdef type="formtable" name="Determiners Table" class="edu.ku.brc.specify.datamodel.Determiner" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>Determiners grid view for Determination form.</desc>
+      <definition>Determiners</definition>
+    </viewdef>
+  </viewdefs>
+</viewset>

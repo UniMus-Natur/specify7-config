@@ -1,0 +1,40 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "AccessionStatus",
+    "readonly": true,
+    "sizelimit": 3,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "No Data",
+      "value": "Nodata"
+    },
+    {
+      "ordinal": null,
+      "title": "In Process",
+      "value": "Inprocess"
+    },
+    {
+      "ordinal": null,
+      "title": "Complete",
+      "value": "Complete"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "AccessionStatus",
+  "scope": {
+    "collection": "NHM-karplanter",
+    "discipline": "karplanter-moser",
+    "level": "collection"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "TypeStatus",
+    "readonly": true,
+    "sizelimit": 100,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Allotype",
+      "value": "Allotype"
+    },
+    {
+      "ordinal": null,
+      "title": "Clonotype",
+      "value": "Clonotype"
+    },
+    {
+      "ordinal": null,
+      "title": "Cotype",
+      "value": "Cotype"
+    },
+    {
+      "ordinal": null,
+      "title": "Epitype",
+      "value": "Epitype"
+    },
+    {
+      "ordinal": null,
+      "title": "Exepitype",
+      "value": "Exepitype"
+    },
+    {
+      "ordinal": null,
+      "title": "Exholotype",
+      "value": "Exholotype"
+    },
+    {
+      "ordinal": null,
+      "title": "Exparatype",
+      "value": "Exparatype"
+    },
+    {
+      "ordinal": null,
+      "title": "Exsyntype",
+      "value": "Exsyntype"
+    },
+    {
+      "ordinal": null,
+      "title": "Extype",
+      "value": "Extype"
+    },
+    {
+      "ordinal": null,
+      "title": "Hapantotype",
+      "value": "Hapantotype"
+    },
+    {
+      "ordinal": null,
+      "title": "Holotype",
+      "value": "Holotype"
+    },
+    {
+      "ordinal": null,
+      "title": "Homeotype",
+      "value": "Homeotype"
+    },
+    {
+      "ordinal": null,
+      "title": "Hypotype",
+      "value": "Hypotype"
+    },
+    {
+      "ordinal": null,
+      "title": "Iconotype",
+      "value": "Iconotype"
+    },
+    {
+      "ordinal": null,
+      "title": "Isoepitype",
+      "value": "Isoepitype"
+    },
+    {
+      "ordinal": null,
+      "title": "Isoparatype",
+      "value": "Isoparatype"
+    },
+    {
+      "ordinal": null,
+      "title": "Isosyntype",
+      "value": "Isosyntype"
+    },
+    {
+      "ordinal": null,
+      "title": "Lectotype",
+      "value": "Lectotype"
+    },
+    {
+      "ordinal": null,
+      "title": "Metatype",
+      "value": "Metatype"
+    },
+    {
+      "ordinal": null,
+      "title": "Neotype",
+      "value": "Neotype"
+    },
+    {
+      "ordinal": null,
+      "title": "Paratype",
+      "value": "Paratype"
+    },
+    {
+      "ordinal": null,
+      "title": "Paratopotype",
+      "value": "Paratopotype"
+    },
+    {
+      "ordinal": null,
+      "title": "Plastoholotype",
+      "value": "Plastoholotype"
+    },
+    {
+      "ordinal": null,
+      "title": "Plastoparatype",
+      "value": "Plastoparatype"
+    },
+    {
+      "ordinal": null,
+      "title": "Plastosyntype",
+      "value": "Plastosyntype"
+    },
+    {
+      "ordinal": null,
+      "title": "Plastotype",
+      "value": "Plastotype"
+    },
+    {
+      "ordinal": null,
+      "title": "Plesiotype",
+      "value": "Plesiotype"
+    },
+    {
+      "ordinal": null,
+      "title": "Secondary Type",
+      "value": "SecondaryType"
+    },
+    {
+      "ordinal": null,
+      "title": "Supplementary Type",
+      "value": "SupplementaryType"
+    },
+    {
+      "ordinal": null,
+      "title": "Syntype",
+      "value": "Syntype"
+    },
+    {
+      "ordinal": null,
+      "title": "Topotype",
+      "value": "Topotype"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "TypeStatus",
+  "scope": {
+    "collection": "NHM-karplanter",
+    "discipline": "karplanter-moser",
+    "level": "collection"
+  }
+}

@@ -1,0 +1,1022 @@
+apiVersion: specli/v3
+kind: ObservedState
+context: local
+instance: https://specify-stg.natur.unimus.no
+resolverContract: specify7/db-all-levels-then-disk-all-levels+app-per-level
+resources:
+  picklist:019c664c10f841cb:
+    canonicalSha256: sha256:e5e2fef14f595aa62b7b9e94e737bb66c8d69bfeba2ec0083b7fea9204ec7888
+    objectId: 70
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '315': 0
+  picklist:08d727035f1992c2:
+    canonicalSha256: sha256:55b6bf6eab5f1806490f485d0537c7d2165f980dcc69408a07c7f946ab56f9fc
+    objectId: 1759
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8023': 0
+      '8024': 0
+      '8025': 0
+      '8026': 0
+      '8027': 0
+  picklist:09e7f18361bfd48f:
+    canonicalSha256: sha256:d7399902f0236189b7a2556850d164e981f8bc62110e67c92271a7f553341bd1
+    objectId: 47
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '206': 0
+      '207': 0
+      '208': 0
+  picklist:19c85c119ed81a27:
+    canonicalSha256: sha256:4d68d6c30a2fe41f63cfdffc20619a26c9517feffc69840e13bb574136cf11c1
+    objectId: 48
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '209': 0
+      '210': 0
+      '211': 0
+      '212': 0
+      '213': 0
+  picklist:1c305c34603bd60d:
+    canonicalSha256: sha256:b6107ddc3a5e6072e9fb820393876b1e3dd7d71897d63bcf4f075c29afcc3f76
+    objectId: 1763
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8053': 0
+      '8054': 0
+      '8055': 0
+      '8056': 0
+      '8057': 0
+      '8058': 0
+  picklist:1c8ac554a1cfb123:
+    canonicalSha256: sha256:359db754463417e2d1efed4cba655904000c55b8323d00d87a2067f1091acb40
+    objectId: 66
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '300': 0
+      '301': 0
+      '302': 0
+  picklist:26181dedd8438301:
+    canonicalSha256: sha256:b6e31f46feb8869d271d3fc84ce0f0d2b02b4199a44c1b686f9125303b8f1777
+    objectId: 1771
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8087': 0
+      '8088': 0
+      '8089': 0
+      '8090': 0
+      '8091': 0
+      '8092': 0
+  picklist:268c43eb997433a8:
+    canonicalSha256: sha256:730ff23f4b0570ab7399f5e72a9ed9bd14d7a0f67d283dc5baf2381bad991631
+    objectId: 50
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '217': 0
+      '218': 0
+      '219': 0
+      '220': 0
+      '221': 0
+  picklist:28338172ef682cfa:
+    canonicalSha256: sha256:130229fa6b854d95c8b28e34b037876a0237947ca9792bc35b5fb0d65c6df052
+    objectId: 1780
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8136': 0
+      '8137': 0
+      '8138': 0
+      '8139': 0
+      '8140': 0
+      '8141': 0
+      '8142': 0
+  picklist:3547f4987e039bf7:
+    canonicalSha256: sha256:c6213e95a1f81c7d1333cf36aab4fba739bda6e8ae20fe74891f41a685e8883b
+    objectId: 1757
+    version: 0
+    collectionId: 7
+    itemVersions: {}
+  picklist:45235bc197b9b317:
+    canonicalSha256: sha256:e79a486922ac832783008acbc79e6c85f7c4da1eddf26e2d4fb77f96d09e5e98
+    objectId: 1786
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8165': 0
+      '8166': 0
+      '8167': 0
+  picklist:4a083883c71ed515:
+    canonicalSha256: sha256:6554129ee4374443ccc8c1e56ae69b157d2777d374395ecdf78ba95ca005e180
+    objectId: 1761
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8039': 0
+      '8040': 0
+      '8041': 0
+      '8042': 0
+      '8043': 0
+      '8044': 0
+      '8045': 0
+      '8046': 0
+      '8047': 0
+      '8048': 0
+      '8049': 0
+  picklist:4d8eec5416e1578b:
+    canonicalSha256: sha256:b0a2e44739b6da2e56a92b814409e178f2b3a4dd7bec0958850be9cdb53435dc
+    objectId: 1781
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8143': 0
+      '8144': 0
+      '8145': 0
+      '8146': 0
+      '8147': 0
+      '8148': 0
+      '8149': 0
+  picklist:4fa2aab1a4d0fc19:
+    canonicalSha256: sha256:8457275958edf58b915ecc0043533028c20596c567fc3a2db988687107ee5222
+    objectId: 1777
+    version: 0
+    collectionId: 7
+    itemVersions: {}
+  picklist:500edea7e0158e43:
+    canonicalSha256: sha256:e086088422d1e5c02f012874c05def2add4f4165f39efbea61d68663b0047631
+    objectId: 1714
+    version: 0
+    collectionId: 5
+    itemVersions: {}
+  picklist:501752d1502b26ec:
+    canonicalSha256: sha256:a0a4d536eb41098aad879d346e2d7229b54c7d94704d2ecf8aac08cb639e6bda
+    objectId: 1773
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8095': 0
+      '8096': 0
+  picklist:5602ca041a4279d4:
+    canonicalSha256: sha256:b75c588bd74469d0e7018955efda776bd880314032f3dd455d8d2591bf2b385e
+    objectId: 57
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '244': 0
+      '245': 0
+      '246': 0
+      '247': 0
+      '248': 0
+      '249': 0
+      '250': 0
+      '251': 0
+      '252': 0
+      '253': 0
+      '254': 0
+      '255': 0
+      '256': 0
+      '257': 0
+      '258': 0
+      '259': 0
+      '260': 0
+      '261': 0
+      '262': 0
+      '263': 0
+      '264': 0
+      '265': 0
+      '266': 0
+      '267': 0
+      '268': 0
+      '269': 0
+      '270': 0
+      '271': 0
+      '272': 0
+      '273': 0
+      '274': 0
+  picklist:5a4c3fa42c173a5f:
+    canonicalSha256: sha256:6554129ee4374443ccc8c1e56ae69b157d2777d374395ecdf78ba95ca005e180
+    objectId: 44
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '186': 0
+      '187': 0
+      '188': 0
+      '189': 0
+      '190': 0
+      '191': 0
+      '192': 0
+      '193': 0
+      '194': 0
+      '195': 0
+      '196': 0
+  picklist:5a816c7a4e572856:
+    canonicalSha256: sha256:2e5f589d4b3239ccc0ba075408bea1faca40f28a07d61be13af6b24656583157
+    objectId: 38
+    version: 0
+    collectionId: 5
+    itemVersions: {}
+  picklist:5e14de3cc7d63748:
+    canonicalSha256: sha256:355b8300d70fc53612420c2e59e0a2544fdcaccdab2019bc1fc3220196eacbb9
+    objectId: 73
+    version: 0
+    collectionId: 5
+    itemVersions: {}
+  picklist:6722377b13daae4c:
+    canonicalSha256: sha256:4d68d6c30a2fe41f63cfdffc20619a26c9517feffc69840e13bb574136cf11c1
+    objectId: 1765
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8062': 0
+      '8063': 0
+      '8064': 0
+      '8065': 0
+      '8066': 0
+  picklist:6991c4b83e412fce:
+    canonicalSha256: sha256:e8e129b94c6fc3bef16eafeab6eaa7d64f89037872dae40bcbe64a5597b4d1dd
+    objectId: 1769
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8079': 0
+      '8080': 0
+      '8081': 0
+      '8082': 0
+      '8083': 0
+      '8084': 0
+  picklist:6a0eed15ba06e095:
+    canonicalSha256: sha256:d3258889fb6aaf36afac1905b911e8b47a82b556bafa508596687af092b5e262
+    objectId: 1776
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8128': 0
+  picklist:6a174b4b9260ca72:
+    canonicalSha256: sha256:bd52ed8f43bd079cf599842e4af02e23a6f5fc42be4c21b7e4c1c9aca6eadd83
+    objectId: 62
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '280': 0
+      '281': 0
+      '282': 0
+  picklist:6aab8c15514ffc17:
+    canonicalSha256: sha256:21c6c7de21bcbdd6fb75dcd34dcb3bc0b6b8706617fb1f82fbbe0f783fe78478
+    objectId: 1762
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8050': 0
+      '8051': 0
+      '8052': 0
+  picklist:6c8ecdb3e776b5ba:
+    canonicalSha256: sha256:9918e42e58a1b86ac93a19fb314b62051c859394983fde51dd490a1d9fa0a5ce
+    objectId: 67
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '303': 0
+      '304': 0
+      '305': 0
+      '306': 0
+  picklist:6e235fe4cc0c6ea4:
+    canonicalSha256: sha256:1356bda8276b5c0410bfb49033bfe0fc41eee6bf13e808af5b86452d53c1f524
+    objectId: 43
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '175': 0
+      '176': 0
+      '177': 0
+      '178': 0
+      '179': 0
+      '180': 0
+      '181': 0
+      '182': 0
+      '183': 0
+      '184': 0
+      '185': 0
+  picklist:6f638183bb98a1b8:
+    canonicalSha256: sha256:1356bda8276b5c0410bfb49033bfe0fc41eee6bf13e808af5b86452d53c1f524
+    objectId: 1760
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8028': 0
+      '8029': 0
+      '8030': 0
+      '8031': 0
+      '8032': 0
+      '8033': 0
+      '8034': 0
+      '8035': 0
+      '8036': 0
+      '8037': 0
+      '8038': 0
+  picklist:735e4b6ca722e48e:
+    canonicalSha256: sha256:b6e31f46feb8869d271d3fc84ce0f0d2b02b4199a44c1b686f9125303b8f1777
+    objectId: 54
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '234': 0
+      '235': 0
+      '236': 0
+      '237': 0
+      '238': 0
+      '239': 0
+  picklist:73f49ac16a55172d:
+    canonicalSha256: sha256:19c4d91fca546713df0b9dbee2dc2ab8b38000867d90ec950103bcc0f4adee25
+    objectId: 58
+    version: 0
+    collectionId: 5
+    itemVersions: {}
+  picklist:75ce2939912eda47:
+    canonicalSha256: sha256:359db754463417e2d1efed4cba655904000c55b8323d00d87a2067f1091acb40
+    objectId: 1783
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8153': 0
+      '8154': 0
+      '8155': 0
+  picklist:7692780844f4326a:
+    canonicalSha256: sha256:57f293e703520ba7c1b6cd8bb7d52fa158b4b9fd0232f91db6f0ac316f2b8d0c
+    objectId: 71
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '316': 0
+      '317': 0
+      '318': 0
+      '319': 0
+      '320': 0
+      '321': 0
+      '322': 0
+      '323': 0
+  picklist:775fc3a094e12f32:
+    canonicalSha256: sha256:e086088422d1e5c02f012874c05def2add4f4165f39efbea61d68663b0047631
+    objectId: 1789
+    version: 0
+    collectionId: 7
+    itemVersions: {}
+  picklist:77e9a6494bece91b:
+    canonicalSha256: sha256:e79a486922ac832783008acbc79e6c85f7c4da1eddf26e2d4fb77f96d09e5e98
+    objectId: 69
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '312': 0
+      '313': 0
+      '314': 0
+  picklist:7ba8a5b10eeb2637:
+    canonicalSha256: sha256:b75c588bd74469d0e7018955efda776bd880314032f3dd455d8d2591bf2b385e
+    objectId: 1774
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8097': 0
+      '8098': 0
+      '8099': 0
+      '8100': 0
+      '8101': 0
+      '8102': 0
+      '8103': 0
+      '8104': 0
+      '8105': 0
+      '8106': 0
+      '8107': 0
+      '8108': 0
+      '8109': 0
+      '8110': 0
+      '8111': 0
+      '8112': 0
+      '8113': 0
+      '8114': 0
+      '8115': 0
+      '8116': 0
+      '8117': 0
+      '8118': 0
+      '8119': 0
+      '8120': 0
+      '8121': 0
+      '8122': 0
+      '8123': 0
+      '8124': 0
+      '8125': 0
+      '8126': 0
+      '8127': 0
+  picklist:7caa5cc782826554:
+    canonicalSha256: sha256:9b55da60dfd97835306764fdff2c4afba2449a23fbf660246698fef18a93881d
+    objectId: 1768
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8075': 0
+      '8076': 0
+      '8077': 0
+      '8078': 0
+  picklist:832b1863d2e5bdf2:
+    canonicalSha256: sha256:a0352908810ae17b24ac6011f952c756e029201cb659a32acd16dec92fb76e1f
+    objectId: 41
+    version: 0
+    collectionId: 5
+    itemVersions: {}
+  picklist:83a7aebfe21efc83:
+    canonicalSha256: sha256:730ff23f4b0570ab7399f5e72a9ed9bd14d7a0f67d283dc5baf2381bad991631
+    objectId: 1767
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8070': 0
+      '8071': 0
+      '8072': 0
+      '8073': 0
+      '8074': 0
+  picklist:84d7445669484672:
+    canonicalSha256: sha256:dbfcc98ed18c37b8942c4ea742e13ca8e4126d783dd6163e6ed847fa70ad53ba
+    objectId: 49
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '214': 0
+      '215': 0
+      '216': 0
+  picklist:88ba6e10a190b86a:
+    canonicalSha256: sha256:d7399902f0236189b7a2556850d164e981f8bc62110e67c92271a7f553341bd1
+    objectId: 1764
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8059': 0
+      '8060': 0
+      '8061': 0
+  picklist:8c0e29ff2d6e5f9b:
+    canonicalSha256: sha256:c6213e95a1f81c7d1333cf36aab4fba739bda6e8ae20fe74891f41a685e8883b
+    objectId: 40
+    version: 0
+    collectionId: 5
+    itemVersions: {}
+  picklist:9220fd58b66ecfc9:
+    canonicalSha256: sha256:a0352908810ae17b24ac6011f952c756e029201cb659a32acd16dec92fb76e1f
+    objectId: 1758
+    version: 0
+    collectionId: 7
+    itemVersions: {}
+  picklist:96e45621a616c2b6:
+    canonicalSha256: sha256:8457275958edf58b915ecc0043533028c20596c567fc3a2db988687107ee5222
+    objectId: 60
+    version: 0
+    collectionId: 5
+    itemVersions: {}
+  picklist:9b297d5ffd60032e:
+    canonicalSha256: sha256:b0a2e44739b6da2e56a92b814409e178f2b3a4dd7bec0958850be9cdb53435dc
+    objectId: 64
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '290': 0
+      '291': 0
+      '292': 0
+      '293': 0
+      '294': 0
+      '295': 0
+      '296': 0
+  picklist:9ff291f4a84a7fe9:
+    canonicalSha256: sha256:bd52ed8f43bd079cf599842e4af02e23a6f5fc42be4c21b7e4c1c9aca6eadd83
+    objectId: 1779
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8133': 0
+      '8134': 0
+      '8135': 0
+  picklist:a00fb6e0c2f38f5d:
+    canonicalSha256: sha256:fc29b7feecd9ad4eb04f7012b5ff37c15b0a13ee3072ff8db16a986b4ba75ef6
+    objectId: 1787
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8168': 0
+      '8169': 0
+      '8170': 0
+      '8171': 0
+      '8172': 0
+      '8173': 0
+      '8174': 0
+      '8175': 0
+      '8176': 0
+      '8177': 0
+      '8178': 0
+  picklist:a01f50b5e8906cb0:
+    canonicalSha256: sha256:0ccbd030164fbe927d1c594164cf1e73f3daa56734653f8026711d7fc30b7c96
+    objectId: 1753
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '8017': 0
+      '8018': 0
+  picklist:a0c1ced8e8e89c6d:
+    canonicalSha256: sha256:cc7750d71982beabac4d81c330a451d5cc84da9d1405213ff4978e8b31e14f30
+    objectId: 1752
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '7999': 0
+      '8000': 0
+      '8001': 0
+      '8002': 0
+      '8003': 0
+      '8004': 0
+      '8005': 0
+      '8006': 0
+      '8007': 0
+      '8008': 0
+      '8009': 0
+      '8010': 0
+      '8011': 0
+      '8012': 0
+      '8013': 0
+      '8014': 0
+      '8015': 0
+      '8016': 0
+  picklist:a18a6ea3b272d2ed:
+    canonicalSha256: sha256:e8e129b94c6fc3bef16eafeab6eaa7d64f89037872dae40bcbe64a5597b4d1dd
+    objectId: 52
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '226': 0
+      '227': 0
+      '228': 0
+      '229': 0
+      '230': 0
+      '231': 0
+  picklist:a3aaaca5218f7959:
+    canonicalSha256: sha256:28d5f9f0fecb9589695ae8641ff4c8580460dd657e5166a18b133b2c18e345a3
+    objectId: 1770
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8085': 0
+      '8086': 0
+  picklist:a6d6412a9fb781e2:
+    canonicalSha256: sha256:110328b04809f63998cc7eea1142d68d4b541784844e88e30c8742daad3059ed
+    objectId: 1785
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8160': 0
+      '8161': 0
+      '8162': 0
+      '8163': 0
+      '8164': 0
+  picklist:ab8e95c970567201:
+    canonicalSha256: sha256:5465f4146ebac0973c1d0c21347885f809534169beaf399941e7156235dd9919
+    objectId: 65
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '297': 0
+      '298': 0
+      '299': 0
+  picklist:b9e5ffc24b871b2a:
+    canonicalSha256: sha256:83064a844b438d9714e3709f52d49ac80a56f1919fee4f1cb92fee348e7390c7
+    objectId: 1778
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8129': 0
+      '8130': 0
+      '8131': 0
+      '8132': 0
+  picklist:c0e4fad62be015cf:
+    canonicalSha256: sha256:28d5f9f0fecb9589695ae8641ff4c8580460dd657e5166a18b133b2c18e345a3
+    objectId: 53
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '232': 0
+      '233': 0
+  picklist:c203eb3152079697:
+    canonicalSha256: sha256:110328b04809f63998cc7eea1142d68d4b541784844e88e30c8742daad3059ed
+    objectId: 68
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '307': 0
+      '308': 0
+      '309': 0
+      '310': 0
+      '311': 0
+  picklist:c5f5e7ce9b6d7554:
+    canonicalSha256: sha256:111a3364cef728f56a31b942afba939886c472ea064beefb8c98988042f84bba
+    objectId: 1756
+    version: 0
+    collectionId: 7
+    itemVersions: {}
+  picklist:c7d8ca8c585d84d9:
+    canonicalSha256: sha256:08fd50d44958d2fb5c39cfad74506cb8b903da200724c1c148acf96abe33b750
+    objectId: 72
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '324': 0
+      '325': 0
+      '326': 0
+      '327': 0
+      '328': 0
+      '329': 0
+      '330': 0
+  picklist:c92b3483d658bd9c:
+    canonicalSha256: sha256:2e5f589d4b3239ccc0ba075408bea1faca40f28a07d61be13af6b24656583157
+    objectId: 1755
+    version: 0
+    collectionId: 7
+    itemVersions: {}
+  picklist:c98c1e306a69b360:
+    canonicalSha256: sha256:411f8c4dc8cb2de501e6416905f5d55867d6a27e374f390291263c439dbfa4a0
+    objectId: 1754
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '8019': 0
+      '8020': 0
+      '8021': 0
+      '8022': 0
+  picklist:cad0be84ce53e4a2:
+    canonicalSha256: sha256:d3258889fb6aaf36afac1905b911e8b47a82b556bafa508596687af092b5e262
+    objectId: 59
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '275': 0
+  picklist:cb3f4f9dc89d56f0:
+    canonicalSha256: sha256:130229fa6b854d95c8b28e34b037876a0237947ca9792bc35b5fb0d65c6df052
+    objectId: 63
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '283': 0
+      '284': 0
+      '285': 0
+      '286': 0
+      '287': 0
+      '288': 0
+      '289': 0
+  picklist:cbeb45e13aead67b:
+    canonicalSha256: sha256:355b8300d70fc53612420c2e59e0a2544fdcaccdab2019bc1fc3220196eacbb9
+    objectId: 1788
+    version: 0
+    collectionId: 7
+    itemVersions: {}
+  picklist:d5a658381604efe0:
+    canonicalSha256: sha256:21c6c7de21bcbdd6fb75dcd34dcb3bc0b6b8706617fb1f82fbbe0f783fe78478
+    objectId: 45
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '197': 0
+      '198': 0
+      '199': 0
+  picklist:d8bb9b742182e602:
+    canonicalSha256: sha256:5465f4146ebac0973c1d0c21347885f809534169beaf399941e7156235dd9919
+    objectId: 1782
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8150': 0
+      '8151': 0
+      '8152': 0
+  picklist:dca00b1f230db325:
+    canonicalSha256: sha256:15bfdd7d3c9d9a5913e0aaee3c3c83bfb23930f0a7afb919fa9669ac88419644
+    objectId: 1772
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8093': 0
+      '8094': 0
+  picklist:dd7b006a8c46540e:
+    canonicalSha256: sha256:dbfcc98ed18c37b8942c4ea742e13ca8e4126d783dd6163e6ed847fa70ad53ba
+    objectId: 1766
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8067': 0
+      '8068': 0
+      '8069': 0
+  picklist:e1f03a16be671fd3:
+    canonicalSha256: sha256:9b55da60dfd97835306764fdff2c4afba2449a23fbf660246698fef18a93881d
+    objectId: 51
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '222': 0
+      '223': 0
+      '224': 0
+      '225': 0
+  picklist:e268f95ad912bff8:
+    canonicalSha256: sha256:15bfdd7d3c9d9a5913e0aaee3c3c83bfb23930f0a7afb919fa9669ac88419644
+    objectId: 55
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '240': 0
+      '241': 0
+  picklist:e8bc4de2a90d9ba1:
+    canonicalSha256: sha256:111a3364cef728f56a31b942afba939886c472ea064beefb8c98988042f84bba
+    objectId: 39
+    version: 0
+    collectionId: 5
+    itemVersions: {}
+  picklist:eb2b63428c1335c2:
+    canonicalSha256: sha256:a0a4d536eb41098aad879d346e2d7229b54c7d94704d2ecf8aac08cb639e6bda
+    objectId: 56
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '242': 0
+      '243': 0
+  picklist:f2914b04d54bb6c3:
+    canonicalSha256: sha256:4858d2e2474498441ec75b9adff2ea47367400ab5b4165af4a8e99a20a87ecb0
+    objectId: 1751
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '7993': 0
+      '7994': 0
+      '7995': 0
+      '7996': 0
+      '7997': 0
+      '7998': 0
+  picklist:f7df818916d26295:
+    canonicalSha256: sha256:55b6bf6eab5f1806490f485d0537c7d2165f980dcc69408a07c7f946ab56f9fc
+    objectId: 42
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '170': 0
+      '171': 0
+      '172': 0
+      '173': 0
+      '174': 0
+  picklist:f91be2cd108b2bc8:
+    canonicalSha256: sha256:b6107ddc3a5e6072e9fb820393876b1e3dd7d71897d63bcf4f075c29afcc3f76
+    objectId: 46
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '200': 0
+      '201': 0
+      '202': 0
+      '203': 0
+      '204': 0
+      '205': 0
+  picklist:f962bb90ca1dfab0:
+    canonicalSha256: sha256:83064a844b438d9714e3709f52d49ac80a56f1919fee4f1cb92fee348e7390c7
+    objectId: 61
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '276': 0
+      '277': 0
+      '278': 0
+      '279': 0
+  picklist:fb60cfbe2002fcef:
+    canonicalSha256: sha256:19c4d91fca546713df0b9dbee2dc2ab8b38000867d90ec950103bcc0f4adee25
+    objectId: 1775
+    version: 0
+    collectionId: 7
+    itemVersions: {}
+  picklist:fbb395f76f89640e:
+    canonicalSha256: sha256:9918e42e58a1b86ac93a19fb314b62051c859394983fde51dd490a1d9fa0a5ce
+    objectId: 1784
+    version: 0
+    collectionId: 7
+    itemVersions:
+      '8156': 0
+      '8157': 0
+      '8158': 0
+      '8159': 0
+  picklist:fed2d07c703c0f5c:
+    canonicalSha256: sha256:70a66a164ffc0c0c9a0fc89a627eee8c2c00a96252172a05cb65a8618556efa2
+    objectId: 110
+    version: 0
+    collectionId: 5
+    itemVersions:
+      '492': 0
+      '493': 0
+      '494': 0
+      '495': 0
+      '496': 0
+      '497': 0
+      '498': 0
+      '499': 0
+      '500': 0
+      '501': 0
+      '502': 0
+  resource:0adaaa6dfb161671:
+    canonicalSha256: sha256:5a630248b9cdb1fb0d8535c45f6230d9b7a59fac53852e6b4ff7afb50485bec7
+    url: /static/config/mammal/es_config.xml
+  resource:1550250088c9725d:
+    canonicalSha256: sha256:6be323a35ccf89c5747511f6fd43b185d84c5855dc2ec8158d9459bd2df3eb14
+    objectId: 45
+    dataId: 42
+    version: 0
+    objectVersion: 0
+    directoryId: 6
+  resource:1e79c3e1ca9a35f3:
+    canonicalSha256: sha256:5a630248b9cdb1fb0d8535c45f6230d9b7a59fac53852e6b4ff7afb50485bec7
+    url: /static/config/botany/es_config.xml
+  resource:26b49fa1eb8491fb:
+    canonicalSha256: sha256:c57d1db73ba06e37a3b5a283d90db5766125cd2486d52e2452fa0fa9162734d8
+    url: /static/config/invertpaleo/es_config.xml
+  resource:3cfb2e3bf9ee8ba9:
+    canonicalSha256: sha256:8b2155ac00fd97d0a60af07003117866d93fbd13c31f453b6734c0def1f3047b
+    objectId: 19
+    dataId: 17
+    version: 0
+    objectVersion: 0
+    directoryId: 6
+  resource:4ea433b42a0a9f10:
+    canonicalSha256: sha256:5a630248b9cdb1fb0d8535c45f6230d9b7a59fac53852e6b4ff7afb50485bec7
+    url: /static/config/herpetology/es_config.xml
+  resource:50df5dd67fed7212:
+    canonicalSha256: sha256:e0a4f648492157b5c0ee5d3605dc42219be37af9c4d24c3ac56a19188e96dad8
+    url: /static/config/backstop/uiformatters.xml
+  resource:5107fcba10b608ab:
+    canonicalSha256: sha256:42db14e48295f3bbe856c6b6fcea28775d1d6854709db395de1014d081003c79
+    objectId: 23
+    dataId: 21
+    version: 0
+    objectVersion: 0
+    directoryId: 17
+  resource:5231bf17635036f1:
+    canonicalSha256: sha256:f105d1b3d2cc89bfcb3fafd50297ecd7d84c104b4624f71bea388a81ec8483fa
+    url: /static/config/backstop/typesearch_def.xml
+  resource:591ca5778ba7c8c3:
+    canonicalSha256: sha256:84ddaac2fe284c80db31135b764354af15a5cf7022a29b53b8326a5cc5eb98f4
+    objectId: 41
+    dataId: 38
+    version: 1
+    objectVersion: 1
+    directoryId: 6
+  resource:6581724a105ba899:
+    canonicalSha256: sha256:167ee2f85fce8022e732f926ba5fa8f886a7874a25232ded29af2a0975198ff7
+    url: /static/config/geology/dataentry_task.xml
+  resource:8300c712fa1b3543:
+    canonicalSha256: sha256:65affe7db114413b8009c4134f4793a20151d42bb43906704d5a2eb7ba51454c
+    objectId: 33
+    dataId: 31
+    version: 0
+    objectVersion: 0
+    directoryId: 29
+  resource:8626f10c51639da5:
+    canonicalSha256: sha256:38c69660204bb2bd4d80771b2ed673e4ceadaa7c025dc899997ad9ddad558e03
+    url: /static/config/fish/es_config.xml
+  resource:8c1873056570e59b:
+    canonicalSha256: sha256:5a630248b9cdb1fb0d8535c45f6230d9b7a59fac53852e6b4ff7afb50485bec7
+    url: /static/config/vertpaleo/es_config.xml
+  resource:901698fcf2f72148:
+    canonicalSha256: sha256:3a8f25866a828061df28fdcae690ed53d572913350fbdc7a4ed0cb6ba65d3796
+    objectId: 13
+    dataId: 13
+    version: 0
+    objectVersion: 0
+    directoryId: 17
+  resource:91b712418fa47ed5:
+    canonicalSha256: sha256:5a630248b9cdb1fb0d8535c45f6230d9b7a59fac53852e6b4ff7afb50485bec7
+    url: /static/config/invertebrate/es_config.xml
+  resource:9b774c202b2144ae:
+    canonicalSha256: sha256:21e1606f8eee9328861a6de13208bef238952b0c1db2ce13884a8a5c61ea552a
+    url: /static/config/botany/dataentry_task.xml
+  resource:a0447e9449da4315:
+    canonicalSha256: sha256:fcced3eb31b18a66a602d39cb7c42e12844bd466c7432b101ab24231c5ef2ab7
+    url: /static/config/common/weblinks.xml
+  resource:aa97d0cd915d1cc2:
+    canonicalSha256: sha256:ed9526621e5c16171ecc5ef3cb5d41e0a3bd29010768e83fb5355f1f311af6a9
+    url: /static/config/backstop/dataobj_formatters.xml
+  resource:c0291a48d400cb00:
+    canonicalSha256: sha256:5a630248b9cdb1fb0d8535c45f6230d9b7a59fac53852e6b4ff7afb50485bec7
+    url: /static/config/bird/es_config.xml
+  resource:d026f552964c7b86:
+    canonicalSha256: sha256:1b9411a1d9d2cc1539a036072cb937071b6cd5668ded131b3ab726b8e6b03cfd
+    url: /static/config/common/expresssearchconfig.xml
+  resource:dfe97a3d1599d2e5:
+    canonicalSha256: sha256:cfd01cc283f76944416656159b0ddb98162346d2b5466490e49de78e28c615ff
+    objectId: 6
+    dataId: 6
+    version: 0
+    objectVersion: 0
+    directoryId: 17
+  resource:e1046da7eef6525c:
+    canonicalSha256: sha256:b0303d1079f9da7682ccbcd87b374086a5605222255b47d5288b0d629bc00ce0
+    url: /static/config/common/interactionstask.xml
+  resource:e43a99a133029a74:
+    canonicalSha256: sha256:209207d9c5decca391108c8270735608a83c0b54c393be6f52d0dbe5fedc7e96
+    objectId: 24
+    dataId: 22
+    version: 0
+    objectVersion: 0
+    directoryId: 17
+  resource:e826aea08249c6bf:
+    canonicalSha256: sha256:5a630248b9cdb1fb0d8535c45f6230d9b7a59fac53852e6b4ff7afb50485bec7
+    url: /static/config/insect/es_config.xml
+  resource:f551ec0e035521cf:
+    canonicalSha256: sha256:c19782ce2efd9baea15f853b43efa4a4eb93c019a0be45f3712f56fa83589661
+    objectId: 21
+    dataId: 19
+    version: 0
+    objectVersion: 0
+    directoryId: 6
+  schema:scope:discipline:048c690d43b2:en:
+    canonicalSha256: sha256:1970c43f5bbfc3b8aed1d7d66e5ab7d71bdf3a56a7b31e2f77e1022e56eef5fa
+    disciplineId: 4
+    collectionId: 5
+  schema:scope:discipline:29775d26fcd7:en:
+    canonicalSha256: sha256:66fe3125b2bdbc50cee3a4a8af86523d667a84ae9097220a59b06934ee000e8c
+    disciplineId: 10
+    collectionId: 7
+  viewset:00aefd8494b7c5be:
+    canonicalSha256: sha256:579acff8487c5d7eb68dccd2e0ba49bf1efb2fca7fbbb722e45d57cb8e8f1ae8
+    url: /static/config/backstop/system.views.xml
+  viewset:1fbdbb1bc46b9c0f:
+    canonicalSha256: sha256:5687b53d8c7ad5874d5a9e37ab27bd8b06cf8df761feb1915493782de3765a7c
+    objectId: 1
+    dataId: 7
+    version: 45
+    objectVersion: 4
+    directoryId: 6
+  viewset:3600120bd1fc548f:
+    canonicalSha256: sha256:c279fc33903e265c81a1dd14d896e9f0b659be39789e80b61c6e34e5bbbee449
+    url: /static/config/bird/bird.views.xml
+  viewset:394ed6d4420643ce:
+    canonicalSha256: sha256:3278ffd7fda80c0258c0ed8b907d4c769d246fa52fc1d6eb1778a3436e540077
+    url: /static/config/vertpaleo/vertpaleo.views.xml
+  viewset:5a188f2c2f0234da:
+    canonicalSha256: sha256:8121dda791be8e9098dce4e14bbf88b97a5ef03c9e97ce6a346441e72095c416
+    url: /static/config/mammal/mammal.views.xml
+  viewset:63ebb5dde552d375:
+    canonicalSha256: sha256:0adb980ac3892b07fb379c6b28e0dcfaf1e0944e882ff61623e97c7a2fb20fca
+    url: /static/config/fish/fish.views.xml
+  viewset:7dfef225a3929b5a:
+    canonicalSha256: sha256:3ae2b7521045df5bf1568d2f3220d4a3f838651be508fd9e32ad5ec817ec0c54
+    url: /static/config/insect/ento.views.xml
+  viewset:88bd3dcf992a5813:
+    canonicalSha256: sha256:7aec487505624469da580fe7166543115fd10af24a2063e9166c428f4a555885
+    url: /static/config/botany/botany.views.xml
+  viewset:8a82e6dbf10bd630:
+    canonicalSha256: sha256:6fd8d7697da5b3d2e1189e2643f08a0e6e50b300578f1536e43f7b5c24094cc4
+    url: /static/config/backstop/global.views.xml
+  viewset:a4c99b12f759689e:
+    canonicalSha256: sha256:1df06430261d6b6a44e3cfa9586ebdb958fa5395c71c10ffe689872feccdb4e4
+    url: /static/config/invertpaleo/paleo.views.xml
+  viewset:b730df34ec872739:
+    canonicalSha256: sha256:87e5e18070d280df02ff44bc4bdae86165d6cab8b46a223b86aac21b28adbe3b
+    url: /static/config/invertebrate/invertebrate.views.xml
+  viewset:b930a6f756ffcb4f:
+    canonicalSha256: sha256:f99fd2d4a33312594e732c1b6f4f664d8b59005420d484d291c0fcc8a22df1c3
+    url: /static/config/common/common.views.xml
+  viewset:bb123bdd28d5734f:
+    canonicalSha256: sha256:c9fa538b26a4af3d535f69e5ad4005c7269c1abade39597af6981fc12ca133aa
+    url: /static/config/geology/geology.views.xml
+  viewset:cbdf2b8543b82e2b:
+    canonicalSha256: sha256:9330db8bd08b34e31c5b0f480ae8033763fa9c7a4319ba33cc4200883692adfa
+    url: /static/config/herpetology/herpetology.views.xml
+  viewset:e6d6a870d7105799:
+    canonicalSha256: sha256:390bf39822be8a5e6f3ee48275b8df704005cb8cc0e2cb0f000ee5740b583345
+    url: /static/config/backstop/search.views.xml
+directories:
+  scope:collection:8afb28a564b0: 17
+  scope:collection:aacf22bd9e4d: 29
+  scope:discipline:048c690d43b2: 6
+  scope:discipline:140eb5cb578e: 14
+  scope:discipline:19bd1b61efad: 13
+  scope:discipline:254a54d9422d: 7
+  scope:discipline:29775d26fcd7: 12
+  scope:discipline:92e265ae4dfb: 10
+  scope:discipline:a8290daa9671: 8
+  scope:discipline:caa5860d3673: 11
+  scope:discipline:cdbb01f80653: 15
+  scope:discipline:d458f4487342: 9
+  scope:personal:17e7c52ff68c: 28
+  scope:personal:4de54c3459f7: 25
+  scope:personal:644fd29c8ef7: 32
+  scope:personal:68b3d55f338b: 21
+  scope:personal:6d4d53add989: 22
+  scope:personal:82919af8bf8c: 30
+  scope:personal:85adbb0233d4: 31
+  scope:personal:a30f4fa87d26: 24
+  scope:personal:eb4b26dbf70f: 16
+collections:
+  scope:collection:c24511348e9f: 7
+  scope:collection:ece059fa3007: 5

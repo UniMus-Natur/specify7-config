@@ -1,0 +1,50 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "PermitType",
+    "readonly": true,
+    "sizelimit": 5,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "US Dept Wildlife",
+      "value": "Udw"
+    },
+    {
+      "ordinal": null,
+      "title": "State",
+      "value": "State"
+    },
+    {
+      "ordinal": null,
+      "title": "International",
+      "value": "Int"
+    },
+    {
+      "ordinal": null,
+      "title": "Federal",
+      "value": "Fed"
+    },
+    {
+      "ordinal": null,
+      "title": "No Data",
+      "value": "No Data"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "PermitType",
+  "scope": {
+    "collection": "NHM-karplanter",
+    "discipline": "karplanter-moser",
+    "level": "collection"
+  }
+}

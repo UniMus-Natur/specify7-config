@@ -1,0 +1,569 @@
+apiVersion: specli/v3
+kind: Viewset
+metadata:
+  uid: viewset:b930a6f756ffcb4f
+  name: common
+  source: vendor
+  registryName: Common
+  registryOrder: 0
+  filename: common.views.xml
+scope:
+  level: common
+rootAttributes:
+  name: common
+  i18nresname: common
+members:
+- path: forms/accession/accession/vendor/common/common.xml
+  sha256: sha256:470d83bfb89a7cb14b9c1194197f26fec55721ebe0ce0b0de9e14ada2ee7f359
+- path: forms/accession/accessionco/vendor/common/common.xml
+  sha256: sha256:527d57b7585ae56b1570d066cc8309ee26af92e0c2da34af33fdf77ac5baec94
+- path: forms/accession/accessiondeaccession/vendor/common/common.xml
+  sha256: sha256:938e1cb0b9c3d74f9afa664e1be65754c55b2f1d749fd5683f32e659c40c69f1
+- path: forms/accessionagent/accessionagent/vendor/common/common.xml
+  sha256: sha256:7deed5a4be7d888261d413e2f40e0dbe846051aa3780feaa79404ccec49ad690
+- path: forms/accessionauthorization/accessionauthorization/vendor/common/common.xml
+  sha256: sha256:f865adcaeb62ad9670acb56812c6bceb0b1e997da69c4021e314498fef85055b
+- path: forms/collectionobject/accessionitems/vendor/common/common.xml
+  sha256: sha256:b68fb68989952d051de6c7ef06a5533d6cd6539c66fc7d7d993e8c339fd4d959
+- path: forms/accessionagent/agreementagent/vendor/common/common.xml
+  sha256: sha256:9dcee90f085eaf945c235d1e317aeadee0700deee69352fb1dfc9695fed83ab8
+- path: forms/accessionauthorization/agreementauthorization/vendor/common/common.xml
+  sha256: sha256:69448d803d68a73a8365c6633560f67fc33b8f963dc2adec0ae8d4d5a8eb986f
+- path: forms/addressofrecord/addressofrecord/vendor/common/common.xml
+  sha256: sha256:664775e93f6d88114c0a62915cc0ee8aba406a3b024f2a22f533e8e9da778a17
+- path: forms/appraisal/appraisal/vendor/common/common.xml
+  sha256: sha256:1e6fdabeee7597ff02585b3f0f0af8c4dff55e8cb1003a4b374b4c09cae209df
+- path: forms/borrow/borrow/vendor/common/common.xml
+  sha256: sha256:4403d92015d34cb33a427fddf9aa4c7f9cf9b8a53064a4f8eb0f196199076f4b
+- path: forms/borrowagent/borrowagent/vendor/common/common.xml
+  sha256: sha256:380c2574663732edd2bf0f955d604d225e60ff852ccf6f3c0a4a1a12d0a60e8d
+- path: forms/borrowmaterial/borrowmaterial/vendor/common/common.xml
+  sha256: sha256:9a187b3c7b3cc662de2c29f174c5ac9622b804e241201a4bd2138fe202273bb8
+- path: forms/borrowreturnmaterial/borrowreturnmaterial/vendor/common/common.xml
+  sha256: sha256:b2b152b688533d7818752c2ac7292bc77b96c898831bb23447fcd640cbfff27b
+- path: forms/collectingevent/collectingeventsubform/vendor/common/common.xml
+  sha256: sha256:9bfe9515939fe9f96bf275bd0bcca7ba06c9c2439136fd25bb0ca1020110de36
+- path: forms/collectingtrip/collectingtrip/vendor/common/common.xml
+  sha256: sha256:4cff52227eb168dbd035e00c6f52e19fa5062b6e6a0e6b3a6c2f8a21804a8a61
+- path: forms/collectingtrip/collectingtripform/vendor/common/common.xml
+  sha256: sha256:639d7eeb568c4f3514c740950c6189fae3e5f95c605979ce459e0507ec5ff643
+- path: forms/collector/collector/vendor/common/common.xml
+  sha256: sha256:3689d574f8ff2f97e066d4844c058d5d22c4cc0b940814be17aca8f423006d34
+- path: forms/collector/collectors-table/vendor/common/common.xml
+  sha256: sha256:3efecab50c78b3f18da14989a468fade40451b21c48abccec349d1a0a44a2e11
+- path: forms/collectionobjectcitation/collectionobjectcitation/vendor/common/common.xml
+  sha256: sha256:0f772745d68ffd5c7cc5af3bd66d26b7e62e18b30eadd7438b4afb0c4119fee7
+- path: forms/collectionobjecttype/collectionobjecttype/vendor/common/common.xml
+  sha256: sha256:c0c97d21a22a90910991176462dffd0a4d4c657913b2b452ad9ad47cd036d3f4
+- path: forms/collectionobjectgroup/collectionobjectgroup/vendor/common/common.xml
+  sha256: sha256:1f51fd2876e7229550ba1a8a7ba12539296d1e97e7fc212ee0cb825b9a6b79d2
+- path: forms/collectionobjectgroup/collectionobjectgroupsub/vendor/common/common.xml
+  sha256: sha256:d89f8dc3f72e1eee5a9d4b340724b2d979c974771dea70447ed909c4a03d51ae
+- path: forms/collectionobjectgroupjoin/collectionobjectgroupjoin-gridview/vendor/common/common.xml
+  sha256: sha256:35dd1ac7c60aaec35e0f33e1a58a9169c8e8bea0824ead5dea75e0eed6a67a8a
+- path: forms/collectionobjectgrouptype/collectionobjectgrouptype/vendor/common/common.xml
+  sha256: sha256:9d67effe3bb8e45b804111700abc1dd00760bc6d51f51d9fc1928a76c9a2ff50
+- path: forms/collectionobject/collection-object-search/vendor/common/common.xml
+  sha256: sha256:10857bef430f9f40a7afb380f6f56a23f4cd511cf591fd7e3d7ee458659fb150
+- path: forms/collectionobjectproperty/collectionobjectproperty/vendor/common/common.xml
+  sha256: sha256:7c7675432d4c45a2870569efc70afc84fdd227568a9bfb320214ac777a9dabe1
+- path: forms/collectionobject/collectionobjectsub/vendor/common/common.xml
+  sha256: sha256:bbb15af495e4a2c10c9d3fd9e8b4a3c8b1f6383b44b30a9aaece1226b8cd9e0b
+- path: forms/component/component/vendor/common/common.xml
+  sha256: sha256:1f9e042d371794050b7a58f6e9adfb98a7616efad534605fe17f02fc2a0d56bb
+- path: forms/commonnametx/commonnametx/vendor/common/common.xml
+  sha256: sha256:c72e7fa1d78151aa8f53c713cc4bdfe42b93c0e1a06f12f939042614adc0ceb7
+- path: forms/conservdescription/conservdescription/vendor/common/common.xml
+  sha256: sha256:c3dde10e9595ef5b2edc5d5a61124902cc89c51b774f4192968b506ba3f843fc
+- path: forms/conservevent/conservevent/vendor/common/common.xml
+  sha256: sha256:7563c36ff3ede2f349cd8aa7ea2a4337903f534ab931dc3242056060008894fe
+- path: forms/conservdescription/conservdescriptionsub/vendor/common/common.xml
+  sha256: sha256:b8c7ce2681f1c45ef94a6facf399162d20499102b0d2d55977a039e0620eecf8
+- path: forms/container/container/vendor/common/common.xml
+  sha256: sha256:26938ddd7f88b5370c04daf82312c175e6d47833b5040ebd84705a89a7f0f31d
+- path: forms/container/containerbrief/vendor/common/common.xml
+  sha256: sha256:1e1b3e96be272db02d4f10c840005c220d246d5d119fba5d3f5e691f0f18d274
+- path: forms/agent/contentcontact/vendor/common/common.xml
+  sha256: sha256:1e82b05ee0813af23878672aa1df33baf3c3cfe6e2ac270527c7ca96f5d34f0f
+- path: forms/deaccessionagent/deaccessionagent/vendor/common/common.xml
+  sha256: sha256:a554e5c1907f9bb740eb45375ca60a599e6f861e9bca185dc9abee8b1703aa36
+- path: forms/disposal/disposal/vendor/common/common.xml
+  sha256: sha256:51fc38094d40f108522cce4128d4bee3c0d8addce2bca6151647ad47cf51dd3e
+- path: forms/disposal/disposalsub/vendor/common/common.xml
+  sha256: sha256:9ce5c55aaf9f52598a869b758cd30ae005718fa38d499fb2a6b67d2eaad97623
+- path: forms/disposalpreparation/disposalpreparation-table/vendor/common/common.xml
+  sha256: sha256:9d9ed5f51c46495db135e7f622cd325f03a7eab6d412340f4a131c261ebd367f
+- path: forms/disposal/disposaldeaccsub/vendor/common/common.xml
+  sha256: sha256:1b02fc289495e0b8a36a4fa06e66a5fe19ebed3f97f9d82ffd79eb01d5f1a9f6
+- path: forms/disposalpreparation/disposaldeaccpreparation/vendor/common/common.xml
+  sha256: sha256:0d042b56a4ac026357347c6bf277ec2850ab2014b9b6b299ba92e7ebd19788e8
+- path: forms/determination/determination/vendor/common/common.xml
+  sha256: sha256:53ce463d9a19ca5d9bbcc308faf1f8e8108c48a3aea602010fdf79bacfabb434
+- path: forms/determinationcitation/determinationcitation/vendor/common/common.xml
+  sha256: sha256:33eef9c408c93db8a269dda70be5dc80db3de9d9c6e3eed9722576eb70a66b15
+- path: forms/determiner/determiner/vendor/common/common.xml
+  sha256: sha256:1629d74f608a576f535804a489b77f0625575cb55a54a5e6e6818e16221ed8b8
+- path: forms/determiner/determiners-table/vendor/common/common.xml
+  sha256: sha256:0fa26f4d621cf890ee2dfbd4078c80587661eae1b5edd2b5c3bcf5b7f3dfd26b
+- path: forms/dnaprimer/dnaprimer/vendor/common/common.xml
+  sha256: sha256:a8f716923862ccd8abac5727f8919c3ca6b7817c64fd1d0e090ce3e98b85eb90
+- path: forms/dnasequence/dnasequence/vendor/common/common.xml
+  sha256: sha256:0af1ba60fdd53c7295c61db3eb2e6850b2d5a1214c748a9be215aecf391408e2
+- path: forms/dnasequencingrun/dnasequencerun/vendor/common/common.xml
+  sha256: sha256:8c6eedd6a617093bf7abbb732f353da3f3e3cef060564786f623feb71c75f0ed
+- path: forms/dnasequencingruncitation/dnasequencingruncitation/vendor/common/common.xml
+  sha256: sha256:cfa55249abdce44f2598240f3cf5644a4534b3ad0aef19aa78d0e479b4dc2f62
+- path: forms/dnasequence/dnasequencesubview/vendor/common/common.xml
+  sha256: sha256:4330db7833b98bea72816199b8b17080199875593c6a0163c7586a2572d79086
+- path: forms/exchangein/exchangein/vendor/common/common.xml
+  sha256: sha256:aadf8a3b5e2d3de69b807695aeed71fd905e68abd816f1a88498ff93efeecbdc
+- path: forms/exchangeinprep/exchangeinprep/vendor/common/common.xml
+  sha256: sha256:bacf683b2ea5e47c2b4db1ebe9968b57110780ffec5a3482f17ba01e69a04228
+- path: forms/exchangeout/exchangeout/vendor/common/common.xml
+  sha256: sha256:524a2b0a0fea2c0e7a16fc8c07ba57a158300d322facfb3957f69cb10b2ffdbb
+- path: forms/exchangeout/exchangeoutsub/vendor/common/common.xml
+  sha256: sha256:7df78d7d1936ee3e508089ae5820210dde577d252fdb5622a5a9e2d63659f8b0
+- path: forms/exchangeoutprep/exchangeoutprep/vendor/common/common.xml
+  sha256: sha256:15ec5acb5d73e6b8946815243590b59c46ef1b20cb464fc778db1f404f24e0f2
+- path: forms/exchangeout/exchangeoutdeaccsub/vendor/common/common.xml
+  sha256: sha256:3649092dce74151282a31315e859d878edf3bad32047e1acba4021657db8eb8f
+- path: forms/exchangeoutprep/exchangeoutdeaccprep/vendor/common/common.xml
+  sha256: sha256:2371eaaf5fa91f6e19ee7001f9e6515db9ee68cb48a4fa9a75e3eccfee6df1a3
+- path: forms/extractor/extractor/vendor/common/common.xml
+  sha256: sha256:c3fbacf66a342d5b265ece1506120192b8c2f360c3f99bf04518c675af7f1a66
+- path: forms/extractor/pcrpersons/vendor/common/common.xml
+  sha256: sha256:0cdd5de538b56e7a9e0f4f35e69d3fcb2609053fae8cae4a1c5d07053462b967
+- path: forms/fieldnotebook/fieldnotebook/vendor/common/common.xml
+  sha256: sha256:f47851cac17c64f959c9fde2518604e070db7149de0f389e8bdc33b68c515e54
+- path: forms/fieldnotebookpage/fieldnotebookpage/vendor/common/common.xml
+  sha256: sha256:32c922e18e00ecb5ea52b40ddfd10f7770c8c2a1885593cde34a0ee77da42e34
+- path: forms/fieldnotebookpageset/fieldnotebookpageset/vendor/common/common.xml
+  sha256: sha256:f5a0fdced88215295ccaaff28ddafdf823e6088f6ebc695c6595c5a309ce70e2
+- path: forms/fundingagent/fundingagent/vendor/common/common.xml
+  sha256: sha256:9b68a3dc4a5965f9d5ed2d9edd03d4129471c6cfc883fc1696d81f3f4d987f7d
+- path: forms/fundingagent/fundingagents-table/vendor/common/common.xml
+  sha256: sha256:2d402ee65603f296fde4daaae1bb8a7d27015953797dbbccc6bdde4924b4b542
+- path: forms/geocoorddetail/geocoorddetail/vendor/common/common.xml
+  sha256: sha256:03daf0e2f0649cf66eef5fca7ed2bcf6f74a4f28a284d18f594979d20928e083
+- path: forms/gift/gift/vendor/common/common.xml
+  sha256: sha256:1fb1c2ecb822d964f3ea53365e830bbff9e8102982e377fddd797f6dc681561a
+- path: forms/gift/giftsub/vendor/common/common.xml
+  sha256: sha256:1cbe6640f633f5e52a8d93606d723098c0f6bb8be84c05b476218b8b6a1ef630
+- path: forms/preparationholderiface/phsub/vendor/common/common.xml
+  sha256: sha256:a7bd5ec272aaa28106e1ccd069ce204a6f5e5429947b1501ff05faf2dd8c2e5f
+- path: forms/giftagent/giftagent/vendor/common/common.xml
+  sha256: sha256:c14cc36c1e7ba0e5174efa6f50b35100c3895cdef90af5183be7015785687de7
+- path: forms/giftpreparation/giftitems/vendor/common/common.xml
+  sha256: sha256:ed70b31ada1ca329d141a8583d680f434d9700c21b86e90a7e5afb8d649cb8f1
+- path: forms/gift/giftdeaccsub/vendor/common/common.xml
+  sha256: sha256:10d68d58bfb396686ada83be8d7d1671192708aecd4356627e985610cb8f3dca
+- path: forms/giftpreparation/giftdeaccitems/vendor/common/common.xml
+  sha256: sha256:9c8026ed1bbcc8f1b869c929a132120674fe51557945ac756f5ecbe41cb017c8
+- path: forms/deaccession/deaccession/vendor/common/common.xml
+  sha256: sha256:027594f7c65ace1fe779f50bf1768386d7b8d165f5044f82703e2484f1e385e1
+- path: forms/deaccession/deaccessionaccession/vendor/common/common.xml
+  sha256: sha256:19f1a127e7de8d9067a12916d97f0d00bb2363f6380dfc5c2d14249479a1aa85
+- path: forms/deaccession/deaccessiondialog/vendor/common/common.xml
+  sha256: sha256:46394f0babcb0dac0e3a936c92c4e211bfe45e95f676ec4acdcd9bd6bf6d2759
+- path: forms/loan/loan/vendor/common/common.xml
+  sha256: sha256:9f8cd586ab62ecbd6202f9cc46992bbb9468b02f8fe47a2ca4bacfc28608cc2b
+- path: forms/loanagent/loanagent/vendor/common/common.xml
+  sha256: sha256:7fcded098fb31a5c11a17ab782015a14b4bddb5cd18ce87d3ef79267e8cd2681
+- path: forms/loanpreparation/loanitems/vendor/common/common.xml
+  sha256: sha256:b6ce3dc17d3307d5850b2efd7955d11bb10ddc6485f6aeeb780829e8ebb42e49
+- path: forms/loanreturnpreparation/loanreturnpreparation/vendor/common/common.xml
+  sha256: sha256:480918cc7df956c2499623511f67cd273c3a3b22dfddf64fb39767f744a8ec96
+- path: forms/locality/locality/vendor/common/common.xml
+  sha256: sha256:f736f97d78f874f3c0a937d80fcce6f9be761bf6517dbd7ef6451cd375b464de
+- path: forms/localitycitation/localitycitation/vendor/common/common.xml
+  sha256: sha256:61d998449bec601ce73a8c1b7a70c5556a6e2fd4823b0d99cda414874a5b62b7
+- path: forms/localitydetail/localitydetail/vendor/common/common.xml
+  sha256: sha256:bdc84ab7bdc270bb32f28dd687fdb80ade5b010a7dfc89d2a75e12f0dbd42b00
+- path: forms/localitynamealias/localitynamealias/vendor/common/common.xml
+  sha256: sha256:7f2000ea22e319d31c461d12617387c6cbadec3ec9526756e5750d3d36fc3e64
+- path: forms/locality/localitysubform/vendor/common/common.xml
+  sha256: sha256:489112b4af8cb25f5625c72255af6e4328d4f38432ea6203793de5294109dbac
+- path: forms/collectingevent/localitymapper/vendor/common/common.xml
+  sha256: sha256:5f4c7e7548ee1591b36d6f00714642bc6e0726839c0d6222d0469491b7c011ba
+- path: forms/materialsample/materialsample/vendor/common/common.xml
+  sha256: sha256:4709fd1f413a2f41192606007d867aa5e46355d954d770a987856b1f3576c85f
+- path: forms/paleocontext/paleocontext/vendor/common/common.xml
+  sha256: sha256:a96fe639f0efb15f3318d9d116d977862f698bb78bf42b379a491fb79ad11d95
+- path: forms/pcrperson/pcrperson/vendor/common/common.xml
+  sha256: sha256:da138c7133cfbe514a559de8bd80964b7b1dcb4e6d182d890e204fe54b9f8fe6
+- path: forms/permit/permit/vendor/common/common.xml
+  sha256: sha256:c6618fed23d4017c14a0248cd5d33fd2847b5a8f5ea838abe2ad74073577bd07
+- path: forms/permit/permitforaccessions/vendor/common/common.xml
+  sha256: sha256:a8f1dac808d8fd80a33bb42321abb7ad2816003211875f875cc4b5f1d9eecd8a
+- path: forms/preparation/preparation/vendor/common/common.xml
+  sha256: sha256:95a0a376ca02dbbe609a4e2c780b0bfd8e278974da7fc4914a98d44ff455dcaa
+- path: forms/preparationattribute/preparationattributes/vendor/common/common.xml
+  sha256: sha256:34b229a7e4bfe6df21415742a2c5895350b40445b24bee15ade57d0747849107
+- path: forms/preparationproperty/preparationproperty/vendor/common/common.xml
+  sha256: sha256:348fbe804bd8d8d7ec456960095b5d8b375d38338960a350e5eeb640a2c330a3
+- path: forms/project/project/vendor/common/common.xml
+  sha256: sha256:0b6708e24c495a33e162c374d1212a15b89b6aa96141821dad41f5b16646e114
+- path: forms/project/projectsub-table/vendor/common/common.xml
+  sha256: sha256:5578370865d2f3fea0102870a88dddf85b30ae49633068787170ada7707c646c
+- path: forms/inforequest/inforequest/vendor/common/common.xml
+  sha256: sha256:b514a6dbe3f53df20e2c98932f4cf303f7e083a58fb485141d860c44b9033672
+- path: forms/collectionobject/inforequestcolobj/vendor/common/common.xml
+  sha256: sha256:568cb8f609f0b68f86b8b0f21f369f3d793789e0ab27e72589eee4876559fcce
+- path: forms/otheridentifier/otheridentifiers/vendor/common/common.xml
+  sha256: sha256:7e1f2955496d66636e753265a243355f3dfe213a387bc52c08f504dcd4c05fc5
+- path: forms/agentidentifier/agentidentifier/vendor/common/common.xml
+  sha256: sha256:9aff1fca19fefb8051cfa2cf7d65690d399f530926fb4a65b10a5c3d194630dc
+- path: forms/repositoryagreement/repositoryagreement/vendor/common/common.xml
+  sha256: sha256:9efa18bcdeeb16c54b6e23dca90f20070831779674c8d67387410eae8e0edb65
+- path: forms/shipment/shipment/vendor/common/common.xml
+  sha256: sha256:17ca22a0883b388bd2d6debbdc1eba4f55c0546eec7b404a072ea922f3135690
+- path: forms/paleocontext/subpaleocontext/vendor/common/common.xml
+  sha256: sha256:5abdb4ef810471f8bcb4446cd91867416374328e0dd7eb61f6bfc7fada391216
+- path: forms/treatmentevent/treatmentevent/vendor/common/common.xml
+  sha256: sha256:20e8a26a5c8888f4de769a6a8375494723a34fbd0471791a11bd6dd2bf7fa8a4
+- path: forms/treatmentevent/treatmenteventsub/vendor/common/common.xml
+  sha256: sha256:1ecd9cc49c9ae9e97e4bdc21fb799006323c9b834c6808f0652bff3499003dbc
+- path: forms/discipline/discipline/vendor/common/common.xml
+  sha256: sha256:40dc4383075b891e2aab1737291c536257a20de0fd4f1d7a3f78bc308a3cf247
+- path: forms/discipline/disciplineviewonlycollections/vendor/common/common.xml
+  sha256: sha256:8b7799b58cf791814f2e200f79af0b7e4566d0bc61856e4942330667b0289218
+- path: forms/discipline/disciplinewithoutcollections/vendor/common/common.xml
+  sha256: sha256:2164ace18120339b673a867565e0cf022f709ac5ed6a1bbea89a69994f139d1e
+- path: forms/collection/collection/vendor/common/common.xml
+  sha256: sha256:2b6e1fc7449fc953d14a4649f5045ef0aa4f1bdcad79fa0007b242190cb5848e
+- path: forms/collection/collectionsub/vendor/common/common.xml
+  sha256: sha256:130a45638fa05b6975561abf1a5c5ae1733da38f4cd29427e51cd38af414dca0
+- path: forms/collection/collectionforgrid/vendor/common/common.xml
+  sha256: sha256:5e322b9f37f8557f526b7247c471601fe9cf69d0ae92f20b61c8955577d7af2e
+- path: forms/institution/institution/vendor/common/common.xml
+  sha256: sha256:4a66738fe998be3b91070dfdb99a0d900af1bba2fdf9f6410de574be399814cf
+- path: forms/address/addressdiv/vendor/common/common.xml
+  sha256: sha256:46b3d473074ff0617da7210906abee5e488d2bbb1a78e6a51264afa31de18429
+- path: forms/division/division/vendor/common/common.xml
+  sha256: sha256:900214b7b971f83e3ed4d9cc193f78548c1309ee83d8b6cb2d9c0d0bde12de07
+- path: forms/division/divisiononly/vendor/common/common.xml
+  sha256: sha256:423e767fbfa7b7bc872fb087e9e1518063b35c4eb8a1b7ba3f729046ffeb88d8
+- path: forms/voucherrelationship/voucherrelationship/vendor/common/common.xml
+  sha256: sha256:b0ab2ead4904de67293affef8816ef975ce77ac1720cce15e5eeb548b8b22107
+- path: forms/collectionobject/collectionobjectmini/vendor/common/common.xml
+  sha256: sha256:8aadad5f3c7dec1c856e796ed46b587f47bd7e52629e2c6079953176d2e07f86
+- path: forms/relativeage/relativeage/vendor/common/common.xml
+  sha256: sha256:9ca0d33e8e9f3ff0d9ad5ed4ccc4bf7c510e248ffc4bf9f0135e8b6fb857745b
+- path: forms/absoluteage/absoluteage/vendor/common/common.xml
+  sha256: sha256:81b8f627311f81479b87c7544dad3b30b04eb6b96f428b8c952e9c18beb28ea1
+order:
+  views:
+  - Accession
+  - AccessionCO
+  - AccessionDeaccession
+  - AccessionAgent
+  - AccessionAuthorization
+  - AccessionItems
+  - AgreementAgent
+  - AgreementAuthorization
+  - AddressOfRecord
+  - Appraisal
+  - Borrow
+  - BorrowAgent
+  - BorrowMaterial
+  - BorrowReturnMaterial
+  - CollectingEventSubform
+  - CollectingTrip
+  - CollectingTripForm
+  - Collector
+  - Collectors
+  - CollectionObjectCitation
+  - CollectionObjectType
+  - CollectionObjectGroup
+  - CollectionObjectGroupSub
+  - CollectionObjectGroupJoin
+  - CollectionObjectGroupType
+  - Collection Object Search
+  - CollectionObjectProperty
+  - CollectionObjectSub
+  - CollectionObjectSubTable
+  - Component
+  - CommonNameTx
+  - ConservDescription
+  - ConservEvent
+  - ConservDescriptionSub
+  - Container
+  - ContainerBrief
+  - ContainerBriefTable
+  - ContentContact
+  - DeaccessionAgent
+  - Disposal
+  - DisposalSub
+  - DisposalAgent
+  - DisposalPreparation
+  - DisposalPreparation2
+  - DisposalDeaccSub
+  - DisposalDeaccPreparation
+  - Determination
+  - DeterminationCitation
+  - DeterminationViewOnly
+  - Determiner
+  - Determiners
+  - DNAPrimer
+  - DNASequence
+  - DNASequenceRun
+  - DNASequencingRun
+  - DNASequencingRunCitation
+  - DNASequenceSubView
+  - ExchangeIn
+  - ExchangeInPrep
+  - ExchangeOut
+  - ExchangeOutSub
+  - ExchangeOutPrep
+  - ExchangeOutDeaccSub
+  - ExchangeOutDeaccPrep
+  - Extractor
+  - Extractors
+  - FieldNotebook
+  - FieldNotebookPage
+  - FieldNotebookPageSet
+  - FundingAgent
+  - FundingAgents
+  - GeoCoordDetail
+  - Gift
+  - GiftSub
+  - PHSub
+  - GiftAgent
+  - GiftItems
+  - GiftDeaccSub
+  - GiftDeaccItems
+  - Deaccession
+  - DeaccessionAccession
+  - DeaccessionDialog
+  - Loan
+  - LoanAgent
+  - LoanItems
+  - LoanReturnPreparation
+  - Locality
+  - LocalityCitation
+  - LocalityDetail
+  - LocalityNameAlias
+  - LocalitySubForm
+  - LocalityMapper
+  - MaterialSample
+  - PaleoContext
+  - PcrPerson
+  - PcrPersons
+  - Permit
+  - PermitForAccessions
+  - Preparation
+  - PreparationAttributes
+  - PreparationProperty
+  - Project
+  - ProjectSub
+  - InfoRequest
+  - InfoRequestColObj
+  - OtherIdentifiers
+  - AgentIdentifier
+  - RepositoryAgreement
+  - Shipment
+  - SubPaleoContext
+  - TreatmentEvent
+  - TreatmentEventSub
+  - Discipline
+  - DisciplineViewOnly
+  - DisciplineViewOnlyCollections
+  - DisciplineWithoutCollections
+  - Collection
+  - CollectionSub
+  - CollectionGridViewOnly
+  - CollectionGrid
+  - CollectionForGrid
+  - Institution
+  - AddressDiv
+  - Division
+  - DivisionOnly
+  - VoucherRelationship
+  - CollectionObjectMini
+  - RelativeAge
+  - AbsoluteAge
+  - CollectionObjectGroupJoin_GridView
+  - CollectionObjectGroupJoin_Sub
+  viewdefs:
+  - Accession
+  - AccessionCO
+  - AccessionDeaccession Table
+  - AccessionDeaccession
+  - AccessionAgent Table
+  - AccessionAgent
+  - AccessionAuthorization
+  - AccessionItems Table
+  - AccessionItems
+  - AddressOfRecord
+  - Appraisal
+  - Borrow
+  - BorrowAgent Table
+  - BorrowAgent
+  - BorrowMaterial Table
+  - BorrowMaterial
+  - BorrowReturnMaterial Table
+  - BorrowReturnMaterial
+  - CollectingEventSubform
+  - CollectingTrip
+  - CollectingTripForm
+  - CollectionObjectProperty Table
+  - CollectionObjectProperty
+  - Collector
+  - Collectors Table
+  - CollectorsIconView
+  - Collectors
+  - CollectionObjectCitation
+  - CollectionObjectGroup
+  - CollectionObjectGroupSub
+  - CollectionObjectGroupJoin
+  - CollectionObjectGroupType
+  - CollectionObjectType
+  - Collection Object Search
+  - CollectionObjectSub Table
+  - CollectionObjectSub
+  - Component Table
+  - Component
+  - CommonNameTx
+  - ConservDescription
+  - ConservEvent
+  - ConservDescriptionSub
+  - Container
+  - ContainerBrief Table
+  - ContainerBrief
+  - Deaccession
+  - DeaccessionAccession Table
+  - DeaccessionAccession
+  - DeaccessionDialog
+  - DeaccessionAgent Table
+  - DeaccessionAgent
+  - Disposal
+  - DisposalSub
+  - DisposalAgent Table
+  - DisposalAgent
+  - DisposalPreparation Table
+  - DisposalPreparation
+  - DisposalDeaccSub
+  - DisposalDeaccPreparation Table
+  - DisposalDeaccPreparation
+  - DisposalPreparation2
+  - Determination Table
+  - Determination
+  - DeterminationCitation
+  - Determiner
+  - Determiners Table
+  - DeterminersIconView
+  - Determiners
+  - DNAPrimer
+  - DNASequence
+  - DNASequenceRun
+  - DNASequencingRunCitation
+  - DNASequenceSubView
+  - ExchangeIn
+  - ExchangeInPrep Table
+  - ExchangeInPrep
+  - ExchangeOut
+  - ExchangeOutSub
+  - ExchangeOutPrep Table
+  - ExchangeOutPrep
+  - ExchangeOutDeaccSub
+  - ExchangeOutDeaccPrep Table
+  - ExchangeOutDeaccPrep
+  - Extractor
+  - Extractors Table
+  - ExtractorsIconView
+  - Extractors
+  - FieldNotebook
+  - FieldNotebookPageSet
+  - FieldNotebookPage
+  - FieldNotebookPage Table
+  - GeoCoordDetail
+  - Gift
+  - GiftSub
+  - PHSub
+  - GiftAgent Table
+  - GiftAgent
+  - GiftItems Table
+  - GiftItems
+  - GiftDeaccSub
+  - GiftDeaccItems Table
+  - GiftDeaccItems
+  - InfoRequest
+  - InfoRequestColObj
+  - Loan
+  - LoanAgent Table
+  - LoanAgent
+  - LoanItems Table
+  - LoanItems
+  - LoanReturnPreparation
+  - Locality
+  - LocalityCitation
+  - LocalityDetail
+  - LocalityNameAlias
+  - LocalitySubForm
+  - LocalityMapper
+  - MaterialSample Table
+  - MaterialSample
+  - OtherIdentifiers Table
+  - AgentIdentifier Table
+  - OtherIdentifiers
+  - AgentIdentifier
+  - VoucherRelationship Table
+  - VoucherRelationship
+  - PaleoContext
+  - PcrPerson
+  - PcrPersons Table
+  - PcrPersonsIconView
+  - PcrPersons
+  - Permit
+  - PermitForAccessions
+  - Preparation Table
+  - Preparation
+  - PreparationAttributes
+  - PreparationProperty Table
+  - PreparationProperty
+  - Project
+  - ProjectSub Table
+  - ProjectSub
+  - RepositoryAgreement
+  - AgreementAgent
+  - AgreementAuthorization
+  - Shipment
+  - TaxonLabelFormattingPlugin
+  - SubPaleoContext
+  - TreatmentEvent
+  - TreatmentEventSub
+  - Institution
+  - ContentContact Table
+  - ContentContact
+  - DivisionOnly
+  - Division
+  - DisciplineViewOnlyCollections
+  - DisciplineWithoutCollections
+  - AddressDiv
+  - Discipline
+  - CollectionSub
+  - CollectionGridViewOnly
+  - CollectionGrid
+  - CollectionForGrid
+  - Collection
+  - FundingAgent
+  - FundingAgents Table
+  - FundingAgentsIconView
+  - FundingAgents
+  - RelativeAge
+  - RelativeAge Table
+  - AbsoluteAge
+  - AbsoluteAge Table
+  - CollectionObjectGroupJoin Table
+  - CollectionObjectGroupJoin_GridView
+  - CollectionObjectGroupJoin_Sub
+  - CollectionObjectGroupJoin_Sub Table
+support:
+  orphans: viewsets/vendor/common/common/orphans.xml
+  rootMisc: viewsets/vendor/common/common/viewset-misc.xml
+knownIssues:
+  unresolvedViewdefs:
+  - Collection Object
+  - Component Grid
+deletions: []
+canonicalSha256: sha256:f99fd2d4a33312594e732c1b6f4f664d8b59005420d484d291c0fcc8a22df1c3

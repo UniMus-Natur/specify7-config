@@ -1,0 +1,18 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:f551ec0e035521cf
+  name: wer
+  source: managed
+  mimetype: jrxml/label
+  remoteDescription: wer
+  remoteMetadata: tableid=-1;reporttype=Report;
+  level: 0
+  allPermissionLevel: null
+  groupPermissionLevel: null
+  ownerPermissionLevel: null
+scope:
+  level: discipline
+  discipline: karplanter-moser
+data: resources/wer/managed/discipline/karplanter-moser/resource.xml
+sha256: sha256:c19782ce2efd9baea15f853b43efa4a4eb93c019a0be45f3712f56fa83589661
