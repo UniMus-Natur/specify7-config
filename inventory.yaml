@@ -1354,6 +1354,13 @@ resources:
     level: discipline-type
     disciplineType: insect
   path: resources/expresssearchconfig/vendor/discipline-type/insect/resource.yaml
+- uid: resource:e91d8b69efb77860
+  kind: AppResource
+  source: vendor
+  status: present
+  scope:
+    level: backstop
+  path: resources/dataviewqueries/vendor/backstop/resource.yaml
 - uid: resource:f551ec0e035521cf
   kind: AppResource
   source: managed

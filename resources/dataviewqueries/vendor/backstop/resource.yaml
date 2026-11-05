@@ -1,0 +1,13 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:e91d8b69efb77860
+  name: DataViewQueries
+  source: vendor
+  mimetype: application/json
+  filename: data_view_queries.json
+  registryOrder: 3
+scope:
+  level: backstop
+data: resources/dataviewqueries/vendor/backstop/resource.json
+sha256: sha256:f2549bb488b7cc55fce5659609861d238218fda8229ea71d6b3512da054d63bd

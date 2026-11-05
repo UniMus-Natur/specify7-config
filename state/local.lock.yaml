@@ -1314,7 +1314,7 @@ resources:
     canonicalSha256: sha256:fcced3eb31b18a66a602d39cb7c42e12844bd466c7432b101ab24231c5ef2ab7
     url: /static/config/common/weblinks.xml
   resource:aa97d0cd915d1cc2:
-    canonicalSha256: sha256:ed9526621e5c16171ecc5ef3cb5d41e0a3bd29010768e83fb5355f1f311af6a9
+    canonicalSha256: sha256:05a3d34b5a7a5bfca9dd4c88274018db2067b5a1967fdec443a6ee2db7bb8edc
     url: /static/config/backstop/dataobj_formatters.xml
   resource:c0291a48d400cb00:
     canonicalSha256: sha256:5a630248b9cdb1fb0d8535c45f6230d9b7a59fac53852e6b4ff7afb50485bec7
@@ -1342,6 +1342,9 @@ resources:
   resource:e826aea08249c6bf:
     canonicalSha256: sha256:5a630248b9cdb1fb0d8535c45f6230d9b7a59fac53852e6b4ff7afb50485bec7
     url: /static/config/insect/es_config.xml
+  resource:e91d8b69efb77860:
+    canonicalSha256: sha256:11008d0460180143137a2f42c78f4ec61d5bae4e47726802d9cdc65a3ee740cc
+    url: /static/config/backstop/data_view_queries.json
   resource:f551ec0e035521cf:
     canonicalSha256: sha256:c19782ce2efd9baea15f853b43efa4a4eb93c019a0be45f3712f56fa83589661
     objectId: 21
@@ -1350,7 +1353,7 @@ resources:
     objectVersion: 0
     directoryId: 6
   schema:scope:discipline:048c690d43b2:en:
-    canonicalSha256: sha256:1970c43f5bbfc3b8aed1d7d66e5ab7d71bdf3a56a7b31e2f77e1022e56eef5fa
+    canonicalSha256: sha256:31c9669d2eb39211950bb6591ab77177b6f02ddde295af3a26b764a84d6db611
     disciplineId: 4
     collectionId: 5
   schema:scope:discipline:29775d26fcd7:en:
@@ -1365,12 +1368,13 @@ resources:
     canonicalSha256: sha256:579acff8487c5d7eb68dccd2e0ba49bf1efb2fca7fbbb722e45d57cb8e8f1ae8
     url: /static/config/backstop/system.views.xml
   viewset:1fbdbb1bc46b9c0f:
-    canonicalSha256: sha256:5687b53d8c7ad5874d5a9e37ab27bd8b06cf8df761feb1915493782de3765a7c
+    canonicalSha256: sha256:e162d13404f4dd70b168d74ee44226af9747055671e484d0aefec13e260f02cd
     objectId: 1
     dataId: 7
-    version: 45
-    objectVersion: 4
+    version: 47
+    objectVersion: 6
     directoryId: 6
+    dataVersion: 47
   viewset:3600120bd1fc548f:
     canonicalSha256: sha256:c279fc33903e265c81a1dd14d896e9f0b659be39789e80b61c6e34e5bbbee449
     url: /static/config/bird/bird.views.xml
