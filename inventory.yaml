@@ -28,6 +28,60 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/accessiontype.json
+- uid: picklist:0d97652a75d8ceb0
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/division.json
+- uid: picklist:0e92fbb0fd9f6391
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/agentvariant.json
+- uid: picklist:104aca9fa8758f02
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/referenceworktype.json
+- uid: picklist:13523437fbce9156
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/relativeagedatingmethod.json
+- uid: picklist:16e4b8afcd898ed3
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/agenttitles.json
+- uid: picklist:16f0c373d764b013
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/deaccessionstatus.json
 - uid: picklist:19c85c119ed81a27
   kind: Picklist
   source: managed
@@ -55,6 +109,15 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/systemcogtypes.json
+- uid: picklist:1ebcbde3ac4357c9
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/systemcogtypes.json
 - uid: picklist:26181dedd8438301
   kind: Picklist
   source: managed
@@ -64,6 +127,15 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/agenttitles.json
+- uid: picklist:26213ab5ef392a78
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/department.json
 - uid: picklist:268c43eb997433a8
   kind: Picklist
   source: managed
@@ -82,6 +154,24 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/deaccessionagentrole.json
+- uid: picklist:2e68023b6d458b2e
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/accessionrole.json
+- uid: picklist:2f373825257d52b4
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/collectionobjecttype.json
 - uid: picklist:3547f4987e039bf7
   kind: Picklist
   source: managed
@@ -91,6 +181,15 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/preptype.json
+- uid: picklist:4290c5ac56333b51
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/accessiontype.json
 - uid: picklist:45235bc197b9b317
   kind: Picklist
   source: managed
@@ -145,6 +244,15 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/typeofaddr.json
+- uid: picklist:55468d2aead4d305
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/permittype.json
 - uid: picklist:5602ca041a4279d4
   kind: Picklist
   source: managed
@@ -181,6 +289,15 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/cogtypes.json
+- uid: picklist:665157b91e596f36
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/cogtypes.json
 - uid: picklist:6722377b13daae4c
   kind: Picklist
   source: managed
@@ -217,6 +334,15 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/deaccessionstatus.json
+- uid: picklist:6a7cdad8f64c6604
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/biologicalsex.json
 - uid: picklist:6aab8c15514ffc17
   kind: Picklist
   source: managed
@@ -226,6 +352,15 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/accessionstatus.json
+- uid: picklist:6b69684b9ffc3f32
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/typestatus.json
 - uid: picklist:6c8ecdb3e776b5ba
   kind: Picklist
   source: managed
@@ -235,6 +370,15 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/agetype.json
+- uid: picklist:6d4de068e81e1708
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/discipline.json
 - uid: picklist:6e235fe4cc0c6ea4
   kind: Picklist
   source: managed
@@ -298,6 +442,15 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/collectionobjecttype.json
+- uid: picklist:7767be7ef4f1eeba
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/borrowrole.json
 - uid: picklist:77e9a6494bece91b
   kind: Picklist
   source: managed
@@ -307,6 +460,15 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/relativeagedatingmethod.json
+- uid: picklist:7b5eb09e81bebe83
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/moleculetype.json
 - uid: picklist:7ba8a5b10eeb2637
   kind: Picklist
   source: managed
@@ -325,6 +487,24 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/containertype.json
+- uid: picklist:7dce4f0b19d924d4
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/materialsample.json
+- uid: picklist:8220599a4f0024a0
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/loanagentrole.json
 - uid: picklist:832b1863d2e5bdf2
   kind: Picklist
   source: managed
@@ -343,6 +523,15 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/accessionrole.json
+- uid: picklist:84bc7a1243102360
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/disciplinetype.json
 - uid: picklist:84d7445669484672
   kind: Picklist
   source: managed
@@ -352,6 +541,24 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/agentidentifiertype.json
+- uid: picklist:86cba84e5326a7ed
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/numberingscheme.json
+- uid: picklist:8851c308ba4aba4b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/deaccessionagentrole.json
 - uid: picklist:88ba6e10a190b86a
   kind: Picklist
   source: managed
@@ -370,6 +577,15 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/preptype.json
+- uid: picklist:8c76524a382be3ee
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/shipmentmethod.json
 - uid: picklist:9220fd58b66ecfc9
   kind: Picklist
   source: managed
@@ -388,6 +604,15 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/moleculetype.json
+- uid: picklist:9af272634d360b94
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/agetype.json
 - uid: picklist:9b297d5ffd60032e
   kind: Picklist
   source: managed
@@ -424,6 +649,15 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/determinationaddendum.json
+- uid: picklist:a0aea468c2c4c609
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/accessionstatus.json
 - uid: picklist:a0c1ced8e8e89c6d
   kind: Picklist
   source: managed
@@ -433,6 +667,15 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/biogeographicregion.json
+- uid: picklist:a0fc95f69838b11e
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/agentidentifiertype.json
 - uid: picklist:a18a6ea3b272d2ed
   kind: Picklist
   source: managed
@@ -460,6 +703,15 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/absoluteagedatingmethod.json
+- uid: picklist:a81738301f2479d4
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/taxonlabelformatter.json
 - uid: picklist:ab8e95c970567201
   kind: Picklist
   source: managed
@@ -469,6 +721,15 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/disposaltype.json
+- uid: picklist:b2b0572fa8b31462
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/deaccessiontype.json
 - uid: picklist:b9e5ffc24b871b2a
   kind: Picklist
   source: managed
@@ -478,6 +739,42 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/deaccessiontype.json
+- uid: picklist:bbb845558aa60650
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/lifestage.json
+- uid: picklist:bc381baded11784a
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/containertype.json
+- uid: picklist:bf59cf843e381616
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/absoluteagedatingmethod.json
+- uid: picklist:bf7bb29b889d7161
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/treatmenttype.json
 - uid: picklist:c0e4fad62be015cf
   kind: Picklist
   source: managed
@@ -487,6 +784,15 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/taxonlabelformatter.json
+- uid: picklist:c0f1c81672b80839
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/disposaltype.json
 - uid: picklist:c203eb3152079697
   kind: Picklist
   source: managed
@@ -559,6 +865,24 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/cogtypes.json
+- uid: picklist:d2403c19fc2765c6
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/collectingmethod.json
+- uid: picklist:d2656407000a2fa3
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/typeofaddr.json
 - uid: picklist:d5a658381604efe0
   kind: Picklist
   source: managed
@@ -595,6 +919,15 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/agentidentifiertype.json
+- uid: picklist:dfe9df9891978d08
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/preptype.json
 - uid: picklist:e1f03a16be671fd3
   kind: Picklist
   source: managed
@@ -667,6 +1000,15 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/deaccessiontype.json
+- uid: picklist:fab8b5d268063312
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: NTNU Mammals
+  path: records/picklists/collection/mammal/ntnu-mammals/disposalagentrole.json
 - uid: picklist:fb60cfbe2002fcef
   kind: Picklist
   source: managed
@@ -704,6 +1046,16 @@ resources:
     collection: nhm-karplanter
     username: gunnhild-vasc
   reason: personal resources disabled by workspace policy
+- uid: resource-excluded:283d343142d69f96
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: mammal
+    collection: ntnu-mammals
+    username: eirikri
+  reason: personal resources disabled by workspace policy
 - uid: resource-excluded:2c82293d1058b0cd
   kind: AppResource
   source: managed
@@ -723,6 +1075,16 @@ resources:
     discipline: bird
     collection: ntnu-birds
     username: gunnhilm
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:57589ae447244e32
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: mammal
+    collection: ntnu-mammals
+    username: joshuamj
   reason: personal resources disabled by workspace policy
 - uid: resource-excluded:577b4ae0c7d36ecb
   kind: AppResource
@@ -896,6 +1258,15 @@ resources:
     level: discipline-type
     disciplineType: vertpaleo
   path: resources/expresssearchconfig/vendor/discipline-type/vertpaleo/resource.yaml
+- uid: resource:8cfcee3ab90f5df6
+  kind: AppResource
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: mammal
+    collection: ntnu-mammals
+  path: resources/collectionpreferences/managed/collection/mammal/ntnu-mammals/resource.yaml
 - uid: resource:901698fcf2f72148
   kind: AppResource
   source: managed
@@ -1023,14 +1394,6 @@ resources:
     level: discipline
     discipline: insect
   reason: discipline has no collection session for schema localization
-- uid: schema-excluded:a246b2c4fc9d8fc7
-  kind: SchemaLocalization
-  source: managed
-  status: excluded
-  scope:
-    level: discipline
-    discipline: mammal
-  reason: discipline has no collection session for schema localization
 - uid: schema-excluded:b06470052fe20c74
   kind: SchemaLocalization
   source: managed
@@ -1071,6 +1434,14 @@ resources:
     level: discipline
     discipline: bird
   path: schema/managed/discipline/bird/en/schema.yaml
+- uid: schema:scope:discipline:caa5860d3673:en
+  kind: SchemaLocalization
+  source: managed
+  status: present
+  scope:
+    level: discipline
+    discipline: mammal
+  path: schema/managed/discipline/mammal/en/schema.yaml
 - uid: viewset:00aefd8494b7c5be
   kind: Viewset
   source: vendor

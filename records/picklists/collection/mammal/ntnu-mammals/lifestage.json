@@ -1,0 +1,60 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "LifeStage",
+    "readonly": true,
+    "sizelimit": 50,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Unknown",
+      "value": "Unknown"
+    },
+    {
+      "ordinal": null,
+      "title": "Embryo",
+      "value": "Embryo"
+    },
+    {
+      "ordinal": null,
+      "title": "Fetus",
+      "value": "Fetus"
+    },
+    {
+      "ordinal": null,
+      "title": "Neonate",
+      "value": "Neonate"
+    },
+    {
+      "ordinal": null,
+      "title": "Juvenile",
+      "value": "Juvenile"
+    },
+    {
+      "ordinal": null,
+      "title": "Subadult",
+      "value": "Subadult"
+    },
+    {
+      "ordinal": null,
+      "title": "Adult",
+      "value": "Adult"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "LifeStage",
+  "scope": {
+    "collection": "NTNU Mammals",
+    "discipline": "mammal",
+    "level": "collection"
+  }
+}

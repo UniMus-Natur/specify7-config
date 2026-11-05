@@ -1,0 +1,156 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "Sp Audit Log",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "action": {
+      "desc": "The addition, update, or deletion action that was taken on the data field.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Action",
+      "picklistname": null,
+      "type": "java.lang.Byte",
+      "weblinkname": null
+    },
+    "createdbyagent": {
+      "desc": "A foreign key link to the Agent table and to the name of the logged-in user who made a change.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Created By Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "fields": {
+      "desc": "The SpAuditlogField records associated with the change.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Fields",
+      "picklistname": null,
+      "type": "OneToMany",
+      "weblinkname": null
+    },
+    "modifiedbyagent": {
+      "desc": "This is the same data as in the CreatedByAgent field.",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Modified By Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "parentrecordid": {
+      "desc": "The unique record ID of the record in the parent table to which the changed record is linked.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Parent Record Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "parenttablenum": {
+      "desc": "The number ID or name of the parent table of the record that has been modified.  For example if the changed record is in the Collection Object table, this value points to the 'Collection' table.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Parent Table Num",
+      "picklistname": null,
+      "type": "java.lang.Short",
+      "weblinkname": null
+    },
+    "recordid": {
+      "desc": "The unique record ID of the record that was created, changed, or deleted.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Record Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "recordversion": {
+      "desc": "The internal number used by Hibernate within Specify to keep track of the version of the changed record.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Record Version",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "spauditlogid": {
+      "desc": "Sp Audit Log Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Sp Audit Log Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "tablenum": {
+      "desc": "The table of the new, changed, or deleted record.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Table Num",
+      "picklistname": null,
+      "type": "java.lang.Short",
+      "weblinkname": null
+    },
+    "timestampcreated": {
+      "desc": "The date and time the record change, addition, or deletion was made.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Timestamp Created",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "timestampmodified": {
+      "desc": "Same information as the TimestampCreated field.",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Timestamp Modified",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "version": {
+      "desc": "Internal number, always = 0. No reporting value.",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Version",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    }
+  },
+  "name": "Sp Audit Log",
+  "picklistname": null,
+  "type": null
+}

@@ -1,0 +1,45 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "BiologicalSex",
+    "readonly": true,
+    "sizelimit": 4,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Unknown",
+      "value": "Unknown"
+    },
+    {
+      "ordinal": null,
+      "title": "Both",
+      "value": "Both"
+    },
+    {
+      "ordinal": null,
+      "title": "Female",
+      "value": "Female"
+    },
+    {
+      "ordinal": null,
+      "title": "Male",
+      "value": "Male"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "BiologicalSex",
+  "scope": {
+    "collection": "NTNU Mammals",
+    "discipline": "mammal",
+    "level": "collection"
+  }
+}

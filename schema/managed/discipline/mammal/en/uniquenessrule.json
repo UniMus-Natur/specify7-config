@@ -1,0 +1,57 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "Uniqueness Rule",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "discipline": {
+      "desc": "Discipline",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Discipline",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "isdatabaseconstraint": {
+      "desc": "Isdatabaseconstraint",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Isdatabaseconstraint",
+      "picklistname": null,
+      "type": "java.lang.Boolean",
+      "weblinkname": null
+    },
+    "modelname": {
+      "desc": "Modelname",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Modelname",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "uniquenessruleid": {
+      "desc": "Uniqueness Rule Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Uniqueness Rule Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    }
+  },
+  "name": "Uniqueness Rule",
+  "picklistname": null,
+  "type": null
+}

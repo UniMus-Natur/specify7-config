@@ -1,0 +1,70 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "CollectingMethod",
+    "readonly": true,
+    "sizelimit": 9,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Trap",
+      "value": "Trap"
+    },
+    {
+      "ordinal": null,
+      "title": "Sherman Trap",
+      "value": "Sherman Trap"
+    },
+    {
+      "ordinal": null,
+      "title": "Elliot Trap",
+      "value": "Elliot Trap"
+    },
+    {
+      "ordinal": null,
+      "title": "Pitfall Trap",
+      "value": "Pitfall Trap"
+    },
+    {
+      "ordinal": null,
+      "title": "Sample-Release",
+      "value": "Sample-Release"
+    },
+    {
+      "ordinal": null,
+      "title": "Roadkill",
+      "value": "Roadkill"
+    },
+    {
+      "ordinal": null,
+      "title": "Salvage",
+      "value": "Salvage"
+    },
+    {
+      "ordinal": null,
+      "title": "Mist Net",
+      "value": "Mist Net"
+    },
+    {
+      "ordinal": null,
+      "title": "Shot",
+      "value": "Shot"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "CollectingMethod",
+  "scope": {
+    "collection": "NTNU Mammals",
+    "discipline": "mammal",
+    "level": "collection"
+  }
+}

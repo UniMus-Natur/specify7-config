@@ -1,0 +1,79 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "A cell of data.",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "celldata": {
+      "desc": "Cell Data",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Cell Data",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "rownumber": {
+      "desc": "Row Number",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Row Number",
+      "picklistname": null,
+      "type": "java.lang.Short",
+      "weblinkname": null
+    },
+    "validationstatus": {
+      "desc": "Validation Status",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Validation Status",
+      "picklistname": null,
+      "type": "java.lang.Short",
+      "weblinkname": null
+    },
+    "workbenchdataitemid": {
+      "desc": "Workbench Data Item Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Workbench Data Item Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "workbenchrow": {
+      "desc": "Workbench Row",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Workbench Row",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "workbenchtemplatemappingitem": {
+      "desc": "Workbench Template Mapping Item",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Workbench Template Mapping Item",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    }
+  },
+  "name": "WorkBench Data Item",
+  "picklistname": null,
+  "type": null
+}

@@ -1,0 +1,46 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "Library Role",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "description": {
+      "desc": "Description",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Description",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "libraryroleid": {
+      "desc": "Library Role Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Library Role Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "name": {
+      "desc": "Name",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Name",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    }
+  },
+  "name": "Library Role",
+  "picklistname": null,
+  "type": null
+}

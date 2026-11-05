@@ -1,0 +1,79 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "System Table:",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "actions": {
+      "desc": "Actions",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Actions",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "name": {
+      "desc": "Name",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Name",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "permissionclass": {
+      "desc": "Permission Class",
+      "format": null,
+      "ishidden": true,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Permission Class",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "permissionid": {
+      "desc": "Permission Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Permission Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "principals": {
+      "desc": "Principals",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Principals",
+      "picklistname": null,
+      "type": "ManyToMany",
+      "weblinkname": null
+    },
+    "targetid": {
+      "desc": "Target Id",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Target Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    }
+  },
+  "name": "Sp Permission",
+  "picklistname": null,
+  "type": null
+}

@@ -1,0 +1,79 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "Lat Lon Polygon Pnt",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "elevation": {
+      "desc": "Elevation",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Elevation",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "latitude": {
+      "desc": "Latitude",
+      "format": null,
+      "ishidden": true,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Latitude",
+      "picklistname": null,
+      "type": "java.math.BigDecimal",
+      "weblinkname": null
+    },
+    "latlonpolygon": {
+      "desc": "Lat Lon Polygon",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Lat Lon Polygon",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "latlonpolygonpntid": {
+      "desc": "Lat Lon Polygon Pnt Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Lat Lon Polygon Pnt Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "longitude": {
+      "desc": "Longitude",
+      "format": null,
+      "ishidden": true,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Longitude",
+      "picklistname": null,
+      "type": "java.math.BigDecimal",
+      "weblinkname": null
+    },
+    "ordinal": {
+      "desc": "Ordinal",
+      "format": null,
+      "ishidden": true,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Ordinal",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    }
+  },
+  "name": "Lat Lon Polygon Pnt",
+  "picklistname": null,
+  "type": null
+}

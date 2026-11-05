@@ -1,0 +1,57 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "Locality Update Row Result",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "localityupdate": {
+      "desc": "Localityupdate",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Localityupdate",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "localityupdaterowresultid": {
+      "desc": "Locality Update Row Result Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Locality Update Row Result Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "result": {
+      "desc": "Result",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Result",
+      "picklistname": null,
+      "type": "json",
+      "weblinkname": null
+    },
+    "rownumber": {
+      "desc": "Rownumber",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Rownumber",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    }
+  },
+  "name": "Locality Update Row Result",
+  "picklistname": null,
+  "type": null
+}
