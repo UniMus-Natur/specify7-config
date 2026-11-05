@@ -491,12 +491,12 @@
       "weblinkname": null
     },
     "text5": {
-      "desc": "UTM coordinates as GeoJSON Feature (easting/northing; optional high corner for grid cell).",
+      "desc": "Unused. UTM is stored on Locality Detail.",
       "format": null,
-      "ishidden": false,
+      "ishidden": true,
       "isrequired": false,
       "isuiformatter": null,
-      "name": "UTM (GeoJSON)",
+      "name": "Text5",
       "picklistname": null,
       "type": "text",
       "weblinkname": null

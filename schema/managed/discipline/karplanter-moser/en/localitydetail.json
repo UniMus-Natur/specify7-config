@@ -139,12 +139,12 @@
       "weblinkname": null
     },
     "mgrszone": {
-      "desc": "Mgrs Zone",
+      "desc": "Grid zone designator shared by UTM and MGRS: zone number plus latitude band, e.g. 32V.",
       "format": null,
-      "ishidden": true,
+      "ishidden": false,
       "isrequired": false,
       "isuiformatter": null,
-      "name": "Mgrs Zone",
+      "name": "Zone and band",
       "picklistname": null,
       "type": "java.lang.String",
       "weblinkname": null
@@ -425,9 +425,9 @@
       "weblinkname": null
     },
     "utmdatum": {
-      "desc": "UTM Datum",
+      "desc": "Geodetic datum of the UTM easting and northing.",
       "format": null,
-      "ishidden": true,
+      "ishidden": false,
       "isrequired": false,
       "isuiformatter": null,
       "name": "UTM Datum",
@@ -436,9 +436,9 @@
       "weblinkname": null
     },
     "utmeasting": {
-      "desc": "UTM Easting",
+      "desc": "UTM easting in metres.",
       "format": null,
-      "ishidden": true,
+      "ishidden": false,
       "isrequired": false,
       "isuiformatter": null,
       "name": "UTM Easting",
@@ -469,9 +469,9 @@
       "weblinkname": null
     },
     "utmnorthing": {
-      "desc": "UTM Northing",
+      "desc": "UTM northing in metres.",
       "format": null,
-      "ishidden": true,
+      "ishidden": false,
       "isrequired": false,
       "isuiformatter": null,
       "name": "UTM Northing",
@@ -513,9 +513,9 @@
       "weblinkname": null
     },
     "utmzone": {
-      "desc": "UTM Zone",
+      "desc": "UTM zone number (1–60). The latitude band is the letter in Zone and band.",
       "format": null,
-      "ishidden": true,
+      "ishidden": false,
       "isrequired": false,
       "isuiformatter": null,
       "name": "UTM Zone",

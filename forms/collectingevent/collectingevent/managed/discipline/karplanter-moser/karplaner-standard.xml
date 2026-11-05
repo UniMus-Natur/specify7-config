@@ -41,8 +41,16 @@
           <cell type="field" id="mgrs" name="locality.text3" uitype="text" colspan="6" readonly="true" />
         </row>
         <row>
-          <cell type="label" label="UTM (GeoJSON)" labelfor="utm" />
-          <cell type="field" id="utm" name="locality.text5" uitype="textareabrief" rows="2" colspan="6" readonly="true" />
+          <cell type="label" labelfor="mz" />
+          <cell type="field" id="mz" name="locality.localityDetails.mgrsZone" uitype="text" colspan="2" readonly="true" />
+          <cell type="label" labelfor="uz" />
+          <cell type="field" id="uz" name="locality.localityDetails.utmZone" uitype="text" colspan="2" readonly="true" />
+        </row>
+        <row>
+          <cell type="label" labelfor="ue" />
+          <cell type="field" id="ue" name="locality.localityDetails.utmEasting" uitype="text" colspan="2" readonly="true" />
+          <cell type="label" labelfor="un" />
+          <cell type="field" id="un" name="locality.localityDetails.utmNorthing" uitype="text" colspan="2" readonly="true" />
         </row>
         <row>
           <cell type="field" id="ync" name="locality.yesno1" uitype="checkbox" label="Ca coordinate" colspan="3" />

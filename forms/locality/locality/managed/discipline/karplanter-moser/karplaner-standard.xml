@@ -70,6 +70,9 @@
           <cell type="field" id="lt3" name="text3" uitype="text" colspan="6" />
         </row>
         <row>
+          <cell type="subview" id="ldet" name="localityDetails" viewname="LocalityDetail" colspan="17" />
+        </row>
+        <row>
           <cell type="field" id="ync" name="yesno1" uitype="checkbox" label="Ca coordinate" colspan="3" />
           <cell type="field" id="ynl" name="yesno2" uitype="checkbox" label="Coordinate added later" colspan="3" />
         </row>
@@ -98,10 +101,6 @@
         </row>
         <row>
           <cell type="separator" label="Advanced" colspan="17" collapse="true" />
-        </row>
-        <row>
-          <cell type="label" label="UTM (GeoJSON)" labelfor="lt5" />
-          <cell type="field" id="lt5" name="text5" uitype="textareabrief" rows="2" colspan="14" readonly="true" />
         </row>
         <row>
           <cell type="label" labelfor="lrm" />

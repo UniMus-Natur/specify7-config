@@ -59,6 +59,18 @@
           <cell type="field" id="lt3" name="text3" uitype="text" colspan="6" />
         </row>
         <row>
+          <cell type="label" labelfor="mz" />
+          <cell type="field" id="mz" name="localityDetails.mgrsZone" uitype="text" />
+          <cell type="label" labelfor="uz" />
+          <cell type="field" id="uz" name="localityDetails.utmZone" uitype="text" />
+        </row>
+        <row>
+          <cell type="label" labelfor="ue" />
+          <cell type="field" id="ue" name="localityDetails.utmEasting" uitype="text" />
+          <cell type="label" labelfor="un" />
+          <cell type="field" id="un" name="localityDetails.utmNorthing" uitype="text" />
+        </row>
+        <row>
           <cell type="field" id="ync" name="yesno1" uitype="checkbox" label="Ca coordinate" colspan="3" />
           <cell type="field" id="ynl" name="yesno2" uitype="checkbox" label="Coordinate added later" colspan="3" />
         </row>
