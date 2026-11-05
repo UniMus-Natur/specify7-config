@@ -1353,7 +1353,7 @@ resources:
     objectVersion: 0
     directoryId: 6
   schema:scope:discipline:048c690d43b2:en:
-    canonicalSha256: sha256:31c9669d2eb39211950bb6591ab77177b6f02ddde295af3a26b764a84d6db611
+    canonicalSha256: sha256:b43c6c427aef0ff262335a451a0d8921cbcaa894c4a4e0ba7b667878930c1c15
     disciplineId: 4
     collectionId: 5
   schema:scope:discipline:29775d26fcd7:en:
@@ -1368,13 +1368,13 @@ resources:
     canonicalSha256: sha256:579acff8487c5d7eb68dccd2e0ba49bf1efb2fca7fbbb722e45d57cb8e8f1ae8
     url: /static/config/backstop/system.views.xml
   viewset:1fbdbb1bc46b9c0f:
-    canonicalSha256: sha256:e162d13404f4dd70b168d74ee44226af9747055671e484d0aefec13e260f02cd
+    canonicalSha256: sha256:d1575c4c9d24b461f3b6ad8a9a88fa622444558e1f7474a3de9137be60f48a0f
     objectId: 1
     dataId: 7
-    version: 47
-    objectVersion: 6
+    version: 48
+    objectVersion: 7
     directoryId: 6
-    dataVersion: 47
+    dataVersion: 48
   viewset:3600120bd1fc548f:
     canonicalSha256: sha256:c279fc33903e265c81a1dd14d896e9f0b659be39789e80b61c6e34e5bbbee449
     url: /static/config/bird/bird.views.xml

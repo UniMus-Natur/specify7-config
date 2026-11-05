@@ -238,12 +238,12 @@
       "weblinkname": null
     },
     "remarks": {
-      "desc": "Locality and Habitat Notes",
+      "desc": "Collectors note from MUSIT (note linked to the collecting event).",
       "format": null,
       "ishidden": false,
       "isrequired": false,
       "isuiformatter": null,
-      "name": "Locality and Habitat Notes",
+      "name": "Collectors note",
       "picklistname": null,
       "type": "text",
       "weblinkname": null

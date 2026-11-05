@@ -73,7 +73,7 @@
           <cell type="field" id="ceh" name="text1" uitype="textareabrief" rows="2" colspan="10" />
         </row>
         <row>
-          <cell type="label" labelfor="6" />
+          <cell type="label" label="Collectors note" labelfor="6" />
           <cell type="field" id="6" name="remarks" uitype="textareabrief" rows="2" colspan="10" />
         </row>
         <row>
