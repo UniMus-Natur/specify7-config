@@ -139,12 +139,12 @@
       "weblinkname": null
     },
     "mgrszone": {
-      "desc": "Grid zone designator shared by UTM and MGRS: zone number plus latitude band, e.g. 32V.",
-      "format": null,
+      "desc": "MGRS latitude band letter (C–X, excluding I and O), e.g. V.",
+      "format": "MGRSBand",
       "ishidden": false,
       "isrequired": false,
       "isuiformatter": null,
-      "name": "Zone and band",
+      "name": "Band",
       "picklistname": null,
       "type": "java.lang.String",
       "weblinkname": null
@@ -426,7 +426,7 @@
     },
     "utmdatum": {
       "desc": "Geodetic datum of the UTM easting and northing.",
-      "format": null,
+      "format": "UTMDatum",
       "ishidden": false,
       "isrequired": false,
       "isuiformatter": null,
@@ -513,12 +513,12 @@
       "weblinkname": null
     },
     "utmzone": {
-      "desc": "UTM zone number (1–60). The latitude band is the letter in Zone and band.",
+      "desc": "UTM/MGRS zone number (1–60). Shared by Grid ref. and UTM axes.",
       "format": null,
       "ishidden": false,
       "isrequired": false,
       "isuiformatter": null,
-      "name": "UTM Zone",
+      "name": "Zone",
       "picklistname": null,
       "type": "java.lang.Short",
       "weblinkname": null

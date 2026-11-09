@@ -722,7 +722,7 @@
       "weblinkname": null
     },
     "remarks": {
-      "desc": "MUSIT administrative notes and audit trail.",
+      "desc": "Adm note from MUSIT (note linked to the collection object).",
       "format": null,
       "ishidden": false,
       "isrequired": false,
@@ -898,12 +898,12 @@
       "weblinkname": null
     },
     "text8": {
-      "desc": "MUSIT registration/approval audit",
+      "desc": "MUSIT Adm audit trail (Reg/Corr/Approved/Modified users and dates).",
       "format": null,
       "ishidden": false,
       "isrequired": false,
       "isuiformatter": null,
-      "name": "Administrative (MUSIT)",
+      "name": "Administrative",
       "picklistname": null,
       "type": "text",
       "weblinkname": null

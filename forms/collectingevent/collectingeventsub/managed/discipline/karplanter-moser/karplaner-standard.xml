@@ -41,6 +41,9 @@
           <cell type="field" id="bgr" name="locality.text2" uitype="combobox" picklist="BiogeographicRegion" colspan="10" />
         </row>
         <row>
+          <cell type="separator" label="WGS" colspan="12" />
+        </row>
+        <row>
           <cell type="label" labelfor="lat1" />
           <cell type="field" id="lat1" name="locality.latitude1" uitype="text" colspan="3" readonly="true" />
           <cell type="label" labelfor="lon1" />
@@ -53,7 +56,10 @@
           <cell type="field" id="lla" name="locality.latLongAccuracy" uitype="text" colspan="3" readonly="true" />
         </row>
         <row>
-          <cell type="label" label="Grid ref. (MGRS)" labelfor="mgrs" />
+          <cell type="separator" label="MGRS" colspan="12" />
+        </row>
+        <row>
+          <cell type="label" label="Grid ref." labelfor="mgrs" />
           <cell type="field" id="mgrs" name="locality.text3" uitype="text" colspan="10" readonly="true" />
         </row>
         <row>

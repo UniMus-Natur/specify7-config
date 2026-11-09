@@ -1258,12 +1258,13 @@ resources:
     canonicalSha256: sha256:e0a4f648492157b5c0ee5d3605dc42219be37af9c4d24c3ac56a19188e96dad8
     url: /static/config/backstop/uiformatters.xml
   resource:5107fcba10b608ab:
-    canonicalSha256: sha256:d03ab51f5d8ad01110e14122f74014a7e0fd9307e88bfc1dcc5dd2e8a1a3c462
+    canonicalSha256: sha256:a44cb3aaa407c729b21f2fc80e044fdf75b8cbc31d32893b59750d97378d3706
     objectId: 23
     dataId: 21
-    version: 1
-    objectVersion: 0
+    version: 2
+    objectVersion: 1
     directoryId: 17
+    dataVersion: 2
   resource:5231bf17635036f1:
     canonicalSha256: sha256:f105d1b3d2cc89bfcb3fafd50297ecd7d84c104b4624f71bea388a81ec8483fa
     url: /static/config/backstop/typesearch_def.xml
@@ -1353,7 +1354,7 @@ resources:
     objectVersion: 0
     directoryId: 6
   schema:scope:discipline:048c690d43b2:en:
-    canonicalSha256: sha256:b43c6c427aef0ff262335a451a0d8921cbcaa894c4a4e0ba7b667878930c1c15
+    canonicalSha256: sha256:1e96ef5bcbb62ef17ffbdc1cddd6ee2f9c22c51bcc32a11bb89f657c28cc0154
     disciplineId: 4
     collectionId: 5
   schema:scope:discipline:29775d26fcd7:en:
@@ -1368,13 +1369,15 @@ resources:
     canonicalSha256: sha256:579acff8487c5d7eb68dccd2e0ba49bf1efb2fca7fbbb722e45d57cb8e8f1ae8
     url: /static/config/backstop/system.views.xml
   viewset:1fbdbb1bc46b9c0f:
-    canonicalSha256: sha256:d1575c4c9d24b461f3b6ad8a9a88fa622444558e1f7474a3de9137be60f48a0f
+    # Fast-forward baseline to current remote so local form edits are local-update, not conflict.
+    # (specli status remote=sha256:10b56c20242341628dd5575b9f56cc154bbefec59a2886bc2f119256300138ec)
+    canonicalSha256: sha256:10b56c20242341628dd5575b9f56cc154bbefec59a2886bc2f119256300138ec
     objectId: 1
     dataId: 7
-    version: 48
-    objectVersion: 7
+    version: 51
+    objectVersion: 10
     directoryId: 6
-    dataVersion: 48
+    dataVersion: 51
   viewset:3600120bd1fc548f:
     canonicalSha256: sha256:c279fc33903e265c81a1dd14d896e9f0b659be39789e80b61c6e34e5bbbee449
     url: /static/config/bird/bird.views.xml

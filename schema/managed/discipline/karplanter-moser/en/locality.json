@@ -227,12 +227,12 @@
       "weblinkname": null
     },
     "localitydetails": {
-      "desc": "Locality Details (PLSS / township–range–section).",
+      "desc": "Zone + band for the Grid ref., plus UTM easting/northing/datum.",
       "format": null,
       "ishidden": false,
       "isrequired": false,
       "isuiformatter": null,
-      "name": "Locality Details",
+      "name": "MGRS zone & UTM",
       "picklistname": null,
       "type": "ZeroToOne",
       "weblinkname": null
@@ -469,7 +469,7 @@
       "weblinkname": null
     },
     "text3": {
-      "desc": "Norwegian MGRS grid reference (verbatim), e.g. NM 929,408.",
+      "desc": "Norwegian MGRS grid square + digits (verbatim), e.g. LK 122,941. Zone and Band complete the full MGRS.",
       "format": "GridRefMGRS",
       "ishidden": false,
       "isrequired": false,

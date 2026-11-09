@@ -2,7 +2,7 @@
 <viewset name="Karplaner - standard" i18nresname="views">
   <views>
     <view name="LocalityDetail" class="edu.ku.brc.specify.datamodel.LocalityDetail">
-      <desc>LocalityDetail form.</desc>
+      <desc>MGRS zone + band and UTM axes for Locality.</desc>
       <altviews>
         <altview name="LocalityDetail View" viewdef="LocalityDetail" mode="view" />
         <altview name="LocalityDetail Edit" viewdef="LocalityDetail" mode="edit" default="true" />
@@ -11,7 +11,7 @@
   </views>
   <viewdefs>
     <viewdef type="form" name="LocalityDetail" class="edu.ku.brc.specify.datamodel.LocalityDetail" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
-      <desc>UTM and shared MGRS zone for Locality</desc>
+      <desc>Zone and band (split), then UTM easting/northing/datum</desc>
       <columnDef>120px,2px,140px,5px,110px,2px,140px,5px,100px,2px,150px,p:g</columnDef>
       <columnDef os="lnx">130px,2px,150px,5px,120px,2px,150px,5px,110px,2px,160px,p:g</columnDef>
       <columnDef os="mac">145px,2px,160px,5px,130px,2px,160px,5px,120px,2px,170px,p:g</columnDef>
@@ -19,14 +19,16 @@
       <rowDef auto="true" cell="p" sep="2px" />
       <rows>
         <row>
-          <cell type="label" labelfor="mz" />
-          <cell type="field" id="mz" name="mgrsZone" uitype="text" />
-          <cell type="label" labelfor="uz" />
+          <cell type="label" label="Zone" labelfor="uz" />
+          <!-- utmZone is java.lang.Short — do not attach a string UIFormatter -->
           <cell type="field" id="uz" name="utmZone" uitype="text" />
+          <cell type="label" label="Band" labelfor="mz" />
+          <cell type="field" id="mz" name="mgrsZone" uitype="text" uifieldformatter="MGRSBand" />
           <cell type="label" labelfor="ud" />
-          <cell type="field" id="ud" name="utmDatum" uitype="text" />
+          <cell type="field" id="ud" name="utmDatum" uitype="text" uifieldformatter="UTMDatum" />
         </row>
         <row>
+          <!-- easting/northing are BigDecimal — string UIFormatters crash ("Value is not a string") -->
           <cell type="label" labelfor="ue" />
           <cell type="field" id="ue" name="utmEasting" uitype="text" />
           <cell type="label" labelfor="un" />

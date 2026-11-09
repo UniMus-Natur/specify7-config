@@ -4,6 +4,18 @@
     <field type="regex" value="[A-Za-z]{1,3}\s+\d{1,5}(?:-\d{1,5})?\s*,\s*\d{1,6}(?:-\d{1,6})?" pattern="AA 000,000" />
   </format>
 
+  <!-- String fields only. Do NOT attach UIFormatters to utmZone (Short) or
+       utmEasting/utmNorthing (BigDecimal) — Specify7 throws "Value is not a string". -->
+
+  <!-- MGRS latitude band letter (C–X, excluding I and O). -->
+  <format system="false" name="MGRSBand" class="edu.ku.brc.specify.datamodel.LocalityDetail" fieldname="mgrsZone" default="false">
+    <field type="regex" value="[C-HJ-NP-Xc-hj-np-x]" pattern="A" />
+  </format>
+
+  <format system="false" name="UTMDatum" class="edu.ku.brc.specify.datamodel.LocalityDetail" fieldname="utmDatum" default="false">
+    <field type="regex" value="[A-Za-z0-9._-]{2,20}" pattern="WGS84" />
+  </format>
+
   <!-- Catalog-number formats (copied from backstop). Collection-level UIFormatters
        replace backstop entirely, so these must live here or the New Collection
        "Catalog Num Format Name" pick list is empty. -->

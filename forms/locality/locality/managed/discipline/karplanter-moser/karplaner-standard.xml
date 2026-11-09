@@ -41,7 +41,7 @@
           <cell type="field" id="lt1" name="text1" uitype="textareabrief" rows="2" colspan="14" />
         </row>
         <row>
-          <cell type="separator" label="Coordinates" colspan="17" />
+          <cell type="separator" label="WGS" colspan="17" />
         </row>
         <row>
           <cell type="label" labelfor="5" />
@@ -66,8 +66,11 @@
           <cell type="field" id="6" name="latLongMethod" uitype="text" colspan="3" />
         </row>
         <row>
-          <cell type="label" label="Grid ref. (MGRS)" labelfor="lt3" />
-          <cell type="field" id="lt3" name="text3" uitype="text" colspan="6" />
+          <cell type="separator" label="MGRS" colspan="17" />
+        </row>
+        <row>
+          <cell type="label" label="Grid ref." labelfor="lt3" />
+          <cell type="field" id="lt3" name="text3" uitype="text" colspan="14" uifieldformatter="GridRefMGRS" />
         </row>
         <row>
           <cell type="subview" id="ldet" name="localityDetails" viewname="LocalityDetail" colspan="17" />
