@@ -172,9 +172,9 @@
       "weblinkname": null
     },
     "latlongmethod": {
-      "desc": "the method used to determine the Latitude, Longitude",
+      "desc": "Method used to determine lat/long (unused for this discipline; GEOLocate may still set it).",
       "format": null,
-      "ishidden": false,
+      "ishidden": true,
       "isrequired": false,
       "isuiformatter": null,
       "name": "Lat/Long Method",
