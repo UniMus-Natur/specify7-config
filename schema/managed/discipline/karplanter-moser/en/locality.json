@@ -227,12 +227,12 @@
       "weblinkname": null
     },
     "localitydetails": {
-      "desc": "Zone + band for the Grid ref., plus UTM easting/northing/datum.",
+      "desc": "Shared Zone for MGRS and UTM, plus Band, Grid ref., and UTM easting/northing/datum.",
       "format": null,
       "ishidden": false,
       "isrequired": false,
       "isuiformatter": null,
-      "name": "MGRS zone & UTM",
+      "name": "MGRS / UTM",
       "picklistname": null,
       "type": "ZeroToOne",
       "weblinkname": null
@@ -469,12 +469,12 @@
       "weblinkname": null
     },
     "text3": {
-      "desc": "Norwegian MGRS grid square + digits (verbatim), e.g. LK 122,941. Zone and Band complete the full MGRS.",
-      "format": "GridRefMGRS",
-      "ishidden": false,
+      "desc": "Unused for MGRS (grid ref. moved to LocalityDetail.text1). Kept for legacy rows until remigration.",
+      "format": null,
+      "ishidden": true,
       "isrequired": false,
       "isuiformatter": null,
-      "name": "Grid ref. (MGRS)",
+      "name": "Text3",
       "picklistname": null,
       "type": "text",
       "weblinkname": null

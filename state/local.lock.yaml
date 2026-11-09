@@ -1258,13 +1258,13 @@ resources:
     canonicalSha256: sha256:e0a4f648492157b5c0ee5d3605dc42219be37af9c4d24c3ac56a19188e96dad8
     url: /static/config/backstop/uiformatters.xml
   resource:5107fcba10b608ab:
-    canonicalSha256: sha256:a44cb3aaa407c729b21f2fc80e044fdf75b8cbc31d32893b59750d97378d3706
+    canonicalSha256: sha256:0921049219070b2f4f511c0a1ada34ad2bb1535cc53d92bf55f2e29896d74ed0
     objectId: 23
     dataId: 21
-    version: 2
-    objectVersion: 1
+    version: 3
+    objectVersion: 2
     directoryId: 17
-    dataVersion: 2
+    dataVersion: 3
   resource:5231bf17635036f1:
     canonicalSha256: sha256:f105d1b3d2cc89bfcb3fafd50297ecd7d84c104b4624f71bea388a81ec8483fa
     url: /static/config/backstop/typesearch_def.xml
@@ -1354,7 +1354,7 @@ resources:
     objectVersion: 0
     directoryId: 6
   schema:scope:discipline:048c690d43b2:en:
-    canonicalSha256: sha256:1e96ef5bcbb62ef17ffbdc1cddd6ee2f9c22c51bcc32a11bb89f657c28cc0154
+    canonicalSha256: sha256:8c1010e6f762670134d008ab8329df2be340883d03a85e06797b0cdf31fb7b33
     disciplineId: 4
     collectionId: 5
   schema:scope:discipline:29775d26fcd7:en:
@@ -1369,15 +1369,13 @@ resources:
     canonicalSha256: sha256:579acff8487c5d7eb68dccd2e0ba49bf1efb2fca7fbbb722e45d57cb8e8f1ae8
     url: /static/config/backstop/system.views.xml
   viewset:1fbdbb1bc46b9c0f:
-    # Fast-forward baseline to current remote so local form edits are local-update, not conflict.
-    # (specli status remote=sha256:10b56c20242341628dd5575b9f56cc154bbefec59a2886bc2f119256300138ec)
-    canonicalSha256: sha256:10b56c20242341628dd5575b9f56cc154bbefec59a2886bc2f119256300138ec
+    canonicalSha256: sha256:57dd990685edb874f40d1a4d8f983e2e1231aad2054f9af7537d2b029b316f9a
     objectId: 1
     dataId: 7
-    version: 51
-    objectVersion: 10
+    version: 52
+    objectVersion: 11
     directoryId: 6
-    dataVersion: 51
+    dataVersion: 52
   viewset:3600120bd1fc548f:
     canonicalSha256: sha256:c279fc33903e265c81a1dd14d896e9f0b659be39789e80b61c6e34e5bbbee449
     url: /static/config/bird/bird.views.xml

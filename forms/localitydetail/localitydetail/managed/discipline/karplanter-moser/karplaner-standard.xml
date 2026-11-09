@@ -2,7 +2,7 @@
 <viewset name="Karplaner - standard" i18nresname="views">
   <views>
     <view name="LocalityDetail" class="edu.ku.brc.specify.datamodel.LocalityDetail">
-      <desc>MGRS zone + band and UTM axes for Locality.</desc>
+      <desc>Shared Zone, MGRS Band + Grid ref., and UTM axes.</desc>
       <altviews>
         <altview name="LocalityDetail View" viewdef="LocalityDetail" mode="view" />
         <altview name="LocalityDetail Edit" viewdef="LocalityDetail" mode="edit" default="true" />
@@ -11,28 +11,32 @@
   </views>
   <viewdefs>
     <viewdef type="form" name="LocalityDetail" class="edu.ku.brc.specify.datamodel.LocalityDetail" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
-      <desc>Zone and band (split), then UTM easting/northing/datum</desc>
-      <columnDef>120px,2px,140px,5px,110px,2px,140px,5px,100px,2px,150px,p:g</columnDef>
-      <columnDef os="lnx">130px,2px,150px,5px,120px,2px,150px,5px,110px,2px,160px,p:g</columnDef>
-      <columnDef os="mac">145px,2px,160px,5px,130px,2px,160px,5px,120px,2px,170px,p:g</columnDef>
+      <desc>Shared zone, then MGRS grid+band, then UTM axes</desc>
+      <columnDef>140px,2px,100px,5px,80px,2px,80px,5px,100px,2px,140px,p:g</columnDef>
+      <columnDef os="lnx">150px,2px,110px,5px,90px,2px,90px,5px,110px,2px,150px,p:g</columnDef>
+      <columnDef os="mac">160px,2px,120px,5px,100px,2px,100px,5px,120px,2px,160px,p:g</columnDef>
       <columnDef os="exp">p,2px,p:g,5px:g,p,2px,p:g,5px:g,p,2px,p:g,p:g</columnDef>
       <rowDef auto="true" cell="p" sep="2px" />
       <rows>
         <row>
-          <cell type="label" label="Zone" labelfor="uz" />
-          <!-- utmZone is java.lang.Short — do not attach a string UIFormatter -->
+          <!-- utmZone is java.lang.Short — no string UIFormatter -->
+          <cell type="label" label="Zone (MGRS &amp; UTM)" labelfor="uz" />
           <cell type="field" id="uz" name="utmZone" uitype="text" />
           <cell type="label" label="Band" labelfor="mz" />
           <cell type="field" id="mz" name="mgrsZone" uitype="text" uifieldformatter="MGRSBand" />
-          <cell type="label" labelfor="ud" />
-          <cell type="field" id="ud" name="utmDatum" uitype="text" uifieldformatter="UTMDatum" />
         </row>
         <row>
-          <!-- easting/northing are BigDecimal — string UIFormatters crash ("Value is not a string") -->
+          <cell type="label" label="Grid ref." labelfor="gr" />
+          <cell type="field" id="gr" name="text1" uitype="text" colspan="9" uifieldformatter="GridRefMGRS" />
+        </row>
+        <row>
+          <!-- easting/northing are BigDecimal — no string UIFormatter -->
           <cell type="label" labelfor="ue" />
           <cell type="field" id="ue" name="utmEasting" uitype="text" />
           <cell type="label" labelfor="un" />
           <cell type="field" id="un" name="utmNorthing" uitype="text" />
+          <cell type="label" labelfor="ud" />
+          <cell type="field" id="ud" name="utmDatum" uitype="text" uifieldformatter="UTMDatum" />
         </row>
       </rows>
     </viewdef>

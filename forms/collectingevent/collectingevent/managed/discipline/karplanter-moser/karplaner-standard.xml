@@ -40,11 +40,7 @@
           <cell type="field" id="lon1" name="locality.longitude1" uitype="text" colspan="2" readonly="true" />
         </row>
         <row>
-          <cell type="separator" label="MGRS" colspan="9" />
-        </row>
-        <row>
-          <cell type="label" label="Grid ref." labelfor="mgrs" />
-          <cell type="field" id="mgrs" name="locality.text3" uitype="text" colspan="6" readonly="true" />
+          <cell type="separator" label="MGRS / UTM" colspan="9" />
         </row>
         <row>
           <cell type="subview" id="ldet" name="locality.localityDetails" viewname="LocalityDetail" colspan="9" />

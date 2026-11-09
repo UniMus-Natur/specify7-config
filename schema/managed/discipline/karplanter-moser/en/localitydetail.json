@@ -326,12 +326,12 @@
       "weblinkname": null
     },
     "text1": {
-      "desc": "Text1",
-      "format": null,
-      "ishidden": true,
+      "desc": "Norwegian MGRS grid square + digits (verbatim), e.g. LK 122,941. Zone and Band complete the full MGRS.",
+      "format": "GridRefMGRS",
+      "ishidden": false,
       "isrequired": false,
       "isuiformatter": null,
-      "name": "Text1",
+      "name": "Grid ref.",
       "picklistname": null,
       "type": "text",
       "weblinkname": null

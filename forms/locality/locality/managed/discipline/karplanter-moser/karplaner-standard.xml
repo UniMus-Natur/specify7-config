@@ -66,11 +66,7 @@
           <cell type="field" id="6" name="latLongMethod" uitype="text" colspan="3" />
         </row>
         <row>
-          <cell type="separator" label="MGRS" colspan="17" />
-        </row>
-        <row>
-          <cell type="label" label="Grid ref." labelfor="lt3" />
-          <cell type="field" id="lt3" name="text3" uitype="text" colspan="14" uifieldformatter="GridRefMGRS" />
+          <cell type="separator" label="MGRS / UTM" colspan="17" />
         </row>
         <row>
           <cell type="subview" id="ldet" name="localityDetails" viewname="LocalityDetail" colspan="17" />
