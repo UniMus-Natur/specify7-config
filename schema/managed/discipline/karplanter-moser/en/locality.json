@@ -139,12 +139,12 @@
       "weblinkname": null
     },
     "latitude1": {
-      "desc": "Latitude of the first point",
+      "desc": "WGS latitude (decimal degrees).",
       "format": null,
       "ishidden": false,
       "isrequired": false,
       "isuiformatter": null,
-      "name": "Latitude1",
+      "name": "Latitude",
       "picklistname": null,
       "type": "java.math.BigDecimal",
       "weblinkname": null
@@ -183,12 +183,12 @@
       "weblinkname": null
     },
     "latlongtype": {
-      "desc": "The type of area described by the Latitude Longitude data (Point, Line, Rectangle)",
+      "desc": "Always Point for this discipline (Line/Rectangle not used). Hidden; defaulted on the form.",
       "format": null,
-      "ishidden": false,
+      "ishidden": true,
       "isrequired": false,
       "isuiformatter": null,
-      "name": "Latitude/Longitude Type",
+      "name": "Type",
       "picklistname": null,
       "type": "java.lang.String",
       "weblinkname": null
@@ -293,12 +293,12 @@
       "weblinkname": null
     },
     "longitude1": {
-      "desc": "Longitude of the first point",
+      "desc": "WGS longitude (decimal degrees).",
       "format": null,
       "ishidden": false,
       "isrequired": false,
       "isuiformatter": null,
-      "name": "Longitude1",
+      "name": "Longitude",
       "picklistname": null,
       "type": "java.math.BigDecimal",
       "weblinkname": null

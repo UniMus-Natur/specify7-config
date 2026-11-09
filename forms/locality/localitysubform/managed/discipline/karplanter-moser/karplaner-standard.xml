@@ -38,15 +38,18 @@
           <cell type="separator" label="WGS" colspan="7" />
         </row>
         <row>
-          <cell type="label" labelfor="4" />
-          <cell type="field" id="4" name="this" uitype="plugin" initialize="name=LatLonUI" colspan="6" />
+          <cell type="label" labelfor="lat1" />
+          <cell type="field" id="lat1" name="latitude1" uitype="text" />
+          <cell type="label" labelfor="lon1" />
+          <cell type="field" id="lon1" name="longitude1" uitype="text" />
+          <cell type="field" id="llt" name="latLongType" uitype="text" default="Point" />
         </row>
         <row>
           <cell type="panel" id="coordTools" name="coordTools" coldef="p,f:p:g,p,f:p:g" rowdef="p" colspan="6">
             <rows>
               <row>
-                <cell type="field" id="georef" name="this" uitype="plugin" initialize="name=LocalityGeoRef;title=Geo Ref;geoid=geography;locid=6;llid=4" colspan="1" />
-                <cell type="field" id="ge" name="this" uitype="plugin" initialize="name=LocalityGoogleEarth;title=Google Earth;watch=4" colspan="1" />
+                <cell type="field" id="georef" name="this" uitype="plugin" initialize="name=LocalityGeoRef;title=Geo Ref;geoid=geography;locid=6;llid=lat1" colspan="1" />
+                <cell type="field" id="ge" name="this" uitype="plugin" initialize="name=LocalityGoogleEarth;title=Google Earth;watch=lat1" colspan="1" />
               </row>
             </rows>
           </cell>
