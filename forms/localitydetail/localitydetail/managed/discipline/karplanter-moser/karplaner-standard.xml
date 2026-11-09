@@ -36,7 +36,7 @@
           <cell type="label" labelfor="un" />
           <cell type="field" id="un" name="utmNorthing" uitype="text" />
           <cell type="label" labelfor="ud" />
-          <cell type="field" id="ud" name="utmDatum" uitype="text" uifieldformatter="UTMDatum" />
+          <cell type="field" id="ud" name="utmDatum" uitype="combobox" picklist="LocalityDatum" />
         </row>
       </rows>
     </viewdef>

@@ -12,10 +12,6 @@
     <field type="regex" value="[C-HJ-NP-Xc-hj-np-x]" pattern="A" />
   </format>
 
-  <format system="false" name="UTMDatum" class="edu.ku.brc.specify.datamodel.LocalityDetail" fieldname="utmDatum" default="false">
-    <field type="regex" value="[A-Za-z0-9._-]{2,20}" pattern="WGS84" />
-  </format>
-
   <!-- Catalog-number formats (copied from backstop). Collection-level UIFormatters
        replace backstop entirely, so these must live here or the New Collection
        "Catalog Num Format Name" pick list is empty. -->

@@ -7,7 +7,7 @@
     "formatter": null,
     "issystem": false,
     "name": "LocalityDatum",
-    "readonly": false,
+    "readonly": true,
     "sizelimit": null,
     "sorttype": null,
     "tablename": null,

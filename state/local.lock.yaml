@@ -1138,17 +1138,18 @@ resources:
       '242': 0
       '243': 0
   picklist:f2914b04d54bb6c3:
-    canonicalSha256: sha256:4858d2e2474498441ec75b9adff2ea47367400ab5b4165af4a8e99a20a87ecb0
+    canonicalSha256: sha256:93a4f6677fe250890fda4e0591ac877b19d06ecee6a0fe5ce5ff4c25865cb2ff
     objectId: 1751
-    version: 0
+    version: 1
     collectionId: 5
     itemVersions:
-      '7993': 0
-      '7994': 0
-      '7995': 0
-      '7996': 0
-      '7997': 0
-      '7998': 0
+      '7993': 1
+      '7994': 1
+      '7995': 1
+      '7996': 1
+      '7997': 1
+      '7998': 1
+    objectVersion: 1
   picklist:f7df818916d26295:
     canonicalSha256: sha256:55b6bf6eab5f1806490f485d0537c7d2165f980dcc69408a07c7f946ab56f9fc
     objectId: 42
@@ -1258,11 +1259,11 @@ resources:
     canonicalSha256: sha256:e0a4f648492157b5c0ee5d3605dc42219be37af9c4d24c3ac56a19188e96dad8
     url: /static/config/backstop/uiformatters.xml
   resource:5107fcba10b608ab:
-    canonicalSha256: sha256:55f4d669c6d3e9e5e640dae8ac62872b924678f26bcd1b4c65b45d620dc17945
+    canonicalSha256: sha256:a6014b7cadf9b5b040f84c792b88a87bf7c2b3e40515212994ee203cf7443a0a
     objectId: 23
     dataId: 21
-    version: 4
-    objectVersion: 3
+    version: 5
+    objectVersion: 4
     directoryId: 17
   resource:5231bf17635036f1:
     canonicalSha256: sha256:f105d1b3d2cc89bfcb3fafd50297ecd7d84c104b4624f71bea388a81ec8483fa
@@ -1353,7 +1354,7 @@ resources:
     objectVersion: 0
     directoryId: 6
   schema:scope:discipline:048c690d43b2:en:
-    canonicalSha256: sha256:9f12142f6ce41c8d78624a8dc346b203458f9ef4533db83256beb217e6c62d0c
+    canonicalSha256: sha256:5c82cb70d97fa988b435b715d649535aa7f741d1d2761f7c6b33bedf81fdfee9
     disciplineId: 4
     collectionId: 5
   schema:scope:discipline:29775d26fcd7:en:
@@ -1368,13 +1369,12 @@ resources:
     canonicalSha256: sha256:579acff8487c5d7eb68dccd2e0ba49bf1efb2fca7fbbb722e45d57cb8e8f1ae8
     url: /static/config/backstop/system.views.xml
   viewset:1fbdbb1bc46b9c0f:
-    canonicalSha256: sha256:d764053ba0b2553bd7e4ed19f95e95ee803188b3dd3b79aaf81eaf38aed59234
+    canonicalSha256: sha256:1e4497c3df2050afc7f093fc0dfafa50846fb7247d0ee8711d70cbe905e8373d
     objectId: 1
     dataId: 7
-    version: 59
-    objectVersion: 18
+    version: 60
+    objectVersion: 19
     directoryId: 6
-    dataVersion: 59
   viewset:3600120bd1fc548f:
     canonicalSha256: sha256:c279fc33903e265c81a1dd14d896e9f0b659be39789e80b61c6e34e5bbbee449
     url: /static/config/bird/bird.views.xml

@@ -425,13 +425,13 @@
       "weblinkname": null
     },
     "utmdatum": {
-      "desc": "Geodetic datum of the UTM easting and northing.",
-      "format": "UTMDatum",
+      "desc": "Geodetic datum of the UTM easting and northing (same picklist as Locality.datum).",
+      "format": null,
       "ishidden": false,
       "isrequired": false,
       "isuiformatter": null,
       "name": "UTM Datum",
-      "picklistname": null,
+      "picklistname": "LocalityDatum",
       "type": "java.lang.String",
       "weblinkname": null
     },
