@@ -42,7 +42,6 @@
           <cell type="field" id="lat1" name="latitude1" uitype="text" />
           <cell type="label" labelfor="lon1" />
           <cell type="field" id="lon1" name="longitude1" uitype="text" />
-          <cell type="field" id="llt" name="latLongType" uitype="text" default="Point" />
         </row>
         <row>
           <cell type="panel" id="coordTools" name="coordTools" coldef="p,f:p:g,p,f:p:g" rowdef="p" colspan="6">

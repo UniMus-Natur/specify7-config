@@ -1368,13 +1368,13 @@ resources:
     canonicalSha256: sha256:579acff8487c5d7eb68dccd2e0ba49bf1efb2fca7fbbb722e45d57cb8e8f1ae8
     url: /static/config/backstop/system.views.xml
   viewset:1fbdbb1bc46b9c0f:
-    canonicalSha256: sha256:1cb1b6357bc3cffec6069ec6327316cfc3d0eb2c41b62bd896428f4119c73ead
+    canonicalSha256: sha256:13bc9fa3dc17d592d0da55759352677f58117c35447dabc8a9a243193421fd92
     objectId: 1
     dataId: 7
-    version: 55
-    objectVersion: 14
+    version: 58
+    objectVersion: 17
     directoryId: 6
-    dataVersion: 55
+    dataVersion: 58
   viewset:3600120bd1fc548f:
     canonicalSha256: sha256:c279fc33903e265c81a1dd14d896e9f0b659be39789e80b61c6e34e5bbbee449
     url: /static/config/bird/bird.views.xml

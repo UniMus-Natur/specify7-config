@@ -44,12 +44,11 @@
           <cell type="separator" label="WGS" colspan="17" />
         </row>
         <row>
-          <!-- Point-only (no LatLonUI type picker). latLongType defaulted/hidden in schema. -->
+          <!-- Point-only: no LatLonUI (avoids Line/Rectangle). Type not shown — implied Point. -->
           <cell type="label" labelfor="lat1" />
           <cell type="field" id="lat1" name="latitude1" uitype="text" colspan="3" />
           <cell type="label" labelfor="lon1" />
           <cell type="field" id="lon1" name="longitude1" uitype="text" colspan="3" />
-          <cell type="field" id="llt" name="latLongType" uitype="text" default="Point" />
         </row>
         <row>
           <cell type="panel" id="coordTools" name="coordTools" coldef="p,f:p:g,p,f:p:g,p,f:p:g" rowdef="p" colspan="12">
