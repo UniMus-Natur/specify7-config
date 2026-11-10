@@ -75,7 +75,7 @@
           <cell type="label" label="Type designator 1" labelfor="td1" />
           <cell type="field" id="td1" name="agent1" uitype="querycbx" initialize="name=Agent;title=Agent" colspan="3" />
           <cell type="label" label="Type designator 2" labelfor="td2" />
-          <cell type="field" id="td2" name="cataloger" uitype="querycbx" initialize="name=Agent;title=Agent" colspan="3" />
+          <cell type="field" id="td2" name="inventorizedBy" uitype="querycbx" initialize="name=Agent;title=Agent" colspan="3" />
         </row>
         <row>
           <cell type="subview" id="cocitations" name="collectionObjectCitations" viewname="CollectionObjectCitation" colspan="12" rows="3" />
@@ -130,10 +130,12 @@
           <cell type="field" id="yn4" name="yesNo4" uitype="checkbox" label="Withheld" colspan="3" />
         </row>
         <row>
+          <cell type="label" label="Cataloger" labelfor="catr" />
+          <cell type="field" id="catr" name="cataloger" uitype="querycbx" initialize="name=Agent;title=Agent" />
           <cell type="label" label="Reg date" labelfor="5" />
           <cell type="field" id="5" uitype="plugin" name="this" initialize="name=PartialDateUI;df=catalogedDate;tp=catalogedDatePrecision" uifieldformatter="Date" />
           <cell type="label" label="Approved date" labelfor="ds1" />
-          <cell type="field" id="ds1" uitype="plugin" name="this" initialize="name=PartialDateUI;df=date1;tp=date1Precision" uifieldformatter="Date" colspan="3" />
+          <cell type="field" id="ds1" uitype="plugin" name="this" initialize="name=PartialDateUI;df=date1;tp=date1Precision" uifieldformatter="Date" />
         </row>
         <row>
           <cell type="label" label="Administrative" labelfor="t8" />

@@ -106,12 +106,12 @@
       "weblinkname": null
     },
     "cataloger": {
-      "desc": "Second MUSIT type designator when typification lists more than one person.",
+      "desc": "MUSIT REG_USER — the login that registered/cataloged the object.",
       "format": null,
       "ishidden": false,
       "isrequired": false,
       "isuiformatter": null,
-      "name": "Type designator 2",
+      "name": "Cataloger",
       "picklistname": null,
       "type": "ManyToOne",
       "weblinkname": null
@@ -513,12 +513,12 @@
       "weblinkname": null
     },
     "inventorizedby": {
-      "desc": "Inventoried By",
+      "desc": "Second MUSIT type designator when typification lists more than one person.",
       "format": null,
-      "ishidden": true,
+      "ishidden": false,
       "isrequired": false,
       "isuiformatter": null,
-      "name": "Inventoried By",
+      "name": "Type designator 2",
       "picklistname": null,
       "type": "ManyToOne",
       "weblinkname": null
