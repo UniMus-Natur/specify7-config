@@ -2,7 +2,7 @@
 <viewset name="Karplaner - standard" i18nresname="views">
   <views>
     <view name="LocalityDetail" class="edu.ku.brc.specify.datamodel.LocalityDetail">
-      <desc>Shared Zone, MGRS Band + Grid ref., and UTM axes.</desc>
+      <desc>Shared Zone, MGRS Band + Grid ref., Map sheet, and UTM axes.</desc>
       <altviews>
         <altview name="LocalityDetail View" viewdef="LocalityDetail" mode="view" />
         <altview name="LocalityDetail Edit" viewdef="LocalityDetail" mode="edit" default="true" />
@@ -11,7 +11,7 @@
   </views>
   <viewdefs>
     <viewdef type="form" name="LocalityDetail" class="edu.ku.brc.specify.datamodel.LocalityDetail" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
-      <desc>Shared zone, then MGRS grid+band, then UTM axes</desc>
+      <desc>Shared zone, then MGRS grid+band, map sheet, then UTM axes</desc>
       <columnDef>140px,2px,100px,5px,80px,2px,80px,5px,100px,2px,140px,p:g</columnDef>
       <columnDef os="lnx">150px,2px,110px,5px,90px,2px,90px,5px,110px,2px,150px,p:g</columnDef>
       <columnDef os="mac">160px,2px,120px,5px,100px,2px,100px,5px,120px,2px,160px,p:g</columnDef>
@@ -27,7 +27,9 @@
         </row>
         <row>
           <cell type="label" label="Grid ref." labelfor="gr" />
-          <cell type="field" id="gr" name="text1" uitype="text" colspan="9" uifieldformatter="GridRefMGRS" />
+          <cell type="field" id="gr" name="text1" uitype="text" colspan="5" uifieldformatter="GridRefMGRS" />
+          <cell type="label" label="Map sheet" labelfor="ms" />
+          <cell type="field" id="ms" name="text2" uitype="text" colspan="3" />
         </row>
         <row>
           <!-- easting/northing are BigDecimal — no string UIFormatter -->

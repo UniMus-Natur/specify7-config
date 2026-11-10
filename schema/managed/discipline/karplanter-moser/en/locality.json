@@ -227,7 +227,7 @@
       "weblinkname": null
     },
     "localitydetails": {
-      "desc": "Shared Zone for MGRS and UTM, plus Band, Grid ref., and UTM easting/northing/datum.",
+      "desc": "Shared Zone for MGRS and UTM, plus Band, Grid ref., Map sheet, and UTM easting/northing/datum.",
       "format": null,
       "ishidden": false,
       "isrequired": false,

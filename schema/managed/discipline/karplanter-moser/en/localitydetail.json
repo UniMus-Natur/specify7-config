@@ -337,12 +337,12 @@
       "weblinkname": null
     },
     "text2": {
-      "desc": "Text2",
+      "desc": "Topographic map sheet / kartblad from MUSIT KOORDINATE_PLACE.MAP_SHEET.",
       "format": null,
-      "ishidden": true,
+      "ishidden": false,
       "isrequired": false,
       "isuiformatter": null,
-      "name": "Text2",
+      "name": "Map sheet",
       "picklistname": null,
       "type": "text",
       "weblinkname": null
