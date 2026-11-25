@@ -1,0 +1,155 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "CollectingMethod",
+    "readonly": true,
+    "sizelimit": 5,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Trap",
+      "value": "Trap"
+    },
+    {
+      "ordinal": null,
+      "title": "Boat Electro-Shocker",
+      "value": "Boat Electro-Shocker"
+    },
+    {
+      "ordinal": null,
+      "title": "Seine",
+      "value": "Seine"
+    },
+    {
+      "ordinal": null,
+      "title": "Unknown",
+      "value": "Unknown"
+    },
+    {
+      "ordinal": null,
+      "title": "Hook & Line",
+      "value": "Hook & Line"
+    },
+    {
+      "ordinal": null,
+      "title": "Håndplukket",
+      "value": "Håndplukket"
+    },
+    {
+      "ordinal": null,
+      "title": "Pilk",
+      "value": "Pilk"
+    },
+    {
+      "ordinal": null,
+      "title": "Håv, Mielks håv",
+      "value": "Håv, Mielks håv"
+    },
+    {
+      "ordinal": null,
+      "title": "Trål",
+      "value": "Trål"
+    },
+    {
+      "ordinal": null,
+      "title": "Håv, slepehåv",
+      "value": "Håv, slepehåv"
+    },
+    {
+      "ordinal": null,
+      "title": "Skrape, bunnskrape",
+      "value": "Skrape, bunnskrape"
+    },
+    {
+      "ordinal": null,
+      "title": "Slepetrekk",
+      "value": "Slepetrekk"
+    },
+    {
+      "ordinal": null,
+      "title": "Skrapetrekk",
+      "value": "Skrapetrekk"
+    },
+    {
+      "ordinal": null,
+      "title": "Skrape, trekantskrape",
+      "value": "Skrape, trekantskrape"
+    },
+    {
+      "ordinal": null,
+      "title": "Skrape, firkantskrape",
+      "value": "Skrape, firkantskrape"
+    },
+    {
+      "ordinal": null,
+      "title": "Garn, trollgarn",
+      "value": "Garn, trollgarn"
+    },
+    {
+      "ordinal": null,
+      "title": "Trål, reketrål",
+      "value": "Trål, reketrål"
+    },
+    {
+      "ordinal": null,
+      "title": "Skrape, kjettingskrape",
+      "value": "Skrape, kjettingskrape"
+    },
+    {
+      "ordinal": null,
+      "title": "Håv (224um)",
+      "value": "Håv (224um)"
+    },
+    {
+      "ordinal": null,
+      "title": "Håv",
+      "value": "Håv"
+    },
+    {
+      "ordinal": null,
+      "title": "Garn, bunngarn",
+      "value": "Garn, bunngarn"
+    },
+    {
+      "ordinal": null,
+      "title": "Garn",
+      "value": "Garn"
+    },
+    {
+      "ordinal": null,
+      "title": "Skrape, ringskrape",
+      "value": "Skrape, ringskrape"
+    },
+    {
+      "ordinal": null,
+      "title": "Skrape",
+      "value": "Skrape"
+    },
+    {
+      "ordinal": null,
+      "title": "Trål, Agassiz",
+      "value": "Trål, Agassiz"
+    },
+    {
+      "ordinal": null,
+      "title": "Slede",
+      "value": "Slede"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "CollectingMethod",
+  "scope": {
+    "collection": "NHM-krepsdyr",
+    "discipline": "invertebrate",
+    "level": "collection"
+  }
+}

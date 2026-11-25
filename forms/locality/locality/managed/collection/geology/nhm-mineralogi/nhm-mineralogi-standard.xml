@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewset name="NHM Mineralogi standard" i18nresname="views">
+  <views>
+    <view name="Locality" class="edu.ku.brc.specify.datamodel.Locality" busrules="edu.ku.brc.specify.datamodel.busrules.LocalityBusRules" isinternal="false" resourcelabels="false">
+      <desc>Locality form</desc>
+      <altviews>
+        <altview name="Locality View" viewdef="Locality" mode="view" />
+        <altview name="Locality Edit" viewdef="Locality" mode="edit" default="true" />
+      </altviews>
+    </view>
+  </views>
+  <viewdefs>
+    <!-- 4. LOCALITY VIEWDEF -->
+    <viewdef type="form" name="Locality" class="edu.ku.brc.specify.datamodel.Locality" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>Locality form</desc>
+      <columnDef>100px,2px,210px,5px,90px,2px,210px,5px,110px,2px,210px,0px,p:g</columnDef>
+      <rowDef auto="true" cell="p" sep="2px" />
+      <rows>
+        <row>
+          <cell type="label" labelfor="localityName" />
+          <cell type="field" id="localityName" name="localityName" uitype="text" colspan="10" />
+        </row>
+        <row>
+          <cell type="label" labelfor="geography" />
+          <cell type="field" id="geography" name="geography" uitype="querycbx" initialize="name=Geography" colspan="10" />
+        </row>
+        <row>
+          <cell type="label" label="Area/State/Fylke:" labelfor="np" />
+          <cell type="field" id="np" name="namedPlace" uitype="text" colspan="4" />
+          <cell type="label" label="District/Kommune:" labelfor="sn" />
+          <cell type="field" id="sn" name="shortName" uitype="text" colspan="4" />
+        </row>
+        <row>
+          <cell type="label" label="Specific Locality/Mine:" labelfor="rtnp" />
+          <cell type="field" id="rtnp" name="relationToNamedPlace" uitype="text" colspan="10" />
+        </row>
+        <row>
+          <cell type="label" labelfor="rem" />
+          <cell type="field" id="rem" name="remarks" uitype="textareabrief" rows="2" colspan="10" />
+        </row>
+      </rows>
+    </viewdef>
+  </viewdefs>
+</viewset>

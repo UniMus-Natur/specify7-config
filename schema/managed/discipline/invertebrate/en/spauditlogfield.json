@@ -1,0 +1,123 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "Sp Audit Log Field",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "createdbyagent": {
+      "desc": "Same information as CreatedByAgent in the SpAuditlog table.",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Created By Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "fieldname": {
+      "desc": "Name of the data field which had a changed or deleted value.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Field Name",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "modifiedbyagent": {
+      "desc": "Same information as CreatedByAgent in the SpAuditlog table.",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Modified By Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "newvalue": {
+      "desc": "Resulting value of changed field.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "New Value",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "oldvalue": {
+      "desc": "Original value of the field before the change or deletion.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Old Value",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "spauditlog": {
+      "desc": "Primary key value for linking to SpAuditlog table.",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Sp Audit Log",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "spauditlogfieldid": {
+      "desc": "Sp Audit Log Field Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Sp Audit Log Field Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "timestampcreated": {
+      "desc": "Same information as timestampCreated in the spAuditLog table.",
+      "format": null,
+      "ishidden": true,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Timestamp Created",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "timestampmodified": {
+      "desc": "Same information as timestampCreated in the spAuditLog table.",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Timestamp Modified",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "version": {
+      "desc": "Internal number, always = 0. No reporting value.",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Version",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    }
+  },
+  "name": "Sp Audit Log Field",
+  "picklistname": null,
+  "type": null
+}

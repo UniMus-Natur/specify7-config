@@ -1,0 +1,160 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "Method",
+    "readonly": true,
+    "sizelimit": 50,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Beating",
+      "value": "Beating"
+    },
+    {
+      "ordinal": null,
+      "title": "Bee Baits",
+      "value": "Bee Baits"
+    },
+    {
+      "ordinal": null,
+      "title": "Berlese Funnel Extraction",
+      "value": "Berlese Funnel Extraction"
+    },
+    {
+      "ordinal": null,
+      "title": "Carrion Trap",
+      "value": "Carrion Trap"
+    },
+    {
+      "ordinal": null,
+      "title": "Cineole, Attracted To",
+      "value": "Cineole, Attracted To"
+    },
+    {
+      "ordinal": null,
+      "title": "Dung Trap",
+      "value": "Dung Trap"
+    },
+    {
+      "ordinal": null,
+      "title": "Eucalyptus Oil",
+      "value": "Eucalyptus Oil"
+    },
+    {
+      "ordinal": null,
+      "title": "Flight Intercept Trap",
+      "value": "Flight Intercept Trap"
+    },
+    {
+      "ordinal": null,
+      "title": "Fruit Trap",
+      "value": "Fruit Trap"
+    },
+    {
+      "ordinal": null,
+      "title": "Funnel Trap",
+      "value": "Funnel Trap"
+    },
+    {
+      "ordinal": null,
+      "title": "Light Trap",
+      "value": "Light Trap"
+    },
+    {
+      "ordinal": null,
+      "title": "Light, At",
+      "value": "Light, At"
+    },
+    {
+      "ordinal": null,
+      "title": "Light, Incandescent, At",
+      "value": "Light, Incandescent, At"
+    },
+    {
+      "ordinal": null,
+      "title": "Light, Mercury Vapor, At",
+      "value": "Light, Mercury Vapor, At"
+    },
+    {
+      "ordinal": null,
+      "title": "Light, Uv, At",
+      "value": "Light, Uv, At"
+    },
+    {
+      "ordinal": null,
+      "title": "Malaise Trap",
+      "value": "Malaise Trap"
+    },
+    {
+      "ordinal": null,
+      "title": "Methyl Salicylate, Attracted To",
+      "value": "Methyl Salicylate, Attracted To"
+    },
+    {
+      "ordinal": null,
+      "title": "Miscellaneous Collecting",
+      "value": "Miscellaneous Collecting"
+    },
+    {
+      "ordinal": null,
+      "title": "Molassas Trap",
+      "value": "Molassas Trap"
+    },
+    {
+      "ordinal": null,
+      "title": "Pan Trap",
+      "value": "Pan Trap"
+    },
+    {
+      "ordinal": null,
+      "title": "Pheromone Trap",
+      "value": "Pheromone Trap"
+    },
+    {
+      "ordinal": null,
+      "title": "Pitfall Trap",
+      "value": "Pitfall Trap"
+    },
+    {
+      "ordinal": null,
+      "title": "Pyrethrum/Insecticide Fogging",
+      "value": "Pyrethrum/Insecticide Fogging"
+    },
+    {
+      "ordinal": null,
+      "title": "Sifting",
+      "value": "Sifting"
+    },
+    {
+      "ordinal": null,
+      "title": "Skatol, Attracted To",
+      "value": "Skatol, Attracted To"
+    },
+    {
+      "ordinal": null,
+      "title": "Sweep Net",
+      "value": "Sweep Net"
+    },
+    {
+      "ordinal": null,
+      "title": "Washing",
+      "value": "Washing"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "Method",
+  "scope": {
+    "collection": "NHMO-ENT",
+    "discipline": "insect",
+    "level": "collection"
+  }
+}

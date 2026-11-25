@@ -1,0 +1,68 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "Message",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "content": {
+      "desc": "Content",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Content",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "messageid": {
+      "desc": "Message Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Message Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "read": {
+      "desc": "Read",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Read",
+      "picklistname": null,
+      "type": "java.lang.Boolean",
+      "weblinkname": null
+    },
+    "timestampcreated": {
+      "desc": "Timestampcreated",
+      "format": null,
+      "ishidden": true,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Timestampcreated",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "user": {
+      "desc": "User",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "User",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    }
+  },
+  "name": "Message",
+  "picklistname": null,
+  "type": null
+}

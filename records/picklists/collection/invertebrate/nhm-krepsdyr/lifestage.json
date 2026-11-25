@@ -1,0 +1,75 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "LifeStage",
+    "readonly": true,
+    "sizelimit": 50,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Unknown",
+      "value": "Unknown"
+    },
+    {
+      "ordinal": null,
+      "title": "Egg",
+      "value": "Egg"
+    },
+    {
+      "ordinal": null,
+      "title": "Embryo",
+      "value": "Embryo"
+    },
+    {
+      "ordinal": null,
+      "title": "Larva",
+      "value": "Larva"
+    },
+    {
+      "ordinal": null,
+      "title": "Nymph",
+      "value": "Nymph"
+    },
+    {
+      "ordinal": null,
+      "title": "Pupa",
+      "value": "Pupa"
+    },
+    {
+      "ordinal": null,
+      "title": "Juvenile",
+      "value": "Juvenile"
+    },
+    {
+      "ordinal": null,
+      "title": "Adult",
+      "value": "Adult"
+    },
+    {
+      "ordinal": null,
+      "title": "Nauplius",
+      "value": "Nauplius"
+    },
+    {
+      "ordinal": null,
+      "title": "Veliger",
+      "value": "Veliger"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "LifeStage",
+  "scope": {
+    "collection": "NHM-krepsdyr",
+    "discipline": "invertebrate",
+    "level": "collection"
+  }
+}

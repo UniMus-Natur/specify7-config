@@ -1,0 +1,211 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "Describes the material being borrowed.",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "borrow": {
+      "desc": "ID of the borrow containing the prep.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Borrow",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "borrowmaterialid": {
+      "desc": "Borrow Material Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Borrow Material Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "borrowreturnmaterials": {
+      "desc": "Borrow Return Materials",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Borrow Return Materials",
+      "picklistname": null,
+      "type": "OneToMany",
+      "weblinkname": null
+    },
+    "collectionmemberid": {
+      "desc": "Collection Member Id",
+      "format": null,
+      "ishidden": true,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Collection Member Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "createdbyagent": {
+      "desc": "Created By Agent",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Created By Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "description": {
+      "desc": "Description of the material. `e.g. Bufo bufo skull`.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Description",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "incomments": {
+      "desc": "Notes concerning the receipt of the material.",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "In Comments",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "materialnumber": {
+      "desc": "e.g. `FMNH 223456`",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Material Number",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "modifiedbyagent": {
+      "desc": "Modified By Agent",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Modified By Agent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "outcomments": {
+      "desc": "Notes concerning the return of the material.",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Out Comments",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "quantity": {
+      "desc": "Number of specimens (for lots).",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Quantity",
+      "picklistname": null,
+      "type": "java.lang.Short",
+      "weblinkname": null
+    },
+    "quantityresolved": {
+      "desc": "Quantity resolved (Returned, Accessioned, Lost, Discarded, Destroyed ...).",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Quantity Resolved",
+      "picklistname": null,
+      "type": "java.lang.Short",
+      "weblinkname": null
+    },
+    "quantityreturned": {
+      "desc": "Quantity returned.",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Quantity Returned",
+      "picklistname": null,
+      "type": "java.lang.Short",
+      "weblinkname": null
+    },
+    "text1": {
+      "desc": "Text1",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Text1",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "text2": {
+      "desc": "Text2",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Text2",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "timestampcreated": {
+      "desc": "The timestamp the record was created.",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Timestamp Created",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "timestampmodified": {
+      "desc": "The timestamp the record was last modified.",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Timestamp Modified",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "version": {
+      "desc": "Version",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Version",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    }
+  },
+  "name": "Borrow Material",
+  "picklistname": null,
+  "type": null
+}

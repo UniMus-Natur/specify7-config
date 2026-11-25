@@ -1,0 +1,62 @@
+apiVersion: specli/v3
+kind: Viewset
+metadata:
+  uid: viewset:24441c4a416876e5
+  name: NHM Krepsdyr standard
+  source: managed
+  remoteName: NHM Krepsdyr standard
+  filename: null
+  description: null
+  remoteMetadata: null
+  level: 0
+scope:
+  level: collection
+  discipline: invertebrate
+  collection: nhm-krepsdyr
+rootAttributes:
+  name: NHM Krepsdyr standard
+  i18nresname: views
+members:
+- path: forms/collectingevent/collectingevent/managed/collection/invertebrate/nhm-krepsdyr/nhm-krepsdyr-standard.xml
+  sha256: sha256:4e5b261def94f20c49112cce9db47ef589e8b017198070940dac43ad47a7d454
+- path: forms/collectingevent/collectingeventsub/managed/collection/invertebrate/nhm-krepsdyr/nhm-krepsdyr-standard.xml
+  sha256: sha256:f089b46a8d7b98ee3d52ab26806fbe509b567a4f0012c6befac66d4d8d31ccd8
+- path: forms/collectionobject/collection-object/managed/collection/invertebrate/nhm-krepsdyr/nhm-krepsdyr-standard.xml
+  sha256: sha256:93132f3bd289af6a3c8b3b10f6a8e7d3185425446b840b926794dcd641c9875b
+- path: forms/determination/determination/managed/collection/invertebrate/nhm-krepsdyr/nhm-krepsdyr-standard.xml
+  sha256: sha256:c2a233127241ce97522c78e581787ac098d3755d8f6c7679b9039e8ee0e11d5b
+- path: forms/collectionobjectattribute/invertzooattributes/managed/collection/invertebrate/nhm-krepsdyr/nhm-krepsdyr-standard.xml
+  sha256: sha256:bbdcbffd9b72dc11e3ae28207228f26ee3970c16578f4ad677b8431d4caf6ba2
+- path: forms/locality/locality/managed/collection/invertebrate/nhm-krepsdyr/nhm-krepsdyr-standard.xml
+  sha256: sha256:d44cb10634a117e706e8f7032a910dc95ffb64ec0e92409a8a93a285dd4f3dd1
+- path: forms/localitydetail/localitydetail/managed/collection/invertebrate/nhm-krepsdyr/nhm-krepsdyr-standard.xml
+  sha256: sha256:776cb1a841e171ae5662ace0611adb2625dd86f1d812f0e6e5cc604ba5621047
+- path: forms/preparation/preparation/managed/collection/invertebrate/nhm-krepsdyr/nhm-krepsdyr-standard.xml
+  sha256: sha256:2fdef5b392554cad21f8f5bf539c32b013dc69bd3376a784078aef1dddd70de2
+order:
+  views:
+  - CollectingEvent
+  - CollectingEventSub
+  - CollectionObject
+  - Determination
+  - DeterminationViewOnly
+  - InvertZooAttributes
+  - Locality
+  - LocalityDetail
+  - Preparation
+  viewdefs:
+  - Collection Object
+  - Determination Table
+  - Determination
+  - CollectingEventSub
+  - CollectingEvent
+  - InvertZooAttributes
+  - Preparation Table
+  - Preparation
+  - Locality
+  - LocalityDetail
+support: {}
+knownIssues:
+  unresolvedViewdefs: []
+deletions: []
+canonicalSha256: sha256:9f43b6599a25727669a89d12bc2fd133d85dbc6bcee683fe985bbaee429fcebb

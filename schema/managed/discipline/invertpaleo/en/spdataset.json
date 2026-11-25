@@ -1,0 +1,200 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "Spdataset",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "collection": {
+      "desc": "Collection",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Collection",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "columns": {
+      "desc": "Columns",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Columns",
+      "picklistname": null,
+      "type": "json",
+      "weblinkname": null
+    },
+    "createdbyagent": {
+      "desc": "Createdbyagent",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Createdbyagent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "data": {
+      "desc": "Data",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Data",
+      "picklistname": null,
+      "type": "json",
+      "weblinkname": null
+    },
+    "importedfilename": {
+      "desc": "Importedfilename",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Importedfilename",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "modifiedbyagent": {
+      "desc": "Modifiedbyagent",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Modifiedbyagent",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "name": {
+      "desc": "Name",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Name",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "remarks": {
+      "desc": "Remarks",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Remarks",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "rowresults": {
+      "desc": "Rowresults",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Rowresults",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "spdatasetattachments": {
+      "desc": "Sp Data Set Attachments",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Sp Data Set Attachments",
+      "picklistname": null,
+      "type": "OneToMany",
+      "weblinkname": null
+    },
+    "spdatasetid": {
+      "desc": "Sp Data Set Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Sp Data Set Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "specifyuser": {
+      "desc": "Specifyuser",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Specifyuser",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "timestampcreated": {
+      "desc": "Timestampcreated",
+      "format": null,
+      "ishidden": true,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Timestampcreated",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "timestampmodified": {
+      "desc": "Timestampmodified",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Timestampmodified",
+      "picklistname": null,
+      "type": "java.sql.Timestamp",
+      "weblinkname": null
+    },
+    "uploadplan": {
+      "desc": "Uploadplan",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Uploadplan",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "uploadresult": {
+      "desc": "Uploadresult",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Uploadresult",
+      "picklistname": null,
+      "type": "json",
+      "weblinkname": null
+    },
+    "visualorder": {
+      "desc": "Visualorder",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Visualorder",
+      "picklistname": null,
+      "type": "json",
+      "weblinkname": null
+    }
+  },
+  "name": "Spdataset",
+  "picklistname": null,
+  "type": null
+}

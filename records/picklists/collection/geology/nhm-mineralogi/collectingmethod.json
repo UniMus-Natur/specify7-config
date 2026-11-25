@@ -1,0 +1,75 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "CollectingMethod",
+    "readonly": true,
+    "sizelimit": 10,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Dug",
+      "value": "Dug"
+    },
+    {
+      "ordinal": null,
+      "title": "Surface Collection",
+      "value": "Surface Collection"
+    },
+    {
+      "ordinal": null,
+      "title": "Excavation",
+      "value": "Excavation"
+    },
+    {
+      "ordinal": null,
+      "title": "By Hand",
+      "value": "By Hand"
+    },
+    {
+      "ordinal": null,
+      "title": "Hammer & Chisel",
+      "value": "Hammer & Chisel"
+    },
+    {
+      "ordinal": null,
+      "title": "Screening",
+      "value": "Screening"
+    },
+    {
+      "ordinal": null,
+      "title": "Trawling",
+      "value": "Trawling"
+    },
+    {
+      "ordinal": null,
+      "title": "Metal Detecting",
+      "value": "Metal Detecting"
+    },
+    {
+      "ordinal": null,
+      "title": "Magnet",
+      "value": "Magnet"
+    },
+    {
+      "ordinal": null,
+      "title": "Observed Fall",
+      "value": "Observed Fall"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "CollectingMethod",
+  "scope": {
+    "collection": "NHM-mineralogi",
+    "discipline": "geology",
+    "level": "collection"
+  }
+}

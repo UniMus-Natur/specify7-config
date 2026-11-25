@@ -1,0 +1,50 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "Quality",
+    "readonly": true,
+    "sizelimit": 5,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "1 Star",
+      "value": "1 Star"
+    },
+    {
+      "ordinal": null,
+      "title": "2 Stars",
+      "value": "2 Stars"
+    },
+    {
+      "ordinal": null,
+      "title": "3 Stars",
+      "value": "3 Stars"
+    },
+    {
+      "ordinal": null,
+      "title": "4 Stars",
+      "value": "4 Stars"
+    },
+    {
+      "ordinal": null,
+      "title": "5 Stars",
+      "value": "5 Stars"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "Quality",
+  "scope": {
+    "collection": "NHM-mineralogi",
+    "discipline": "geology",
+    "level": "collection"
+  }
+}

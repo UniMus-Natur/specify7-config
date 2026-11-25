@@ -1,0 +1,19 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:08dc7227d1c787ef
+  name: CollectionPreferences
+  source: managed
+  mimetype: application/json
+  remoteDescription: null
+  remoteMetadata: ''
+  level: 0
+  allPermissionLevel: null
+  groupPermissionLevel: null
+  ownerPermissionLevel: null
+scope:
+  level: collection
+  discipline: karplanter-moser
+  collection: svg-v
+data: resources/collectionpreferences/managed/collection/karplanter-moser/svg-v/resource.json
+sha256: sha256:44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a

@@ -1,0 +1,58 @@
+apiVersion: specli/v3
+kind: Viewset
+metadata:
+  uid: viewset:2473094a9978ba44
+  name: NHM Mineralogi standard
+  source: managed
+  remoteName: NHM Mineralogi standard
+  filename: null
+  description: null
+  remoteMetadata: null
+  level: 0
+scope:
+  level: collection
+  discipline: geology
+  collection: nhm-mineralogi
+rootAttributes:
+  name: NHM Mineralogi standard
+  i18nresname: views
+members:
+- path: forms/collectionobject/collection-object/managed/collection/geology/nhm-mineralogi/nhm-mineralogi-standard.xml
+  sha256: sha256:fd70f9c404d89cc9cb37fc3d57e495f4b935c06b420f67f9fa0261c291b2df07
+- path: forms/collectingevent/collectingevent/managed/collection/geology/nhm-mineralogi/nhm-mineralogi-standard.xml
+  sha256: sha256:81524108fb93ee975c02506db8e4d93ba555d535cd08941028414b94715cfc22
+- path: forms/collectingevent/collectingeventsub/managed/collection/geology/nhm-mineralogi/nhm-mineralogi-standard.xml
+  sha256: sha256:c7b7bc3a30eba82a8983cee755b678216bdcd1e95783b85b389b7d7262410674
+- path: forms/locality/locality/managed/collection/geology/nhm-mineralogi/nhm-mineralogi-standard.xml
+  sha256: sha256:07f983c8dbe3f25e1693d459d6f99f89a89b73067bebb84a43b026125e6473d1
+- path: forms/determination/determination/managed/collection/geology/nhm-mineralogi/nhm-mineralogi-standard.xml
+  sha256: sha256:a7e5658f3ac644b5eada3345dcdeb198d219372c83d9fc08f27d37973c41446e
+- path: forms/preparation/preparation/managed/collection/geology/nhm-mineralogi/nhm-mineralogi-standard.xml
+  sha256: sha256:8b0d4f2dfc93f88266c901c58ca8ccd77d06ed7b7133dba481f39aa84a921e6a
+- path: forms/collectionobjectattribute/mineralattributes/managed/collection/geology/nhm-mineralogi/nhm-mineralogi-standard.xml
+  sha256: sha256:372604058277458c97427bf329e965cc61543cc8b7e390143c270a37099b092a
+order:
+  views:
+  - CollectionObject
+  - CollectingEvent
+  - CollectingEventSub
+  - Locality
+  - Determination
+  - DeterminationViewOnly
+  - Preparation
+  - MineralAttributes
+  viewdefs:
+  - Collection Object
+  - CollectingEventSub
+  - CollectingEvent
+  - Locality
+  - Determination
+  - Determination Table
+  - Preparation Table
+  - Preparation
+  - MineralAttributes
+support: {}
+knownIssues:
+  unresolvedViewdefs: []
+deletions: []
+canonicalSha256: sha256:6b337d880f5b643fc3b95c06b69b6fd710f22d6b6d2b55258d59fd9a971477c4

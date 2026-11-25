@@ -1,0 +1,45 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": false,
+    "name": "CountQualifier",
+    "readonly": false,
+    "sizelimit": 10,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": 1,
+      "title": "=",
+      "value": "="
+    },
+    {
+      "ordinal": 2,
+      "title": ">",
+      "value": ">"
+    },
+    {
+      "ordinal": 3,
+      "title": "<",
+      "value": "<"
+    },
+    {
+      "ordinal": 4,
+      "title": "~",
+      "value": "~"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "CountQualifier",
+  "scope": {
+    "collection": "NHM-krepsdyr",
+    "discipline": "invertebrate",
+    "level": "collection"
+  }
+}

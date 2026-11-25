@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewset name="Insect - standard" i18nresname="views">
+  <views>
+    <view name="LocalityDetail" class="edu.ku.brc.specify.datamodel.LocalityDetail">
+      <desc>Shared Zone, MGRS Band + Grid ref., Map sheet, and UTM axes.</desc>
+      <altviews>
+        <altview name="LocalityDetail View" viewdef="LocalityDetail" mode="view" />
+        <altview name="LocalityDetail Edit" viewdef="LocalityDetail" mode="edit" default="true" />
+      </altviews>
+    </view>
+  </views>
+  <viewdefs>
+    <viewdef type="form" name="LocalityDetail" class="edu.ku.brc.specify.datamodel.LocalityDetail" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>Shared zone, then MGRS grid+band, map sheet, then UTM axes</desc>
+      <columnDef>140px,2px,100px,5px,80px,2px,80px,5px,100px,2px,140px,p:g</columnDef>
+      <columnDef os="lnx">150px,2px,110px,5px,90px,2px,90px,5px,110px,2px,150px,p:g</columnDef>
+      <columnDef os="mac">160px,2px,120px,5px,100px,2px,100px,5px,120px,2px,160px,p:g</columnDef>
+      <columnDef os="exp">p,2px,p:g,5px:g,p,2px,p:g,5px:g,p,2px,p:g,p:g</columnDef>
+      <rowDef auto="true" cell="p" sep="2px" />
+      <rows>
+        <row>
+          <!-- utmZone is java.lang.Short — no string UIFormatter -->
+          <cell type="label" label="Zone (MGRS &amp; UTM)" labelfor="uz" />
+          <cell type="field" id="uz" name="utmZone" uitype="text" />
+          <cell type="label" label="Band" labelfor="mz" />
+          <cell type="field" id="mz" name="mgrsZone" uitype="text" uifieldformatter="MGRSBand" />
+        </row>
+        <row>
+          <cell type="label" label="Grid ref." labelfor="gr" />
+          <cell type="field" id="gr" name="text1" uitype="text" colspan="5" uifieldformatter="GridRefMGRS" />
+          <cell type="label" label="Map sheet" labelfor="ms" />
+          <cell type="field" id="ms" name="text2" uitype="text" colspan="3" />
+        </row>
+        <row>
+          <!-- easting/northing are BigDecimal — no string UIFormatter -->
+          <cell type="label" labelfor="ue" />
+          <cell type="field" id="ue" name="utmEasting" uitype="text" />
+          <cell type="label" labelfor="un" />
+          <cell type="field" id="un" name="utmNorthing" uitype="text" />
+          <cell type="label" labelfor="ud" />
+          <cell type="field" id="ud" name="utmDatum" uitype="combobox" picklist="LocalityDatum" />
+        </row>
+      </rows>
+    </viewdef>
+  </viewdefs>
+</viewset>

@@ -1,0 +1,62 @@
+apiVersion: specli/v3
+kind: Viewset
+metadata:
+  uid: viewset:a564b4a82a27b94e
+  name: NHM Paleontologi citations
+  source: managed
+  remoteName: NHM Paleontologi views
+  filename: null
+  description: NHM Paleontologi views updated 2026-11-23T15:14:05.979896+00:00
+  remoteMetadata: null
+  level: 0
+scope:
+  level: collection
+  discipline: invertpaleo
+  collection: nhm-paleontologi
+rootAttributes:
+  name: NHM Paleontologi citations
+  i18nresname: views
+members:
+- path: forms/collectionobject/collection-object/managed/collection/invertpaleo/nhm-paleontologi/nhm-paleontologi-citations.xml
+  sha256: sha256:58cb7fd7d60ecbd73595b7d39d8430d06002292ded184e2055fcc10cb8835443
+- path: forms/collectionobjectcitation/collectionobjectcitation/managed/collection/invertpaleo/nhm-paleontologi/nhm-paleontologi-citations.xml
+  sha256: sha256:7c0f60c3ca31ce37c8ac85fc567b182cebc4a9899ed352f77db3af0c7227c52d
+- path: forms/collectingevent/collectingeventsub/managed/collection/invertpaleo/nhm-paleontologi/nhm-paleontologi-citations.xml
+  sha256: sha256:71b43227e2a8610fbed03e0d374a34efea320c727e813827ae2bc9670e76d022
+- path: forms/determination/determination/managed/collection/invertpaleo/nhm-paleontologi/nhm-paleontologi-citations.xml
+  sha256: sha256:096d0ad0ba70eb689c438a157aaf44fb0819f38dc50dd842172aa8d86777c1f9
+- path: forms/determinationcitation/determinationcitation/managed/collection/invertpaleo/nhm-paleontologi/nhm-paleontologi-citations.xml
+  sha256: sha256:9ca2d9e70076e9131053b64509ef95be4140a144ebfd58a0852a17598d9d9fd4
+- path: forms/referencework/referencework/managed/collection/invertpaleo/nhm-paleontologi/nhm-paleontologi-citations.xml
+  sha256: sha256:4241650b366cd035eca98376a059e4dec8f02f35d9a368eef12c28bb8b07203d
+- path: forms/paleocontext/paleocontext/managed/collection/invertpaleo/nhm-paleontologi/nhm-paleontologi-citations.xml
+  sha256: sha256:b4ee242737d8651fc4aacd77d1821c17ba80c29af023e4a27e1c1602b8d65b8e
+- path: forms/locality/locality/managed/collection/invertpaleo/nhm-paleontologi/nhm-paleontologi-citations.xml
+  sha256: sha256:4f687d72d8d722e7a095f764623484170f1390af3776c1316a9abb73a6915c39
+order:
+  views:
+  - CollectionObject
+  - CollectionObjectCitation
+  - CollectingEventSub
+  - Determination
+  - DeterminationCitation
+  - DeterminationViewOnly
+  - ReferenceWork
+  - PaleoContext
+  - SubPaleoContext
+  - Locality
+  viewdefs:
+  - Collection Object
+  - CollectionObjectCitation
+  - CollectingEventSub
+  - Determination Table
+  - Determination
+  - DeterminationCitation
+  - ReferenceWork
+  - PaleoContext
+  - Locality
+support: {}
+knownIssues:
+  unresolvedViewdefs: []
+deletions: []
+canonicalSha256: sha256:5fdc24e52091450b3ec6b35bf71ce0c4dc2c31189731a57f5ca31f5efbfa2c59

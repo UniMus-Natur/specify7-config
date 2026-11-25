@@ -1,0 +1,75 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "HazardType",
+    "readonly": true,
+    "sizelimit": 10,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Dry",
+      "value": "Dry"
+    },
+    {
+      "ordinal": null,
+      "title": "Radioactive",
+      "value": "Radioactive"
+    },
+    {
+      "ordinal": null,
+      "title": "Toxic",
+      "value": "Toxic"
+    },
+    {
+      "ordinal": null,
+      "title": "Asbestos",
+      "value": "Asbestos"
+    },
+    {
+      "ordinal": null,
+      "title": "Heavy Metals",
+      "value": "Heavy Metals"
+    },
+    {
+      "ordinal": null,
+      "title": "Sharp Edges",
+      "value": "Sharp Edges"
+    },
+    {
+      "ordinal": null,
+      "title": "Fragile",
+      "value": "Fragile"
+    },
+    {
+      "ordinal": null,
+      "title": "Explosive",
+      "value": "Explosive"
+    },
+    {
+      "ordinal": null,
+      "title": "Flammable",
+      "value": "Flammable"
+    },
+    {
+      "ordinal": null,
+      "title": "Biohazard",
+      "value": "Biohazard"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "HazardType",
+  "scope": {
+    "collection": "NHM-mineralogi",
+    "discipline": "geology",
+    "level": "collection"
+  }
+}

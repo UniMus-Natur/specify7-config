@@ -1,0 +1,19 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:e1f06fe51d34ddd3
+  name: CollectionPreferences
+  source: managed
+  mimetype: application/json
+  remoteDescription: null
+  remoteMetadata: ''
+  level: 0
+  allPermissionLevel: null
+  groupPermissionLevel: null
+  ownerPermissionLevel: null
+scope:
+  level: collection
+  discipline: geology
+  collection: nhm-mineralogi
+data: resources/collectionpreferences/managed/collection/geology/nhm-mineralogi/resource.json
+sha256: sha256:7be81ae43c9db77f2285f931bf1010e28e5546da164a932c141c304db50c8a7b

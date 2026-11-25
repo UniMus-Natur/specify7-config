@@ -19,11 +19,11 @@ members:
 - path: forms/collectionobject/accessionitems/managed/discipline/karplanter-moser/karplaner-standard.xml
   sha256: sha256:30ae296d893f215b540b6ffeeca8b479d06a485f98a0bb57536172a8ed6a57a9
 - path: forms/collectingevent/collectingevent/managed/discipline/karplanter-moser/karplaner-standard.xml
-  sha256: sha256:f022014b883ec544301759ec51fc1c949071866e35af07ad43342c4b2a4a0422
+  sha256: sha256:5264b0041370a1ea772cacb554e83e7c844622de3f071377da4ebab001cac951
 - path: forms/collectingevent/collectingeventsub/managed/discipline/karplanter-moser/karplaner-standard.xml
-  sha256: sha256:6fa396ca1a1e9b9370c99b38375e9322a5a56ef4eb5ae9ea7aa1c22aaa7f662e
+  sha256: sha256:22424e928e8150b5950c2b8e4fd4c6ae2ad984df3a3a5fd94a98229c2df16170
 - path: forms/collectionobject/collection-object/managed/discipline/karplanter-moser/karplaner-standard.xml
-  sha256: sha256:f9579f611429f0caae6b3b72082d208511a6c492f3ca2b80f491e7fea714be0e
+  sha256: sha256:376cf4e34f7a7b5f10bed54df95a984d96f5e6a64e84d627c0f5c9a9abbf765e
 - path: forms/collectionobject/collectionobjectsub/managed/discipline/karplanter-moser/karplaner-standard.xml
   sha256: sha256:730682ac52fb37c414a9aa5c9bf079f47d8263f0842c32703a28df8a1942e670
 - path: forms/determination/determination/managed/discipline/karplanter-moser/karplaner-standard.xml
@@ -331,15 +331,15 @@ members:
 - path: forms/loanreturnpreparation/loanreturnpreparation/managed/discipline/karplanter-moser/karplaner-standard.xml
   sha256: sha256:87e3c291d739823329d0ca95cf1621c2f433be79b177863fee408ae270744ce3
 - path: forms/locality/locality/managed/discipline/karplanter-moser/karplaner-standard.xml
-  sha256: sha256:7fc0377853d6b6d0e31722d74918674798cf6e4aadeca09f630a660ec4427049
+  sha256: sha256:b9e237c58895c30ae8de5af3a9b7fdbf2a6e3e04620aa6f215aa683f60a0add5
 - path: forms/locality/localitysearch/managed/discipline/karplanter-moser/karplaner-standard.xml
   sha256: sha256:02f075125624c19b95a50f18e3286727749c43966ad7cce757865b10fe60fcd7
 - path: forms/locality/localitysubform/managed/discipline/karplanter-moser/karplaner-standard.xml
-  sha256: sha256:2dea2663de067e5ea9d8f9f9bd74142f5a25bb393728554776114a6b1f88a1fe
+  sha256: sha256:fbe07f26d6059c9f8f299ab3a3bfcd6114749123ff4724b76e311c47d96b3920
 - path: forms/localitycitation/localitycitation/managed/discipline/karplanter-moser/karplaner-standard.xml
   sha256: sha256:db23ce044fd87e143c7ed726f904b1f46b19fd6ea24c6b8588190c379ba2026a
 - path: forms/localitydetail/localitydetail/managed/discipline/karplanter-moser/karplaner-standard.xml
-  sha256: sha256:30c436871214f0bade304e8ecfa7216a8f507d81973c1aa08d822b7e6b5c1f7d
+  sha256: sha256:ca435d139ae8323207096c499522291b58fd1054418a764b9e3617421fa4d12d
 - path: forms/localitynamealias/localitynamealias/managed/discipline/karplanter-moser/karplaner-standard.xml
   sha256: sha256:faeb979ce33d1d508f9587aa4498d1aabba534d6138f92f6aeb4f17168c2ea41
 - path: forms/materialsample/materialsample/managed/discipline/karplanter-moser/karplaner-standard.xml
@@ -982,4 +982,4 @@ knownIssues:
   - CollectionObjectAttachment Table
   - Component Grid
 deletions: []
-canonicalSha256: sha256:5687b53d8c7ad5874d5a9e37ab27bd8b06cf8df761feb1915493782de3765a7c
+canonicalSha256: sha256:88ceabdac69dfa77d81a8b76f891ac44986a5eea51e4f494def9f849617265ec

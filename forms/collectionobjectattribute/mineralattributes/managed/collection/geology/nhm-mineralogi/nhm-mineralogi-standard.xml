@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewset name="NHM Mineralogi standard" i18nresname="views">
+  <views>
+    <view name="MineralAttributes" class="edu.ku.brc.specify.datamodel.CollectionObjectAttribute" resourcelabels="false" busrules="edu.ku.brc.specify.datamodel.busrules.CollectionObjectAttributeBusRules">
+      <desc>Subform within the Collection Object form.</desc>
+      <altviews>
+        <altview name="MineralAttributes View" viewdef="MineralAttributes" mode="view" />
+        <altview name="MineralAttributes Edit" viewdef="MineralAttributes" mode="edit" default="true" />
+      </altviews>
+    </view>
+  </views>
+  <viewdefs>
+    <!-- 8. MINERAL ATTRIBUTES VIEWDEF -->
+    <viewdef name="MineralAttributes" class="edu.ku.brc.specify.datamodel.CollectionObjectAttribute" type="form" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>Mineral Attributes</desc>
+      <columnDef>100px,2px,115px,5px,75px,2px,115px,5px,109px,2px,115px,5px,80px,2px,115px,0px,p:g</columnDef>
+      <rowDef auto="true" sep="2px" cell="p" />
+      <rows>
+        <row>
+          <cell type="label" label="Size/Dimensions:" labelfor="size" />
+          <cell type="field" id="size" name="text3" uitype="text" />
+          <cell type="label" label="Mass:" labelfor="mass" />
+          <cell type="field" id="mass" name="text4" uitype="text" />
+          <cell type="label" label="Analyses/XRD ID:" labelfor="analyses" />
+          <cell type="field" id="analyses" name="text2" uitype="text" />
+          <cell type="label" label="Purchase Price:" labelfor="purchasePrice" />
+          <cell type="field" id="purchasePrice" name="number2" uitype="text" />
+        </row>
+        <row>
+          <cell type="label" label="Price Raw:" labelfor="rawPrice" />
+          <cell type="field" id="rawPrice" name="text1" uitype="text" colspan="3" />
+        </row>
+      </rows>
+    </viewdef>
+  </viewdefs>
+</viewset>

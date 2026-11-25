@@ -1,6 +1,42 @@
 apiVersion: specli/v3
 kind: Inventory
 resources:
+- uid: picklist:00db0993faaf9e73
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/disposaltype.json
+- uid: picklist:0137c922d3c55d47
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/division.json
+- uid: picklist:0141d4d79b99f090
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/typestatus.json
+- uid: picklist:0183a9c65a13420b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/collectingmethod.json
 - uid: picklist:019c664c10f841cb
   kind: Picklist
   source: managed
@@ -10,6 +46,105 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/collectingmethod.json
+- uid: picklist:021da89458f69bed
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/numberingscheme.json
+- uid: picklist:02ab1a32d14a4ff7
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/agentidentifiertype.json
+- uid: picklist:02cbb842de6e9bbc
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/agenttitles.json
+- uid: picklist:04ef7685c8e655e7
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/taxonlabelformatter.json
+- uid: picklist:054123d207e63b80
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/disposalagentrole.json
+- uid: picklist:0608103da7fc25b5
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/agenttitles.json
+- uid: picklist:06964ac3251370f6
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/cogtypes.json
+- uid: picklist:06e9e85c25b7c482
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/shipmentmethod.json
+- uid: picklist:06f64da1a49fe6db
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/treatmenttype.json
+- uid: picklist:07f2dccac5799022
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/accessiontype.json
+- uid: picklist:083dc4370be73368
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/collectingmethod.json
 - uid: picklist:08d727035f1992c2
   kind: Picklist
   source: managed
@@ -19,6 +154,24 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/permittype.json
+- uid: picklist:093bdbd010a48656
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/collectingmethod.json
+- uid: picklist:09ccf46c7196031e
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/agentidentifiertype.json
 - uid: picklist:09e7f18361bfd48f
   kind: Picklist
   source: managed
@@ -28,6 +181,42 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/accessiontype.json
+- uid: picklist:0a5747d8849accf9
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/relativeagedatingmethod.json
+- uid: picklist:0a83672ca4d02c0b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/agetype.json
+- uid: picklist:0b3a49e3f670ee07
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/discipline.json
+- uid: picklist:0bf2679d7f27faeb
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/systemcogtypes.json
 - uid: picklist:0d97652a75d8ceb0
   kind: Picklist
   source: managed
@@ -37,6 +226,15 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/division.json
+- uid: picklist:0e089998bd96f9d1
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/phenology.json
 - uid: picklist:0e92fbb0fd9f6391
   kind: Picklist
   source: managed
@@ -46,6 +244,33 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/agentvariant.json
+- uid: picklist:0f25df841a0ff2ac
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/agetype.json
+- uid: picklist:0f6959070215bee5
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/collectingmethod.json
+- uid: picklist:102addb63ac6239d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/accessiontype.json
 - uid: picklist:104aca9fa8758f02
   kind: Picklist
   source: managed
@@ -55,6 +280,15 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/referenceworktype.json
+- uid: picklist:1292c7d3b7a7e0a9
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/disposaltype.json
 - uid: picklist:13523437fbce9156
   kind: Picklist
   source: managed
@@ -64,6 +298,15 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/relativeagedatingmethod.json
+- uid: picklist:16a9aa87e067d6a2
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/department.json
 - uid: picklist:16e4b8afcd898ed3
   kind: Picklist
   source: managed
@@ -91,6 +334,69 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/agentvariant.json
+- uid: picklist:1a571c44bd55d5c5
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/preptype.json
+- uid: picklist:1aa95a3fd0847669
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/agentidentifiertype.json
+- uid: picklist:1b0d34a7dfc9a89f
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/preptype.json
+- uid: picklist:1b103190cd50f11c
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/agetype.json
+- uid: picklist:1b118347b94ca5c4
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/collectingmethod.json
+- uid: picklist:1ba0d6a359e67ee9
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/sex.json
+- uid: picklist:1c2a3866e2bb0299
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/systemcogtypes.json
 - uid: picklist:1c305c34603bd60d
   kind: Picklist
   source: managed
@@ -100,6 +406,15 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/shipmentmethod.json
+- uid: picklist:1c75f6f323b6eab0
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/agenttitles.json
 - uid: picklist:1c8ac554a1cfb123
   kind: Picklist
   source: managed
@@ -109,6 +424,24 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/systemcogtypes.json
+- uid: picklist:1d4af6f677baf1ec
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/disciplinetype.json
+- uid: picklist:1e782e9c9fb787db
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/treatmenttype.json
 - uid: picklist:1ebcbde3ac4357c9
   kind: Picklist
   source: managed
@@ -118,6 +451,132 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/systemcogtypes.json
+- uid: picklist:1efc81a57bd40bf3
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/treatmenttype.json
+- uid: picklist:1f0a209ec5a49a29
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/loanagentrole.json
+- uid: picklist:1f8fb8d802122182
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/lifestage.json
+- uid: picklist:1faa650823cacc14
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/referenceworktype.json
+- uid: picklist:1fb503327185dcf7
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/disposaltype.json
+- uid: picklist:1ff4a36cfdb240a6
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/typestatus.json
+- uid: picklist:201415f409a23ab0
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/typeofaddr.json
+- uid: picklist:212f2149689ca332
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/numberingscheme.json
+- uid: picklist:223b5c8e70266300
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/disciplinetype.json
+- uid: picklist:22ce0836fa53bfe5
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/deaccessiontype.json
+- uid: picklist:24b85a052a40842b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/agentidentifiertype.json
+- uid: picklist:2532dcb128353f05
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/absoluteagedatingmethod.json
+- uid: picklist:2538fbcaf76ab565
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/lifestage.json
+- uid: picklist:25d817cb486efa19
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/deaccessionstatus.json
 - uid: picklist:26181dedd8438301
   kind: Picklist
   source: managed
@@ -145,6 +604,24 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/accessionrole.json
+- uid: picklist:26b26f8f4db8669a
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/accessionrole.json
+- uid: picklist:27556ea5d1d95ece
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/disposalagentrole.json
 - uid: picklist:28338172ef682cfa
   kind: Picklist
   source: managed
@@ -154,6 +631,87 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/deaccessionagentrole.json
+- uid: picklist:2897c18135d5dd65
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/accessiontype.json
+- uid: picklist:29700c6420c3e932
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/cogtypes.json
+- uid: picklist:29d5c7b33c646c39
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/materialsample.json
+- uid: picklist:2a0b81b761ee10c4
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/shipmentmethod.json
+- uid: picklist:2a26b30d31f3b8e0
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/materialsample.json
+- uid: picklist:2a2ae6b9557c1838
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/department.json
+- uid: picklist:2a2bc8f3443acf5b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/accessiontype.json
+- uid: picklist:2b37bc5dd15d706b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/deaccessionagentrole.json
+- uid: picklist:2da1b63d35f49cfb
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/collectingmethod.json
 - uid: picklist:2e68023b6d458b2e
   kind: Picklist
   source: managed
@@ -163,6 +721,42 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/accessionrole.json
+- uid: picklist:2e6afa7a042190ef
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/accessionrole.json
+- uid: picklist:2f114b53e3da91cc
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/collectionobjecttype.json
+- uid: picklist:2f16589c962db2b5
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/containertype.json
+- uid: picklist:2f181ddf289ce52a
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/deaccessiontype.json
 - uid: picklist:2f373825257d52b4
   kind: Picklist
   source: managed
@@ -172,6 +766,132 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/collectionobjecttype.json
+- uid: picklist:2f8952effa2f7162
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/disposaltype.json
+- uid: picklist:2fbdc20b13f51a19
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/materialsample.json
+- uid: picklist:30c8a9f46d187c78
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/materialsample.json
+- uid: picklist:3116afad3192249c
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/deaccessionagentrole.json
+- uid: picklist:312f9a55bfa817c9
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/disposaltype.json
+- uid: picklist:31e03bb6a2728a00
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/deaccessiontype.json
+- uid: picklist:334a9222bed3ebf6
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/typeofaddr.json
+- uid: picklist:33a37e73c3e5745f
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/systemcogtypes.json
+- uid: picklist:347961a467083bcc
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/accessionrole.json
+- uid: picklist:34aaa4ef1647dc44
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/borrowrole.json
+- uid: picklist:34c1e28911751fa0
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/moleculetype.json
+- uid: picklist:34feaf94d842a176
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/materialsample.json
+- uid: picklist:352b24d17ea3bc4a
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/division.json
+- uid: picklist:352e94749fad8be1
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/department.json
 - uid: picklist:3547f4987e039bf7
   kind: Picklist
   source: managed
@@ -181,6 +901,213 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/preptype.json
+- uid: picklist:3559fe04f91eabfc
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/agentvariant.json
+- uid: picklist:361bd194773d65a5
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/systemcogtypes.json
+- uid: picklist:361f2facf39e9c65
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/borrowrole.json
+- uid: picklist:36686247a09ba995
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/moleculetype.json
+- uid: picklist:3a93d99de818d6f2
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/deaccessiontype.json
+- uid: picklist:3b3574c41146c985
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/agentidentifiertype.json
+- uid: picklist:3b7a68dd09a53c8e
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/preptype.json
+- uid: picklist:3b8bf89ae5d437d0
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/deaccessiontype.json
+- uid: picklist:3c6613a51f5d1cd0
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/absoluteagedatingmethod.json
+- uid: picklist:3c66da4dfdbc4ef0
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/cogtypes.json
+- uid: picklist:3cc87f4b1821e8b0
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/borrowrole.json
+- uid: picklist:3d0811aa3b5df3f2
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/shipmentmethod.json
+- uid: picklist:3d0f863e0aaeed32
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/accessionstatus.json
+- uid: picklist:3d78b46977cec5f9
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/countqualifier.json
+- uid: picklist:3dde33ed3876f615
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/treatmenttype.json
+- uid: picklist:3e8b89ad770cbd42
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/numberingscheme.json
+- uid: picklist:3ec8f05fa1e66aa3
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/systemcogtypes.json
+- uid: picklist:40a384f2b2dc4a21
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/typestatus.json
+- uid: picklist:40f32cad79863395
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/division.json
+- uid: picklist:41130c726a898cb6
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/deaccessionagentrole.json
+- uid: picklist:41a8223f1b73c4b7
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/accessiontype.json
+- uid: picklist:41e919d57d59458e
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/shipmentmethod.json
+- uid: picklist:428ebb9fb8666377
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/preptype.json
 - uid: picklist:4290c5ac56333b51
   kind: Picklist
   source: managed
@@ -190,6 +1117,60 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/accessiontype.json
+- uid: picklist:4325871a20ede4f5
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/treatmenttype.json
+- uid: picklist:43324a31e1eba059
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/disposaltype.json
+- uid: picklist:44361d4e7234394f
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/accessiontype.json
+- uid: picklist:45098e2a4519b20c
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/preptype.json
+- uid: picklist:4509e3a1d1978639
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/accessionstatus.json
+- uid: picklist:45231f5205ecf718
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/deaccessiontype.json
 - uid: picklist:45235bc197b9b317
   kind: Picklist
   source: managed
@@ -199,6 +1180,42 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/relativeagedatingmethod.json
+- uid: picklist:458685ec199574d0
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/absoluteagedatingmethod.json
+- uid: picklist:45916e6c29ddae85
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/deaccessiontype.json
+- uid: picklist:4698d63711375eb3
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/containertype.json
+- uid: picklist:49e54a77b98ff400
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/phenology.json
 - uid: picklist:4a083883c71ed515
   kind: Picklist
   source: managed
@@ -208,6 +1225,51 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/borrowrole.json
+- uid: picklist:4a828ce21416f076
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/shipmentmethod.json
+- uid: picklist:4b03653e04eb8354
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/numberingscheme.json
+- uid: picklist:4b6aab47a02b0605
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/accessionstatus.json
+- uid: picklist:4b8dbf02b1c2d2ba
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/disciplinetype.json
+- uid: picklist:4c0ce4fea9dd6059
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/division.json
 - uid: picklist:4d8eec5416e1578b
   kind: Picklist
   source: managed
@@ -217,6 +1279,60 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/disposalagentrole.json
+- uid: picklist:4e0d00ba27440d5d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/containertype.json
+- uid: picklist:4e2f788b2ca3071a
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/deaccessionagentrole.json
+- uid: picklist:4e6edb414cdb2694
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/agenttitles.json
+- uid: picklist:4eefebebdded9718
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/preptype.json
+- uid: picklist:4efd96573aff516e
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/disposaltype.json
+- uid: picklist:4f4f3c2e6b102aed
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/agenttitles.json
 - uid: picklist:4fa2aab1a4d0fc19
   kind: Picklist
   source: managed
@@ -244,6 +1360,96 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/typeofaddr.json
+- uid: picklist:50bbd8e1b9f2b5f6
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/permittype.json
+- uid: picklist:50ea1470a75d7ce5
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/taxonlabelformatter.json
+- uid: picklist:5199f3aaea3c293c
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/treatmenttype.json
+- uid: picklist:52360b32b1528882
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/agentvariant.json
+- uid: picklist:52719757d205bfcc
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/materialsample.json
+- uid: picklist:531705d1d053918d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/collectingmethod.json
+- uid: picklist:53626cb901bb45bf
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/taxonlabelformatter.json
+- uid: picklist:5374e307817d36c6
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/phenology.json
+- uid: picklist:53b5ddaa480f3547
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/discipline.json
+- uid: picklist:547203dcd63af21d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/loanagentrole.json
 - uid: picklist:55468d2aead4d305
   kind: Picklist
   source: managed
@@ -262,6 +1468,123 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/typestatus.json
+- uid: picklist:56502ca5ce521a03
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/absoluteagedatingmethod.json
+- uid: picklist:56ae9237e13ac444
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/collectionobjecttype.json
+- uid: picklist:57177f59a194995d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/collectionobjecttype.json
+- uid: picklist:572d66ace60c1ad3
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/borrowrole.json
+- uid: picklist:57f0581065895a2f
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/disposalagentrole.json
+- uid: picklist:580aab6fc5135174
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/relativeagedatingmethod.json
+- uid: picklist:58241b6fc02b237d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/relativeagedatingmethod.json
+- uid: picklist:587d5c8bec9023c6
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/division.json
+- uid: picklist:592e372174f2c70b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/shipmentmethod.json
+- uid: picklist:59441d218f458a1b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/relativeagedatingmethod.json
+- uid: picklist:594b5e26bc1aefad
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/discipline.json
+- uid: picklist:5993be11880b6394
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/relativeagedatingmethod.json
+- uid: picklist:59e6a3259939abb6
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/referenceworktype.json
 - uid: picklist:5a4c3fa42c173a5f
   kind: Picklist
   source: managed
@@ -271,6 +1594,24 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/borrowrole.json
+- uid: picklist:5a57c7d7bd6a14ca
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/preptype.json
+- uid: picklist:5a6a61c503c8d9a6
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/deaccessiontype.json
 - uid: picklist:5a816c7a4e572856
   kind: Picklist
   source: managed
@@ -280,6 +1621,60 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/division.json
+- uid: picklist:5b309a3f999470b6
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/cogtypes.json
+- uid: picklist:5cd6d5c60bc7a1d9
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/accessionrole.json
+- uid: picklist:5ce3004e20f7f80b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/taxonlabelformatter.json
+- uid: picklist:5cf59bd3ff7e320b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/discipline.json
+- uid: picklist:5d166ed642b0f1b1
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/cogtypes.json
+- uid: picklist:5e08e06f12c00b72
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/deaccessionstatus.json
 - uid: picklist:5e14de3cc7d63748
   kind: Picklist
   source: managed
@@ -289,6 +1684,159 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/cogtypes.json
+- uid: picklist:5e2de716b42e4650
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/department.json
+- uid: picklist:5e7295835a5681f2
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/borrowrole.json
+- uid: picklist:5eb4fae127fa48c2
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/deaccessionstatus.json
+- uid: picklist:5f56ef3019254d90
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/accessionrole.json
+- uid: picklist:5f6026b8e8e14a6f
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/agetype.json
+- uid: picklist:5fa86c9955aacb1b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/paleocollection.json
+- uid: picklist:60f84fe638b5fb40
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/deaccessionstatus.json
+- uid: picklist:610a196585483d7e
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/agentidentifiertype.json
+- uid: picklist:61516812584a1fd8
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/division.json
+- uid: picklist:618c305747286c4d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/deaccessionagentrole.json
+- uid: picklist:61c8c2b404271457
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/agenttitles.json
+- uid: picklist:61ef79abebc08248
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/treatmenttype.json
+- uid: picklist:62102c9e5cf0b568
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/disciplinetype.json
+- uid: picklist:6268aba1f964af56
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/agetype.json
+- uid: picklist:62b4c15ab88264fa
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/cogtypes.json
+- uid: picklist:63a3cb398b4216c1
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/shipmentmethod.json
+- uid: picklist:64e02c7c62fd7205
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/treatmenttype.json
 - uid: picklist:665157b91e596f36
   kind: Picklist
   source: managed
@@ -298,6 +1846,15 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/cogtypes.json
+- uid: picklist:6707965171890921
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/referenceworktype.json
 - uid: picklist:6722377b13daae4c
   kind: Picklist
   source: managed
@@ -307,6 +1864,42 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/agentvariant.json
+- uid: picklist:6734bedcfaa63c04
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/typeofaddr.json
+- uid: picklist:67aaec83f03e33f9
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/accessiontype.json
+- uid: picklist:67ef21a068f958ea
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/typeofaddr.json
+- uid: picklist:6837304971eb0811
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/accessiontype.json
 - uid: picklist:6991c4b83e412fce
   kind: Picklist
   source: managed
@@ -316,6 +1909,15 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/referenceworktype.json
+- uid: picklist:69d7680d4b82bf5b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/discipline.json
 - uid: picklist:6a0eed15ba06e095
   kind: Picklist
   source: managed
@@ -325,6 +1927,15 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/materialsample.json
+- uid: picklist:6a148533fec0fee9
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/typeofaddr.json
 - uid: picklist:6a174b4b9260ca72
   kind: Picklist
   source: managed
@@ -343,6 +1954,15 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/biologicalsex.json
+- uid: picklist:6a89a12ade35ea87
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/accessiontype.json
 - uid: picklist:6aab8c15514ffc17
   kind: Picklist
   source: managed
@@ -352,6 +1972,15 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/accessionstatus.json
+- uid: picklist:6b2ba7cd69030467
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/permittype.json
 - uid: picklist:6b69684b9ffc3f32
   kind: Picklist
   source: managed
@@ -361,6 +1990,15 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/typestatus.json
+- uid: picklist:6b74cb715def74ac
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/typeofaddr.json
 - uid: picklist:6c8ecdb3e776b5ba
   kind: Picklist
   source: managed
@@ -379,6 +2017,15 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/discipline.json
+- uid: picklist:6de6e40deb463a1b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/agentidentifiertype.json
 - uid: picklist:6e235fe4cc0c6ea4
   kind: Picklist
   source: managed
@@ -388,6 +2035,15 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/loanagentrole.json
+- uid: picklist:6f0228d81269b94e
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/borrowrole.json
 - uid: picklist:6f638183bb98a1b8
   kind: Picklist
   source: managed
@@ -397,6 +2053,69 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/loanagentrole.json
+- uid: picklist:7012bd8132040609
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/division.json
+- uid: picklist:706fbd9776a0f9f3
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/materialsample.json
+- uid: picklist:7116fecc17c5b4b5
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/containertype.json
+- uid: picklist:718fe4423aaa3176
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/relativeagedatingmethod.json
+- uid: picklist:71e1e992eec4afbd
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/agentvariant.json
+- uid: picklist:72fbee3b686076a5
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/division.json
+- uid: picklist:730d71c711c85876
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/lifestage.json
 - uid: picklist:735e4b6ca722e48e
   kind: Picklist
   source: managed
@@ -406,6 +2125,15 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/agenttitles.json
+- uid: picklist:73d6063e90511da0
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/permittype.json
 - uid: picklist:73f49ac16a55172d
   kind: Picklist
   source: managed
@@ -415,6 +2143,42 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/numberingscheme.json
+- uid: picklist:74a5559ac649f2b0
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/referenceworktype.json
+- uid: picklist:751a0676162008ef
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/disciplinetype.json
+- uid: picklist:756e6e9bd1bed1fe
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/division.json
+- uid: picklist:75975a906c27f685
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/materialsample.json
 - uid: picklist:75ce2939912eda47
   kind: Picklist
   source: managed
@@ -433,6 +2197,15 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/lifestage.json
+- uid: picklist:76c406621f4d0148
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/taxonlabelformatter.json
 - uid: picklist:775fc3a094e12f32
   kind: Picklist
   source: managed
@@ -451,6 +2224,15 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/borrowrole.json
+- uid: picklist:77ca7be9c09dcffb
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/disposaltype.json
 - uid: picklist:77e9a6494bece91b
   kind: Picklist
   source: managed
@@ -460,6 +2242,60 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/relativeagedatingmethod.json
+- uid: picklist:780b4b268daee4e2
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/referenceworktype.json
+- uid: picklist:781e37ac47d8c77e
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/agentidentifiertype.json
+- uid: picklist:78f9a3821480cfe2
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/division.json
+- uid: picklist:793f4f39413dfd1d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/deaccessionstatus.json
+- uid: picklist:796994995b2e2efa
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/collectionobjecttype.json
+- uid: picklist:7a2b272e5ab10de0
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/cogtypes.json
 - uid: picklist:7b5eb09e81bebe83
   kind: Picklist
   source: managed
@@ -478,6 +2314,24 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/typestatus.json
+- uid: picklist:7c68006604b48419
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/taxonlabelformatter.json
+- uid: picklist:7c896f18aaa95126
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/deaccessionagentrole.json
 - uid: picklist:7caa5cc782826554
   kind: Picklist
   source: managed
@@ -487,6 +2341,24 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/containertype.json
+- uid: picklist:7ce175bdd06181e5
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/treatmenttype.json
+- uid: picklist:7ceefcc323b94704
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/collectingmethod.json
 - uid: picklist:7dce4f0b19d924d4
   kind: Picklist
   source: managed
@@ -496,6 +2368,60 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/materialsample.json
+- uid: picklist:7de7695036257e04
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/loanagentrole.json
+- uid: picklist:7e00cde6a522f60f
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/deaccessionagentrole.json
+- uid: picklist:7e21d3fa231f4563
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/relativeagedatingmethod.json
+- uid: picklist:7f18ac6e3922884f
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/referenceworktype.json
+- uid: picklist:80c5dfb56f870e6d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/moleculetype.json
+- uid: picklist:819f827b0c13f662
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/taxonlabelformatter.json
 - uid: picklist:8220599a4f0024a0
   kind: Picklist
   source: managed
@@ -505,6 +2431,15 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/loanagentrole.json
+- uid: picklist:827ca7a8195e9c1d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/collectingmethod.json
 - uid: picklist:832b1863d2e5bdf2
   kind: Picklist
   source: managed
@@ -514,6 +2449,15 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/discipline.json
+- uid: picklist:835d8b1cc293d64c
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/accessiontype.json
 - uid: picklist:83a7aebfe21efc83
   kind: Picklist
   source: managed
@@ -523,6 +2467,15 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/accessionrole.json
+- uid: picklist:83c49ace22ffb129
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/typestatus.json
 - uid: picklist:84bc7a1243102360
   kind: Picklist
   source: managed
@@ -541,6 +2494,24 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/agentidentifiertype.json
+- uid: picklist:85191c8c6a2b2067
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/cogtypes.json
+- uid: picklist:856edec3fcd21c9e
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/confidence.json
 - uid: picklist:86cba84e5326a7ed
   kind: Picklist
   source: managed
@@ -550,6 +2521,69 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/numberingscheme.json
+- uid: picklist:86dcac51ed6d7edf
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/department.json
+- uid: picklist:86e3abf18a4cd9b9
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/disposalagentrole.json
+- uid: picklist:86f6c5cdf4e61231
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/containertype.json
+- uid: picklist:871a0cd62afce4b1
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/disposalagentrole.json
+- uid: picklist:8740f5cbd2459645
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/treatmenttype.json
+- uid: picklist:87523dcf5564b516
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/accessionstatus.json
+- uid: picklist:87b4634851529962
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/relativeagedatingmethod.json
 - uid: picklist:8851c308ba4aba4b
   kind: Picklist
   source: managed
@@ -568,6 +2602,60 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/accessiontype.json
+- uid: picklist:88fc64d550c92e28
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/agetype.json
+- uid: picklist:88fc659d58d19983
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/taxonlabelformatter.json
+- uid: picklist:898751229c40870e
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/deaccessiontype.json
+- uid: picklist:8a4286375e817912
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/loanagentrole.json
+- uid: picklist:8a8fa3e2699edec1
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/numberingscheme.json
+- uid: picklist:8af4755c6ec8e210
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/systemcogtypes.json
 - uid: picklist:8c0e29ff2d6e5f9b
   kind: Picklist
   source: managed
@@ -577,6 +2665,24 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/preptype.json
+- uid: picklist:8c0fd6ee0e92083d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/numberingscheme.json
+- uid: picklist:8c139bbef7888c03
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/discipline.json
 - uid: picklist:8c76524a382be3ee
   kind: Picklist
   source: managed
@@ -586,6 +2692,78 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/shipmentmethod.json
+- uid: picklist:8cd8fd881d3b4edd
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/absoluteagedatingmethod.json
+- uid: picklist:8d687bb66ddf7d3c
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/containertype.json
+- uid: picklist:8e6bb5e474d62d86
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/disposalagentrole.json
+- uid: picklist:8ebab14e41b5f177
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/containertype.json
+- uid: picklist:9027a2b4a831f5cb
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/cogtypes.json
+- uid: picklist:907805070bbae570
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/permittype.json
+- uid: picklist:919c250d679dec8b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/agetype.json
+- uid: picklist:91e20c6a8a53214f
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/lifestage.json
 - uid: picklist:9220fd58b66ecfc9
   kind: Picklist
   source: managed
@@ -595,6 +2773,69 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/discipline.json
+- uid: picklist:92b3b07ed0488c12
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/disposalagentrole.json
+- uid: picklist:9339200ab936a1ab
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/agetype.json
+- uid: picklist:939783c357f8036f
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/quality.json
+- uid: picklist:956be7f3106eb0d5
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/agentidentifiertype.json
+- uid: picklist:968dd6aef7013408
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/deaccessionstatus.json
+- uid: picklist:96b47e97b057e9fd
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/borrowrole.json
+- uid: picklist:96d6ff0cad190c79
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/deaccessionstatus.json
 - uid: picklist:96e45621a616c2b6
   kind: Picklist
   source: managed
@@ -604,6 +2845,60 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/moleculetype.json
+- uid: picklist:96f55b5b13999269
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/department.json
+- uid: picklist:972eac92185ed946
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/phenology.json
+- uid: picklist:97aa23374ed4801b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/moleculetype.json
+- uid: picklist:999cd4577911eca7
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/permittype.json
+- uid: picklist:99e432d88f91a0a0
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/agentidentifiertype.json
+- uid: picklist:9aaee1b656633208
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/agentvariant.json
 - uid: picklist:9af272634d360b94
   kind: Picklist
   source: managed
@@ -613,6 +2908,15 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/agetype.json
+- uid: picklist:9b22c1eb465d25b7
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/collectionobjecttype.json
 - uid: picklist:9b297d5ffd60032e
   kind: Picklist
   source: managed
@@ -622,6 +2926,24 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/disposalagentrole.json
+- uid: picklist:9bb41544f6789bdd
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/collectionobjecttype.json
+- uid: picklist:9f71d0917faf95e1
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/typestatus.json
 - uid: picklist:9ff291f4a84a7fe9
   kind: Picklist
   source: managed
@@ -685,6 +3007,24 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/referenceworktype.json
+- uid: picklist:a1c367b0152e30e5
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/agentidentifiertype.json
+- uid: picklist:a22b71bb5e0b55f6
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/collectingmethod.json
 - uid: picklist:a3aaaca5218f7959
   kind: Picklist
   source: managed
@@ -694,6 +3034,87 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/taxonlabelformatter.json
+- uid: picklist:a42fbb09d44094db
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/systemcogtypes.json
+- uid: picklist:a480c231dacdbdaa
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/accessionrole.json
+- uid: picklist:a543f0d541e6c870
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/permittype.json
+- uid: picklist:a5635013ca804c00
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/phenology.json
+- uid: picklist:a56f57b7f312e631
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/cogtypes.json
+- uid: picklist:a5776fb9f8d65ac5
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/deaccessionstatus.json
+- uid: picklist:a5c2be5dd94b468f
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/agentvariant.json
+- uid: picklist:a69c999f755a8a8c
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/accessionrole.json
+- uid: picklist:a6bde9242780d26d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/collectionobjecttype.json
 - uid: picklist:a6d6412a9fb781e2
   kind: Picklist
   source: managed
@@ -703,6 +3124,24 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/absoluteagedatingmethod.json
+- uid: picklist:a7e1a847435362fd
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/preptype.json
+- uid: picklist:a7eca8dc3c650cb1
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/accessionrole.json
 - uid: picklist:a81738301f2479d4
   kind: Picklist
   source: managed
@@ -712,6 +3151,51 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/taxonlabelformatter.json
+- uid: picklist:a81e0b69ba6dd8d0
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/lifestage.json
+- uid: picklist:a8ee48fd24945ef3
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/absoluteagedatingmethod.json
+- uid: picklist:a93e13bd4fbf8525
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/department.json
+- uid: picklist:a9987c80c20c1fe2
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/absoluteagedatingmethod.json
+- uid: picklist:ab0286a1bf1e17c9
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/deaccessionstatus.json
 - uid: picklist:ab8e95c970567201
   kind: Picklist
   source: managed
@@ -721,6 +3205,87 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/disposaltype.json
+- uid: picklist:acdc0badf58e6281
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/department.json
+- uid: picklist:ad9f72857469c91e
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/collectingmethod.json
+- uid: picklist:ada962aeeb381a26
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/accessionstatus.json
+- uid: picklist:adc2e18ec7b92bfc
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/borrowrole.json
+- uid: picklist:af9cf3d62050543f
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/department.json
+- uid: picklist:b0d0c7de833fb05a
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/deaccessionagentrole.json
+- uid: picklist:b1a76e4512d83ddc
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/loanagentrole.json
+- uid: picklist:b1a8459b288d9ae2
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/relativeagedatingmethod.json
+- uid: picklist:b2874052d1d5719e
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/borrowrole.json
 - uid: picklist:b2b0572fa8b31462
   kind: Picklist
   source: managed
@@ -730,6 +3295,60 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/deaccessiontype.json
+- uid: picklist:b4ab29f44856325a
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/disposaltype.json
+- uid: picklist:b4c77f32464ef5bb
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/preptype.json
+- uid: picklist:b4ef56feb6b8c713
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/absoluteagedatingmethod.json
+- uid: picklist:b5630d9ad649bb16
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/discipline.json
+- uid: picklist:b5c3cc6fc5778b7c
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/deaccessionagentrole.json
+- uid: picklist:b8f1d235801f01e9
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/containertype.json
 - uid: picklist:b9e5ffc24b871b2a
   kind: Picklist
   source: managed
@@ -739,6 +3358,33 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/deaccessiontype.json
+- uid: picklist:ba588de4fa77e0e1
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/referenceworktype.json
+- uid: picklist:bb13b4e88fa19db1
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/referenceworktype.json
+- uid: picklist:bb77fa74402af9a4
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/typeofaddr.json
 - uid: picklist:bbb845558aa60650
   kind: Picklist
   source: managed
@@ -757,6 +3403,69 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/containertype.json
+- uid: picklist:bc76454c64e6f668
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/containertype.json
+- uid: picklist:bca60c1ec8384aec
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/collectionobjecttype.json
+- uid: picklist:bcce3d66ccb03646
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/collectionobjecttype.json
+- uid: picklist:bd0a050d5ecf88a6
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/loanagentrole.json
+- uid: picklist:bd8686b95abe1b96
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/accessionrole.json
+- uid: picklist:be61b0db2937f661
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/disposalagentrole.json
+- uid: picklist:be93c9c68af2af60
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/moleculetype.json
 - uid: picklist:bf59cf843e381616
   kind: Picklist
   source: managed
@@ -775,6 +3484,15 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/treatmenttype.json
+- uid: picklist:c07a05cd46bab6a3
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/loanagentrole.json
 - uid: picklist:c0e4fad62be015cf
   kind: Picklist
   source: managed
@@ -793,6 +3511,33 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/disposaltype.json
+- uid: picklist:c15acdbba462adc5
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/referenceworktype.json
+- uid: picklist:c19509e50d68aad2
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/cogtypes.json
+- uid: picklist:c1a386639492022a
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/agenttitles.json
 - uid: picklist:c203eb3152079697
   kind: Picklist
   source: managed
@@ -802,6 +3547,69 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/absoluteagedatingmethod.json
+- uid: picklist:c2916e0b990c7bbf
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/permittype.json
+- uid: picklist:c2d5b55909f4f1b5
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/collectionobjecttype.json
+- uid: picklist:c2e1c3686ba46dff
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/accessionstatus.json
+- uid: picklist:c45d4025e95c76dd
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/numberingscheme.json
+- uid: picklist:c473cc9e28a63308
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/discipline.json
+- uid: picklist:c4c2fa507df961a4
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/numberingscheme.json
+- uid: picklist:c510b3b69fed9923
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/permittype.json
 - uid: picklist:c5f5e7ce9b6d7554
   kind: Picklist
   source: managed
@@ -811,6 +3619,69 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/department.json
+- uid: picklist:c6159fd322e1311f
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/typestatus.json
+- uid: picklist:c624b89305bad58f
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/moleculetype.json
+- uid: picklist:c63d7b7bfc5d63c6
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/materialsample.json
+- uid: picklist:c67baf36bdb41b00
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/agentvariant.json
+- uid: picklist:c6eccbd7850ae21b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/permittype.json
+- uid: picklist:c70ecd33b8e6695f
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/accessionstatus.json
+- uid: picklist:c79b87ac0e50fbad
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/permittype.json
 - uid: picklist:c7d8ca8c585d84d9
   kind: Picklist
   source: managed
@@ -820,6 +3691,24 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/phenology.json
+- uid: picklist:c89f351c34e80928
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/loanagentrole.json
+- uid: picklist:c9291da7adda1b40
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/typestatus.json
 - uid: picklist:c92b3483d658bd9c
   kind: Picklist
   source: managed
@@ -829,6 +3718,15 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/division.json
+- uid: picklist:c92bdcc4a0b0b2e5
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/absoluteagedatingmethod.json
 - uid: picklist:c98c1e306a69b360
   kind: Picklist
   source: managed
@@ -838,6 +3736,33 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/infraspecificrank.json
+- uid: picklist:c99b530b57ec98a3
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/typeofaddr.json
+- uid: picklist:ca5bde3c2ce540bd
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/shipmentmethod.json
+- uid: picklist:ca6e78e56171b01d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/systemcogtypes.json
 - uid: picklist:cad0be84ce53e4a2
   kind: Picklist
   source: managed
@@ -856,6 +3781,15 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/deaccessionagentrole.json
+- uid: picklist:cb990cb183f23835
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/lifestage.json
 - uid: picklist:cbeb45e13aead67b
   kind: Picklist
   source: managed
@@ -865,6 +3799,96 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/cogtypes.json
+- uid: picklist:cc6344a7a5cd5558
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/deaccessionstatus.json
+- uid: picklist:cd61ef63c2df0d53
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/shipmentmethod.json
+- uid: picklist:cd979a271bde7e99
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/referenceworktype.json
+- uid: picklist:cde2f7d14242dcb8
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/borrowrole.json
+- uid: picklist:cedb7f3c9d43580c
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/accessionstatus.json
+- uid: picklist:cf701b6827874c48
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/treatmenttype.json
+- uid: picklist:cfc9d6125bbfcbe8
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/loanagentrole.json
+- uid: picklist:d01d4b378d3207ec
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/agenttitles.json
+- uid: picklist:d19dd5463448f8eb
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/disposalagentrole.json
+- uid: picklist:d20889634fd9b846
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/lifestage.json
 - uid: picklist:d2403c19fc2765c6
   kind: Picklist
   source: managed
@@ -874,6 +3898,15 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/collectingmethod.json
+- uid: picklist:d254f71eb6547848
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/accessionstatus.json
 - uid: picklist:d2656407000a2fa3
   kind: Picklist
   source: managed
@@ -883,6 +3916,33 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/typeofaddr.json
+- uid: picklist:d420d015f0fee0fa
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/shipmentmethod.json
+- uid: picklist:d45ae16bcb63b853
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/typeofaddr.json
+- uid: picklist:d4a73f8667021501
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/agetype.json
 - uid: picklist:d5a658381604efe0
   kind: Picklist
   source: managed
@@ -892,6 +3952,69 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/accessionstatus.json
+- uid: picklist:d6459a6a66c0fe09
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/division.json
+- uid: picklist:d77bdcb9ccbaaa81
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/typeofaddr.json
+- uid: picklist:d7a71c2537ff9707
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/taxonlabelformatter.json
+- uid: picklist:d7c0a063ee75b9a7
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/deaccessionagentrole.json
+- uid: picklist:d7f4fe7fe4a1ac93
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/disposalagentrole.json
+- uid: picklist:d80872f9239f6541
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/typeofaddr.json
+- uid: picklist:d866e5ae9565e719
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/numberingscheme.json
 - uid: picklist:d8bb9b742182e602
   kind: Picklist
   source: managed
@@ -901,6 +4024,69 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/disposaltype.json
+- uid: picklist:d9b5e3d08de589e9
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/discipline.json
+- uid: picklist:d9bb753df6e683eb
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/disciplinetype.json
+- uid: picklist:d9cc834d482a7d74
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/deaccessionagentrole.json
+- uid: picklist:da1527d694733b6b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/phenology.json
+- uid: picklist:db2d43ed166f55be
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/disposalagentrole.json
+- uid: picklist:db6bf880a64d1e47
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/discipline.json
+- uid: picklist:dbf255dbae7bc0de
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/agentvariant.json
 - uid: picklist:dca00b1f230db325
   kind: Picklist
   source: managed
@@ -910,6 +4096,24 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/treatmenttype.json
+- uid: picklist:dd287864ca7f1e4f
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/typestatus.json
+- uid: picklist:dd2a497f10c63cfd
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/permittype.json
 - uid: picklist:dd7b006a8c46540e
   kind: Picklist
   source: managed
@@ -919,6 +4123,33 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/agentidentifiertype.json
+- uid: picklist:ddd769deaac9eb2e
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/department.json
+- uid: picklist:de22fd015c364afe
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/materialsample.json
+- uid: picklist:dee400adefd23bf4
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/taxonlabelformatter.json
 - uid: picklist:dfe9df9891978d08
   kind: Picklist
   source: managed
@@ -928,6 +4159,24 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/preptype.json
+- uid: picklist:e12e7b354892df32
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/accessionrole.json
+- uid: picklist:e1cb4fb63b3770a5
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/agentvariant.json
 - uid: picklist:e1f03a16be671fd3
   kind: Picklist
   source: managed
@@ -937,6 +4186,15 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/containertype.json
+- uid: picklist:e25dd8d6dd77db65
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/department.json
 - uid: picklist:e268f95ad912bff8
   kind: Picklist
   source: managed
@@ -946,6 +4204,105 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/treatmenttype.json
+- uid: picklist:e2b0f19818478ef7
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/accessiontype.json
+- uid: picklist:e2d270a9c88e6026
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/systemcogtypes.json
+- uid: picklist:e3752459826a7d15
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/moleculetype.json
+- uid: picklist:e3a63c80899ad738
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/biologicalsex.json
+- uid: picklist:e3eeb7b15a0a0558
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/disciplinetype.json
+- uid: picklist:e40310e23827028c
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/agenttitles.json
+- uid: picklist:e5c57d6bab4c87a1
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/deaccessiontype.json
+- uid: picklist:e5c9e1abb640036f
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/referenceworktype.json
+- uid: picklist:e6769f88ba16186d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/agetype.json
+- uid: picklist:e7cbfc3db370f213
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/disciplinetype.json
+- uid: picklist:e7eef05a4e3917f5
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/collectionobjecttype.json
 - uid: picklist:e8bc4de2a90d9ba1
   kind: Picklist
   source: managed
@@ -955,6 +4312,24 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/department.json
+- uid: picklist:ea4a504abc551799
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/agetype.json
+- uid: picklist:ea9c6951729a0e52
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/deaccessiontype.json
 - uid: picklist:eb2b63428c1335c2
   kind: Picklist
   source: managed
@@ -964,6 +4339,186 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/typeofaddr.json
+- uid: picklist:eb4c440072c7d296
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/preptype.json
+- uid: picklist:eb738220ceb88d58
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/phenology.json
+- uid: picklist:ec015f6f74e2f8cd
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/lifestage.json
+- uid: picklist:ec3c7bf3be92654f
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/absoluteagedatingmethod.json
+- uid: picklist:ec6fb3259044e560
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/taxonlabelformatter.json
+- uid: picklist:ecc770df21cc841d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/disciplinetype.json
+- uid: picklist:ecdb187f28376a65
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/method.json
+- uid: picklist:ece4c3676b5b0b2d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/containertype.json
+- uid: picklist:ecf94daaffcd9001
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/lifestage.json
+- uid: picklist:ed075b1f4f5adf64
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/numberingscheme.json
+- uid: picklist:edd6e17509254093
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/systemcogtypes.json
+- uid: picklist:ede1987e52a3cf87
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-S
+  path: records/picklists/collection/karplanter-moser/bg-s/disciplinetype.json
+- uid: picklist:ee66e546071ceca6
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/moleculetype.json
+- uid: picklist:eea8aa4d6ed6699c
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/disposaltype.json
+- uid: picklist:ef4d2ddebec8ee46
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/numberingscheme.json
+- uid: picklist:efac2f309a49c6da
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/borrowrole.json
+- uid: picklist:efcd0b7da784880b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/typestatus.json
+- uid: picklist:efd99a0c54a496d1
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: NTNU-karplanter
+  path: records/picklists/collection/karplanter-moser/ntnu-karplanter/moleculetype.json
+- uid: picklist:f0c0a8642d7b6219
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/agenttitles.json
+- uid: picklist:f196705acb04ff40
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/agentvariant.json
 - uid: picklist:f2914b04d54bb6c3
   kind: Picklist
   source: managed
@@ -973,6 +4528,87 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/localitydatum.json
+- uid: picklist:f291b2112266df1f
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/typestatus.json
+- uid: picklist:f2e0d96dd9833631
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/agenttitles.json
+- uid: picklist:f301ea62f3806b20
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/loanagentrole.json
+- uid: picklist:f439e09a0861a5e8
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: BG-G
+  path: records/picklists/collection/karplanter-moser/bg-g/loanagentrole.json
+- uid: picklist:f4c3d63089069363
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/typestatus.json
+- uid: picklist:f531328be827b3b5
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/moleculetype.json
+- uid: picklist:f68e9f374c55ae5b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/systemcogtypes.json
+- uid: picklist:f6ad47ba3f398b4c
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/hazardtype.json
+- uid: picklist:f6d3f8aeabb4ce83
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/deaccessionstatus.json
 - uid: picklist:f7df818916d26295
   kind: Picklist
   source: managed
@@ -982,6 +4618,33 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/permittype.json
+- uid: picklist:f7e0583aa533a101
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: NHM-krepsdyr
+  path: records/picklists/collection/invertebrate/nhm-krepsdyr/accessionrole.json
+- uid: picklist:f7e79d4e3283cb44
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/containertype.json
+- uid: picklist:f8a81bf87f7b91a8
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/materialsample.json
 - uid: picklist:f91be2cd108b2bc8
   kind: Picklist
   source: managed
@@ -991,6 +4654,15 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/shipmentmethod.json
+- uid: picklist:f954c983293526f1
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/relativeagedatingmethod.json
 - uid: picklist:f962bb90ca1dfab0
   kind: Picklist
   source: managed
@@ -1000,6 +4672,24 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/deaccessiontype.json
+- uid: picklist:f98e64172ccfc5ee
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/absoluteagedatingmethod.json
+- uid: picklist:fa04a04e69629f0f
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: NHM-mineralogi
+  path: records/picklists/collection/geology/nhm-mineralogi/discipline.json
 - uid: picklist:fab8b5d268063312
   kind: Picklist
   source: managed
@@ -1009,6 +4699,24 @@ resources:
     discipline: mammal
     collection: NTNU Mammals
   path: records/picklists/collection/mammal/ntnu-mammals/disposalagentrole.json
+- uid: picklist:faea0237d0116bca
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/disciplinetype.json
+- uid: picklist:fb4cc00c383c264e
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-V
+  path: records/picklists/collection/karplanter-moser/trom-v/agentvariant.json
 - uid: picklist:fb60cfbe2002fcef
   kind: Picklist
   source: managed
@@ -1018,6 +4726,15 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/numberingscheme.json
+- uid: picklist:fbaaf69c77fd251b
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/accessionstatus.json
 - uid: picklist:fbb395f76f89640e
   kind: Picklist
   source: managed
@@ -1027,6 +4744,42 @@ resources:
     discipline: bird
     collection: NTNU Birds
   path: records/picklists/collection/bird/ntnu-birds/agetype.json
+- uid: picklist:fbf73dabc6ac9cdf
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/moleculetype.json
+- uid: picklist:fd63b7e00a6f3fa9
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: NHM-paleontologi
+  path: records/picklists/collection/invertpaleo/nhm-paleontologi/shipmentmethod.json
+- uid: picklist:fda84f72c88e6a88
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/accessionstatus.json
+- uid: picklist:fe501ee9faa7106d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: SVG-V
+  path: records/picklists/collection/karplanter-moser/svg-v/agentvariant.json
 - uid: picklist:fed2d07c703c0f5c
   kind: Picklist
   source: managed
@@ -1036,6 +4789,63 @@ resources:
     discipline: karplanter-moser
     collection: NHM-karplanter
   path: records/picklists/collection/karplanter-moser/nhm-karplanter/disciplinetype.json
+- uid: picklist:ff477384cf8a9216
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: KMN-V
+  path: records/picklists/collection/karplanter-moser/kmn-v/preptype.json
+- uid: picklist:ff974f976add782d
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: NHMO-ENT
+  path: records/picklists/collection/insect/nhmo-ent/disposaltype.json
+- uid: picklist:ff990db6d727eecf
+  kind: Picklist
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: TROM-Hageherbariet
+  path: records/picklists/collection/karplanter-moser/trom-hageherbariet/relativeagedatingmethod.json
+- uid: resource-excluded:03376daa39dd68cf
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: mammal
+    collection: ntnu-mammals
+    username: michato
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:246060a9d1d2eba7
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: invertebrate
+    collection: nhm-krepsdyr
+    username: michato
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:259a853c9e9a9f21
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: invertebrate
+    collection: nhm-krepsdyr
+    username: superuser
+  reason: personal resources disabled by workspace policy
 - uid: resource-excluded:282507730e3edc65
   kind: AppResource
   source: managed
@@ -1066,6 +4876,36 @@ resources:
     collection: nhm-karplanter
     username: joshuamj
   reason: personal resources disabled by workspace policy
+- uid: resource-excluded:2e78e7fdcd1865f6
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: kmn-v
+    username: michato
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:353c7d292cb9b4fc
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: bg-g
+    username: michato
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:39c8884a3f0fb4b2
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: bg-s
+    username: gunnhilm
+  reason: personal resources disabled by workspace policy
 - uid: resource-excluded:3dcea5a0c825504c
   kind: AppResource
   source: managed
@@ -1075,6 +4915,56 @@ resources:
     discipline: bird
     collection: ntnu-birds
     username: gunnhilm
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:3e5ad2341f44caaf
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: bg-s
+    username: ivanpr
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:46d006d9ddb97c2f
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: geology
+    collection: nhm-mineralogi
+    username: ivanpr
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:4a5235b0cd9f9174
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: trom-v
+    username: gunnhilm
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:4bb01cc2676851d5
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: invertebrate
+    collection: nhm-krepsdyr
+    username: ivanpr
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:55f713fed64cca27
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: nhm-karplanter
+    username: ivanpr
   reason: personal resources disabled by workspace policy
 - uid: resource-excluded:57589ae447244e32
   kind: AppResource
@@ -1106,6 +4996,66 @@ resources:
     collection: nhm-karplanter
     username: eirikri
   reason: personal resources disabled by workspace policy
+- uid: resource-excluded:67a1aa1dab3a9ef5
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: geology
+    collection: nhm-mineralogi
+    username: eirikri
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:6af9fd70c0bd6460
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: invertpaleo
+    collection: nhm-paleontologi
+    username: ivanpr
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:6c117e7fd03df6ee
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: mammal
+    collection: ntnu-mammals
+    username: ivanpr
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:700ca790834b2d55
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: ntnu-karplanter
+    username: gunnhilm
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:782c47b486e6bc3c
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: invertpaleo
+    collection: nhm-paleontologi
+    username: ivanpr
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:81f31c64d9fbf6f3
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: ntnu-karplanter
+    username: joshuamj
+  reason: personal resources disabled by workspace policy
 - uid: resource-excluded:885a5768a0fff055
   kind: AppResource
   source: managed
@@ -1116,6 +5066,16 @@ resources:
     collection: nhm-karplanter
     username: michato
   reason: personal resources disabled by workspace policy
+- uid: resource-excluded:948cca49cafd52a8
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: svg-v
+    username: ivanpr
+  reason: personal resources disabled by workspace policy
 - uid: resource-excluded:9c7cefdc53b9047c
   kind: AppResource
   source: managed
@@ -1124,6 +5084,36 @@ resources:
     level: personal
     discipline: karplanter-moser
     collection: nhm-karplanter
+    username: gunnhilm
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:9e7bcf7e9f74a195
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: bg-g
+    username: gunnhilm
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:abff94b968471fb2
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: bird
+    collection: ntnu-birds
+    username: ivanpr
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:b476c52babdc34d8
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: geology
+    collection: nhm-mineralogi
     username: gunnhilm
   reason: personal resources disabled by workspace policy
 - uid: resource-excluded:c0d35a6738d16a2f
@@ -1136,6 +5126,26 @@ resources:
     collection: ntnu-birds
     username: joshuamj
   reason: personal resources disabled by workspace policy
+- uid: resource-excluded:c89c1599b3d0ab90
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: kmn-v
+    username: ivanpr
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:cd088fc5274fd3b2
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: bg-s
+    username: michato
+  reason: personal resources disabled by workspace policy
 - uid: resource-excluded:da1bd6f9a4761b8f
   kind: AppResource
   source: managed
@@ -1146,6 +5156,55 @@ resources:
     collection: nhm-karplanter
     username: gunnhild-trh
   reason: personal resources disabled by workspace policy
+- uid: resource-excluded:dc450f192b2933a1
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: trom-v
+    username: ivanpr
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:e9f4603c8b28285d
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: ntnu-karplanter
+    username: michato
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:f9e763d1eacb9b7c
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: trom-v
+    username: michato
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:fdc351f17a45c890
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: karplanter-moser
+    collection: bg-g
+    username: ivanpr
+  reason: personal resources disabled by workspace policy
+- uid: resource:08dc7227d1c787ef
+  kind: AppResource
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: svg-v
+  path: resources/collectionpreferences/managed/collection/karplanter-moser/svg-v/resource.yaml
 - uid: resource:0adaaa6dfb161671
   kind: AppResource
   source: vendor
@@ -1154,6 +5213,15 @@ resources:
     level: discipline-type
     disciplineType: mammal
   path: resources/expresssearchconfig/vendor/discipline-type/mammal/resource.yaml
+- uid: resource:12825998453cfb78
+  kind: AppResource
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: nhm-krepsdyr
+  path: resources/collectionpreferences/managed/collection/invertebrate/nhm-krepsdyr/resource.yaml
 - uid: resource:1550250088c9725d
   kind: AppResource
   source: managed
@@ -1162,6 +5230,15 @@ resources:
     level: discipline
     discipline: karplanter-moser
   path: resources/karplanteetikett-8/managed/discipline/karplanter-moser/resource.yaml
+- uid: resource:1de0c689534c5d5a
+  kind: AppResource
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: trom-v
+  path: resources/collectionpreferences/managed/collection/karplanter-moser/trom-v/resource.yaml
 - uid: resource:1e79c3e1ca9a35f3
   kind: AppResource
   source: vendor
@@ -1284,6 +5361,15 @@ resources:
     level: discipline-type
     disciplineType: invertebrate
   path: resources/expresssearchconfig/vendor/discipline-type/invertebrate/resource.yaml
+- uid: resource:9a72d178b448ae19
+  kind: AppResource
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: bg-g
+  path: resources/collectionpreferences/managed/collection/karplanter-moser/bg-g/resource.yaml
 - uid: resource:9b774c202b2144ae
   kind: AppResource
   source: vendor
@@ -1306,6 +5392,15 @@ resources:
   scope:
     level: backstop
   path: resources/dataobjformatters/vendor/backstop/resource.yaml
+- uid: resource:b1599b40695c7100
+  kind: AppResource
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: nhm-paleontologi
+  path: resources/collectionpreferences/managed/collection/invertpaleo/nhm-paleontologi/resource.yaml
 - uid: resource:c0291a48d400cb00
   kind: AppResource
   source: vendor
@@ -1314,6 +5409,24 @@ resources:
     level: discipline-type
     disciplineType: bird
   path: resources/expresssearchconfig/vendor/discipline-type/bird/resource.yaml
+- uid: resource:c1c324bfbab2fea3
+  kind: AppResource
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: ntnu-karplanter
+  path: resources/collectionpreferences/managed/collection/karplanter-moser/ntnu-karplanter/resource.yaml
+- uid: resource:c54488ce1890dd90
+  kind: AppResource
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: bg-s
+  path: resources/collectionpreferences/managed/collection/karplanter-moser/bg-s/resource.yaml
 - uid: resource:d026f552964c7b86
   kind: AppResource
   source: vendor
@@ -1337,6 +5450,15 @@ resources:
   scope:
     level: common
   path: resources/interactionstaskinit/vendor/common/resource.yaml
+- uid: resource:e1f06fe51d34ddd3
+  kind: AppResource
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: nhm-mineralogi
+  path: resources/collectionpreferences/managed/collection/geology/nhm-mineralogi/resource.yaml
 - uid: resource:e43a99a133029a74
   kind: AppResource
   source: managed
@@ -1361,6 +5483,15 @@ resources:
   scope:
     level: backstop
   path: resources/dataviewqueries/vendor/backstop/resource.yaml
+- uid: resource:f4d4a8cb9356e517
+  kind: AppResource
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: karplanter-moser
+    collection: kmn-v
+  path: resources/collectionpreferences/managed/collection/karplanter-moser/kmn-v/resource.yaml
 - uid: resource:f551ec0e035521cf
   kind: AppResource
   source: managed
@@ -1385,30 +5516,6 @@ resources:
     level: discipline
     discipline: lav-sopp
   reason: discipline has no collection session for schema localization
-- uid: schema-excluded:8b6006e51a539db8
-  kind: SchemaLocalization
-  source: managed
-  status: excluded
-  scope:
-    level: discipline
-    discipline: invertpaleo
-  reason: discipline has no collection session for schema localization
-- uid: schema-excluded:a1f4aa24a93223e6
-  kind: SchemaLocalization
-  source: managed
-  status: excluded
-  scope:
-    level: discipline
-    discipline: insect
-  reason: discipline has no collection session for schema localization
-- uid: schema-excluded:b06470052fe20c74
-  kind: SchemaLocalization
-  source: managed
-  status: excluded
-  scope:
-    level: discipline
-    discipline: geology
-  reason: discipline has no collection session for schema localization
 - uid: schema-excluded:d2f452c817275762
   kind: SchemaLocalization
   source: managed
@@ -1416,14 +5523,6 @@ resources:
   scope:
     level: discipline
     discipline: alger
-  reason: discipline has no collection session for schema localization
-- uid: schema-excluded:d6e0c32941ef5ebc
-  kind: SchemaLocalization
-  source: managed
-  status: excluded
-  scope:
-    level: discipline
-    discipline: invertebrate
   reason: discipline has no collection session for schema localization
 - uid: schema:scope:discipline:048c690d43b2:en
   kind: SchemaLocalization
@@ -1433,6 +5532,14 @@ resources:
     level: discipline
     discipline: karplanter-moser
   path: schema/managed/discipline/karplanter-moser/en/schema.yaml
+- uid: schema:scope:discipline:140eb5cb578e:en
+  kind: SchemaLocalization
+  source: managed
+  status: present
+  scope:
+    level: discipline
+    discipline: geology
+  path: schema/managed/discipline/geology/en/schema.yaml
 - uid: schema:scope:discipline:29775d26fcd7:en
   kind: SchemaLocalization
   source: managed
@@ -1441,6 +5548,14 @@ resources:
     level: discipline
     discipline: bird
   path: schema/managed/discipline/bird/en/schema.yaml
+- uid: schema:scope:discipline:92e265ae4dfb:en
+  kind: SchemaLocalization
+  source: managed
+  status: present
+  scope:
+    level: discipline
+    discipline: invertebrate
+  path: schema/managed/discipline/invertebrate/en/schema.yaml
 - uid: schema:scope:discipline:caa5860d3673:en
   kind: SchemaLocalization
   source: managed
@@ -1449,6 +5564,22 @@ resources:
     level: discipline
     discipline: mammal
   path: schema/managed/discipline/mammal/en/schema.yaml
+- uid: schema:scope:discipline:cdbb01f80653:en
+  kind: SchemaLocalization
+  source: managed
+  status: present
+  scope:
+    level: discipline
+    discipline: invertpaleo
+  path: schema/managed/discipline/invertpaleo/en/schema.yaml
+- uid: schema:scope:discipline:d458f4487342:en
+  kind: SchemaLocalization
+  source: managed
+  status: present
+  scope:
+    level: discipline
+    discipline: insect
+  path: schema/managed/discipline/insect/en/schema.yaml
 - uid: viewset:00aefd8494b7c5be
   kind: Viewset
   source: vendor
@@ -1456,6 +5587,14 @@ resources:
   scope:
     level: backstop
   path: viewsets/vendor/backstop/systemsetup.yaml
+- uid: viewset:07cb4a108cac8384
+  kind: Viewset
+  source: managed
+  status: present
+  scope:
+    level: discipline
+    discipline: invertpaleo
+  path: viewsets/managed/discipline/invertpaleo/nhm-paleontologi-citations.yaml
 - uid: viewset:1fbdbb1bc46b9c0f
   kind: Viewset
   source: managed
@@ -1464,6 +5603,24 @@ resources:
     level: discipline
     discipline: karplanter-moser
   path: viewsets/managed/discipline/karplanter-moser/karplaner-standard.yaml
+- uid: viewset:24441c4a416876e5
+  kind: Viewset
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertebrate
+    collection: nhm-krepsdyr
+  path: viewsets/managed/collection/invertebrate/nhm-krepsdyr/nhm-krepsdyr-standard.yaml
+- uid: viewset:2473094a9978ba44
+  kind: Viewset
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: geology
+    collection: nhm-mineralogi
+  path: viewsets/managed/collection/geology/nhm-mineralogi/nhm-mineralogi-standard.yaml
 - uid: viewset:3600120bd1fc548f
   kind: Viewset
   source: vendor
@@ -1496,6 +5653,14 @@ resources:
     level: discipline-type
     disciplineType: fish
   path: viewsets/vendor/discipline-type/fish/fish-views.yaml
+- uid: viewset:7a0a48419e15ecbe
+  kind: Viewset
+  source: managed
+  status: present
+  scope:
+    level: discipline
+    discipline: insect
+  path: viewsets/managed/discipline/insect/insect-standard.yaml
 - uid: viewset:7dfef225a3929b5a
   kind: Viewset
   source: vendor
@@ -1527,6 +5692,15 @@ resources:
     level: discipline-type
     disciplineType: invertpaleo
   path: viewsets/vendor/discipline-type/invertpaleo/paleo-views.yaml
+- uid: viewset:a564b4a82a27b94e
+  kind: Viewset
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: invertpaleo
+    collection: nhm-paleontologi
+  path: viewsets/managed/collection/invertpaleo/nhm-paleontologi/nhm-paleontologi-citations.yaml
 - uid: viewset:b730df34ec872739
   kind: Viewset
   source: vendor
@@ -1565,3 +5739,12 @@ resources:
   scope:
     level: backstop
   path: viewsets/vendor/backstop/search.yaml
+- uid: viewset:fd91f4f00112bf11
+  kind: Viewset
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: bird
+    collection: ntnu-birds
+  path: viewsets/managed/collection/bird/ntnu-birds/ntnu-birds-standard.yaml

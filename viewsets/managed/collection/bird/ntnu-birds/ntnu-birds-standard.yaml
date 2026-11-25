@@ -1,0 +1,60 @@
+apiVersion: specli/v3
+kind: Viewset
+metadata:
+  uid: viewset:fd91f4f00112bf11
+  name: NTNU Birds standard
+  source: managed
+  remoteName: NTNU Birds standard
+  filename: null
+  description: null
+  remoteMetadata: null
+  level: 0
+scope:
+  level: collection
+  discipline: bird
+  collection: ntnu-birds
+rootAttributes:
+  name: NTNU Birds standard
+  i18nresname: views
+members:
+- path: forms/collectionobject/accessionitems/managed/collection/bird/ntnu-birds/ntnu-birds-standard.xml
+  sha256: sha256:c0ed2f7437d27c6e3f8d50d9e4a26ae786f247ad42b1eeaef3f0919fcc6b69d4
+- path: forms/collectionobjectattribute/birdattributes/managed/collection/bird/ntnu-birds/ntnu-birds-standard.xml
+  sha256: sha256:b1ca1e8c518afc4ad40139c0753dc984f3aea549d53dcd342eacf9a54e6f0d8d
+- path: forms/collectingevent/collectingevent/managed/collection/bird/ntnu-birds/ntnu-birds-standard.xml
+  sha256: sha256:f7f38822ea6d79554505655a697ef7594fdd4b521b18a8d862e4c8f9adc6ea79
+- path: forms/collectionobject/collection-object/managed/collection/bird/ntnu-birds/ntnu-birds-standard.xml
+  sha256: sha256:01ceba658a6990bb15cb16c1dfa57f3f15eabd8b9aef31bdcf225b41fe74d71c
+- path: forms/collectionobject/collectionobjectsub/managed/collection/bird/ntnu-birds/ntnu-birds-standard.xml
+  sha256: sha256:306e429856ffee13546a321b66e028e0b2f743462615793a2a29df43493ba83b
+- path: forms/determination/determination/managed/collection/bird/ntnu-birds/ntnu-birds-standard.xml
+  sha256: sha256:06b31afba4b913fbd60c1818b8ee123a6807a8f781dfbbd15156bca897e6b636
+- path: forms/preparation/preparation/managed/collection/bird/ntnu-birds/ntnu-birds-standard.xml
+  sha256: sha256:5d8a8ffda1c9f0b4b71090d7a96039154aeaf7505484b0e2d58e9e866fb9d1c2
+order:
+  views:
+  - AccessionItems
+  - BirdAttributes
+  - CollectingEvent
+  - CollectionObject
+  - CollectionObjectSub
+  - Determination
+  - DeterminationViewOnly
+  - Preparation
+  viewdefs:
+  - Collection Object
+  - Determination Table
+  - Determination
+  - CollectingEvent
+  - BirdAttributes
+  - Preparation Table
+  - Preparation
+  - AccessionItems Table
+  - AccessionItems
+  - CollectionObjectSub Table
+  - CollectionObjectSub
+support: {}
+knownIssues:
+  unresolvedViewdefs: []
+deletions: []
+canonicalSha256: sha256:4b021a314914feee4be272bef4c27614623f07362516568200d3c7779bf272b4

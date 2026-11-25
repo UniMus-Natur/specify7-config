@@ -1,0 +1,19 @@
+apiVersion: specli/v3
+kind: AppResource
+metadata:
+  uid: resource:12825998453cfb78
+  name: CollectionPreferences
+  source: managed
+  mimetype: application/json
+  remoteDescription: null
+  remoteMetadata: ''
+  level: 0
+  allPermissionLevel: null
+  groupPermissionLevel: null
+  ownerPermissionLevel: null
+scope:
+  level: collection
+  discipline: invertebrate
+  collection: nhm-krepsdyr
+data: resources/collectionpreferences/managed/collection/invertebrate/nhm-krepsdyr/resource.json
+sha256: sha256:fe539f2841e555cd3aa29297a504e5dcad1478514bfa18dc98fa110e04e69ddd

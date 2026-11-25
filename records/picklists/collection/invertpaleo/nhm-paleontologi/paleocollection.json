@@ -1,0 +1,35 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": false,
+    "name": "PaleoCollection",
+    "readonly": false,
+    "sizelimit": 2,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": 0,
+      "title": "Type",
+      "value": "Type"
+    },
+    {
+      "ordinal": 1,
+      "title": "General",
+      "value": "General"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "PaleoCollection",
+  "scope": {
+    "collection": "NHM-paleontologi",
+    "discipline": "invertpaleo",
+    "level": "collection"
+  }
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewset name="NHM Mineralogi standard" i18nresname="views">
+  <views>
+    <view name="Determination" class="edu.ku.brc.specify.datamodel.Determination" busrules="edu.ku.brc.specify.datamodel.busrules.DeterminationBusRules" isexternal="true" resourcelabels="false">
+      <desc>Determination SubForm</desc>
+      <altviews>
+        <altview name="Determination View" viewdef="Determination" mode="view" />
+        <altview name="Determination Edit" viewdef="Determination" mode="edit" default="true" />
+        <altview name="Determination Table View" viewdef="Determination Table" mode="view" />
+        <altview name="Determination Table Edit" viewdef="Determination Table" mode="edit" />
+      </altviews>
+    </view>
+    <view name="DeterminationViewOnly" class="edu.ku.brc.specify.datamodel.Determination" isexternal="true" resourcelabels="false" busrules="edu.ku.brc.specify.datamodel.busrules.DeterminationBusRules">
+      <desc>Determination View Only</desc>
+      <altviews>
+        <altview name="Determination View" viewdef="Determination" mode="view" default="true" />
+      </altviews>
+    </view>
+  </views>
+  <viewdefs>
+    <!-- 5. DETERMINATION SUBFORM -->
+    <viewdef name="Determination" class="edu.ku.brc.specify.datamodel.Determination" type="form" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>Determination subform for Collection Object form.</desc>
+      <enableRules />
+      <columnDef>100px,2px,210px,5px,76px,2px,200px,5px,90px,2px,140px,0px,p:g</columnDef>
+      <columnDef>115px,2px,210px,5px,110px,2px,205px,5px,105px,2px,75px,2px,75px,2px,75px,0px,p:g</columnDef>
+      <rowDef auto="true" cell="p" sep="2px" />
+      <rows>
+        <row>
+          <cell type="label" labelfor="1" />
+          <cell type="field" id="1" name="taxon" uitype="querycbx" initialize="name=Taxon" colspan="9" />
+          <cell type="field" id="3" name="isCurrent" uitype="checkbox" />
+        </row>
+        <row>
+          <cell type="label" label="Verbatim Name:" labelfor="verbatimName" />
+          <cell type="field" uitype="text" id="verbatimName" name="alternateName" colspan="5" />
+          <cell type="label" label="Variety:" labelfor="varQ" />
+          <cell type="field" uitype="text" id="varQ" name="varQualifier" colspan="5" />
+        </row>
+        <row>
+          <cell type="label" label="Mineral Group:" labelfor="mGroup" />
+          <cell type="field" uitype="text" id="mGroup" name="text2" colspan="5" />
+          <cell type="label" label="Associated Minerals:" labelfor="mAssoc" />
+          <cell type="field" uitype="text" id="mAssoc" name="text3" colspan="5" />
+        </row>
+        <row>
+          <cell type="label" labelfor="rem" />
+          <cell type="field" uitype="textareabrief" id="rem" name="remarks" rows="2" colspan="11" />
+        </row>
+        <row>
+          <cell type="subview" id="determiners" name="determiners" viewname="Determiners" colspan="14" />
+        </row>
+      </rows>
+    </viewdef>
+    <!-- 6. DETERMINATION TABLE VIEWDEF -->
+    <viewdef type="formtable" name="Determination Table" class="edu.ku.brc.specify.datamodel.Determination" gettable="edu.ku.brc.af.ui.forms.DataGetterForObj" settable="edu.ku.brc.af.ui.forms.DataSetterForObj">
+      <desc>Determination subform table for Collection Object form.</desc>
+      <definition>Determination</definition>
+    </viewdef>
+  </viewdefs>
+</viewset>

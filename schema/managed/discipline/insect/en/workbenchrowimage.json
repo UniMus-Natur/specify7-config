@@ -1,0 +1,79 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "An image associated with a row.",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "attachtotablename": {
+      "desc": "Attach To Table Name",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Attach To Table Name",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "cardimagedata": {
+      "desc": "The thumbnail data",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Card Image Data",
+      "picklistname": null,
+      "type": "text",
+      "weblinkname": null
+    },
+    "cardimagefullpath": {
+      "desc": "The full path to the image",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Card Image Full Path",
+      "picklistname": null,
+      "type": "java.lang.String",
+      "weblinkname": null
+    },
+    "imageorder": {
+      "desc": "The position in the list of images",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Image Order",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "workbenchrow": {
+      "desc": "The row the image is attached to",
+      "format": null,
+      "ishidden": true,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Workbench Row",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "workbenchrowimageid": {
+      "desc": "Workbench Row Image Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Workbench Row Image Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    }
+  },
+  "name": "Workbench Row Image",
+  "picklistname": null,
+  "type": null
+}

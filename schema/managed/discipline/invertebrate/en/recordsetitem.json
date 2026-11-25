@@ -1,0 +1,57 @@
+{
+  "aggregator": null,
+  "defaultui": null,
+  "desc": "Record Set Item",
+  "format": null,
+  "ishidden": false,
+  "isuiformatter": null,
+  "items": {
+    "order": {
+      "desc": "Order",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Order",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "recordid": {
+      "desc": "Record Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Record Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    },
+    "recordset": {
+      "desc": "Record Set",
+      "format": null,
+      "ishidden": false,
+      "isrequired": false,
+      "isuiformatter": null,
+      "name": "Record Set",
+      "picklistname": null,
+      "type": "ManyToOne",
+      "weblinkname": null
+    },
+    "recordsetitemid": {
+      "desc": "Record Set Item Id",
+      "format": null,
+      "ishidden": false,
+      "isrequired": true,
+      "isuiformatter": null,
+      "name": "Record Set Item Id",
+      "picklistname": null,
+      "type": "java.lang.Integer",
+      "weblinkname": null
+    }
+  },
+  "name": "Record Set Item",
+  "picklistname": null,
+  "type": null
+}

@@ -1,0 +1,50 @@
+{
+  "apiVersion": "specli/v3",
+  "definition": {
+    "fieldname": null,
+    "filterfieldname": null,
+    "filtervalue": null,
+    "formatter": null,
+    "issystem": true,
+    "name": "CollectingMethod",
+    "readonly": true,
+    "sizelimit": 10,
+    "sorttype": null,
+    "tablename": null,
+    "type": 0
+  },
+  "items": [
+    {
+      "ordinal": null,
+      "title": "Dug",
+      "value": "Dug"
+    },
+    {
+      "ordinal": null,
+      "title": "By Hand",
+      "value": "By Hand"
+    },
+    {
+      "ordinal": null,
+      "title": "Excavation",
+      "value": "Excavation"
+    },
+    {
+      "ordinal": null,
+      "title": "Surface Collection",
+      "value": "Surface Collection"
+    },
+    {
+      "ordinal": null,
+      "title": "Trawling",
+      "value": "Trawling"
+    }
+  ],
+  "kind": "Picklist",
+  "name": "CollectingMethod",
+  "scope": {
+    "collection": "NHM-paleontologi",
+    "discipline": "invertpaleo",
+    "level": "collection"
+  }
+}
