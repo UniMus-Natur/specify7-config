@@ -4896,6 +4896,16 @@ resources:
     collection: bg-g
     username: michato
   reason: personal resources disabled by workspace policy
+- uid: resource-excluded:36b3a939d211d937
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: insect
+    collection: nhmo-ent
+    username: michato
+  reason: personal resources disabled by workspace policy
 - uid: resource-excluded:39c8884a3f0fb4b2
   kind: AppResource
   source: managed
@@ -4925,6 +4935,16 @@ resources:
     discipline: karplanter-moser
     collection: bg-s
     username: ivanpr
+  reason: personal resources disabled by workspace policy
+- uid: resource-excluded:416c21104d3a4e02
+  kind: AppResource
+  source: managed
+  status: excluded
+  scope:
+    level: personal
+    discipline: invertebrate
+    collection: nhm-krepsdyr
+    username: gunnhilm
   reason: personal resources disabled by workspace policy
 - uid: resource-excluded:46d006d9ddb97c2f
   kind: AppResource
@@ -5287,6 +5307,15 @@ resources:
     discipline: karplanter-moser
     collection: nhm-karplanter
   path: resources/uiformatters/managed/collection/karplanter-moser/nhm-karplanter/resource.yaml
+- uid: resource:511d40e9b96776d4
+  kind: AppResource
+  source: managed
+  status: present
+  scope:
+    level: collection
+    discipline: insect
+    collection: nhmo-ent
+  path: resources/collectionpreferences/managed/collection/insect/nhmo-ent/resource.yaml
 - uid: resource:5231bf17635036f1
   kind: AppResource
   source: vendor

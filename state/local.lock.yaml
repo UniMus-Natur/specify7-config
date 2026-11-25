@@ -5759,6 +5759,13 @@ resources:
     version: 5
     objectVersion: 4
     directoryId: 17
+  resource:511d40e9b96776d4:
+    canonicalSha256: sha256:44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a
+    objectId: 86
+    dataId: 89
+    version: 0
+    objectVersion: 0
+    directoryId: 72
   resource:5231bf17635036f1:
     canonicalSha256: sha256:f105d1b3d2cc89bfcb3fafd50297ecd7d84c104b4624f71bea388a81ec8483fa
     url: /static/config/backstop/typesearch_def.xml
@@ -6011,6 +6018,7 @@ resources:
 directories:
   scope:collection:206d233101f9: 34
   scope:collection:2431a8218cef: 53
+  scope:collection:48aed58d76a7: 72
   scope:collection:642840635af3: 50
   scope:collection:6a80bb3a2f6a: 56
   scope:collection:70b776a410f5: 58
@@ -6041,6 +6049,7 @@ directories:
   scope:personal:2c86ceeffea2: 46
   scope:personal:30e926005f99: 48
   scope:personal:3431d6391969: 70
+  scope:personal:3f31f6fa2dd5: 73
   scope:personal:3f37cc43eb19: 71
   scope:personal:489346a8030b: 52
   scope:personal:4b5fae31d1f2: 54
@@ -6060,6 +6069,7 @@ directories:
   scope:personal:9005519506a4: 68
   scope:personal:9296a0cedd67: 35
   scope:personal:a30f4fa87d26: 24
+  scope:personal:adf266582ca6: 74
   scope:personal:b860f5df7b9f: 44
   scope:personal:baa8965f8100: 36
   scope:personal:d85e49d8b733: 66
