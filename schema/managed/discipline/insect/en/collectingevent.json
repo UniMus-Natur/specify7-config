@@ -414,12 +414,12 @@
       "weblinkname": null
     },
     "text3": {
-      "desc": "Text3",
+      "desc": "Sample",
       "format": null,
       "ishidden": true,
       "isrequired": false,
       "isuiformatter": null,
-      "name": "Text3",
+      "name": "Sample",
       "picklistname": null,
       "type": "text",
       "weblinkname": null
@@ -447,12 +447,12 @@
       "weblinkname": null
     },
     "text6": {
-      "desc": "Text6",
+      "desc": "Ship",
       "format": null,
       "ishidden": true,
       "isrequired": false,
       "isuiformatter": null,
-      "name": "Text6",
+      "name": "Ship",
       "picklistname": null,
       "type": "text",
       "weblinkname": null

@@ -37,6 +37,9 @@
           <cell type="field" id="4" name="locality" uitype="querycbx" initialize="name=Locality;title=Locality;clonebtn=true" colspan="10" />
         </row>
         <row>
+          <cell type="field" id="dp" name="collectingEventAttribute.yesNo1" uitype="checkbox" label="Doubtful place" colspan="4" />
+        </row>
+        <row>
           <cell type="label" label="Biogeographic zone" labelfor="bgr" />
           <cell type="field" id="bgr" name="locality.text2" uitype="combobox" picklist="BiogeographicRegion" colspan="10" />
         </row>
@@ -85,6 +88,12 @@
           <cell type="field" id="eis" name="integer1" uitype="text" />
           <cell type="label" label="Region" labelfor="reg" />
           <cell type="field" id="reg" name="text4" uitype="text" />
+        </row>
+        <row>
+          <cell type="label" label="Sample" labelfor="smp" />
+          <cell type="field" id="smp" name="text3" uitype="text" colspan="3" />
+          <cell type="label" label="Ship" labelfor="shp" />
+          <cell type="field" id="shp" name="text6" uitype="text" colspan="3" />
         </row>
         <row>
           <cell type="label" label="Collectors note" labelfor="6" />

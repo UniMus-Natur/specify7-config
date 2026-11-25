@@ -557,12 +557,12 @@
       "weblinkname": null
     },
     "yesno1": {
-      "desc": "Yes No1",
+      "desc": "Doubtful place",
       "format": null,
       "ishidden": true,
       "isrequired": false,
       "isuiformatter": null,
-      "name": "Yes No1",
+      "name": "Doubtful place",
       "picklistname": null,
       "type": "java.lang.Boolean",
       "weblinkname": null
